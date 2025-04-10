@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment (managed by Poetry or manually)
+.venv/
+venv/
+ENV/
+env/
+
+# Poetry-specific
+poetry.lock
+
+# VS Code settings (optional, include only if not team-shared)
+.vscode/
+
+# Testing and coverage
+.coverage
+coverage.xml
+htmlcov/
+.cache/
+.tox/
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Mac and system files
+.DS_Store
+Thumbs.db
