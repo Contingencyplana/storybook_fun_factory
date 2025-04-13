@@ -1,17 +1,11 @@
 """
 tests/test_1_1_a_verse_is_born_but_cannot_live.py
 
-Tests the poetic_line_status function from filename_ai stanza:
+Tests the poetic_line_status function from filename_ai stanza
 _1_1_a_verse_is_born_but_cannot_live.py
-
-This test checks if poetic lines are correctly identified
-as 'latent' (not yet code-valid) or 'valid' (ready for use).
 """
 
-from game_construction_bay.filename_ai.\
-    _1_1_before_the_file_before_the_thread.\
-    _1_1_each_line_must_hold_a_voice_a_shape import \
-    _1_1_a_verse_is_born_but_cannot_live
+from game_construction_bay.filename_ai.the_voice_that_names_the_form.the_styles_that_bind_the_line import _1_1_a_verse_is_born_but_cannot_live
 
 
 def test_poetic_line_status():
