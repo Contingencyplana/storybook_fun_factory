@@ -11,8 +11,7 @@ from pathlib import Path
 # Add project root to sys.path
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
-from game_construction_bay.filename_ai.the_voice_that_names_the_form.the_styles_that_bind_the_line import _1_1_a_verse_is_born_but_cannot_live
-
+from game_construction_bay.filename_ai._1_1_before_the_file_before_the_thread._1_1_each_line_must_hold_a_voice_a_shape import _1_1_a_verse_is_born_but_cannot_live
 
 def test_poetic_line_status():
     assert _1_1_a_verse_is_born_but_cannot_live.poetic_line_status("The Light That Shaped the Sky") == "latent"
