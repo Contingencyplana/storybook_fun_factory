@@ -5,6 +5,12 @@ Tests the poetic_line_status function from filename_ai stanza
 _1_1_a_verse_is_born_but_cannot_live.py
 """
 
+import sys
+from pathlib import Path
+
+# Add project root to sys.path
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
 from game_construction_bay.filename_ai.the_voice_that_names_the_form.the_styles_that_bind_the_line import _1_1_a_verse_is_born_but_cannot_live
 
 
