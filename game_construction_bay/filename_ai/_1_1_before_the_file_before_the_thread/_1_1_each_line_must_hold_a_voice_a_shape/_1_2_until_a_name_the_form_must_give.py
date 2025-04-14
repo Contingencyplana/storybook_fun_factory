@@ -14,10 +14,10 @@ def poetic_line_to_filename(poetic_line: str) -> str:
 
     Rules:
     - Lowercase all characters
-    - Replace spaces with underscores
     - Strip leading/trailing whitespace
-    - Remove all non-alphanumeric characters except underscores
-    - Collapse multiple underscores into one
+    - Remove all non-alphanumeric characters (excluding spaces)
+    - Replace all whitespace with underscores
+    - Collapse multiple underscores
     - Ensure the result ends in '.py'
 
     Parameters:
@@ -29,17 +29,16 @@ def poetic_line_to_filename(poetic_line: str) -> str:
     if not poetic_line or not poetic_line.strip():
         return "unnamed_line.py"
 
-    # Lowercase and strip
+    # Normalize line
     name = poetic_line.lower().strip()
 
-    # Replace all non-alphanumeric characters (except spaces) with nothing
+    # Remove special characters (except spaces, which are replaced later)
     name = re.sub(r"[^\w\s]", "", name)
 
-    # Replace all whitespace with underscores
+    # Replace whitespace (spaces, tabs, etc.) with underscores
     name = re.sub(r"\s+", "_", name)
 
     # Collapse multiple underscores
     name = re.sub(r"_+", "_", name)
 
-    # Ensure it ends with .py
     return f"{name}.py"
