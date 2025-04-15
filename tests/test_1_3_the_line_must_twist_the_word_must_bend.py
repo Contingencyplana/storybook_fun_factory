@@ -24,4 +24,4 @@ def test_reshape_poetic_line():
     assert _1_3_the_line_must_twist_the_word_must_bend.reshape_poetic_line("  leading and trailing   ") == "leading and trailing"
     assert _1_3_the_line_must_twist_the_word_must_bend.reshape_poetic_line("!!!Exclaim me!!!") == "Exclaim me"
     assert _1_3_the_line_must_twist_the_word_must_bend.reshape_poetic_line("") == ""
-    assert _1_3_the_line_must_twist_the_word_must_bend.reshape_poetic_line("–hyphen–dash—mixed") == "hypen dash mixed"
+    assert _1_3_the_line_must_twist_the_word_must_bend.reshape_poetic_line("–hyphen–dash—mixed") == "hyphen dash mixed"

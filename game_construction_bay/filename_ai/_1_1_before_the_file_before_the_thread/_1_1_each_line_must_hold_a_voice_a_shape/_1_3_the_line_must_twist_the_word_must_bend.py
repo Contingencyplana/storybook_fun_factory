@@ -16,7 +16,7 @@ def reshape_poetic_line(poetic_line: str) -> str:
     Responsibilities:
     - Normalize dash, em-dash, and hyphen variants to a single space
     - Replace stylized quotes or smart punctuation with safe equivalents
-    - Remove dangling special characters from beginning or end
+    - Remove dangling special characters from beginning or end (but preserve quotes and ellipses)
     - Replace multiple space clusters with a single space
     - Preserve case for downstream filename formatting
 
@@ -41,8 +41,9 @@ def reshape_poetic_line(poetic_line: str) -> str:
     for bad, good in replacements.items():
         line = line.replace(bad, good)
 
-    # Remove leading/trailing non-word characters (excluding letters, numbers, underscore, and space)
-    line = re.sub(r"^[^A-Za-z0-9\"']+|[^A-Za-z0-9\"']+$", "", line)
+    # Remove leading/trailing characters except letters, numbers, quotes, and periods
+    line = re.sub(r"^[^A-Za-z0-9\"'\.]+|[^A-Za-z0-9\"'\.]+$", "", line)
+
     # Collapse multiple spaces
     line = re.sub(r"\s{2,}", " ", line)
 
