@@ -42,8 +42,7 @@ def reshape_poetic_line(poetic_line: str) -> str:
         line = line.replace(bad, good)
 
     # Remove leading/trailing non-word characters (excluding letters, numbers, underscore, and space)
-    line = re.sub(r"^[^\w]+|[^\w]+$", "", line)
-
+    line = re.sub(r"^[^A-Za-z0-9\"']+|[^A-Za-z0-9\"']+$", "", line)
     # Collapse multiple spaces
     line = re.sub(r"\s{2,}", " ", line)
 
