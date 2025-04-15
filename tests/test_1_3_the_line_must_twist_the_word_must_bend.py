@@ -16,8 +16,10 @@ from game_construction_bay.filename_ai._1_1_before_the_file_before_the_thread._1
 
 def test_reshape_poetic_line():
     assert _1_3_the_line_must_twist_the_word_must_bend.reshape_poetic_line("a—dash—in—thought") == "a dash in thought"
-    expected = 'Curved quotes" and \'single ones\''
+    
+    expected = "Curved quotes and 'single ones'"
     assert _1_3_the_line_must_twist_the_word_must_bend.reshape_poetic_line("“Curved quotes” and ‘single ones’") == expected
+
     assert _1_3_the_line_must_twist_the_word_must_bend.reshape_poetic_line("…and the ellipsis appears") == "...and the ellipsis appears"
     assert _1_3_the_line_must_twist_the_word_must_bend.reshape_poetic_line("  leading and trailing   ") == "leading and trailing"
     assert _1_3_the_line_must_twist_the_word_must_bend.reshape_poetic_line("!!!Exclaim me!!!") == "Exclaim me"
