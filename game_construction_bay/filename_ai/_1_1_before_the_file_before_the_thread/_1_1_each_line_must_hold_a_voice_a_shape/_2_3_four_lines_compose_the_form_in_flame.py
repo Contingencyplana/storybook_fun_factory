@@ -17,7 +17,7 @@ def enforce_stanza_consistency(filenames: List[str]) -> List[str]:
 
     Rules:
     - Strip leading/trailing spaces and file extension
-    - Remove all non-alphanumeric characters except underscores
+    - Remove all non-alphanumeric characters (including underscores)
     - Collapse multiple underscores
     - Ensure lowercase format
     - Reattach ".py" extension
@@ -32,14 +32,8 @@ def enforce_stanza_consistency(filenames: List[str]) -> List[str]:
     for name in filenames:
         base = name.strip().lower().replace(".py", "")
 
-        # Remove non-alphanumeric characters except underscore
-        cleaned = re.sub(r"[^\w]", "_", base)
-
-        # Collapse multiple underscores
-        cleaned = re.sub(r"_+", "_", cleaned)
-
-        # Remove leading/trailing underscores
-        cleaned = cleaned.strip("_")
+        # Remove all non-alphanumeric characters
+        cleaned = re.sub(r"[^\w]", "", base)
 
         normalized.append(f"{cleaned}.py")
 
