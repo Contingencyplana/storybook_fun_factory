@@ -1,3 +1,4 @@
+```
 """
 _2_3_four_lines_compose_the_form_in_flame.py
 
@@ -17,7 +18,8 @@ def enforce_stanza_consistency(filenames: List[str]) -> List[str]:
 
     Rules:
     - Strip leading/trailing spaces and file extension
-    - Remove all non-alphanumeric characters (including underscores)
+    - Remove all non-alphanumeric characters except underscores
+    - Collapse multiple underscores
     - Ensure lowercase format
     - Reattach ".py" extension
 
@@ -31,8 +33,14 @@ def enforce_stanza_consistency(filenames: List[str]) -> List[str]:
     for name in filenames:
         base = name.strip().lower().replace(".py", "")
 
-        # Remove all non-alphanumeric characters
-        cleaned = re.sub(r"[^\w]", "", base)
+        # Remove non-alphanumeric characters except underscore
+        cleaned = re.sub(r"[^\w]", "_", base)
+
+        # Collapse multiple underscores
+        cleaned = re.sub(r"_+", "_", cleaned)
+
+        # Remove leading/trailing underscores
+        cleaned = cleaned.strip("_")
 
         normalized.append(f"{cleaned}.py")
 
