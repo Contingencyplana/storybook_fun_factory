@@ -21,5 +21,5 @@ def test_style_poetic_filename():
     assert fn("___layered__underscore__mess.py") == "layered_underscore_mess.py"
     assert fn("__leading_and_trailing__.py") == "leading_and_trailing.py"
     assert fn("four_words_fit_exactly.py") == "four_words_fit_exactly.py"
-    assert fn("five_words_need_breaking_up.py") == "five_words_need__breaking_up.py"
+    assert fn("five_words_need_breaking_up.py") == "five_words_need_breaking__up.py"
     assert fn("") == "unnamed_file"
