@@ -1,46 +1,37 @@
 """
-_2_3_four_lines_compose_the_form_in_flame.py
+tests/test_2_3_four_lines_compose_the_form_in_flame.py
 
-Ensures that all stanza lines follow consistent structural encoding,
-reinforcing both assistant logic and recursive recognition.
+Tests the enforce_stanza_consistency function from filename_ai stanza
+_2_3_four_lines_compose_the_form_in_flame.py
 """
 
-import re
-from typing import List
+import sys
+from pathlib import Path
 
+# Add project root to sys.path
+sys.path.append(str(Path(__file__).resolve().parents[1]))
 
-def enforce_stanza_consistency(filenames: List[str]) -> List[str]:
-    """
-    Cleans and normalizes poetic filenames to ensure stanza consistency.
-    Applies strict formatting rules to ensure assistant logic can reliably parse
-    and group related filenames.
+from game_construction_bay.filename_ai.poetic_line_styles._2_3_four_lines_compose_the_form_in_flame import (
+    enforce_stanza_consistency,
+)
 
-    Rules:
-    - Strip leading/trailing spaces and file extension
-    - Remove all non-alphanumeric characters except underscores
-    - Collapse multiple underscores
-    - Ensure lowercase format
-    - Reattach ".py" extension
+def test_enforce_stanza_consistency():
+    input_filenames = [
+        "  WHISPER__to__FLAME.py",
+        "echo-chamber.py",
+        "flame.song().py",
+        "__Structure__Is___KEY__.PY",
+        "invalid name with spaces",
+        "already_good_filename.py",
+    ]
 
-    Parameters:
-        filenames (List[str]): A list of poetic-styled filenames.
+    expected = [
+        "whisper_to_flame.py",
+        "echochamber.py",
+        "flamesong.py",
+        "structure_is_key.py",
+        "invalid_name_with_spaces.py",
+        "already_good_filename.py",
+    ]
 
-    Returns:
-        List[str]: Cleaned and normalized filenames.
-    """
-    normalized = []
-    for name in filenames:
-        base = name.strip().lower().replace(".py", "")
-
-        # Remove non-alphanumeric characters except underscore
-        cleaned = re.sub(r"[^\w]", "_", base)
-
-        # Collapse multiple underscores
-        cleaned = re.sub(r"_+", "_", cleaned)
-
-        # Remove leading/trailing underscores
-        cleaned = cleaned.strip("_")
-
-        normalized.append(f"{cleaned}.py")
-
-    return normalized
+    assert enforce_stanza_consistency(input_filenames) == expected
