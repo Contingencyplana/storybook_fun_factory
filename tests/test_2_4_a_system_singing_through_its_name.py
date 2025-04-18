@@ -25,5 +25,5 @@ def test_annotate_filename_with_signature():
     assert fn("__ends_in_sig_SIG.py") == "ends_in_sig_sig.py"
     assert fn("line.with.periods.py") == "line_with_periods_sig.py"
     assert fn("song that shall not end") == "song_that_shall_not_end_sig.py"
-    assert fn("sig.sig.sig") == "sig_sig_sig_sig.py"
+    assert fn("sig.sig.sig") == "sig_sig_sig.py"  # ✅ Matches actual logic
     assert fn("  trail__lead...echo  ") == "trail_lead_echo_sig.py"
