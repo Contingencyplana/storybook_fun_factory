@@ -5,8 +5,6 @@ description = "A recursive sandbox for testing assistant delegation systems in S
 authors = ["Your Name <you@example.com>"]
 license = "MIT"
 readme = "README.md"
-
-[tool.poetry.packages]
 packages = [
     { include = "storybook_fun_factory", from = "src" }
 ]
@@ -34,6 +32,9 @@ ignore = ["E501"]
 minversion = "6.0"
 addopts = "-ra -q"
 testpaths = ["tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
 
 [build-system]
 requires = ["poetry-core"]
