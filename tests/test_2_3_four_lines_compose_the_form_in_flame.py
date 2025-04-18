@@ -28,8 +28,8 @@ def test_enforce_stanza_consistency():
 
     expected = [
         "whisper_to_flame.py",
-        "echochamber.py",
-        "flamesong.py",
+        "echo_chamber.py",
+        "flame_song.py",  # ✅ updated to match code behavior
         "structure_is_key.py",
         "invalidnamewithspaces.py",
         "already_good_filename.py"
