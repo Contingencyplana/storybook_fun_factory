@@ -10,3 +10,31 @@ readme = "README.md"
 packages = [
     { include = "storybook_fun_factory", from = "src" }
 ]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rich = "^13.5.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+pytest = "^7.4.0"
+ruff = "^0.5.3"
+mypy = "^1.4.1"
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = ["tests"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
