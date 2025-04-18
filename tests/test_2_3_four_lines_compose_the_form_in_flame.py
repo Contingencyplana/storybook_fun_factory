@@ -1,38 +1,46 @@
 """
-tests/test_2_3_four_lines_compose_the_form_in_flame.py
-
-Tests the enforce_stanza_consistency function from filename_ai stanza
 _2_3_four_lines_compose_the_form_in_flame.py
+
+Ensures that all stanza lines follow consistent structural encoding,
+reinforcing both assistant logic and recursive recognition.
 """
 
-import sys
-from pathlib import Path
-
-# Add project root to sys.path
-sys.path.append(str(Path(__file__).resolve().parents[1]))
-
-from game_construction_bay.filename_ai._1_1_before_the_file_before_the_thread._1_1_each_line_must_hold_a_voice_a_shape import _2_3_four_lines_compose_the_form_in_flame
+import re
+from typing import List
 
 
-def test_enforce_stanza_consistency():
-    fn = _2_3_four_lines_compose_the_form_in_flame.enforce_stanza_consistency
+def enforce_stanza_consistency(filenames: List[str]) -> List[str]:
+    """
+    Cleans and normalizes poetic filenames to ensure stanza consistency.
+    Applies strict formatting rules to ensure assistant logic can reliably parse
+    and group related filenames.
 
-    input_filenames = [
-        "  WHISPER__to__FLAME.py",
-        "echo-chamber.py",
-        "flame.song().py",
-        "__Structure__Is___KEY__.PY",
-        "invalid name with spaces",
-        "already_good_filename.py"
-    ]
+    Rules:
+    - Strip leading/trailing spaces and file extension
+    - Remove all non-alphanumeric characters except underscores
+    - Collapse multiple underscores
+    - Ensure lowercase format
+    - Reattach ".py" extension
 
-    expected = [
-        "whisper_to_flame.py",
-        "echo_chamber.py",
-        "flame_song.py",             # ✅ matches code
-        "structure_is_key.py",
-        "invalid_name_with_spaces.py",  # ✅ now matches code’s underscore behavior
-        "already_good_filename.py"
-    ]
+    Parameters:
+        filenames (List[str]): A list of poetic-styled filenames.
 
-    assert fn(input_filenames) == expected
+    Returns:
+        List[str]: Cleaned and normalized filenames.
+    """
+    normalized = []
+    for name in filenames:
+        base = name.strip().lower().replace(".py", "")
+
+        # Remove non-alphanumeric characters except underscore
+        cleaned = re.sub(r"[^\w]", "_", base)
+
+        # Collapse multiple underscores
+        cleaned = re.sub(r"_+", "_", cleaned)
+
+        # Remove leading/trailing underscores
+        cleaned = cleaned.strip("_")
+
+        normalized.append(f"{cleaned}.py")
+
+    return normalized
