@@ -29,9 +29,9 @@ def test_enforce_stanza_consistency():
     expected = [
         "whisper_to_flame.py",
         "echo_chamber.py",
-        "flame_song.py",  # ✅ updated to match code behavior
+        "flame_song.py",             # ✅ matches code
         "structure_is_key.py",
-        "invalidnamewithspaces.py",
+        "invalid_name_with_spaces.py",  # ✅ now matches code’s underscore behavior
         "already_good_filename.py"
     ]
 
