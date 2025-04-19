@@ -11,8 +11,7 @@ from pathlib import Path
 # Add project root to sys.path
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
-from game_construction_bay.filename_ai._1_1_before_the_file_before_the_thread._1_1_each_line_must_hold_a_voice_a_shape import _2_1_a_whisper_shaped_to_match_the_shell
-
+from storybook_fun_factory.filename_ai._1_1_before_the_file_before_the_thread._1_1_each_line_must_hold_a_voice_a_shape import _2_1_a_whisper_shaped_to_match_the_shell
 
 def test_format_poetic_slug():
     assert _2_1_a_whisper_shaped_to_match_the_shell.format_poetic_slug("the shell holds space and tone") == "the_shell_holds_space_and_tone"

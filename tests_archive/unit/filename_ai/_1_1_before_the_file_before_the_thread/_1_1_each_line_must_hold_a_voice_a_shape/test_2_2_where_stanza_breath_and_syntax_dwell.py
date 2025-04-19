@@ -11,8 +11,7 @@ from pathlib import Path
 # Add project root to sys.path
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
-from game_construction_bay.filename_ai._1_1_before_the_file_before_the_thread._1_1_each_line_must_hold_a_voice_a_shape import _2_2_where_stanza_breath_and_syntax_dwell
-
+from storybook_fun_factory.filename_ai._1_1_before_the_file_before_the_thread._1_1_each_line_must_hold_a_voice_a_shape import _2_2_where_stanza_breath_and_syntax_dwell
 
 def test_style_poetic_filename():
     fn = _2_2_where_stanza_breath_and_syntax_dwell.style_poetic_filename
