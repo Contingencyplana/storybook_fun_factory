@@ -2,7 +2,7 @@
 name = "storybook-fun-factory"
 version = "0.1.0"
 description = "A recursive sandbox for testing assistant delegation systems in Storybook."
-authors = ["Your Name <you@example.com>"]
+authors = ["Mark Roy Gillam <hyper5ai@yahoo.com.au>"]
 license = "MIT"
 readme = "README.md"
 packages = [
