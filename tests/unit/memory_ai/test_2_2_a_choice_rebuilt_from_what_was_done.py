@@ -67,4 +67,24 @@ def test_reconstruct_with_insufficient_tolerance(temp_trace_log):
     with open(temp_trace_log, "w") as f:
         json.dump(data, f)
 
-    pattern =
+    pattern = ["observe", "reflect", "choose"]
+    results = choice_module.reconstruct_choices_by_action_chain(pattern, tolerance=0)
+
+    assert len(results) == 0
+
+def test_reconstruct_multiple_chains(temp_trace_log):
+    data = [
+        {"action": "observe"},
+        {"action": "reflect"},
+        {"action": "choose"},
+        {"action": "observe"},
+        {"action": "reflect"},
+        {"action": "choose"}
+    ]
+    with open(temp_trace_log, "w") as f:
+        json.dump(data, f)
+
+    pattern = ["observe", "reflect", "choose"]
+    results = choice_module.reconstruct_choices_by_action_chain(pattern)
+
+    assert len(results) == 2
