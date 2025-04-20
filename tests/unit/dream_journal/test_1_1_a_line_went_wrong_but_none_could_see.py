@@ -3,6 +3,7 @@
 import pytest
 from pathlib import Path
 from datetime import datetime
+import logging
 import re
 
 from storybook_fun_factory.dream_journal._1_1_the_thread_that_slipped_the_line_once_lost._1_1_it_ran_it_looped_it_nearly_failed._1_1_a_line_went_wrong_but_none_could_see import (
@@ -34,8 +35,14 @@ def test_process_anomalies_creates_log(tmp_path, monkeypatch):
     test_log_dir.mkdir()
     test_log_file = test_log_dir / "hidden_trace_log.txt"
 
-    # Patch the logging location
+    # Patch the logging path
     monkeypatch.setattr("pathlib.Path.cwd", lambda: tmp_path)
+
+    # Reconfigure logging AFTER monkeypatch takes effect
+    for handler in logging.root.handlers[:]:
+        logging.root.removeHandler(handler)
+
+    logging.basicConfig(filename=test_log_file, level=logging.INFO, format="%(message)s")
 
     test_anomalies = [
         {"id": "test_001", "timestamp": datetime(2025, 4, 20, 8, 0, 0), "pattern": "loop-glitch"},
