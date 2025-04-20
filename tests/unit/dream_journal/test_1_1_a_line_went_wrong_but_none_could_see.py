@@ -4,7 +4,7 @@ import pytest
 from pathlib import Path
 import re
 
-from _1_1_a_line_went_wrong_but_none_could_see import (
+from storybook_fun_factory.dream_journal._1_1_the_thread_that_slipped_the_line_once_lost._1_1_it_ran_it_looped_it_nearly_failed._1_1_a_line_went_wrong_but_none_could_see import (
     detect_subtle_deviation,
     log_hidden_trace,
     process_anomalies
