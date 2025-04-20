@@ -2,6 +2,7 @@
 
 import pytest
 from pathlib import Path
+from datetime import datetime
 import re
 
 from storybook_fun_factory.dream_journal._1_1_the_thread_that_slipped_the_line_once_lost._1_1_it_ran_it_looped_it_nearly_failed._1_1_a_line_went_wrong_but_none_could_see import (
@@ -16,7 +17,7 @@ def test_detect_subtle_deviation_consistency():
     """
     sample_anomaly = {
         "id": "dev_007",
-        "timestamp": "2025-04-20T08:00:00",
+        "timestamp": datetime(2025, 4, 20, 8, 0, 0),
         "pattern": "echo-fracture"
     }
     first_hash = detect_subtle_deviation(sample_anomaly)
@@ -37,8 +38,8 @@ def test_process_anomalies_creates_log(tmp_path, monkeypatch):
     monkeypatch.setattr("pathlib.Path.cwd", lambda: tmp_path)
 
     test_anomalies = [
-        {"id": "test_001", "timestamp": __import__('datetime').datetime(2025, 4, 20, 8, 0, 0), "pattern": "loop-glitch"},
-        {"id": "test_002", "timestamp": __import__('datetime').datetime(2025, 4, 20, 8, 1, 0), "pattern": "echo-fade"},
+        {"id": "test_001", "timestamp": datetime(2025, 4, 20, 8, 0, 0), "pattern": "loop-glitch"},
+        {"id": "test_002", "timestamp": datetime(2025, 4, 20, 8, 1, 0), "pattern": "echo-fade"},
     ]
 
     process_anomalies(test_anomalies)
