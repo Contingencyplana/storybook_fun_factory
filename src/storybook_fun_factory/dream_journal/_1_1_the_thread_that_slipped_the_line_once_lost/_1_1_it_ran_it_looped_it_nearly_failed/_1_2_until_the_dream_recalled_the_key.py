@@ -19,11 +19,6 @@ MEMORY_VAULT = {
 
 TRIGGER_PATTERNS = ["loop", "symbol", "thread", "key", "unseen", "hidden"]
 
-# Define log directory and recall log path
-LOG_DIR = Path.cwd() / "logs"
-LOG_DIR.mkdir(parents=True, exist_ok=True)
-RECALL_LOG = LOG_DIR / "symbolic_recall_log.txt"
-
 def generate_recall_signature(trigger: str) -> str:
     """
     Generates a hash-based recall signature from a symbolic trigger.
@@ -38,14 +33,19 @@ def recall_from_vault(input_phrase: str) -> str:
     """
     for pattern in TRIGGER_PATTERNS:
         if pattern in input_phrase:
-            memory = MEMORY_VAULT.get(f"{pattern}_fade") or MEMORY_VAULT.get(f"{pattern}_mismatch") or MEMORY_VAULT.get(f"{pattern}_delay")
+            memory = (
+                MEMORY_VAULT.get(f"{pattern}_fade") or
+                MEMORY_VAULT.get(f"{pattern}_mismatch") or
+                MEMORY_VAULT.get(f"{pattern}_delay")
+            )
             if memory:
                 return memory
     return "No recall triggered."
 
-def record_recall(trigger_phrase: str):
+def record_recall(trigger_phrase: str, log_path_override: Path = None):
     """
     Logs the symbolic recall event and its generated signature.
+    Allows override of the recall log path for testing.
     """
     recalled = recall_from_vault(trigger_phrase)
     signature = generate_recall_signature(trigger_phrase)
@@ -53,7 +53,11 @@ def record_recall(trigger_phrase: str):
         f"[{datetime.now().isoformat()}] "
         f"Trigger: '{trigger_phrase}' | Recall: '{recalled}' → Signature: {signature[:16]}..."
     )
-    with RECALL_LOG.open("a", encoding="utf-8") as log_file:
+
+    target_log = log_path_override or (Path.cwd() / "logs" / "symbolic_recall_log.txt")
+    target_log.parent.mkdir(parents=True, exist_ok=True)
+
+    with target_log.open("a", encoding="utf-8") as log_file:
         log_file.write(entry + "\n")
 
 # Example invocation for direct execution

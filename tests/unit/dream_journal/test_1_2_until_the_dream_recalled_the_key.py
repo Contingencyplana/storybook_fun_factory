@@ -39,7 +39,7 @@ def test_recall_from_vault_returns_no_trigger():
     result = recall_from_vault(phrase)
     assert result == "No recall triggered."
 
-def test_record_recall_creates_log_entry(tmp_path, monkeypatch):
+def test_record_recall_creates_log_entry(tmp_path):
     """
     Validates that record_recall writes a proper entry to the recall log.
     """
@@ -47,10 +47,8 @@ def test_record_recall_creates_log_entry(tmp_path, monkeypatch):
     test_log_dir.mkdir()
     test_log_file = test_log_dir / "symbolic_recall_log.txt"
 
-    monkeypatch.setattr("pathlib.Path.cwd", lambda: tmp_path)
-
     trigger = "The thread triggered the key."
-    record_recall(trigger)
+    record_recall(trigger, log_path_override=test_log_file)
 
     assert test_log_file.exists()
     content = test_log_file.read_text()
