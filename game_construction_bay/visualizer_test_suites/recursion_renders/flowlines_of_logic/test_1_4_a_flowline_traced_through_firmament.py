@@ -11,7 +11,7 @@ from visualizer.recursion_renders.flowlines_of_logic import _1_4_a_flowline_trac
 
 @pytest.fixture
 def output_path(tmp_path):
-    return tmp_path / "test_output.png"
+    return tmp_path / "test_output_1_4.png"
 
 def test_draw_complete_flowline_creates_file(output_path):
     # Run the visualization function

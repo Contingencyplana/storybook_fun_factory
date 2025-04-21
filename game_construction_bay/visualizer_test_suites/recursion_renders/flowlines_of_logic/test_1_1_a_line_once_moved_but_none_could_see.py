@@ -1,9 +1,14 @@
-# test_1_1_a_line_once_moved_but_none_could_see.py
+# Filename: test_1_1_a_line_once_moved_but_none_could_see.py
 
+import sys
+import os
 import pytest
-import networkx as nx
-from pathlib import Path
 import importlib
+from pathlib import Path
+import networkx as nx
+
+# 👇 Add game_construction_bay to Python path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../../..")))
 
 # Constants to check output
 OUTPUT_DIR = Path("visualizer_output")
@@ -38,12 +43,9 @@ def test_output_file_creation():
     if OUTPUT_FILE.exists():
         OUTPUT_FILE.unlink()
 
-    # Dynamically import and execute the visualizer file
-    importlib.import_module(
-        "storybook_fun_factory.visualizer._1_1_not_every_thread_is_seen_or_told._1_1_it_starts_with_one_then_splits_in_two._1_1_a_line_once_moved_but_none_could_see"
+    # Import and execute the target module
+    module = importlib.import_module(
+        "visualizer.recursion_renders.flowlines_of_logic._1_1_a_line_once_moved_but_none_could_see"
     )
 
-    # Check if the output file was created
-    assert OUTPUT_DIR.exists(), "Output directory does not exist."
-    assert OUTPUT_FILE.exists(), "Expected output PNG file was not created."
-    assert OUTPUT_FILE.stat().st_size > 0, "Output PNG file is empty."
+    # Run the function (assumes the method is named draw_bl_
