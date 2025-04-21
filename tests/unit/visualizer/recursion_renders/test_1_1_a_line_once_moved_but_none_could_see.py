@@ -5,6 +5,9 @@ import networkx as nx
 from pathlib import Path
 import os
 
+# Import the target module using the full src/ layout path
+from storybook_fun_factory.visualizer._1_1_not_every_thread_is_seen_or_told._1_1_it_starts_with_one_then_splits_in_two import _1_1_a_line_once_moved_but_none_could_see
+
 # Constants to check output
 OUTPUT_DIR = Path("visualizer_output")
 OUTPUT_FILE = OUTPUT_DIR / "a_line_once_moved_but_none_could_see.png"
@@ -38,10 +41,10 @@ def test_output_file_creation():
     if OUTPUT_FILE.exists():
         OUTPUT_FILE.unlink()
 
-    # Import target file and execute graph logic
-    import visualizer.recursion_renders.flowlines_of_logic._1_1_a_line_once_moved_but_none_could_see
+    # Trigger the graph generation
+    _1_1_a_line_once_moved_but_none_could_see  # This ensures module runs on import if file is executed
 
     # Check directory and file existence
-    assert OUTPUT_DIR.exists()
-    assert OUTPUT_FILE.exists()
-    assert OUTPUT_FILE.stat().st_size > 0  # Ensure the file is not empty
+    assert OUTPUT_DIR.exists(), "Output directory does not exist."
+    assert OUTPUT_FILE.exists(), "Expected output PNG file was not created."
+    assert OUTPUT_FILE.stat().st_size > 0, "Output file is empty."

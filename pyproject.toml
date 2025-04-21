@@ -12,6 +12,8 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.11"
 rich = "^13.5.2"
+networkx = "^3.4.2"
+matplotlib = "^3.10.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.7.0"
