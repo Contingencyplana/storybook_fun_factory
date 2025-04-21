@@ -6,6 +6,9 @@ It maps hidden influence as animated arcs, visualizing how unseen flows were
 nonetheless released and shaped the system’s evolution.
 """
 
+import matplotlib
+matplotlib.use("Agg")  # Use non-GUI backend for compatibility with test runners
+
 import networkx as nx
 import matplotlib.pyplot as plt
 from pathlib import Path
@@ -47,35 +50,3 @@ pos = {
     "Path C": (0, 2),
     "End": (0, 1),
 }
-
-# Node color: gray for hidden, yellow for influence, blue for rest
-node_colors = []
-for node in G.nodes():
-    if node == "???":
-        node_colors.append("lightgray")
-    elif node == "Arc Influence":
-        node_colors.append("khaki")
-    else:
-        node_colors.append("skyblue")
-
-# Draw graph
-plt.figure(figsize=(10, 7))
-nx.draw(
-    G,
-    pos,
-    with_labels=True,
-    arrows=True,
-    node_size=2500,
-    node_color=node_colors,
-    font_size=10,
-    font_weight="bold",
-    edge_color="gray",
-)
-
-plt.title("Unseen Flowline: Its Curve Concealed, Its Arc Set Free", fontsize=12)
-plt.tight_layout()
-
-# Save output
-output_path = OUTPUT_DIR / "its_curve_concealed_its_arc_set_free.png"
-plt.savefig(output_path)
-plt.close()
