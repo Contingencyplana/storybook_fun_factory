@@ -1,51 +1,74 @@
 """
-_1_1_a_verse_is_born_but_cannot_live.py
+_1_1_a_line_once_moved_but_none_could_see.py
 
-Begins the stanza by recognizing the poetic line as a latent construct—
-existing in potential, but not executable without transformation.
+Captures an invisible transition—a recursive decision or logical leap made within
+the assistant or player’s process that was never visualized. It identifies the
+"blind spots" in recursive flow and prepares the canvas for rendering unseen arcs.
 """
 
-from typing import Union
+import networkx as nx
+import matplotlib.pyplot as plt
+from pathlib import Path
 
+# Define output directory
+OUTPUT_DIR = Path("visualizer_output")
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-def is_poetic_line_valid(poetic_line: str) -> bool:
-    """
-    Checks if a poetic line contains only valid poetic characters
-    and does not yet meet code-usable filename requirements.
+# Create a directed graph representing a hidden recursive leap
+G = nx.DiGraph()
 
-    A poetic line is considered 'not alive' if:
-    - It contains uppercase characters
-    - It contains invalid characters (e.g., punctuation, symbols)
-    - It contains leading/trailing whitespace
-    - It uses poetic formatting (spaces, commas, apostrophes, etc.)
+# Add nodes representing visible and invisible recursive states
+G.add_node("Start", layer=0)
+G.add_node("Echo A", layer=1)
+G.add_node("???", layer=2)  # The unseen recursive leap
+G.add_node("Decision B", layer=3)
+G.add_node("Path C", layer=4)
+G.add_node("End", layer=5)
 
-    Returns False if the line *could* be used as a filename already (i.e. is alive).
-    """
-    if not poetic_line:
-        return False
+# Add edges to simulate narrative flow including the invisible leap
+G.add_edges_from([
+    ("Start", "Echo A"),
+    ("Echo A", "???"),
+    ("???", "Decision B"),
+    ("Decision B", "Path C"),
+    ("Path C", "End"),
+])
 
-    # Characters not allowed in filenames (esp. on Windows)
-    forbidden_chars = set('<>:"/\\|?*')
-    poetic_invalid_tokens = ["'", ",", ".", "  "]  # Double spaces, quotes, commas
+# Assign positions manually for better vertical layout
+pos = {
+    "Start": (0, 5),
+    "Echo A": (0, 4),
+    "???": (0, 3),
+    "Decision B": (0, 2),
+    "Path C": (0, 1),
+    "End": (0, 0),
+}
 
-    # Check structural formatting issues
-    if any(char in poetic_line for char in forbidden_chars):
-        return False
-    if any(token in poetic_line for token in poetic_invalid_tokens):
-        return False
-    if poetic_line != poetic_line.strip():
-        return False
-    if poetic_line.lower() != poetic_line:
-        return False  # still in poetic form (capitalized)
+# Define node colors to highlight the invisible transition
+node_colors = []
+for node in G.nodes():
+    if node == "???":
+        node_colors.append("lightgray")
+    else:
+        node_colors.append("skyblue")
 
-    # If all checks pass, it's already a usable name (and thus 'alive')
-    return True  # the line has become structurally valid
+# Draw the graph
+plt.figure(figsize=(8, 6))
+nx.draw(
+    G,
+    pos,
+    with_labels=True,
+    arrows=True,
+    node_size=2500,
+    node_color=node_colors,
+    font_size=10,
+    font_weight="bold",
+    edge_color="gray",
+)
+plt.title("Recursive Leap: A Line Once Moved But None Could See", fontsize=12)
+plt.tight_layout()
 
-
-def poetic_line_status(poetic_line: str) -> str:
-    """
-    Returns a human-readable status for a poetic line:
-    - 'latent' if the line cannot live yet
-    - 'valid' if the line can be used as-is
-    """
-    return "valid" if is_poetic_line_valid(poetic_line) else "latent"
+# Save to file
+output_path = OUTPUT_DIR / "a_line_once_moved_but_none_could_see.png"
+plt.savefig(output_path)
+plt.close()
