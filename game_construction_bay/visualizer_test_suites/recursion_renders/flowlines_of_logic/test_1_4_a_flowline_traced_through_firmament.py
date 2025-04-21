@@ -1,7 +1,12 @@
 # Filename: test_1_4_a_flowline_traced_through_firmament.py
 
+import sys
 import os
 import pytest
+
+# 👇 Add game_construction_bay to Python path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../../..")))
+
 from visualizer.recursion_renders.flowlines_of_logic import _1_4_a_flowline_traced_through_firmament as flowline
 
 @pytest.fixture
