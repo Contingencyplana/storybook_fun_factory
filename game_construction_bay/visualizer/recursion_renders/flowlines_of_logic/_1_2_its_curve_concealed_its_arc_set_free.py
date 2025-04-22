@@ -1,6 +1,5 @@
+# Filename: _1_2_its_curve_concealed_its_arc_set_free.py
 """
-_1_2_its_curve_concealed_its_arc_set_free.py
-
 Generates the curve or trajectory of a previously unrendered recursive line.
 It maps hidden influence as animated arcs, visualizing how unseen flows were
 nonetheless released and shaped the system’s evolution.
@@ -13,12 +12,12 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-# Define output directory
+# Define output directory and file
 OUTPUT_DIR = Path("visualizer_output")
 OUTPUT_FILE = OUTPUT_DIR / "its_curve_concealed_its_arc_set_free.png"
 
-def generate_flow_diagram():
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+def draw_hidden_curve(output_path=OUTPUT_FILE):
+    output_path.parent.mkdir(parents=True, exist_ok=True)
 
     # Create a directed graph to illustrate arc divergence and return
     G = nx.DiGraph()
@@ -80,8 +79,8 @@ def generate_flow_diagram():
 
     plt.title("Unseen Flowline: Its Curve Concealed, Its Arc Set Free", fontsize=12)
     plt.tight_layout()
-    plt.savefig(OUTPUT_FILE)
+    plt.savefig(output_path)
     plt.close()
 
-# Trigger on import
-generate_flow_diagram()
+# Trigger generation on import (optional)
+draw_hidden_curve()
