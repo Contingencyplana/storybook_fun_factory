@@ -18,7 +18,7 @@ def animate_recursive_rhythm(graph: nx.DiGraph, layout: str = "spring", interval
     if layout == "spring":
         pos = nx.spring_layout(graph, seed=42)
     elif layout == "kamada_kawai":
-        pos = nx.kamada_kawai_layout(graph)  # <-- ✅ removed seed
+        pos = nx.kamada_kawai_layout(graph)  # ✅ Corrected: seed removed
     elif layout == "circular":
         pos = nx.circular_layout(graph)
     else:
