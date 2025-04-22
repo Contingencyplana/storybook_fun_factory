@@ -1,3 +1,5 @@
+# Filename: _2_1_each_path_a_map_from_what_was_said.py
+
 from pathlib import Path
 import networkx as nx
 import matplotlib.pyplot as plt
