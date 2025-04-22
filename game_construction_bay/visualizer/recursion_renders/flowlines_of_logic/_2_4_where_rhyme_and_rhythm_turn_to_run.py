@@ -15,13 +15,15 @@ def animate_recursive_rhythm(graph: nx.DiGraph, layout: str = "spring", interval
         layout (str): Layout algorithm for animation ("spring", "circular", or "kamada_kawai").
         interval (int): Milliseconds between frames in the animation.
     """
-    layout_func = {
-        "spring": nx.spring_layout,
-        "circular": nx.circular_layout,
-        "kamada_kawai": nx.kamada_kawai_layout
-    }.get(layout, nx.spring_layout)
+    if layout == "spring":
+        pos = nx.spring_layout(graph, seed=42)
+    elif layout == "kamada_kawai":
+        pos = nx.kamada_kawai_layout(graph, seed=42)
+    elif layout == "circular":
+        pos = nx.circular_layout(graph)
+    else:
+        pos = nx.spring_layout(graph, seed=42)
 
-    pos = layout_func(graph, seed=42)
     fig, ax = plt.subplots(figsize=(8, 6))
 
     def update(frame):
