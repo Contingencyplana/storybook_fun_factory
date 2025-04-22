@@ -48,7 +48,6 @@ game_construction_bay/
 ├── [component]/
 ├── [component]_test_suites/
 
-
 Tests follow the same stanza structure and reinforce recursive coverage through meaningful names, diagram validation, and flow integrity.
 
 ---
