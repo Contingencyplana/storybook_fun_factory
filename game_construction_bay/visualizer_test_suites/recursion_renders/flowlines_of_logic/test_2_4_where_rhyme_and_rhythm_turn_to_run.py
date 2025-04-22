@@ -1,5 +1,13 @@
 # Filename: test_2_4_where_rhyme_and_rhythm_turn_to_run.py
 
+import matplotlib
+matplotlib.use("Agg")  # ✅ Prevent Tkinter errors by using a headless backend
+
+import pytest
+import networkx as nx
+
+from visualizer.recursion_renders.flowlines_of_logic._2_4_where_rhyme_and_rhythm_turn_to_run import animate_recursive_rhythm
+
 import pytest
 import networkx as nx
 
