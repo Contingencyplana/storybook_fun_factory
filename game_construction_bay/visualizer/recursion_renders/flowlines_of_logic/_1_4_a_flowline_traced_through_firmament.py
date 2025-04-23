@@ -87,3 +87,7 @@ def draw_complete_flowline(output_path="visualizer_output/a_flowline_traced_thro
     plt.tight_layout()
     plt.savefig(output_path)
     plt.close()
+
+
+if __name__ == "__main__":
+    draw_complete_flowline()  # This uses the default output path

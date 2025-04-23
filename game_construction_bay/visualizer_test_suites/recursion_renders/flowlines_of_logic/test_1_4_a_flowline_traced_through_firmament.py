@@ -14,11 +14,15 @@ def output_path(tmp_path):
     return tmp_path / "test_output_1_4.png"
 
 def test_draw_complete_flowline_creates_file(output_path):
-    # Run the visualization function
+    # Primary test: Save to a temporary path
     flowline.draw_complete_flowline(output_path=output_path)
 
-    # Assert the file was created
+    # Assertions for tmp file
     assert output_path.exists(), "The flowline image file was not created."
-
-    # Assert file is non-empty
     assert output_path.stat().st_size > 0, "The generated image file is empty."
+
+    # ALSO save to visualizer_output/ for permanent record
+    official_path = "visualizer_output/a_flowline_traced_through_firmament.png"
+    flowline.draw_complete_flowline(output_path=official_path)
+    assert os.path.exists(official_path), "Official visualizer_output image was not created."
+
