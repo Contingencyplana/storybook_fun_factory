@@ -4,10 +4,10 @@ import sys
 import os
 import pytest
 
-# 👇 Add game_construction_bay to Python path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../../..")))
+# 👇 Add storybook_fun_factory (project root) to the Python path
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__) + "/../../../../.."))
 
-from visualizer.recursion_renders.flowlines_of_logic import _1_4_a_flowline_traced_through_firmament as flowline
+from game_construction_bay.visualizer.recursion_renders.flowlines_of_logic import _1_4_a_flowline_traced_through_firmament as flowline
 
 @pytest.fixture
 def output_path(tmp_path):
@@ -25,4 +25,3 @@ def test_draw_complete_flowline_creates_file(output_path):
     official_path = "visualizer_output/a_flowline_traced_through_firmament.png"
     flowline.draw_complete_flowline(output_path=official_path)
     assert os.path.exists(official_path), "Official visualizer_output image was not created."
-
