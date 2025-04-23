@@ -4,10 +4,11 @@ import sys
 import os
 import pytest
 
-# 👇 Add storybook_fun_factory (project root) to the Python path
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__) + "/../../../../.."))
+# ✅ Add game_construction_bay to Python path so `visualizer/` can be found
+sys.path.insert(0, os.path.abspath("game_construction_bay"))
 
-from game_construction_bay.visualizer.recursion_renders.flowlines_of_logic import _1_4_a_flowline_traced_through_firmament as flowline
+# ✅ Clean import from inside game_construction_bay/
+from visualizer.recursion_renders.flowlines_of_logic import _1_4_a_flowline_traced_through_firmament as flowline
 
 @pytest.fixture
 def output_path(tmp_path):
