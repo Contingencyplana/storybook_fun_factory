@@ -27,8 +27,9 @@ def animate_recursive_rhythm(graph: nx.DiGraph, layout: str = "spring", interval
     node_colors = []
     for i, node in enumerate(graph.nodes()):
         # Cycle color intensity to create a pulse effect
-        base_color = 200 + (20 * ((i + frame) % 3))
-        node_colors.append(f"#d0{base_color:02x}c0")
+        base_value = 200 + (20 * ((i + frame) % 3))  # 200 → 220 → 240
+        hex_value = f"{base_value:02x}"  # convert to hex
+        node_colors.append(f"#d0{hex_value}c0")  # generates shades like #d0dcc0
 
     nx.draw_networkx_nodes(graph, pos, ax=ax, node_size=700, node_color=node_colors)
     nx.draw_networkx_edges(graph, pos, ax=ax, edge_color="#888888", arrows=True)
