@@ -1,58 +1,90 @@
-# Filename: test_3_3_diagrams_fold_and_split_as_one.py
+# Filename: _3_3_diagrams_fold_and_split_as_one.py
 
-import sys
-import os
-import pytest
 import networkx as nx
+import matplotlib.pyplot as plt
 from pathlib import Path
 
-# Add game_construction_bay to Python path
-sys.path.insert(0, os.path.abspath("game_construction_bay"))
 
-from visualizer.recursion_renders.flowlines_of_logic import _3_3_diagrams_fold_and_split_as_one as flowline
+def build_fold_and_split_diagram(
+    graph: nx.DiGraph,
+    inputs: list[str],
+    fold_point: str,
+    outputs: list[str],
+    metadata: dict = None
+) -> nx.DiGraph:
+    """
+    Constructs a fold-and-split diagram showing recursive convergence and divergence.
 
+    Args:
+        graph (nx.DiGraph): The recursion graph to modify.
+        inputs (list[str]): Incoming flow nodes that converge at the fold_point.
+        fold_point (str): The central convergence node.
+        outputs (list[str]): Outgoing flow nodes that split from the fold_point.
+        metadata (dict, optional): Optional metadata for labeling or styling the fold_point.
 
-def test_build_fold_and_split_diagram_structure():
-    graph = nx.DiGraph()
-    inputs = ["In_A", "In_B"]
-    fold_point = "Merge"
-    outputs = ["Out_X", "Out_Y"]
-    graph = flowline.build_fold_and_split_diagram(graph, inputs, fold_point, outputs)
+    Returns:
+        nx.DiGraph: The updated graph.
+    """
+    if metadata is None:
+        metadata = {}
 
-    # Fold point
-    assert fold_point in graph.nodes
-    assert graph.nodes[fold_point]["type"] == "confluence"
+    if fold_point not in graph:
+        graph.add_node(fold_point, label=f"Fold: {fold_point}", type="confluence", **metadata)
 
-    # Inputs
     for i in inputs:
-        assert i in graph.nodes
-        assert graph.nodes[i]["type"] == "input_branch"
-        assert graph.has_edge(i, fold_point)
-        assert graph.get_edge_data(i, fold_point)["type"] == "converges_into"
+        if i not in graph:
+            graph.add_node(i, label=f"Input: {i}", type="input_branch")
+        graph.add_edge(i, fold_point, type="converges_into")
 
-    # Outputs
     for o in outputs:
-        assert o in graph.nodes
-        assert graph.nodes[o]["type"] == "output_branch"
-        assert graph.has_edge(fold_point, o)
-        assert graph.get_edge_data(fold_point, o)["type"] == "splits_into"
+        if o not in graph:
+            graph.add_node(o, label=f"Output: {o}", type="output_branch")
+        graph.add_edge(fold_point, o, type="splits_into")
+
+    return graph
 
 
-def test_render_fold_and_split_diagram_saves_image(tmp_path):
-    graph = nx.DiGraph()
-    inputs = ["Top", "Bottom"]
-    fold_point = "Center"
-    outputs = ["Left", "Right"]
-    graph = flowline.build_fold_and_split_diagram(graph, inputs, fold_point, outputs)
+def render_fold_and_split_diagram(graph: nx.DiGraph, save_path: Path = None):
+    """
+    Renders a visual diagram showing confluence and divergence in recursion.
 
-    # Temporary output check
-    temp_path = tmp_path / "fold_split_temp.png"
-    flowline.render_fold_and_split_diagram(graph, save_path=temp_path)
-    assert temp_path.exists()
-    assert temp_path.stat().st_size > 0
+    Args:
+        graph (nx.DiGraph): The graph to draw.
+        save_path (Path, optional): If provided, saves the image to this path.
+    """
+    pos = nx.spring_layout(graph, seed=42)
+    labels = nx.get_node_attributes(graph, 'label')
 
-    # Official output check
-    official_path = Path("visualizer_output/diagrams_fold_and_split_as_one.png")
-    flowline.render_fold_and_split_diagram(graph, save_path=official_path)
-    assert official_path.exists()
-    assert official_path.stat().st_size > 0
+    node_colors = []
+    for node in graph.nodes:
+        n_type = graph.nodes[node].get("type", "")
+        if n_type == "input_branch":
+            node_colors.append("#f9cb9c")  # Light orange
+        elif n_type == "confluence":
+            node_colors.append("#9fc5e8")  # Light blue
+        elif n_type == "output_branch":
+            node_colors.append("#b6d7a8")  # Light green
+        else:
+            node_colors.append("#dddddd")
+
+    plt.figure(figsize=(10, 6))
+    nx.draw_networkx_nodes(graph, pos, node_color=node_colors, node_size=900)
+    nx.draw_networkx_edges(graph, pos, arrowstyle="->", arrowsize=15)
+    nx.draw_networkx_labels(graph, pos, labels=labels, font_size=10)
+    plt.title("Diagrams Fold and Split as One")
+    plt.axis("off")
+
+    if save_path:
+        plt.savefig(save_path, bbox_inches="tight")
+    plt.close()
+
+
+if __name__ == "__main__":
+    G = nx.DiGraph()
+    build_fold_and_split_diagram(
+        G,
+        inputs=["Stream A", "Stream B"],
+        fold_point="Core Truth",
+        outputs=["Branch X", "Branch Y"]
+    )
+    render_fold_and_split_diagram(G, save_path=Path("visualizer_output/diagrams_fold_and_split_as_one.png"))
