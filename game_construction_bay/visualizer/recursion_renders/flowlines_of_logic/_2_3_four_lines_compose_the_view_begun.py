@@ -1,20 +1,14 @@
 # Filename: _2_3_four_lines_compose_the_view_begun.py
 
 import networkx as nx
+import matplotlib.pyplot as plt
+from pathlib import Path
 
 
 def compose_stanza_view(graph: nx.DiGraph, stanza_id: str, line_ids: list[str]) -> nx.DiGraph:
     """
     Renders the emerging stanza structure as a cohesive visual quartet—highlighting symmetry, balance,
     and recursive buildup between the four lines.
-
-    Args:
-        graph (nx.DiGraph): The active recursion graph containing prior verse and flowline nodes.
-        stanza_id (str): A unique ID representing the full stanza (e.g., "stanza_2").
-        line_ids (list[str]): A list of exactly four node IDs corresponding to the lines in the stanza.
-
-    Returns:
-        nx.DiGraph: The graph with stanza grouping logic added.
     """
     assert len(line_ids) == 4, "A stanza must consist of exactly four lines."
 
@@ -27,3 +21,38 @@ def compose_stanza_view(graph: nx.DiGraph, stanza_id: str, line_ids: list[str]) 
         graph.add_edge(stanza_node, line_id, type="stanza_composition")
 
     return graph
+
+
+def render_stanza_view(graph: nx.DiGraph, save_path: Path = None):
+    pos = nx.spring_layout(graph, seed=42)
+    labels = nx.get_node_attributes(graph, "label")
+
+    node_colors = []
+    for node in graph.nodes:
+        t = graph.nodes[node].get("type", "")
+        if t == "stanza_view":
+            node_colors.append("#add8e6")  # light blue
+        elif t == "unclassified_line":
+            node_colors.append("#ffd966")  # soft gold
+        else:
+            node_colors.append("#cccccc")
+
+    plt.figure(figsize=(8, 6))
+    nx.draw_networkx_nodes(graph, pos, node_color=node_colors, node_size=800)
+    nx.draw_networkx_edges(graph, pos, arrows=True, arrowstyle="->", arrowsize=15)
+    nx.draw_networkx_labels(graph, pos, labels, font_size=10)
+    plt.title("Four Lines Compose the View Begun")
+    plt.axis("off")
+
+    if save_path:
+        plt.savefig(save_path, bbox_inches="tight")
+    plt.close()
+
+
+if __name__ == "__main__":
+    G = nx.DiGraph()
+    stanza_id = "stanza_2"
+    lines = ["v2_1", "v2_2", "v2_3", "v2_4"]
+    G = compose_stanza_view(G, stanza_id, lines)
+    render_stanza_view(G, save_path=Path("visualizer_output/four_lines_compose_the_view_begun.png"))
+
