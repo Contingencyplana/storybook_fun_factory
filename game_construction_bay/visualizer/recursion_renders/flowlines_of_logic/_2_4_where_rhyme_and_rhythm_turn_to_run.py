@@ -23,12 +23,18 @@ def animate_recursive_rhythm(graph: nx.DiGraph, layout: str = "spring", interval
     fig, ax = plt.subplots(figsize=(8, 6))
 
     def update(frame):
-        ax.clear()
-        nx.draw_networkx_nodes(graph, pos, ax=ax, node_size=700, node_color="#d0f0c0")
-        nx.draw_networkx_edges(graph, pos, ax=ax, edge_color="#888888", arrows=True)
-        nx.draw_networkx_labels(graph, pos, ax=ax, font_size=10)
-        ax.set_title("Recursive Rhythm: Flow in Motion")
-        ax.axis("off")
+    ax.clear()
+    node_colors = []
+    for i, node in enumerate(graph.nodes()):
+        # Cycle color intensity to create a pulse effect
+        base_color = 200 + (20 * ((i + frame) % 3))
+        node_colors.append(f"#d0{base_color:02x}c0")
+
+    nx.draw_networkx_nodes(graph, pos, ax=ax, node_size=700, node_color=node_colors)
+    nx.draw_networkx_edges(graph, pos, ax=ax, edge_color="#888888", arrows=True)
+    nx.draw_networkx_labels(graph, pos, ax=ax, font_size=10)
+    ax.set_title("Recursive Rhythm: Flow in Motion")
+    ax.axis("off")
 
     ani = animation.FuncAnimation(fig, update, frames=6, interval=interval, repeat=True)
 
