@@ -3,22 +3,18 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
+from pathlib import Path
 
 
-def animate_recursive_rhythm(graph: nx.DiGraph, layout: str = "spring", interval: int = 1000):
+def animate_recursive_rhythm(graph: nx.DiGraph, layout: str = "spring", interval: int = 1000, save_path: Path = None):
     """
     Finalizes the stanza by animating the motion of recursion.
     Captures poetic rhythm as a living diagram, allowing recursive flow to evolve and loop dynamically.
-
-    Args:
-        graph (nx.DiGraph): A complete stanza graph including verse, flow, and stanza nodes.
-        layout (str): Layout algorithm for animation ("spring", "circular", or "kamada_kawai").
-        interval (int): Milliseconds between frames in the animation.
     """
     if layout == "spring":
         pos = nx.spring_layout(graph, seed=42)
     elif layout == "kamada_kawai":
-        pos = nx.kamada_kawai_layout(graph)  # ✅ Corrected: seed removed
+        pos = nx.kamada_kawai_layout(graph)
     elif layout == "circular":
         pos = nx.circular_layout(graph)
     else:
@@ -34,5 +30,20 @@ def animate_recursive_rhythm(graph: nx.DiGraph, layout: str = "spring", interval
         ax.set_title("Recursive Rhythm: Flow in Motion")
         ax.axis("off")
 
-    ani = animation.FuncAnimation(fig, update, frames=3, interval=interval, repeat=True)
+    ani = animation.FuncAnimation(fig, update, frames=6, interval=interval, repeat=True)
+
+    if save_path:
+        ani.save(save_path, writer="pillow")
+
     plt.show()
+
+
+if __name__ == "__main__":
+    G = nx.DiGraph()
+    G.add_edge("Spark", "Flow")
+    G.add_edge("Flow", "Echo")
+    G.add_edge("Echo", "Resolution")
+    G.add_edge("Resolution", "Loop")
+
+    output_file = Path("visualizer_output/where_rhyme_and_rhythm_turn_to_run.gif")
+    animate_recursive_rhythm(G, layout="spring", save_path=output_file)
