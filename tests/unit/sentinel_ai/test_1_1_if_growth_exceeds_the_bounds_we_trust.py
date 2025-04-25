@@ -5,7 +5,7 @@ from pathlib import Path
 import pytest
 import os
 
-from src.storybook_fun_factory.sentinel_ai._1_1_the_watchers_wake_with_silent_sight._1_1_they_track_recursions_crooked_flow import _1_1_if_growth_exceeds_the_bounds_we_trust as sentinel
+from storybook_fun_factory.sentinel_ai._1_1_the_watchers_wake_with_silent_sight._1_1_they_track_recursions_crooked_flow import _1_1_if_growth_exceeds_the_bounds_we_trust as sentinel
 
 
 def test_detect_recursive_overgrowth_flags_correct_nodes():
