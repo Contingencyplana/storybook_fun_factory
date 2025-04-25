@@ -2,15 +2,20 @@
 
 import sys
 import os
+import importlib.util
 from pathlib import Path
 import pytest
 import networkx as nx
 
-# Add the src directory to the Python path
-sys.path.insert(0, os.path.abspath("src"))
+# Dynamically load the target file
+target_path = Path("src/storybook_fun_factory/sentinel_ai/_1_1_the_watchers_wake_with_silent_sight/_1_1_they_track_recursions_crooked_flow/_1_2_a_signal_stirs_beneath_the_dust.py").resolve()
 
-from storybook_fun_factory.sentinel_ai._1_1_the_watchers_wake_with_silent_sight._1_1_they_track_recursions_crooked_flow import _1_2_a_signal_stirs_beneath_the_dust as sentinel_signal
+spec = importlib.util.spec_from_file_location("_1_2_a_signal_stirs_beneath_the_dust", target_path)
+sentinel_signal = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(sentinel_signal)
 
+# ✅ No additional imports needed after this!
+# ✅ Now use sentinel_signal normally in tests
 
 def test_activate_latent_diagnostics_detects_latent_nodes():
     graph = nx.DiGraph()
