@@ -1,9 +1,13 @@
 # Filename: test_1_1_if_growth_exceeds_the_bounds_we_trust.py
 
-import networkx as nx
+import sys
+import os
 from pathlib import Path
 import pytest
-import os
+import networkx as nx
+
+# Add the src directory to the Python path
+sys.path.insert(0, os.path.abspath("src"))
 
 from storybook_fun_factory.sentinel_ai._1_1_the_watchers_wake_with_silent_sight._1_1_they_track_recursions_crooked_flow import _1_1_if_growth_exceeds_the_bounds_we_trust as sentinel
 
