@@ -3,54 +3,61 @@
 import networkx as nx
 from typing import List
 
-def detect_recursive_feedback_loops(graph: nx.DiGraph, echo_threshold: int = 2) -> List[str]:
+def detect_excessive_feedback(graph: nx.DiGraph, feedback_threshold: int = 3) -> List[str]:
     """
-    Detects nodes in a recursion graph where feedback amplification occurs excessively.
+    Detects nodes with excessive feedback connections (self-loops or reciprocal edges).
 
     Args:
-        graph (nx.DiGraph): The recursion graph to analyze.
-        echo_threshold (int): The number of cyclic connections tolerated before flagging instability.
+        graph (nx.DiGraph): The recursion graph to scan.
+        feedback_threshold (int): Maximum allowed feedback edges before flagging.
 
     Returns:
-        List[str]: List of node names showing signs of excessive recursive feedback.
+        List[str]: A list of node names that exceed the feedback threshold.
     """
-    feedback_nodes = []
+    flagged_nodes = []
     for node in graph.nodes:
-        cycles_through_node = list(nx.simple_cycles(graph))
-        count = sum(1 for cycle in cycles_through_node if node in cycle)
-        if count > echo_threshold:
-            feedback_nodes.append(node)
-    return feedback_nodes
+        feedback_edges = 0
+        # Count self-loop
+        if graph.has_edge(node, node):
+            feedback_edges += 1
+        # Count mutual edges (back-and-forth)
+        for neighbor in graph.successors(node):
+            if graph.has_edge(neighbor, node) and neighbor != node:
+                feedback_edges += 1
+        if feedback_edges > feedback_threshold:
+            flagged_nodes.append(node)
+    return flagged_nodes
 
-def mark_feedback_nodes(graph: nx.DiGraph, feedback_nodes: List[str], attribute: str = "unstable") -> None:
+
+def mark_feedback_nodes(graph: nx.DiGraph, feedback_nodes: List[str], flag_attribute: str = "feedback_hotspot") -> None:
     """
-    Marks nodes that exhibit excessive feedback amplification.
+    Flags nodes in the graph identified with excessive feedback.
 
     Args:
-        graph (nx.DiGraph): The graph to annotate.
-        feedback_nodes (List[str]): List of node names showing instability.
-        attribute (str): Attribute key used to flag unstable nodes.
+        graph (nx.DiGraph): The graph to update.
+        feedback_nodes (List[str]): List of node names to flag.
+        flag_attribute (str): The attribute key to mark flagged nodes.
     """
     for node in feedback_nodes:
         if node in graph:
-            graph.nodes[node][attribute] = True
+            graph.nodes[node][flag_attribute] = True
+
 
 if __name__ == "__main__":
     # Example standalone demonstration
     G = nx.DiGraph()
     G.add_edges_from([
         ("A", "B"),
+        ("B", "A"),
         ("B", "C"),
-        ("C", "A"),  # Cycle A -> B -> C -> A
-        ("C", "D"),
-        ("D", "C"),  # Cycle C <-> D
-        ("B", "D")
+        ("C", "B"),
+        ("C", "C"),
     ])
 
-    feedback = detect_recursive_feedback_loops(G, echo_threshold=1)
-    mark_feedback_nodes(G, feedback)
+    excessive = detect_excessive_feedback(G, feedback_threshold=2)
+    mark_feedback_nodes(G, excessive)
 
-    print("Feedback Amplified Nodes:", feedback)
-    print("Node Attributes After Flagging:")
+    print("Feedback Hotspots:", excessive)
+    print("Graph Node Attributes:")
     for node in G.nodes(data=True):
         print(node)
