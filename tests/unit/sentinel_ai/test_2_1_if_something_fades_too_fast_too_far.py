@@ -6,7 +6,7 @@ _2_1_if_something_fades_too_fast_too_far.py
 """
 
 import pytest
-from sentinel_ai.loopwatchers.recursion_monitors._2_1_if_something_fades_too_fast_too_far import detect_fading_recursion
+from storybook_fun_factory.sentinel_ai._1_1_the_watchers_wake_with_silent_sight._1_1_they_track_recursions_crooked_flow._2_1_if_something_fades_too_fast_too_far import detect_fading_recursion
 
 def test_detect_fading_recursion_flags_fading_cycles():
     sample_cycles = [
