@@ -5,7 +5,13 @@ Tests the functionality of detect_fading_recursion from
 _2_1_if_something_fades_too_fast_too_far.py
 """
 
+import sys
+import os
 import pytest
+
+# Force src/ onto the path dynamically at runtime
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../..", "src")))
+
 from storybook_fun_factory.sentinel_ai._1_1_the_watchers_wake_with_silent_sight._1_1_they_track_recursions_crooked_flow._2_1_if_something_fades_too_fast_too_far import detect_fading_recursion
 
 def test_detect_fading_recursion_flags_fading_cycles():
@@ -40,5 +46,4 @@ def test_detect_fading_recursion_handles_missing_fields_gracefully():
     result = detect_fading_recursion(sample_cycles)
     faded_ids = [cycle['id'] for cycle in result]
 
-    # Neither should be considered fading without full low values
     assert faded_ids == []
