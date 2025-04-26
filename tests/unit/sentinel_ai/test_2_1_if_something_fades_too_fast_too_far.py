@@ -8,12 +8,26 @@ _2_1_if_something_fades_too_fast_too_far.py
 import sys
 import os
 import pytest
+import importlib.util
 
-# Force src/ onto the path dynamically at runtime
+# Force src/ onto sys.path dynamically
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../..", "src")))
 
-from storybook_fun_factory.sentinel_ai._1_1_the_watchers_wake_with_silent_sight._1_1_they_track_recursions_crooked_flow._2_1_if_something_fades_too_fast_too_far import detect_fading_recursion
+# Dynamically import the production file
+module_path = os.path.abspath(
+    os.path.join(
+        os.path.dirname(__file__),
+        "../../../src/storybook_fun_factory/sentinel_ai/_1_1_the_watchers_wake_with_silent_sight/_1_1_they_track_recursions_crooked_flow/_2_1_if_something_fades_too_fast_too_far.py"
+    )
+)
 
+spec = importlib.util.spec_from_file_location("dynamic_module", module_path)
+dynamic_module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(dynamic_module)
+
+detect_fading_recursion = dynamic_module.detect_fading_recursion
+
+# Tests start below
 def test_detect_fading_recursion_flags_fading_cycles():
     sample_cycles = [
         {'id': 'cycle_001', 'strength': 0.2, 'coherence': 0.4, 'age': 3},
