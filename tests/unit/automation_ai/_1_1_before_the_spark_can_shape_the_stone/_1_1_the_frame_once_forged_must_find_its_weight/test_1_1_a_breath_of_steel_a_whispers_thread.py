@@ -8,7 +8,7 @@ of the WhispersThread class.
 """
 
 import pytest
-from storybook_fun_factory.automation_ai._1_1_before_the_spark_can_shape_the_stone._1_1_the_frame_once_forged_must_find_its_weight._1_1_a_breath_of_steel_a_whispers_thread import WhispersThread
+from automation_ai._1_1_before_the_spark_can_shape_the_stone._1_1_the_frame_once_forged_must_find_its_weight._1_1_a_breath_of_steel_a_whispers_thread import WhispersThread
 
 def test_initial_state():
     thread = WhispersThread()
