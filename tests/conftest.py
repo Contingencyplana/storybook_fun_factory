@@ -1,5 +1,9 @@
 import sys
 import os
 
-# Add the src/ folder to sys.path so pytest can find the main code
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../src")))
+# Calculate the absolute path to the src/ folder
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SRC_DIR = os.path.join(ROOT_DIR, "src")
+
+# Insert src/ at the beginning of sys.path
+sys.path.insert(0, SRC_DIR)
