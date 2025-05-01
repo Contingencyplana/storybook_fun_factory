@@ -23,13 +23,16 @@ class RhymeHammer:
 
     def extract_line_endings(self, stanza_lines):
         """
-        Extracts the final word or syllable group from each line in a stanza.
+        Extracts the final word or syllable group from each line in a stanza,
+        stripping common non-alphabetic punctuation and markdown wrappers.
         """
         endings = []
         for line in stanza_lines:
             words = line.strip().split()
             if words:
-                endings.append(words[-1].lower())
+                raw = words[-1].lower()
+                clean = re.sub(r"[^\w]+", "", raw)  # Removes *, **, ., etc.
+                endings.append(clean)
             else:
                 endings.append("")
         return endings
