@@ -12,7 +12,7 @@ import importlib.util
 import pytest
 
 # Load dynamic_importer.py manually
-helper_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../test_helpers/dynamic_importer.py"))
+helper_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../test_helpers/dynamic_importer.py"))
 spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
 dynamic_importer = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(dynamic_importer)
