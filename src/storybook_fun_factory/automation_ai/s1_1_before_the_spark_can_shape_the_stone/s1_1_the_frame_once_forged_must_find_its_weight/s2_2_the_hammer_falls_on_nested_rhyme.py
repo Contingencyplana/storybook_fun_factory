@@ -38,6 +38,12 @@ class RhymeHammer:
                 endings.append("")
         return endings
 
+    def words_rhyme(self, w1, w2, length=3):
+        """
+        Determines if two words rhyme by comparing their last N letters.
+        """
+        return w1[-length:] == w2[-length:] if len(w1) >= length and len(w2) >= length else False
+
     def detect_rhyme_pairs(self, stanza_lines):
         """
         Returns a list of (index1, index2) pairs that share rhyming endings.
@@ -46,7 +52,7 @@ class RhymeHammer:
         rhyme_pairs = []
         for i in range(len(endings)):
             for j in range(i + 1, len(endings)):
-                if endings[i] and endings[i] == endings[j]:
+                if endings[i] and self.words_rhyme(endings[i], endings[j]):
                     rhyme_pairs.append((i, j))
         return rhyme_pairs
 
