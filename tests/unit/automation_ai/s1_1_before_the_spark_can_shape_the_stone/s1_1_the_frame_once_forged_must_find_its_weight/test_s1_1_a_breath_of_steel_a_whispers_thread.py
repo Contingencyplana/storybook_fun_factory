@@ -6,6 +6,9 @@ This file tests the initial whisper-thread of automation.
 It verifies the breathing, whispering, and monitoring capabilities
 of the WhispersThread class.
 """
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../../../src")))
 import pytest
 from storybook_fun_factory.automation_ai.s1_1_before_the_spark_can_shape_the_stone.s1_1_the_frame_once_forged_must_find_its_weight.s1_1_a_breath_of_steel_a_whispers_thread import WhispersThread
 
