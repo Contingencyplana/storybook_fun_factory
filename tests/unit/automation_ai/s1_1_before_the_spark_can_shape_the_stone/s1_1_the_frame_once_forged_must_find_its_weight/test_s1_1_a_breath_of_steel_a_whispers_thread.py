@@ -19,10 +19,10 @@ spec.loader.exec_module(dynamic_importer)
 
 # Use it to load the real stanza file
 WhispersThread = dynamic_importer.dynamic_import_module(
-    os.path.join("src", "storybook_fun_factory", "automation_ai",
-                 "s1_1_before_the_spark_can_shape_the_stone",
-                 "s1_1_the_frame_once_forged_must_find_its_weight",
-                 "s1_1_a_breath_of_steel_a_whispers_thread.py")
+    os.path.abspath(os.path.join("src", "storybook_fun_factory", "automation_ai",
+                                 "s1_1_before_the_spark_can_shape_the_stone",
+                                 "s1_1_the_frame_once_forged_must_find_its_weight",
+                                 "s1_1_a_breath_of_steel_a_whispers_thread.py"))
 ).WhispersThread
 
 def test_initial_state():
