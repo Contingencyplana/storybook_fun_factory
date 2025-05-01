@@ -8,11 +8,17 @@ of the WhispersThread class.
 """
 import sys
 import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../../../src")))
+import importlib.util
 import pytest
-from ..test_helpers.dynamic_importer import dynamic_import_module
 
-WhispersThread = dynamic_import_module(
+# Load dynamic_importer.py manually
+helper_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../test_helpers/dynamic_importer.py"))
+spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
+dynamic_importer = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(dynamic_importer)
+
+# Use it to load the real stanza file
+WhispersThread = dynamic_importer.dynamic_import_module(
     "storybook_fun_factory/automation_ai/s1_1_before_the_spark_can_shape_the_stone/s1_1_the_frame_once_forged_must_find_its_weight/s1_1_a_breath_of_steel_a_whispers_thread.py"
 ).WhispersThread
 
