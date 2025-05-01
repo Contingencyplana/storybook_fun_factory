@@ -11,6 +11,7 @@ The hammer falls not to break, but to shape: it strikes form into flow.
 """
 
 import re
+import pronouncing
 
 class RhymeHammer:
     """
@@ -38,11 +39,14 @@ class RhymeHammer:
                 endings.append("")
         return endings
 
-    def words_rhyme(self, w1, w2, length=3):
+    def words_rhyme(self, w1, w2):
         """
-        Determines if two words rhyme by comparing their last N letters.
+        Uses the CMU Pronouncing Dictionary to determine whether two words rhyme.
         """
-        return w1[-length:] == w2[-length:] if len(w1) >= length and len(w2) >= length else False
+        if not w1 or not w2 or w1 == w2:
+            return False
+        rhymes = pronouncing.rhymes(w1)
+        return w2 in rhymes
 
     def detect_rhyme_pairs(self, stanza_lines):
         """
