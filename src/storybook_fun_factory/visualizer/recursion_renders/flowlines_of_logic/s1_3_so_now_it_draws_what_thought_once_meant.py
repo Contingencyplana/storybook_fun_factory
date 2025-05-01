@@ -1,5 +1,6 @@
-# Filename: _1_3_so_now_it_draws_what_thought_once_meant.py
 """
+Filename: s1_3_so_now_it_draws_what_thought_once_meant.py
+
 Interprets prior logic in hindsight, rendering the visual narrative of a past recursion.
 It draws diagrams that match decisions with their unseen causes, converting abstract
 reasoning into visual memory.

@@ -1,5 +1,7 @@
 """
-Tests for _2_4_a_memory_made_from_might_have_been.py
+Filename: test_s2_4_a_memory_made_from_might_have_been.py
+
+Tests s2_4_a_memory_made_from_might_have_been.py
 
 Validates generation of counterfactual memory variants from past traces.
 """

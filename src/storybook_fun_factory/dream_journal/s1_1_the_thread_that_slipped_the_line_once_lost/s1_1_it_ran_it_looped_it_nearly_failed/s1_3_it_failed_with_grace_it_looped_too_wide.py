@@ -1,4 +1,4 @@
-# _1_3_it_failed_with_grace_it_looped_too_wide.py
+# s1_3_it_failed_with_grace_it_looped_too_wide.py
 
 """
 Recognizes non-fatal failure loops that echo outward—

@@ -1,4 +1,4 @@
-# Filename: _3_3_diagrams_fold_and_split_as_one.py
+# Filename: s3_3_diagrams_fold_and_split_as_one.py
 
 import networkx as nx
 import matplotlib.pyplot as plt

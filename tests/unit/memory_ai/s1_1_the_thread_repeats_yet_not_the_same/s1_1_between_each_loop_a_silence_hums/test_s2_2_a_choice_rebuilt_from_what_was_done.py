@@ -1,5 +1,7 @@
 """
-Tests for _2_2_a_choice_rebuilt_from_what_was_done.py
+Filename: test_s2_2_a_choice_rebuilt_from_what_was_done.py
+
+Tests s2_2_a_choice_rebuilt_from_what_was_done.py
 
 Validates reconstruction of past decision chains from stored memory traces.
 """

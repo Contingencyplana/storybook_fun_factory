@@ -1,4 +1,4 @@
-# Filename: _1_4_a_flowline_traced_through_firmament.py
+# Filename: s1_4_a_flowline_traced_through_firmament.py
 
 import matplotlib.pyplot as plt
 import networkx as nx

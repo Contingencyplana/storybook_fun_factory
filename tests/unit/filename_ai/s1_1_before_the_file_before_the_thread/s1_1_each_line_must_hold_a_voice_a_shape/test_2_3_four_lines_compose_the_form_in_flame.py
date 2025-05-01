@@ -1,8 +1,8 @@
 """
-tests/test_2_3_four_lines_compose_the_form_in_flame.py
+Filename: test_s2_3_four_lines_compose_the_form_in_flame.py
 
 Tests the enforce_stanza_consistency function from filename_ai stanza
-_2_3_four_lines_compose_the_form_in_flame.py
+_s2_3_four_lines_compose_the_form_in_flame.py
 """
 
 import sys

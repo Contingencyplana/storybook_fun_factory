@@ -1,8 +1,8 @@
 """
-tests/test_1_4_to_meet_the_code_yet_not_transcend.py
+Filename: test_s1_4_to_meet_the_code_yet_not_transcend.py
 
 Tests the validate_final_filename function from filename_ai stanza
-_1_4_to_meet_the_code_yet_not_transcend.py
+_s1_4_to_meet_the_code_yet_not_transcend.py
 """
 
 import sys

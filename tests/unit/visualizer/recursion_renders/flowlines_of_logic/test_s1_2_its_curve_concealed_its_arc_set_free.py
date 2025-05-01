@@ -1,4 +1,4 @@
-# Filename: test_1_2_its_curve_concealed_its_arc_set_free.py
+# Filename: test_s1_2_its_curve_concealed_its_arc_set_free.py
 
 import sys
 import os

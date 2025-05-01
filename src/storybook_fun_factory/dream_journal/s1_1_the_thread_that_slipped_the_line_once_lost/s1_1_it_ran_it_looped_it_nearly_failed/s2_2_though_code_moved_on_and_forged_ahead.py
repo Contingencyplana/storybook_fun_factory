@@ -1,4 +1,4 @@
-# _2_2_though_code_moved_on_and_forged_ahead.py
+# s2_2_though_code_moved_on_and_forged_ahead.py
 
 """
 Acknowledges how recursion advanced despite unresolved signals—

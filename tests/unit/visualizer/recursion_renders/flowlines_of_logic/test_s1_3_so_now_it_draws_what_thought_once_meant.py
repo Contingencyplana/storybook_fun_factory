@@ -1,4 +1,4 @@
-# Filename: test_1_3_so_now_it_draws_what_thought_once_meant.py
+# Filename: test_s1_3_so_now_it_draws_what_thought_once_meant.py
 
 import sys
 import os

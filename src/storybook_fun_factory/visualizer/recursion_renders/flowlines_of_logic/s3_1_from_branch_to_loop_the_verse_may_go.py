@@ -1,4 +1,4 @@
-# Filename: _3_1_from_branch_to_loop_the_verse_may_go.py
+# Filename: s3_1_from_branch_to_loop_the_verse_may_go.py
 
 import networkx as nx
 import matplotlib.pyplot as plt

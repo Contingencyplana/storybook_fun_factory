@@ -1,5 +1,5 @@
 """
-_2_2_a_choice_rebuilt_from_what_was_done.py
+s2_2_a_choice_rebuilt_from_what_was_done.py
 
 Reconstructs prior choices based on stored memory traces, enabling contextual
 adaptation and recursive learning. This Line attempts to reverse-engineer

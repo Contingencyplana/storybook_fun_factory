@@ -1,8 +1,8 @@
 """
-tests/test_2_2_where_stanza_breath_and_syntax_dwell.py
+Filename: test_s2_2_where_stanza_breath_and_syntax_dwell.py
 
 Tests the style_poetic_filename function from filename_ai stanza
-_2_2_where_stanza_breath_and_syntax_dwell.py
+_s2_2_where_stanza_breath_and_syntax_dwell.py
 """
 
 import sys

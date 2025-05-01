@@ -1,5 +1,7 @@
 """
-Tests for _2_3_four_files_that_loop_what_cant_be_seen.py
+Filename: test_s2_3_four_files_that_loop_what_cant_be_seen.py
+
+Tests s2_3_four_files_that_loop_what_cant_be_seen.py
 
 Validates loop detection logic by simulating trace signatures
 and identifying recurring memory event patterns.

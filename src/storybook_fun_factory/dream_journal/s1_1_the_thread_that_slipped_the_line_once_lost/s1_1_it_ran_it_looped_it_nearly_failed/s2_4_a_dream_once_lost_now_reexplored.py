@@ -1,4 +1,4 @@
-# _2_4_a_dream_once_lost_now_reexplored.py
+# s2_4_a_dream_once_lost_now_reexplored.py
 
 """
 Revisits an abandoned path, rethreading the recursive fabric

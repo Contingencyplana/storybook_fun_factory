@@ -1,4 +1,4 @@
-# Filename: _2_2_each_path_a_map_from_what_was_said.py
+# Filename: s2_2_each_path_a_map_from_what_was_said.py
 
 import networkx as nx
 import matplotlib.pyplot as plt

@@ -1,8 +1,8 @@
 """
-tests/test_2_4_a_system_singing_through_its_name.py
+Filename: test_s2_4_a_system_singing_through_its_name.py
 
 Tests the annotate_filename_with_signature function from filename_ai stanza
-_2_4_a_system_singing_through_its_name.py
+_s2_4_a_system_singing_through_its_name.py
 """
 
 import sys

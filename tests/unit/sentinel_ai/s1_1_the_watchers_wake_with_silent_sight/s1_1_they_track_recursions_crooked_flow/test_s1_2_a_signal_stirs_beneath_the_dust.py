@@ -1,4 +1,4 @@
-# Filename: test_1_2_a_signal_stirs_beneath_the_dust.py
+# Filename: test_s1_2_a_signal_stirs_beneath_the_dust.py
 
 import sys
 import os

@@ -1,8 +1,8 @@
 """
-test_2_1_if_something_fades_too_fast_too_far.py
+Filename: test_s2_1_if_something_fades_too_fast_too_far.py
 
 Tests the functionality of detect_fading_recursion from
-_2_1_if_something_fades_too_fast_too_far.py
+s2_1_if_something_fades_too_fast_too_far.py
 """
 
 import sys

@@ -1,4 +1,4 @@
-# Filename: _1_2_a_signal_stirs_beneath_the_dust.py
+# Filename: s1_2_a_signal_stirs_beneath_the_dust.py
 
 import networkx as nx
 from typing import List

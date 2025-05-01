@@ -1,5 +1,7 @@
 """
-Tests for _1_4_now_marks_the_path_the_mind_replayed.py
+Filename: test_s1_4_now_marks_the_path_the_mind_replayed.py
+
+Tests s1_4_now_marks_the_path_the_mind_replayed.py
 
 Validates memory replay behavior for previously stored recursion signatures.
 """

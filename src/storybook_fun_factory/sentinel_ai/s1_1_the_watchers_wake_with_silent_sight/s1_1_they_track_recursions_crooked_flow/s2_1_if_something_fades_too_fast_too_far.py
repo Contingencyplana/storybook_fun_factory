@@ -1,5 +1,5 @@
 """
-_2_1_if_something_fades_too_fast_too_far.py
+Filename: s2_1_if_something_fades_too_fast_too_far.py
 
 Detects when recursive cycles dissipate prematurely, signaling that vital narrative
 or logical flows are vanishing faster than sustainable stability allows.

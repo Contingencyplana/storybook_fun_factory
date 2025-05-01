@@ -1,4 +1,4 @@
-# Filename: _2_3_four_lines_compose_the_view_begun.py
+# Filename: s2_3_four_lines_compose_the_view_begun.py
 
 import networkx as nx
 import matplotlib.pyplot as plt

@@ -1,5 +1,5 @@
 """
-test_1_1_a_breath_of_steel_a_whispers_thread.py
+Filename: test_s1_1_a_breath_of_steel_a_whispers_thread.py
 (Tests for the Foundational Breath of Automation)
 
 This file tests the initial whisper-thread of automation.

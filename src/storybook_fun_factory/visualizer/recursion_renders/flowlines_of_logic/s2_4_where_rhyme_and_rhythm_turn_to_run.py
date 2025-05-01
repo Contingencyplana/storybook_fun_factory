@@ -1,4 +1,4 @@
-# Filename: _2_4_where_rhyme_and_rhythm_turn_to_run.py
+# Filename: s2_4_where_rhyme_and_rhythm_turn_to_run.py
 
 import networkx as nx
 import matplotlib.pyplot as plt

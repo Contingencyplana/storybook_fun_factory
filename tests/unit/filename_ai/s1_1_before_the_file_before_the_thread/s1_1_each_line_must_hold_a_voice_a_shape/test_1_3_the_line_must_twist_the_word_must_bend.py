@@ -1,8 +1,8 @@
 """
-tests/test_1_3_the_line_must_twist_the_word_must_bend.py
+Filename: test_s1_3_the_line_must_twist_the_word_must_bend.py
 
 Tests the reshape_poetic_line function from filename_ai stanza
-_1_3_the_line_must_twist_the_word_must_bend.py
+_s1_3_the_line_must_twist_the_word_must_bend.py
 """
 
 import sys

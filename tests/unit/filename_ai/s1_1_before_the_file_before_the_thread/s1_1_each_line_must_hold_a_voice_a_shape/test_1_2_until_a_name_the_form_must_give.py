@@ -1,8 +1,8 @@
 """
-tests/test_1_2_until_a_name_the_form_must_give.py
+Filename: test_s1_2_until_a_name_the_form_must_give.py
 
 Tests the poetic_line_to_filename function from filename_ai stanza
-_1_2_until_a_name_the_form_must_give.py
+_s1_2_until_a_name_the_form_must_give.py
 """
 
 import sys

@@ -1,5 +1,6 @@
-# Filename: _1_2_its_curve_concealed_its_arc_set_free.py
 """
+Filename: s1_2_its_curve_concealed_its_arc_set_free.py
+
 Generates the curve or trajectory of a previously unrendered recursive line.
 It maps hidden influence as animated arcs, visualizing how unseen flows were
 nonetheless released and shaped the system’s evolution.

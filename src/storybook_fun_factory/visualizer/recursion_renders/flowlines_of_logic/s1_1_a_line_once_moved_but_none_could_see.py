@@ -1,5 +1,5 @@
 """
-_1_1_a_line_once_moved_but_none_could_see.py
+Filename: s1_1_a_line_once_moved_but_none_could_see.py
 
 Captures an invisible transition—a recursive decision or logical leap made within
 the assistant or player’s process that was never visualized. It identifies the

@@ -1,4 +1,4 @@
-# Filename: test_3_2_in_choice_and_echo_the_shapes_do_show.py
+# Filename: test_s3_2_in_choice_and_echo_the_shapes_do_show.py
 
 import sys
 import os

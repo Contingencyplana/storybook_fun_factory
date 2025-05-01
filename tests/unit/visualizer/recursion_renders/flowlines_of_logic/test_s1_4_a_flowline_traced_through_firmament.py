@@ -1,4 +1,4 @@
-# Filename: test_1_4_a_flowline_traced_through_firmament.py
+# Filename: test_s1_4_a_flowline_traced_through_firmament.py
 
 import sys
 import os

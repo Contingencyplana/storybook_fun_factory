@@ -1,4 +1,4 @@
-# Filename: test_3_3_diagrams_fold_and_split_as_one.py
+# Filename: test_s3_3_diagrams_fold_and_split_as_one.py
 
 import sys
 import os

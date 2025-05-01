@@ -1,4 +1,4 @@
-# test_2_1_the_echo_stayed_within_the_thread.py
+# Filename: test_s2_1_the_echo_stayed_within_the_thread.py
 
 import pytest
 from pathlib import Path

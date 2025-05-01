@@ -1,5 +1,7 @@
 """
-Tests for _1_1_it_happened_once_but_then_again.py
+Filename: test_s1_1_it_happened_once_but_then_again.py
+
+Tests _s1_1_it_happened_once_but_then_again.py
 
 Validates the ability to detect recursive signature loops based on
 context hashing and log storage.

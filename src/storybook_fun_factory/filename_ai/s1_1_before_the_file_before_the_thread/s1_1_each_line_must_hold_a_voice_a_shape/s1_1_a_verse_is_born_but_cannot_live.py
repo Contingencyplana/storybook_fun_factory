@@ -1,5 +1,5 @@
 """
-_1_1_a_verse_is_born_but_cannot_live.py
+s1_1_a_verse_is_born_but_cannot_live.py
 
 Begins the stanza by recognizing the poetic line as a latent construct—
 existing in potential, but not executable without transformation.

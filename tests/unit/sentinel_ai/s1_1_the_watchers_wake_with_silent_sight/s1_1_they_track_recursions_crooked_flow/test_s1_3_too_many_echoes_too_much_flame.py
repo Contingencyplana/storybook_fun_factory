@@ -1,4 +1,4 @@
-# Filename: test_1_3_too_many_echoes_too_much_flame.py
+# Filename: test_s1_3_too_many_echoes_too_much_flame.py
 
 import sys
 import os

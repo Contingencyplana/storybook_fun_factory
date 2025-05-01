@@ -1,4 +1,4 @@
-# _2_3_four_lines_remain_their_truth_restored.py
+# s2_3_four_lines_remain_their_truth_restored.py
 
 """
 Recovers meaning from discarded logic—

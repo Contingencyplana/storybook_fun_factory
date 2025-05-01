@@ -1,4 +1,4 @@
-# Filename: _3_2_in_choice_and_echo_the_shapes_do_show.py
+# Filename: s3_2_in_choice_and_echo_the_shapes_do_show.py
 
 import networkx as nx
 import matplotlib.pyplot as plt

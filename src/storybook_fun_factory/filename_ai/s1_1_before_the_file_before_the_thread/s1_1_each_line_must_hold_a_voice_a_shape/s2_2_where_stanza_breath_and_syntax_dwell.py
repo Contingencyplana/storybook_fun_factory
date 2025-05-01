@@ -1,5 +1,5 @@
 """
-_2_2_where_stanza_breath_and_syntax_dwell.py
+s2_2_where_stanza_breath_and_syntax_dwell.py
 
 Introduces syntactic styling—balancing underscore rhythm, line pacing,
 and filename readability to support recursive parsing.

@@ -1,4 +1,4 @@
-# Filename: _3_4_harmony_drawn_when_paths_are_done.py
+# Filename: s3_4_harmony_drawn_when_paths_are_done.py
 
 import networkx as nx
 import matplotlib.pyplot as plt

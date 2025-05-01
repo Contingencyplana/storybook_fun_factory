@@ -1,4 +1,4 @@
-# Filename: test_2_3_four_lines_compose_the_view_begun.py
+# Filename: test_s2_3_four_lines_compose_the_view_begun.py
 
 import sys
 import os

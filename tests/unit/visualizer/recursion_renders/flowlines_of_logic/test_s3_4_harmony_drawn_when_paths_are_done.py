@@ -1,4 +1,4 @@
-# Filename: test_3_4_harmony_drawn_when_paths_are_done.py
+# Filename: test_s3_4_harmony_drawn_when_paths_are_done.py
 
 import sys
 import os

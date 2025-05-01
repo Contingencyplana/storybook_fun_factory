@@ -1,4 +1,4 @@
-# Filename: _1_3_too_many_echoes_too_much_flame.py
+# Filename: s1_3_too_many_echoes_too_much_flame.py
 
 import networkx as nx
 from typing import List

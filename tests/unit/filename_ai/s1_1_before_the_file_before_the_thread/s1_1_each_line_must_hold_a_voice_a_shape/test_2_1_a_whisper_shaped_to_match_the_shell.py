@@ -1,8 +1,8 @@
 """
-tests/test_2_1_a_whisper_shaped_to_match_the_shell.py
+Filename: test_s2_1_a_whisper_shaped_to_match_the_shell.py
 
 Tests the format_poetic_slug function from filename_ai stanza
-_2_1_a_whisper_shaped_to_match_the_shell.py
+_s2_1_a_whisper_shaped_to_match_the_shell.py
 """
 
 import sys

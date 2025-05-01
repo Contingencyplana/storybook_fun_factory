@@ -1,5 +1,7 @@
 """
-Tests for _2_1_a_breath_recalled_from_threads_once_spun.py
+Filename: test_s2_1_a_breath_recalled_from_threads_once_spun.py
+
+Tests s2_1_a_breath_recalled_from_threads_once_spun.py
 
 Validates memory trace recall functionality with selective filters
 based on component, action, and timestamp thresholds.

@@ -1,4 +1,4 @@
-# Filename: test_2_2_each_path_a_map_from_what_was_said.py
+# Filename: test_s2_2_each_path_a_map_from_what_was_said.py
 
 import sys
 import os

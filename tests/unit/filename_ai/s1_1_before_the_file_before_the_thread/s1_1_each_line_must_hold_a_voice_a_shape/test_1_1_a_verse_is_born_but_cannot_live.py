@@ -1,8 +1,8 @@
 """
-tests/test_1_1_a_verse_is_born_but_cannot_live.py
+Filename: test_s1_1_a_verse_is_born_but_cannot_live.py
 
 Tests the poetic_line_status function from filename_ai stanza
-_1_1_a_verse_is_born_but_cannot_live.py
+_s1_1_a_verse_is_born_but_cannot_live.py
 """
 
 import sys
