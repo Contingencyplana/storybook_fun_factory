@@ -24,14 +24,15 @@ class RhymeHammer:
     def extract_line_endings(self, stanza_lines):
         """
         Extracts the final word or syllable group from each line in a stanza,
-        stripping common non-alphabetic punctuation and markdown wrappers.
+        stripping markdown wrappers and punctuation for accurate rhyme detection.
         """
         endings = []
         for line in stanza_lines:
             words = line.strip().split()
             if words:
                 raw = words[-1].lower()
-                clean = re.sub(r"[^\w]+", "", raw)  # Removes *, **, ., etc.
+                stripped = raw.strip("*_~`")  # Strip markdown and emphasis markers
+                clean = re.sub(r"[^\w]+", "", stripped)  # Remove remaining punctuation
                 endings.append(clean)
             else:
                 endings.append("")
