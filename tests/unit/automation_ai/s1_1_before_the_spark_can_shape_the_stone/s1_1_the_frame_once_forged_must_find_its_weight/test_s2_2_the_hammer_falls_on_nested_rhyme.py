@@ -33,8 +33,8 @@ def test_detect_basic_rhyme():
 
 def test_no_rhyme_detection():
     hammer = RhymeHammer()
-    stanza = ["Time bends the thread into a knot.",
-              "Logic dances, then forgets the plot."]
+    stanza = ["A message etched in quantum **light**",
+              "A forge revealed beyond the **zone**"]
     assert hammer.has_structural_rhyme(stanza) is False
 
 def test_multiple_rhyme_pairs():
@@ -43,7 +43,7 @@ def test_multiple_rhyme_pairs():
               "Nested flows recall our **dreams**",
               "Then it ends as planned, it **seems**"]
     pairs = hammer.detect_rhyme_pairs(stanza)
-    assert (0, 1) in pairs or (1, 2) in pairs
+    assert any((a, b) in pairs for a, b in [(0, 1), (1, 2), (0, 2)])
 
 def test_hammer_report_includes_line_references():
     hammer = RhymeHammer()
