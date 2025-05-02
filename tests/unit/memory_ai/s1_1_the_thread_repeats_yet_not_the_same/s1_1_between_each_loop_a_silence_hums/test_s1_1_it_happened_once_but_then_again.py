@@ -10,6 +10,7 @@ context hashing and log storage.
 """
 
 import os
+import sys
 import importlib.util
 import json
 import pytest
@@ -25,6 +26,8 @@ spec.loader.exec_module(dynamic_importer)
 
 # Dynamically import the stanza module under test
 project_root = os.path.abspath(os.getcwd())
+sys.path.insert(0, os.path.abspath(os.path.join(project_root, "src")))  # Enable Poetry-style imports
+
 module = dynamic_importer.dynamic_import_module(
     os.path.join(
         project_root,
@@ -40,10 +43,9 @@ module = dynamic_importer.dynamic_import_module(
 # Access the target function
 detect_recursion_signature = module.detect_recursion_signature
 
-# Patchable constants for test redirection
 @pytest.fixture
 def temp_memory_log(tmp_path, monkeypatch):
-    """Redirect the memory log directory to a test-safe location."""
+    """Temporarily redirect memory log path to an isolated test directory."""
     test_log_dir = tmp_path / "storybook_fun_factory" / "memory_ai" / "memory_chain" / "trace_logs"
     test_log_dir.mkdir(parents=True, exist_ok=True)
     test_log_file = test_log_dir / "recursion_signatures.json"
@@ -77,8 +79,8 @@ def test_repeat_context_detected_as_recursion(temp_memory_log):
         "stanza": "test_one"
     }
 
-    # First time should store it
+    # First time: should store it
     assert detect_recursion_signature(context) is False
 
-    # Second time should detect it
+    # Second time: should detect it
     assert detect_recursion_signature(context) is True
