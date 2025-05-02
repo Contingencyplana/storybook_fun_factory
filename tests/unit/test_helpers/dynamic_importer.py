@@ -14,16 +14,17 @@ def dynamic_import_module(module_path: str):
     Returns:
         module: The imported Python module object.
     """
-    # Ensure Poetry-style 'src/' is in sys.path
+    # Resolve the full absolute path to the target module
+    if not os.path.isabs(module_path):
+        module_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", module_path))
+
+    # Ensure 'src/' is in sys.path BEFORE importing
     project_root = os.path.abspath(os.getcwd())
     src_path = os.path.join(project_root, "src")
     if src_path not in sys.path:
         sys.path.insert(0, src_path)
 
-    # Determine full path
-    if not os.path.isabs(module_path):
-        module_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", module_path))
-
+    # Load the module
     spec = importlib.util.spec_from_file_location("dynamic_module", module_path)
     dynamic_module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(dynamic_module)
