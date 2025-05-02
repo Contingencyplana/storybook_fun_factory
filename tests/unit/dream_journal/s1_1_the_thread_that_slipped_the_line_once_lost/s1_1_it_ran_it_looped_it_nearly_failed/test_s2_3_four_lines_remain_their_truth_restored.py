@@ -1,14 +1,44 @@
-# Filename: test_s2_3_four_lines_remain_their_truth_restored.py
+"""
+Filename: test_s2_3_four_lines_remain_their_truth_restored.py
+(Tests for the restoration of discarded logic fragments in dream_journal)
 
-import pytest
-from pathlib import Path
+This suite validates fragment recovery and structured JSONL logging
+from s2_3_four_lines_remain_their_truth_restored.py using dynamic import.
+"""
+
+import os
+import importlib.util
 import json
 import re
+from pathlib import Path
+import pytest
 
-from storybook_fun_factory.dream_journal._1_1_the_thread_that_slipped_the_line_once_lost._1_1_it_ran_it_looped_it_nearly_failed._2_3_four_lines_remain_their_truth_restored import (
-    restore_discarded_fragment,
-    log_restored_truth
+# Load dynamic_importer
+helper_path = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "../../../test_helpers/dynamic_importer.py")
 )
+spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
+dynamic_importer = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(dynamic_importer)
+
+# Dynamically import the stanza module under test
+project_root = os.path.abspath(os.getcwd())
+module = dynamic_importer.dynamic_import_module(
+    os.path.join(
+        project_root,
+        "src",
+        "storybook_fun_factory",
+        "dream_journal",
+        "s1_1_the_thread_that_slipped_the_line_once_lost",
+        "s1_1_it_ran_it_looped_it_nearly_failed",
+        "s2_3_four_lines_remain_their_truth_restored.py",
+    )
+)
+
+# Access the functions
+restore_discarded_fragment = module.restore_discarded_fragment
+log_restored_truth = module.log_restored_truth
+
 
 def test_restore_discarded_fragment_structure_and_hash():
     """
@@ -24,6 +54,7 @@ def test_restore_discarded_fragment_structure_and_hash():
     assert "timestamp" in result
     assert "fragment_id" in result
     assert re.fullmatch(r"[a-f0-9]{64}", result["fragment_id"])
+
 
 def test_log_restored_truth_creates_valid_json_line(tmp_path):
     """
