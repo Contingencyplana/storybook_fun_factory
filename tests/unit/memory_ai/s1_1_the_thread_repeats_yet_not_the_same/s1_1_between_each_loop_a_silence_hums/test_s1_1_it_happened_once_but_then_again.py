@@ -16,7 +16,13 @@ import json
 import pytest
 from pathlib import Path
 
-# Load dynamic_importer
+# ✅ CRITICAL: Ensure src/ is in sys.path *before* dynamic_importer or stanza are loaded
+project_root = os.path.abspath(os.getcwd())
+src_path = os.path.join(project_root, "src")
+if src_path not in sys.path:
+    sys.path.insert(0, src_path)
+
+# Load dynamic_importer after sys.path is correctly configured
 helper_path = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "../../../test_helpers/dynamic_importer.py")
 )
@@ -25,13 +31,9 @@ dynamic_importer = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(dynamic_importer)
 
 # Dynamically import the stanza module under test
-project_root = os.path.abspath(os.getcwd())
-sys.path.insert(0, os.path.abspath(os.path.join(project_root, "src")))  # Enable Poetry-style imports
-
 module = dynamic_importer.dynamic_import_module(
     os.path.join(
-        project_root,
-        "src",
+        src_path,
         "storybook_fun_factory",
         "memory_ai",
         "s1_1_the_thread_repeats_yet_not_the_same",
