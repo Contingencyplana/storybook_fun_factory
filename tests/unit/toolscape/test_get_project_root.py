@@ -1,26 +1,25 @@
 """
 Filename: test_get_project_root.py
 
-Tests the get_project_root() utility from toolscape.
+Tests the get_project_root utility function from toolscape.
+
+Ensures that it reliably locates the project root directory.
 """
 
-import sys
 import os
+import sys
 import pytest
 
-# 🔧 Ensure the src/ directory is treated as a source root
+# 🛠️ Manually inject 'src/' into sys.path
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../src"))
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-# 📦 Import the module under test
+# ✅ Now imports work as expected
 from storybook_fun_factory.toolscape.get_project_root import get_project_root
-from pathlib import Path
 
-def test_get_project_root_returns_expected_path():
-    """
-    Verifies that get_project_root() returns the correct base directory.
-    """
+
+def test_get_project_root_points_to_storybook_fun_factory_root():
     root = get_project_root()
-    assert isinstance(root, Path)
-    assert (root / "src" / "storybook_fun_factory").exists()
+    assert root.name == "storybook_fun_factory"
+    assert (root / "pyproject.toml").exists()
