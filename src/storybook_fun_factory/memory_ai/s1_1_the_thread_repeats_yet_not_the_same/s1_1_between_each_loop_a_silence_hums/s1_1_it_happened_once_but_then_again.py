@@ -11,7 +11,7 @@ from datetime import datetime
 from pathlib import Path
 import json
 
-from storybook_fun_factory.tools.dynamic_importer import get_project_root
+from storybook_fun_factory.toolscape.path_utils import get_project_root
 
 # Memory trace storage path (now dynamic and project-root safe)
 MEMORY_LOG_DIR = get_project_root() / "storybook_fun_factory" / "memory_ai" / "memory_chain" / "trace_logs"
@@ -19,10 +19,12 @@ MEMORY_LOG_FILE = MEMORY_LOG_DIR / "recursion_signatures.json"
 
 MEMORY_LOG_DIR.mkdir(parents=True, exist_ok=True)
 
+
 def hash_context(context: dict) -> str:
     """Generate a SHA-256 hash from a dictionary representing a context snapshot."""
     serialized = json.dumps(context, sort_keys=True)
     return sha256(serialized.encode()).hexdigest()
+
 
 def load_previous_hashes() -> list:
     """Load stored hashes from memory log."""
@@ -31,6 +33,7 @@ def load_previous_hashes() -> list:
             return json.load(f)
     return []
 
+
 def save_hash(hash_val: str) -> None:
     """Append a new context hash to the memory log."""
     previous = load_previous_hashes()
@@ -38,6 +41,7 @@ def save_hash(hash_val: str) -> None:
         previous.append(hash_val)
         with open(MEMORY_LOG_FILE, "w") as f:
             json.dump(previous, f, indent=2)
+
 
 def detect_recursion_signature(current_context: dict) -> bool:
     """
@@ -52,6 +56,7 @@ def detect_recursion_signature(current_context: dict) -> bool:
     else:
         save_hash(current_hash)
         return False
+
 
 def example_run() -> None:
     """Optional callable entry point for manual testing."""
