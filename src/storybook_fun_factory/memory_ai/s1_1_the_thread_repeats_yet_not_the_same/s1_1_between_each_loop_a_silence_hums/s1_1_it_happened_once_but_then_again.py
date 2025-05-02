@@ -6,10 +6,18 @@ subtly altered over time. Compares current context hashes with previously
 stored memory traces to identify meaningful recursions.
 """
 
+import sys
+import os
 from hashlib import sha256
 from datetime import datetime
 from pathlib import Path
 import json
+
+# Ensure Poetry-style import works when this file is dynamically loaded
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../../.."))
+src_path = os.path.join(project_root, "src")
+if src_path not in sys.path:
+    sys.path.insert(0, src_path)
 
 from storybook_fun_factory.tools.dynamic_importer import get_project_root
 
