@@ -1,15 +1,45 @@
-# Filename: test_s1_2_until_the_dream_recalled_the_key.py
+"""
+Filename: test_s1_2_until_the_dream_recalled_the_key.py
+(Tests for delayed symbolic recall logic in dream_journal)
 
-import pytest
+This test validates symbolic trigger recognition, recall signature hashing,
+and recursive memory resurfacing from s1_2_until_the_dream_recalled_the_key.py.
+"""
+
+import os
+import importlib.util
+import re
 from pathlib import Path
 from datetime import datetime
-import re
+import pytest
 
-from storybook_fun_factory.dream_journal._1_1_the_thread_that_slipped_the_line_once_lost._1_1_it_ran_it_looped_it_nearly_failed._1_2_until_the_dream_recalled_the_key import (
-    generate_recall_signature,
-    recall_from_vault,
-    record_recall
+# Load dynamic_importer
+helper_path = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "../../../test_helpers/dynamic_importer.py")
 )
+spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
+dynamic_importer = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(dynamic_importer)
+
+# Dynamically import the stanza module under test
+project_root = os.path.abspath(os.getcwd())
+module = dynamic_importer.dynamic_import_module(
+    os.path.join(
+        project_root,
+        "src",
+        "storybook_fun_factory",
+        "dream_journal",
+        "s1_1_the_thread_that_slipped_the_line_once_lost",
+        "s1_1_it_ran_it_looped_it_nearly_failed",
+        "s1_2_until_the_dream_recalled_the_key.py",
+    )
+)
+
+# Access the functions
+generate_recall_signature = module.generate_recall_signature
+recall_from_vault = module.recall_from_vault
+record_recall = module.record_recall
+
 
 def test_generate_recall_signature_is_deterministic_format():
     """
@@ -21,6 +51,7 @@ def test_generate_recall_signature_is_deterministic_format():
     assert len(signature) == 64
     assert re.fullmatch(r"[a-f0-9]{64}", signature)
 
+
 def test_recall_from_vault_returns_expected_memory():
     """
     Confirms that known trigger phrases return mapped memory strings.
@@ -31,6 +62,7 @@ def test_recall_from_vault_returns_expected_memory():
     assert "loop" in phrase.lower()
     assert result != "No recall triggered."
 
+
 def test_recall_from_vault_returns_no_trigger():
     """
     Ensures a non-triggering phrase returns the fallback message.
@@ -38,6 +70,7 @@ def test_recall_from_vault_returns_no_trigger():
     phrase = "This phrase holds no secrets."
     result = recall_from_vault(phrase)
     assert result == "No recall triggered."
+
 
 def test_record_recall_creates_log_entry(tmp_path):
     """
