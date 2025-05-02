@@ -3,25 +3,53 @@ Filename: test_s1_1_it_happened_once_but_then_again.py
 
 Tests s1_1_it_happened_once_but_then_again.py
 
+Uses Dynamic Import Methodology (📜 5.5: May 3, 4:05 – Canonizing the Dynamic Import Test Methodology)
+
 Validates the ability to detect recursive signature loops based on
 context hashing and log storage.
 """
 
+import os
+import importlib.util
 import json
 import pytest
 from pathlib import Path
 
-from storybook_fun_factory.memory_ai.s1_1_the_thread_repeats_yet_not_the_same.s1_1_between_each_loop_a_silence_hums import s1_1_it_happened_once_but_then_again as recursion_module
+# Load dynamic_importer
+helper_path = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "../../../test_helpers/dynamic_importer.py")
+)
+spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
+dynamic_importer = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(dynamic_importer)
 
+# Dynamically import the stanza module under test
+project_root = os.path.abspath(os.getcwd())
+module = dynamic_importer.dynamic_import_module(
+    os.path.join(
+        project_root,
+        "src",
+        "storybook_fun_factory",
+        "memory_ai",
+        "s1_1_the_thread_repeats_yet_not_the_same",
+        "s1_1_between_each_loop_a_silence_hums",
+        "s1_1_it_happened_once_but_then_again.py",
+    )
+)
+
+# Access the target function
+detect_recursion_signature = module.detect_recursion_signature
+
+# Patchable constants for test redirection
 @pytest.fixture
 def temp_memory_log(tmp_path, monkeypatch):
-    """Temporarily redirect the memory log path to an isolated test directory."""
+    """Redirect the memory log directory to a test-safe location."""
     test_log_dir = tmp_path / "storybook_fun_factory" / "memory_ai" / "memory_chain" / "trace_logs"
     test_log_dir.mkdir(parents=True, exist_ok=True)
     test_log_file = test_log_dir / "recursion_signatures.json"
 
-    monkeypatch.setattr(recursion_module, "MEMORY_LOG_DIR", test_log_dir)
-    monkeypatch.setattr(recursion_module, "MEMORY_LOG_FILE", test_log_file)
+    monkeypatch.setattr(module, "MEMORY_LOG_DIR", test_log_dir)
+    monkeypatch.setattr(module, "MEMORY_LOG_FILE", test_log_file)
 
     yield test_log_file
 
@@ -33,10 +61,9 @@ def test_new_context_detected_as_new(temp_memory_log):
         "stanza": "test_one"
     }
 
-    result = recursion_module.detect_recursion_signature(context)
+    result = detect_recursion_signature(context)
     assert result is False
 
-    # Ensure the hash was stored
     with open(temp_memory_log, "r") as f:
         stored = json.load(f)
     assert isinstance(stored, list)
@@ -50,10 +77,8 @@ def test_repeat_context_detected_as_recursion(temp_memory_log):
         "stanza": "test_one"
     }
 
-    # First time: store it
-    first = recursion_module.detect_recursion_signature(context)
-    assert first is False
+    # First time should store it
+    assert detect_recursion_signature(context) is False
 
-    # Second time: detect recursion
-    second = recursion_module.detect_recursion_signature(context)
-    assert second is True
+    # Second time should detect it
+    assert detect_recursion_signature(context) is True
