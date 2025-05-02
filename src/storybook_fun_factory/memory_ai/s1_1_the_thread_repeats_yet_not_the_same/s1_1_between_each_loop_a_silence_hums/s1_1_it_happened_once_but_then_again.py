@@ -1,5 +1,5 @@
 """
-s1_1_it_happened_once_but_then_again.py
+Filename: s1_1_it_happened_once_but_then_again.py
 
 Detects repeated recursion signatures—looped behaviors or decisions
 subtly altered over time. Compares current context hashes with previously

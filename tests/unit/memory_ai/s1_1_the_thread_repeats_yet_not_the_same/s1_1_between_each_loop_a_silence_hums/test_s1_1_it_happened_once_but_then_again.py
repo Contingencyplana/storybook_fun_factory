@@ -1,62 +1,68 @@
 """
-Filename: test_s1_1_it_happened_once_but_then_again.py
+_1_1_it_happened_once_but_then_again.py
 
-Tests _s1_1_it_happened_once_but_then_again.py
-
-Validates the ability to detect recursive signature loops based on
-context hashing and log storage.
+Detects repeated recursion signatures—looped behaviors or decisions
+subtly altered over time. Compares current context hashes with previously
+stored memory traces to identify meaningful recursions.
 """
 
-import os
-import json
-import shutil
-import pytest
+from hashlib import sha256
+from datetime import datetime
 from pathlib import Path
-from storybook_fun_factory.memory_ai._1_1_the_thread_repeats_yet_not_the_same._1_1_between_each_loop_a_silence_hums import _1_1_it_happened_once_but_then_again as recursion_module
+import json
 
-@pytest.fixture
-def temp_memory_log(tmp_path, monkeypatch):
-    """Temporarily redirect the memory log path to an isolated test directory."""
-    test_log_dir = tmp_path / "memory_ai" / "memory_chain" / "trace_logs"
-    test_log_dir.mkdir(parents=True, exist_ok=True)
-    test_log_file = test_log_dir / "recursion_signatures.json"
+from storybook_fun_factory.tools.dynamic_importer import get_project_root
 
-    monkeypatch.setattr(recursion_module, "MEMORY_LOG_DIR", test_log_dir)
-    monkeypatch.setattr(recursion_module, "MEMORY_LOG_FILE", test_log_file)
+# Memory trace storage path (now dynamic and project-root safe)
+MEMORY_LOG_DIR = get_project_root() / "storybook_fun_factory" / "memory_ai" / "memory_chain" / "trace_logs"
+MEMORY_LOG_FILE = MEMORY_LOG_DIR / "recursion_signatures.json"
 
-    yield test_log_file
+MEMORY_LOG_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Cleanup handled by tmp_path fixture
+def hash_context(context: dict) -> str:
+    """Generate a SHA-256 hash from a dictionary representing a context snapshot."""
+    serialized = json.dumps(context, sort_keys=True)
+    return sha256(serialized.encode()).hexdigest()
 
-def test_new_context_detected_as_new(temp_memory_log):
-    context = {
-        "timestamp": "2025-04-19T11:00:00",
+def load_previous_hashes() -> list:
+    """Load stored hashes from memory log."""
+    if MEMORY_LOG_FILE.exists():
+        with open(MEMORY_LOG_FILE, "r") as f:
+            return json.load(f)
+    return []
+
+def save_hash(hash_val: str) -> None:
+    """Append a new context hash to the memory log."""
+    previous = load_previous_hashes()
+    if hash_val not in previous:
+        previous.append(hash_val)
+        with open(MEMORY_LOG_FILE, "w") as f:
+            json.dump(previous, f, indent=2)
+
+def detect_recursion_signature(current_context: dict) -> bool:
+    """
+    Returns True if the current context appears to be a repetition
+    of a previously encountered recursion state.
+    """
+    current_hash = hash_context(current_context)
+    previous_hashes = load_previous_hashes()
+
+    if current_hash in previous_hashes:
+        return True  # Recursion signature detected
+    else:
+        save_hash(current_hash)
+        return False
+
+def example_run() -> None:
+    """Optional callable entry point for manual testing."""
+    example_context = {
+        "timestamp": datetime.now().isoformat(),
         "component": "memory_ai",
-        "action": "test_case",
-        "stanza": "test_one"
+        "action": "begin_layer_5_cycle",
+        "stanza": "trace_intervals_first"
     }
 
-    result = recursion_module.detect_recursion_signature(context)
-    assert result is False
-
-    # Ensure the hash was stored
-    with open(temp_memory_log, "r") as f:
-        stored = json.load(f)
-    assert isinstance(stored, list)
-    assert len(stored) == 1
-
-def test_repeat_context_detected_as_recursion(temp_memory_log):
-    context = {
-        "timestamp": "2025-04-19T11:00:00",
-        "component": "memory_ai",
-        "action": "test_case",
-        "stanza": "test_one"
-    }
-
-    # First time: store it
-    first = recursion_module.detect_recursion_signature(context)
-    assert first is False
-
-    # Second time: detect recursion
-    second = recursion_module.detect_recursion_signature(context)
-    assert second is True
+    if detect_recursion_signature(example_context):
+        print("🔁 Recursion detected: This path has looped before.")
+    else:
+        print("🆕 New path: Memory trace stored.")

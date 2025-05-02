@@ -1,5 +1,5 @@
 """
-s1_2_a_mirrored_path_a_whispered_when.py
+Filename: s1_2_a_mirrored_path_a_whispered_when.py
 
 Encodes reflective time-awareness, enabling assistant systems to track
 the “when” of remembered paths. Compares current event timestamps to

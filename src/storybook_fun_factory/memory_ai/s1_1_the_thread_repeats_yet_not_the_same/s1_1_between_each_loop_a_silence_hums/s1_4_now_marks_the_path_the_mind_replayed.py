@@ -1,5 +1,5 @@
 """
-s1_4_now_marks_the_path_the_mind_replayed.py
+Filename: s1_4_now_marks_the_path_the_mind_replayed.py
 
 Implements internal memory replay logic, allowing previous recursive
 paths to be simulated and analyzed. Provides tools to retrieve sequences
