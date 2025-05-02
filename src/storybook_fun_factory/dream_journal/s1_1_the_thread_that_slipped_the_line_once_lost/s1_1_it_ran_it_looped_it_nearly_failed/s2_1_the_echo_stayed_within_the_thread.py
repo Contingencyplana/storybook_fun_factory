@@ -1,4 +1,4 @@
-# s2_1_the_echo_stayed_within_the_thread.py
+# Filename: s2_1_the_echo_stayed_within_the_thread.py
 
 """
 Preserves dormant signals that lingered in the recursive weave—
