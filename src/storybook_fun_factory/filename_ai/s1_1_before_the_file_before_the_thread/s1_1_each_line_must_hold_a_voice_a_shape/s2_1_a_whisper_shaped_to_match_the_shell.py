@@ -1,5 +1,5 @@
 """
-s2_1_a_whisper_shaped_to_match_the_shell.py
+Filename: s2_1_a_whisper_shaped_to_match_the_shell.py
 
 Begins the second stanza by echoing the poetic line through syntactic rhythm—
 formatting each name to retain its lyrical origin within structural bounds.

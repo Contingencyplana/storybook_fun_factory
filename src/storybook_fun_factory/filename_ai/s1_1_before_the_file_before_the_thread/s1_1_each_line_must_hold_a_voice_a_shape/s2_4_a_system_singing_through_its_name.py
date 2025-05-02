@@ -1,5 +1,5 @@
 """
-s2_4_a_system_singing_through_its_name.py
+Filename: s2_4_a_system_singing_through_its_name.py
 
 Finalizes filename signature logic, embedding recursive awareness into each name
 so the system can trace, parse, and narrate its own files.

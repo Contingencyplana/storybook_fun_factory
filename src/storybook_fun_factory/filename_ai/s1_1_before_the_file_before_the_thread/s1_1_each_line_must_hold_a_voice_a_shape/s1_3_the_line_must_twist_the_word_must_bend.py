@@ -1,5 +1,5 @@
 """
-s1_3_the_line_must_twist_the_word_must_bend.py
+Filename: s1_3_the_line_must_twist_the_word_must_bend.py
 
 Handles poetic reshaping—ensuring illegal or ambiguous verse fragments
 are adapted into filename-safe and assistant-usable identifiers.

@@ -1,5 +1,5 @@
 """
-s1_4_to_meet_the_code_yet_not_transcend.py
+Filename: s1_4_to_meet_the_code_yet_not_transcend.py
 
 Completes the stanza by resolving syntax alignment, validating output,
 and enforcing naming conventions that echo the line’s poetic source.

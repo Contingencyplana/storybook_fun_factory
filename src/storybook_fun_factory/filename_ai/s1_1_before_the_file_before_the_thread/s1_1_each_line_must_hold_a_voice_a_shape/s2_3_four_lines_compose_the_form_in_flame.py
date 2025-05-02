@@ -1,5 +1,5 @@
 """
-s2_3_four_lines_compose_the_form_in_flame.py
+Filename: s2_3_four_lines_compose_the_form_in_flame.py
 
 Ensures that all stanza lines follow consistent structural encoding,
 reinforcing both assistant logic and recursive recognition.
