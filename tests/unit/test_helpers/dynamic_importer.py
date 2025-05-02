@@ -1,13 +1,15 @@
+# Filename: dynamic_importer.py
+
 import importlib.util
 import os
 import sys
 
-def dynamic_import_module(relative_module_path: str):
+def dynamic_import_module(module_path: str):
     """
-    Dynamically imports a Python module from a relative file path.
+    Dynamically imports a Python module from an absolute or relative file path.
     
     Args:
-        relative_module_path (str): Path to the module file, relative to the test file.
+        module_path (str): Absolute or relative path to the module .py file.
         
     Returns:
         module: The imported Python module object.
@@ -18,8 +20,10 @@ def dynamic_import_module(relative_module_path: str):
     if src_path not in sys.path:
         sys.path.insert(0, src_path)
 
-    # Resolve the full absolute path to the target module
-    module_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", relative_module_path))
+    # Determine full path
+    if not os.path.isabs(module_path):
+        module_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", module_path))
+
     spec = importlib.util.spec_from_file_location("dynamic_module", module_path)
     dynamic_module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(dynamic_module)
