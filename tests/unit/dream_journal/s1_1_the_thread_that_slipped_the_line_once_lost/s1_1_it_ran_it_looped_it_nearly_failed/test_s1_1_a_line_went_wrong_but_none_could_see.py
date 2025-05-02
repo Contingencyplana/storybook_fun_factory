@@ -24,6 +24,7 @@ spec.loader.exec_module(dynamic_importer)
 # Dynamically import the stanza module under test
 module = dynamic_importer.dynamic_import_module(
     os.path.join(
+        "..", "..", "..", "..", "..", "..",  # Go up from test file to project root
         "src",
         "storybook_fun_factory",
         "dream_journal",
