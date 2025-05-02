@@ -1,7 +1,7 @@
 """
-Filename: test_1_1_it_happened_once_but_then_again.py
+Filename: test_s1_1_it_happened_once_but_then_again.py
 
-Tests _1_1_it_happened_once_but_then_again.py
+Tests s1_1_it_happened_once_but_then_again.py
 
 Validates the ability to detect recursive signature loops based on
 context hashing and log storage.
@@ -11,7 +11,7 @@ import json
 import pytest
 from pathlib import Path
 
-from storybook_fun_factory.memory_ai._1_1_the_thread_repeats_yet_not_the_same._1_1_between_each_loop_a_silence_hums import _1_1_it_happened_once_but_then_again as recursion_module
+from storybook_fun_factory.memory_ai.s1_1_the_thread_repeats_yet_not_the_same.s1_1_between_each_loop_a_silence_hums import s1_1_it_happened_once_but_then_again as recursion_module
 
 @pytest.fixture
 def temp_memory_log(tmp_path, monkeypatch):

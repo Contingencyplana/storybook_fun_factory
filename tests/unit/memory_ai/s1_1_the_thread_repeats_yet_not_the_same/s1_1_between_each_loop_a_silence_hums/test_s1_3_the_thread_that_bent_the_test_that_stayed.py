@@ -1,7 +1,7 @@
 """
 Filename: test_s1_3_the_thread_that_bent_the_test_that_stayed.py
 
-Tests _s1_3_the_thread_that_bent_the_test_that_stayed.py
+Tests s1_3_the_thread_that_bent_the_test_that_stayed.py
 
 Verifies detection and storage of branching points in recursive memory.
 """

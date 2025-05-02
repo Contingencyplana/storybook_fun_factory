@@ -1,7 +1,7 @@
 """
 Filename: test_s1_2_a_mirrored_path_a_whispered_when.py
 
-Tests _s1_2_a_mirrored_path_a_whispered_when.py
+Tests s1_2_a_mirrored_path_a_whispered_when.py
 
 Validates timestamp logging, retrieval, and time delta calculation
 for temporal recursion-aware memory traces.
