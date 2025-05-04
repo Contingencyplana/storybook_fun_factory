@@ -1,5 +1,5 @@
 """
-get_project_root.py
+Filename: get_project_root.py
 
 Provides a utility function to determine the root directory of the project.
 Useful for dynamically resolving paths across recursive stanza files.
