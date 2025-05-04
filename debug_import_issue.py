@@ -2,16 +2,21 @@ import os
 import sys
 from pathlib import Path
 
+project_root = os.path.abspath(os.getcwd())
+src_path = os.path.join(project_root, "src")
+
+# ✅ Inject src/ into sys.path manually
+if src_path not in sys.path:
+    sys.path.insert(0, src_path)
+
 print("🧠 Current Working Directory:", os.getcwd())
 print("📁 __file__:", __file__)
 print("🧭 sys.path:")
 for p in sys.path:
     print("  •", p)
 
-src_path = os.path.join(os.getcwd(), "src")
 print("\n🔍 Expected module path:", os.path.join(src_path, "storybook_fun_factory", "toolscape", "path_utils.py"))
 
-# Try the import manually
 try:
     from storybook_fun_factory.toolscape.path_utils import get_project_root
     print("\n✅ SUCCESS: Imported get_project_root!")
