@@ -52,8 +52,8 @@ def temp_memory_log(tmp_path, monkeypatch):
     test_log_dir.mkdir(parents=True, exist_ok=True)
     test_log_file = test_log_dir / "recursion_signatures.json"
 
-    monkeypatch.setattr(module, "MEMORY_LOG_DIR", test_log_dir)
-    monkeypatch.setattr(module, "MEMORY_LOG_FILE", test_log_file)
+    monkeypatch.setattr(module, "get_memory_log_file", lambda: test_log_file)
+    monkeypatch.setattr(module, "get_memory_log_dir", lambda: test_log_dir)
 
     yield test_log_file
 

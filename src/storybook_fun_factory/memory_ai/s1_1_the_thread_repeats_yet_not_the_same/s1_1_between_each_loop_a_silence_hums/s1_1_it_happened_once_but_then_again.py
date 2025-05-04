@@ -13,11 +13,15 @@ import json
 
 from storybook_fun_factory.toolscape.path_utils import get_project_root
 
-# Memory trace storage path (now dynamic and project-root safe)
-MEMORY_LOG_DIR = get_project_root() / "storybook_fun_factory" / "memory_ai" / "memory_chain" / "trace_logs"
-MEMORY_LOG_FILE = MEMORY_LOG_DIR / "recursion_signatures.json"
 
-MEMORY_LOG_DIR.mkdir(parents=True, exist_ok=True)
+def get_memory_log_dir() -> Path:
+    """Returns the path to the memory log directory."""
+    return get_project_root() / "storybook_fun_factory" / "memory_ai" / "memory_chain" / "trace_logs"
+
+
+def get_memory_log_file() -> Path:
+    """Returns the full path to the memory log file."""
+    return get_memory_log_dir() / "recursion_signatures.json"
 
 
 def hash_context(context: dict) -> str:
@@ -28,8 +32,9 @@ def hash_context(context: dict) -> str:
 
 def load_previous_hashes() -> list:
     """Load stored hashes from memory log."""
-    if MEMORY_LOG_FILE.exists():
-        with open(MEMORY_LOG_FILE, "r") as f:
+    log_file = get_memory_log_file()
+    if log_file.exists():
+        with open(log_file, "r") as f:
             return json.load(f)
     return []
 
@@ -39,7 +44,9 @@ def save_hash(hash_val: str) -> None:
     previous = load_previous_hashes()
     if hash_val not in previous:
         previous.append(hash_val)
-        with open(MEMORY_LOG_FILE, "w") as f:
+        log_file = get_memory_log_file()
+        log_file.parent.mkdir(parents=True, exist_ok=True)
+        with open(log_file, "w") as f:
             json.dump(previous, f, indent=2)
 
 
