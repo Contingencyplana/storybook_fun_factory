@@ -3,22 +3,21 @@ Filename: test_get_project_root.py
 
 Tests the get_project_root utility function from toolscape.
 
-Uses Dynamic Import Methodology (📜 5.5: May 3, 4:05 – Canonizing the Dynamic Import Test Methodology)
+Follows the Dynamic Import Methodology (📜 5.5) for compatibility with recursive test structure.
 """
 
 import os
 import sys
 import importlib.util
 import pytest
-from pathlib import Path
 
-# ✅ Ensure src/ is in sys.path before anything else
-project_root = os.path.abspath(os.getcwd())
+# ✅ Inject src/ into sys.path before loading anything
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../.."))
 src_path = os.path.join(project_root, "src")
 if src_path not in sys.path:
     sys.path.insert(0, src_path)
 
-# ✅ Load the dynamic_importer helper
+# ✅ Dynamic importer from the correct helper path
 helper_path = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "../../test_helpers/dynamic_importer.py")
 )
@@ -26,17 +25,12 @@ spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
 dynamic_importer = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(dynamic_importer)
 
-# ✅ Dynamically load the module to test
+# ✅ Load the target module dynamically
 module = dynamic_importer.dynamic_import_module(
-    os.path.join(
-        src_path,
-        "storybook_fun_factory",
-        "toolscape",
-        "get_project_root.py",
-    )
+    os.path.join(src_path, "storybook_fun_factory", "toolscape", "get_project_root.py")
 )
 
-# ✅ Access the function from the dynamically imported module
+# ✅ Access the function to test
 get_project_root = module.get_project_root
 
 def test_get_project_root_points_to_storybook_fun_factory_root():
