@@ -16,15 +16,20 @@ import json
 import pytest
 from pathlib import Path
 
+# ✅ Force working directory to project root by walking up to find pyproject.toml
+project_root = os.path.abspath(os.path.dirname(__file__))
+while not os.path.exists(os.path.join(project_root, "pyproject.toml")):
+    project_root = os.path.dirname(project_root)
+os.chdir(project_root)
+
 # ✅ CRITICAL: Ensure src/ is in sys.path *before* dynamic_importer or stanza are loaded
-project_root = os.path.abspath(os.getcwd())
 src_path = os.path.join(project_root, "src")
-os.environ["PYTHONPATH"] = src_path  # ✅ Add this line
+os.environ["PYTHONPATH"] = src_path
 
 if src_path not in sys.path:
     sys.path.insert(0, src_path)
 
-# Load dynamic_importer after sys.path is correctly configured
+# ✅ Load dynamic_importer after sys.path is correctly configured
 helper_path = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "../../../test_helpers/dynamic_importer.py")
 )
@@ -32,7 +37,7 @@ spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
 dynamic_importer = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(dynamic_importer)
 
-# Dynamically import the stanza module under test
+# ✅ Dynamically import the stanza module under test
 module = dynamic_importer.dynamic_import_module(
     os.path.join(
         src_path,
@@ -44,7 +49,7 @@ module = dynamic_importer.dynamic_import_module(
     )
 )
 
-# Access the target function
+# ✅ Access the target function
 detect_recursion_signature = module.detect_recursion_signature
 
 @pytest.fixture
