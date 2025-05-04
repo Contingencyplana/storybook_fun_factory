@@ -10,8 +10,7 @@ from hashlib import sha256
 from datetime import datetime
 from pathlib import Path
 import json
-from storybook_fun_factory.toolscape.path_utils import get_project_root  # ✅ FIXED IMPORT
-
+from storybook_fun_factory.toolscape.path_utils import get_project_root # ✅ FIXED IMPORT
 
 def get_memory_log_dir() -> Path:
     """Returns the path to the memory log directory."""

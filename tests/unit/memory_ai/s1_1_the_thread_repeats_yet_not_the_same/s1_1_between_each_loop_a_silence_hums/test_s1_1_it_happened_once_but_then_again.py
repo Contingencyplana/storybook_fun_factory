@@ -36,10 +36,10 @@ spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
 dynamic_importer = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(dynamic_importer)
 
-# ✅ Import stanza module under test
+# ✅ Import stanza module under test — RELATIVE to project root (matches PYTHONPATH)
 module = dynamic_importer.dynamic_import_module(
     os.path.join(
-        src_path,
+        "src",
         "storybook_fun_factory",
         "memory_ai",
         "s1_1_the_thread_repeats_yet_not_the_same",
