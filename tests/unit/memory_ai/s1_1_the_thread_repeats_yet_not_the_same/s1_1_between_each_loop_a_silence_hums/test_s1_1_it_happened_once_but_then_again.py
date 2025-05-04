@@ -19,6 +19,8 @@ from pathlib import Path
 # ✅ CRITICAL: Ensure src/ is in sys.path *before* dynamic_importer or stanza are loaded
 project_root = os.path.abspath(os.getcwd())
 src_path = os.path.join(project_root, "src")
+os.environ["PYTHONPATH"] = src_path  # ✅ Add this line
+
 if src_path not in sys.path:
     sys.path.insert(0, src_path)
 
