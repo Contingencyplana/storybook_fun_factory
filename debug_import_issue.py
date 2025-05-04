@@ -1,3 +1,5 @@
+# Filename: debug_import_issue.py
+
 import os
 import sys
 from pathlib import Path
@@ -18,7 +20,7 @@ for p in sys.path:
 print("\n🔍 Expected module path:", os.path.join(src_path, "storybook_fun_factory", "toolscape", "path_utils.py"))
 
 try:
-    from storybook_fun_factory.toolscape.path_utils import get_project_root
+    from storybook_fun_factory.toolscape.get_project_root import get_project_root
     print("\n✅ SUCCESS: Imported get_project_root!")
 except ModuleNotFoundError as e:
     print("\n❌ ERROR: Could not import get_project_root")
