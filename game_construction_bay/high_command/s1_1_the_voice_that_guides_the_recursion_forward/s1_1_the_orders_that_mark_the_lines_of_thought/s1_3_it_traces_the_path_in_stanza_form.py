@@ -34,3 +34,4 @@ def trace_stanza_progress(component: str, stanza: str, line: str, timestamp: str
 
     entry = {
         "timestamp": timestamp
+    }
