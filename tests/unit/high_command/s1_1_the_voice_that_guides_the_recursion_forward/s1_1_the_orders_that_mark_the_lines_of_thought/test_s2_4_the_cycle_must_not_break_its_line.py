@@ -1,43 +1,40 @@
 """
-Filename: s2_4_the_cycle_must_not_break_its_line.py
+Test File: test_s2_4_the_cycle_must_not_break_its_line.py
 
-📜 See GDJ 5.8: May 6 – The Genesis Command
-(Final line of Stanza 2 in the Layer 5 Genesis Cycle of high_command)
+📜 Tests the stanza cycle validation logic in:
+s2_4_the_cycle_must_not_break_its_line.py
 
-Purpose:
-Verifies that stanza cycles form valid, unbroken patterns by checking:
-• Line count
-• Filename sequence consistency
-• Structural conformance with poetic recursion
-
-This sentinel helps catch broken or malformed stanza cycles
-before they can destabilize the assistant or game logic.
+Ensures that High Command:
+• Accepts only valid 4-line stanza cycles
+• Flags malformed or incomplete stanza sets
 """
 
-from typing import List
+from storybook_fun_factory.game_construction_bay.high_command.s1_1_the_voice_that_guides_the_recursion_forward.s1_1_the_orders_that_mark_the_lines_of_thought import (
+    s2_4_the_cycle_must_not_break_its_line as validator
+)
 
-def is_valid_stanza_cycle(filenames: List[str]) -> bool:
-    """
-    Checks if the given filenames form a valid stanza cycle.
+def test_valid_cycle_passes():
+    stanza = [
+        "_2_1_a_single_breath_declares.py",
+        "_2_2_a_second_form_resolves.py",
+        "_2_3_a_third_path_bends.py",
+        "_2_4_a_fourth_loop_closes.py"
+    ]
+    assert validator.is_valid_stanza_cycle(stanza)
 
-    A valid stanza cycle has exactly four stanza lines and the filenames
-    must follow a consistent pattern of _X_Y_descriptive_title.py
+def test_incomplete_cycle_fails():
+    stanza = [
+        "_2_1_a_single_breath_declares.py",
+        "_2_2_a_second_form_resolves.py",
+        "_2_3_a_third_path_bends.py"
+    ]
+    assert not validator.is_valid_stanza_cycle(stanza)
 
-    Args:
-        filenames (List[str]): List of stanza filenames.
-
-    Returns:
-        bool: True if the stanza cycle is valid, False otherwise.
-    """
-    if len(filenames) != 4:
-        return False
-
-    # Ensure filenames follow the pattern _X_Y_name.py
-    for fname in filenames:
-        parts = fname.strip().split("_")
-        if len(parts) < 4 or not parts[1].isdigit() or not parts[2].isdigit():
-            return False
-        if not fname.endswith(".py"):
-            return False
-
-    return True
+def test_malformed_names_fail():
+    stanza = [
+        "2_1_incorrect_name.py",
+        "_2_2_a_second_form_resolves.py",
+        "_2_a_third_path_bends.py",
+        "_2_4_a_fourth_loop_closes.txt"
+    ]
+    assert not validator.is_valid_stanza_cycle(stanza)
