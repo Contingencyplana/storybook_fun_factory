@@ -14,9 +14,9 @@ import pytest
 from pathlib import Path
 
 
-# ✅ Load dynamic_importer.py
+# ✅ Load dynamic_importer.py from the correct relative path
 helper_path = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "../../test_helpers/dynamic_importer.py")
+    os.path.join(os.path.dirname(__file__), "../../../../../test_helpers/dynamic_importer.py")
 )
 spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
 dynamic_importer = importlib.util.module_from_spec(spec)
@@ -51,7 +51,7 @@ def test_canon_memory_queries(sample_gdj_index):
     module_path = os.path.abspath(
         os.path.join(
             os.path.dirname(__file__),
-            "../../../src/storybook_fun_factory/high_command/s1_1_the_voice_that_guides_the_recursion_forward/s1_3_the_registry_that_remembers_the_canon/s3_1_it_knows_what_has_been_canonized.py"
+            "../../../../../src/storybook_fun_factory/high_command/s1_1_the_voice_that_guides_the_recursion_forward/s1_3_the_registry_that_remembers_the_canon/s3_1_it_knows_what_has_been_canonized.py"
         )
     )
     module = dynamic_importer.dynamic_import_module(module_path)
