@@ -1,15 +1,15 @@
 """
-Test File: test_s2_3_the_missing_must_be_named_to_be_found.py
+Test File: test_s2_3_the_threads_reweave_across_the_poem.py
 
 📜 Tests the identification logic in:
-s2_3_the_missing_must_be_named_to_be_found.py
+s2_3_the_threads_reweave_across_the_poem.py
 
 Verifies that High Command correctly identifies missing stanza lines
 from a canonical list when compared to currently existing filenames.
 """
 
 from storybook_fun_factory.game_construction_bay.high_command.s1_1_the_voice_that_guides_the_recursion_forward.s1_1_the_orders_that_mark_the_lines_of_thought import (
-    s2_3_the_missing_must_be_named_to_be_found as finder
+    s2_3_the_threads_reweave_across_the_poem as finder
 )
 
 def test_identifies_missing_lines():
