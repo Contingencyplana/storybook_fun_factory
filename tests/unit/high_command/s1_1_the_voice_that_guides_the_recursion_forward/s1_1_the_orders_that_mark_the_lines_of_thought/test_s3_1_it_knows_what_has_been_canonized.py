@@ -47,11 +47,11 @@ def sample_gdj_index(tmp_path):
 
 
 def test_canon_memory_queries(sample_gdj_index):
-    # Dynamically import the module
+    # ✅ Corrected module path: now points to s1_1_the_orders_that_mark_the_lines_of_thought/
     module_path = os.path.abspath(
         os.path.join(
             os.path.dirname(__file__),
-            "../../../../../game_construction_bay/high_command/s1_1_the_voice_that_guides_the_recursion_forward/s1_3_the_registry_that_remembers_the_canon/s3_1_it_knows_what_has_been_canonized.py"
+            "../../../../../game_construction_bay/high_command/s1_1_the_voice_that_guides_the_recursion_forward/s1_1_the_orders_that_mark_the_lines_of_thought/s3_1_it_knows_what_has_been_canonized.py"
         )
     )
     module = dynamic_importer.dynamic_import_module(module_path)
