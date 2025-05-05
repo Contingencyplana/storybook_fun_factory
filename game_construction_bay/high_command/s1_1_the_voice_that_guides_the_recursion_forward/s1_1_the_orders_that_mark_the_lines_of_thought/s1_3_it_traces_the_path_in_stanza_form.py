@@ -14,7 +14,7 @@ and prepare assistant-guided diagnostics or dashboard summaries.
 
 from pathlib import Path
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 
 # 🔖 Location for active path log
 STANZA_TRACE_PATH = Path(__file__).parent / "stanza_path_log.json"
@@ -30,7 +30,7 @@ def trace_stanza_progress(component: str, stanza: str, line: str, timestamp: str
         timestamp (str, optional): Override timestamp. If None, auto-generated.
     """
     if not timestamp:
-        timestamp = datetime.utcnow().isoformat()
+        timestamp = datetime.now(timezone.utc).isoformat()
 
     entry = {
         "timestamp": timestamp,
