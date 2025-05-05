@@ -49,8 +49,7 @@ def suggest_next_target():
 
 def _suggest_next_by_filename(current_filename: str):
     """
-    Very naive filename-based suggestion.
-    Assumes standard format like: _2_3_filename.py → _2_4_...
+    Suggests the next filename in poetic stanza sequence by incrementing the line number.
 
     Args:
         current_filename (str): The currently active file.
@@ -59,13 +58,15 @@ def _suggest_next_by_filename(current_filename: str):
         str: The guessed next file name.
     """
     parts = current_filename.split("_")
-    if len(parts) < 3:
+    if len(parts) < 4:
         return "unknown_filename_format.py"
 
     try:
-        stanza_num = int(parts[1])
-        next_stanza_num = stanza_num + 1
-        new_parts = parts[:1] + [str(next_stanza_num)] + parts[2:]
+        # Keep stanza reference (e.g., '1') and increment only the stanza LINE (third part)
+        stanza_num = parts[1]
+        line_num = int(parts[2])
+        next_line_num = line_num + 1
+        new_parts = parts[:2] + [str(next_line_num)] + parts[3:]
         return "_".join(new_parts)
     except ValueError:
         return "unparseable_filename_increment.py"
