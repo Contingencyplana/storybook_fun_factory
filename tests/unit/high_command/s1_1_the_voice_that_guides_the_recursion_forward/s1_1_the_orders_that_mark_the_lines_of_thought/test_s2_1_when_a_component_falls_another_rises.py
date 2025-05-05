@@ -45,4 +45,22 @@ def test_no_data_when_files_missing(temp_state):
 
 def test_pivot_when_timeout_exceeded(temp_state):
     """
-    Simulates a trace log with a very old
+    Simulates a trace log with a very old timestamp → should trigger pivot.
+    """
+    front_path, trace_path = temp_state
+
+    old_time = (datetime.now(UTC) - timedelta(hours=3)).isoformat()
+    sample_trace = [{
+        "timestamp": old_time,
+        "component": "dream_journal",
+        "stanza": "s1_2_dream_in_reflected_form",
+        "line": "_1_2_visions_of_the_past.py"
+    }]
+
+    with trace_path.open("w", encoding="utf-8") as f:
+        json.dump(sample_trace, f, indent=2)
+
+    result = pivot.detect_and_pivot_if_stalled(timeout_seconds=3600)
+    assert result["status"] == "pivot"
+    assert result["previous_component"] == "dream_journal"
+    assert result["suggested_component"] != "dream_journal"
