@@ -33,5 +33,57 @@ def trace_stanza_progress(component: str, stanza: str, line: str, timestamp: str
         timestamp = datetime.utcnow().isoformat()
 
     entry = {
-        "timestamp": timestamp
+        "timestamp": timestamp,
+        "component": component,
+        "stanza": stanza,
+        "line": line
     }
+
+    log = []
+    if STANZA_TRACE_PATH.exists():
+        with STANZA_TRACE_PATH.open("r", encoding="utf-8") as f:
+            log = json.load(f)
+
+    log.append(entry)
+
+    with STANZA_TRACE_PATH.open("w", encoding="utf-8") as f:
+        json.dump(log, f, indent=2)
+
+def get_recent_traces(limit: int = 5):
+    """
+    Returns the most recent stanza trace entries.
+
+    Args:
+        limit (int): Number of most recent entries to return.
+
+    Returns:
+        list: A list of stanza progression entries.
+    """
+    if not STANZA_TRACE_PATH.exists():
+        return []
+
+    with STANZA_TRACE_PATH.open("r", encoding="utf-8") as f:
+        log = json.load(f)
+
+    return log[-limit:]
+
+def print_recent_traces(limit: int = 5):
+    """
+    Prints recent stanza traversal log in human-readable form.
+
+    Args:
+        limit (int): Number of recent entries to print.
+    """
+    traces = get_recent_traces(limit=limit)
+    if not traces:
+        print("🔕 No stanza progress has been logged yet.")
+        return
+
+    print("🧶 Recent Stanza Progress (up to latest {} entries)".format(limit))
+    print("──────────────────────────────────────────────")
+    for entry in traces:
+        print(f"⏱ {entry['timestamp']} — 📂 {entry['component']} / {entry['stanza']} / {entry['line']}")
+
+# Optional CLI usage
+if __name__ == "__main__":
+    print_recent_traces()
