@@ -6,7 +6,6 @@ s1_2_it_recites_the_focus_in_shifted_light.py
 
 Ensures the active recursive focus is summarized clearly and accurately.
 """
-
 import json
 import shutil
 import tempfile
@@ -30,6 +29,12 @@ def temp_active_front(monkeypatch):
     yield fake_path
     shutil.rmtree(temp_dir)
 
-def test_recite_focus_summary_content(temp_active_front, capsys):
+def test_recite_focus_when_missing(temp_active_front, capsys):
     """
-    Validates that the summary includes all
+    Validates fallback output when no active front is set.
+    """
+    result = reciter.recite_active_focus(verbose=True)
+    captured = capsys.readouterr().out
+
+    assert result.startswith("🔕")
+    assert "No active recursive front" in captured
