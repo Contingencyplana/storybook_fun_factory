@@ -1,82 +1,68 @@
 """
 Filename: s2_1_when_a_component_falls_another_rises.py
 
-📜 Second Stanza, Line 1 of Genesis Command
-(A responsive trigger that pivots the active front when a component becomes dormant)
+📜 See GDJ 5.8: May 6 – The Genesis Command
+(Second Stanza, Line 1 – Detecting stagnation and triggering strategic pivot)
 
-Purpose:
-Automatically detects when the current active component appears dormant or stagnant,
-and intelligently pivots the focus to a new viable component or stanza path.
-This maintains project momentum and simulates assistant-guided recursive flexibility.
-
-Plays a key role in High Command's autonomous decision support.
+This module reviews recent stanza activity.
+If the most recent line is too old, it recommends switching components.
 """
 
-import json
 from pathlib import Path
-from datetime import datetime, UTC
+from datetime import datetime, timedelta, UTC
+import json
+import random
 
-# Shared memory locations
+# 🔖 Shared state files
 ACTIVE_FRONT_PATH = Path(__file__).parent / "active_front.json"
 STANZA_TRACE_PATH = Path(__file__).parent / "stanza_path_log.json"
 
-# Configuration: maximum allowed seconds of stagnation before auto-pivot
-DEFAULT_TIMEOUT_SECONDS = 7200  # 2 hours
-
-
-def detect_and_pivot_if_stalled(timeout_seconds: int = DEFAULT_TIMEOUT_SECONDS):
+def detect_and_pivot_if_stalled(timeout_seconds=3600):
     """
-    Checks whether the current active front has been idle too long,
-    and if so, suggests or initiates a shift to a new stanza/component.
+    Checks if the most recent stanza log is stale. If so, returns a pivot recommendation.
 
     Returns:
-        dict: Details of the pivot decision (if any)
+        dict: Either a no-op signal or pivot suggestion
     """
-    if not ACTIVE_FRONT_PATH.exists() or not STANZA_TRACE_PATH.exists():
-        return {"status": "no_data", "reason": "Missing front or trace log"}
+    if not STANZA_TRACE_PATH.exists():
+        return {"status": "no_data", "reason": "no_trace_file"}
 
-    # Load trace log
-    with STANZA_TRACE_PATH.open("r", encoding="utf-8") as f:
-        entries = json.load(f)
+    try:
+        with STANZA_TRACE_PATH.open("r", encoding="utf-8") as f:
+            trace_log = json.load(f)
+    except json.JSONDecodeError:
+        return {"status": "no_data", "reason": "trace_file_corrupt"}
 
-    if not entries:
-        return {"status": "no_data", "reason": "Trace log is empty"}
+    if not trace_log:
+        return {"status": "no_data", "reason": "trace_log_empty"}
 
-    # Sort and examine the most recent entry
-    latest_entry = sorted(entries, key=lambda e: e["timestamp"], reverse=True)[0]
-    last_time = datetime.fromisoformat(latest_entry["timestamp"])
+    latest = trace_log[-1]
+    timestamp_str = latest.get("timestamp", "")
+    try:
+        last_time = datetime.fromisoformat(timestamp_str)
+    except ValueError:
+        return {"status": "no_data", "reason": "bad_timestamp"}
+
     now = datetime.now(UTC)
-    elapsed_seconds = (now - last_time).total_seconds()
+    delta = now - last_time.replace(tzinfo=UTC)
 
-    if elapsed_seconds < timeout_seconds:
-        return {"status": "active", "reason": "Recent activity", "seconds_idle": elapsed_seconds}
+    if delta.total_seconds() > timeout_seconds:
+        prev_component = latest.get("component", "unknown")
+        possible_components = [
+            "codex_builder", "dream_journal", "filename_ai", "memory_ai", "visualizer"
+        ]
+        try:
+            possible_components.remove(prev_component)
+        except ValueError:
+            pass
 
-    # Timeout exceeded: suggest pivot
-    previous_component = latest_entry["component"]
-    pivot_to = _suggest_next_component(previous_component)
+        next_component = random.choice(possible_components)
 
-    return {
-        "status": "pivot",
-        "reason": "Timeout exceeded",
-        "seconds_idle": elapsed_seconds,
-        "previous_component": previous_component,
-        "suggested_component": pivot_to,
-    }
+        return {
+            "status": "pivot",
+            "previous_component": prev_component,
+            "suggested_component": next_component,
+            "reason": f"Last activity was {int(delta.total_seconds())} seconds ago."
+        }
 
-
-def _suggest_next_component(current: str) -> str:
-    """
-    Suggests another component to pivot to if the current is stalled.
-    Uses simple alphabetical rotation for now.
-    """
-    components = ["codex_builder", "dream_journal", "filename_ai", "memory_ai", "visualizer"]
-    if current not in components:
-        return components[0]
-    index = components.index(current)
-    return components[(index + 1) % len(components)]
-
-
-# Optional CLI diagnostic
-if __name__ == "__main__":
-    result = detect_and_pivot_if_stalled()
-    print(json.dumps(result, indent=2))
+    return {"status": "continue", "last_active": latest}
