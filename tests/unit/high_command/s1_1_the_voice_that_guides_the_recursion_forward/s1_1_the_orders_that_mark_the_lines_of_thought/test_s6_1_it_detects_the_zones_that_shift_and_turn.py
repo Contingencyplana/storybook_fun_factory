@@ -4,6 +4,7 @@ Tests the logic of s6_1_it_detects_the_zones_that_shift_and_turn.py
 Ensures recent activity detection and directory scanning functions work as intended.
 """
 
+import os
 import tempfile
 import time
 from pathlib import Path
