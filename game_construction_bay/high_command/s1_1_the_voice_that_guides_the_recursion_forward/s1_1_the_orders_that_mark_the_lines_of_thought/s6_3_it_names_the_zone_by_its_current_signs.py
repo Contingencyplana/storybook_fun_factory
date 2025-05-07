@@ -13,30 +13,29 @@ from typing import Dict, List
 
 def classify_zone(file_list: List[str]) -> str:
     """
-    Heuristically determines the 'type' of a zone based on the filenames present.
-    Possible types:
-    - creative: Presence of .md or content files
-    - testing: Presence of test_*.py
-    - failing: Presence of failure markers (e.g., failed_test.log)
-    - stalled: Only old files or no meaningful activity
-    - mixed: More than one clear type
+    Assigns a type to the zone based on its files, prioritizing:
+    1. failing > 2. testing > 3. creative > 4. stalled
     """
-    types_detected = set()
+    has_failing = False
+    has_testing = False
+    has_creative = False
 
     for filename in file_list:
+        if "fail" in filename or filename.endswith(".log"):
+            has_failing = True
+        if re.match(r"test_.*\.py", filename):
+            has_testing = True
         if filename.endswith(".md") or filename.endswith(".txt"):
-            types_detected.add("creative")
-        elif re.match(r"test_.*\.py", filename):
-            types_detected.add("testing")
-        elif "fail" in filename or filename.endswith(".log"):
-            types_detected.add("failing")
+            has_creative = True
 
-    if not types_detected:
-        return "stalled"
-    elif len(types_detected) == 1:
-        return types_detected.pop()
+    if has_failing:
+        return "failing"
+    elif has_testing:
+        return "testing"
+    elif has_creative:
+        return "creative"
     else:
-        return "mixed"
+        return "stalled"
 
 
 def assign_zone_types(zone_file_map: Dict[str, List[str]]) -> Dict[str, str]:
