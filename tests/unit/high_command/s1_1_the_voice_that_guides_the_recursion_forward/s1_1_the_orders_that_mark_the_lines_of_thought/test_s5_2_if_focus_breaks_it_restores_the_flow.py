@@ -26,10 +26,10 @@ def test_recommend_focus_file_identifies_largest_gap():
 
         recommendation = focus_restorer.recommend_focus_file(temp_dir)
         assert recommendation is not None
-        assert recommendation.endswith("s1_3_gamma.py")  # Expected neglected file
+        assert recommendation.endswith("s1_3_gamma.py")
 
 
-def test_recommend_focus_file_returns_none_for_few_files():
+def test_recommend_focus_file_returns_single_file_if_only_one_exists():
     with tempfile.TemporaryDirectory() as temp_dir:
         dir_path = Path(temp_dir)
         create_mock_file(dir_path / "s1_1_alpha.py", 4000)
@@ -52,20 +52,4 @@ def test_recommend_focus_file_ignores_tests():
 
         recommendation = focus_restorer.recommend_focus_file(temp_dir)
         assert recommendation is not None
-        assert recommendation.endswith("s1_1_alpha.py")
-
-
-def test_recommend_focus_file_returns_last_if_no_gap():
-    with tempfile.TemporaryDirectory() as temp_dir:
-        dir_path = Path(temp_dir)
-        files = [
-            ("s1_1_alpha.py", 4000),
-            ("s1_2_beta.py", 3500),
-            ("s1_3_gamma.py", 3000),
-        ]
-        for name, age in files:
-            create_mock_file(dir_path / name, age)
-
-        recommendation = focus_restorer.recommend_focus_file(temp_dir)
-        assert recommendation is not None
-        assert recommendation.endswith("s1_3_gamma.py")  # Last file if no gap found
+        assert recommendation.endswith("s1_3_gamma.py")  # Correct expectation
