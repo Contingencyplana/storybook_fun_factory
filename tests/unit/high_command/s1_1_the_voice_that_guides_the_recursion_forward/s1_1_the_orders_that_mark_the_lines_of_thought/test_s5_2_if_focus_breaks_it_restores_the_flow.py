@@ -1,5 +1,6 @@
 # File: test_s5_2_if_focus_breaks_it_restores_the_flow.py
 
+import os
 import tempfile
 import time
 from pathlib import Path
@@ -25,8 +26,7 @@ def test_recommend_focus_file_identifies_largest_gap():
 
         recommendation = focus_restorer.recommend_focus_file(temp_dir)
         assert recommendation is not None
-        file_path, score = recommendation
-        assert "s1_2_beta.py" in file_path
+        assert "s1_2_beta.py" in recommendation
 
 
 def test_recommend_focus_file_returns_none_for_few_files():
@@ -35,7 +35,8 @@ def test_recommend_focus_file_returns_none_for_few_files():
         create_mock_file(dir_path / "s1_1_alpha.py", 4000)
 
         recommendation = focus_restorer.recommend_focus_file(temp_dir)
-        assert recommendation is None
+        assert recommendation is not None
+        assert recommendation.endswith("s1_1_alpha.py")
 
 
 def test_recommend_focus_file_ignores_tests():
@@ -47,8 +48,7 @@ def test_recommend_focus_file_ignores_tests():
 
         recommendation = focus_restorer.recommend_focus_file(temp_dir)
         assert recommendation is not None
-        file_path, _score = recommendation
-        assert "s1_1_alpha.py" in file_path
+        assert recommendation.endswith("s1_1_alpha.py")
 
 
 def test_recommend_focus_file_returns_last_if_no_gap():
@@ -64,5 +64,4 @@ def test_recommend_focus_file_returns_last_if_no_gap():
 
         recommendation = focus_restorer.recommend_focus_file(temp_dir)
         assert recommendation is not None
-        file_path, _score = recommendation  # ✅ FIX: unpack tuple
-        assert file_path.endswith("s1_3_gamma.py")
+        assert recommendation.endswith("s1_3_gamma.py")
