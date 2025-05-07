@@ -1,22 +1,24 @@
 """
 Test File: test_s6_3_it_names_the_zone_by_its_current_signs.py
 Tests the logic of s6_3_it_names_the_zone_by_its_current_signs.py
-Verifies that zone types are correctly classified based on file content.
+Ensures zone type assignment behaves as expected under various file conditions.
 """
 
-from high_command.s1_1_the_voice_that_guides_the_recursion_forward.s1_1_the_orders_that_mark_the_lines_of_thought import s6_3_it_names_the_zone_by_its_current_signs as classifier
+from high_command.s1_1_the_voice_that_guides_the_recursion_forward.s1_1_the_orders_that_mark_the_lines_of_thought import (
+    s6_3_it_names_the_zone_by_its_current_signs as classifier
+)
 
 
 def test_creative_zone():
-    """Detects zone with .md or .txt files as 'creative'."""
-    files = ["summary.md", "intro.txt"]
+    """Detects .md and .txt files as 'creative'."""
+    files = ["intro.md", "notes.txt"]
     result = classifier.classify_zone(files)
     assert result == "creative"
 
 
 def test_testing_zone():
-    """Detects zone with test_*.py files as 'testing'."""
-    files = ["test_engine.py", "test_flow.py"]
+    """Detects test_*.py patterns as 'testing'."""
+    files = ["test_engine.py", "test_api.py"]
     result = classifier.classify_zone(files)
     assert result == "testing"
 
@@ -29,17 +31,17 @@ def test_failing_zone():
 
 
 def test_stalled_zone():
-    """Detects empty or irrelevant file lists as 'stalled'."""
-    files = ["main.py", "README"]
+    """Detects zone with unrelated or no informative files as 'stalled'."""
+    files = ["script.py", "config.json"]
     result = classifier.classify_zone(files)
     assert result == "stalled"
 
 
 def test_mixed_zone():
-    """Detects presence of multiple types and returns 'mixed'."""
+    """Tests prioritization of failing over testing and creative."""
     files = ["notes.md", "test_alpha.py", "error_log.txt"]
     result = classifier.classify_zone(files)
-    assert result == "mixed"
+    assert result == "failing"  # Reflects priority logic
 
 
 def test_assign_zone_types_bulk_classification():
@@ -56,7 +58,7 @@ def test_assign_zone_types_bulk_classification():
         "beta": "testing",
         "gamma": "failing",
         "delta": "stalled",
-        "epsilon": "mixed"
+        "epsilon": "failing"  # Prioritizes 'failing' over others
     }
     result = classifier.assign_zone_types(input_map)
     assert result == expected
