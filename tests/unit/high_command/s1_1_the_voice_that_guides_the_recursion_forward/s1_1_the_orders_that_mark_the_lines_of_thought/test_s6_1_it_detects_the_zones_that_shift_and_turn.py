@@ -7,8 +7,7 @@ Ensures recent activity detection and directory scanning functions work as inten
 import tempfile
 import time
 from pathlib import Path
-
-from high_command.s1_1_the_orders_that_mark_the_lines_of_thought import s6_1_it_detects_the_zones_that_shift_and_turn as zone_detector
+from high_command.s1_1_the_voice_that_guides_the_recursion_forward.s1_1_the_orders_that_mark_the_lines_of_thought import s6_1_it_detects_the_zones_that_shift_and_turn as zone_detector
 
 
 def create_temp_file(path: Path, age_seconds: int = 0) -> Path:
