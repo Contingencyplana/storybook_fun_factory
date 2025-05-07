@@ -21,7 +21,8 @@ def classify_zone(file_list: List[str]) -> str:
     has_creative = False
 
     for filename in file_list:
-        if "fail" in filename or filename.endswith(".log"):
+        # More robust detection for failure indicators
+        if re.search(r"(fail|error)", filename, re.IGNORECASE) or filename.endswith(".log"):
             has_failing = True
         if re.match(r"test_.*\.py", filename):
             has_testing = True
