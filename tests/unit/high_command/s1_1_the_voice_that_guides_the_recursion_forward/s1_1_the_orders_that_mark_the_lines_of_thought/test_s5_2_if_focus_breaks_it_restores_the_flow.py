@@ -18,15 +18,15 @@ def test_recommend_focus_file_identifies_largest_gap():
         dir_path = Path(temp_dir)
         files = [
             ("s1_1_alpha.py", 4000),
-            ("s1_2_beta.py", 2000),
-            ("s1_3_gamma.py", 1000),
+            ("s1_2_beta.py", 1000),   # Freshest
+            ("s1_3_gamma.py", 4000),  # Stale — should trigger as neglected
         ]
         for name, age in files:
             create_mock_file(dir_path / name, age)
 
         recommendation = focus_restorer.recommend_focus_file(temp_dir)
         assert recommendation is not None
-        assert "s1_2_beta.py" in recommendation
+        assert recommendation.endswith("s1_3_gamma.py")  # Expected neglected file
 
 
 def test_recommend_focus_file_returns_none_for_few_files():
@@ -42,9 +42,13 @@ def test_recommend_focus_file_returns_none_for_few_files():
 def test_recommend_focus_file_ignores_tests():
     with tempfile.TemporaryDirectory() as temp_dir:
         dir_path = Path(temp_dir)
-        create_mock_file(dir_path / "s1_1_alpha.py", 4000)
-        create_mock_file(dir_path / "test_s1_2_beta.py", 2000)
-        create_mock_file(dir_path / "s1_3_gamma.py", 1000)
+        files = [
+            ("s1_1_alpha.py", 1000),                # Newest valid file
+            ("test_s1_2_beta.py", 500),             # Should be ignored
+            ("s1_3_gamma.py", 4000),                # Older
+        ]
+        for name, age in files:
+            create_mock_file(dir_path / name, age)
 
         recommendation = focus_restorer.recommend_focus_file(temp_dir)
         assert recommendation is not None
@@ -64,4 +68,4 @@ def test_recommend_focus_file_returns_last_if_no_gap():
 
         recommendation = focus_restorer.recommend_focus_file(temp_dir)
         assert recommendation is not None
-        assert recommendation.endswith("s1_3_gamma.py")
+        assert recommendation.endswith("s1_3_gamma.py")  # Last file if no gap found
