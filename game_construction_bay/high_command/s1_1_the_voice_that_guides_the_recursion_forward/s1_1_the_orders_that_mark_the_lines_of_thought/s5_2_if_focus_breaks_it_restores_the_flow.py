@@ -54,6 +54,6 @@ def recommend_focus_file(directory: str) -> str | None:
         next_file, next_mtime = stanza_files[i + 1]
 
         if current_mtime > next_mtime + 1800:  # 30 minutes stale gap
-            return next_file
+            return next_file  # ✅ Fix: only return file path, not tuple
 
-    return stanza_files[-1]  # Default to last file if no clear gap found
+    return stanza_files[-1][0]  # ✅ Fix: only return file path, not tuple
