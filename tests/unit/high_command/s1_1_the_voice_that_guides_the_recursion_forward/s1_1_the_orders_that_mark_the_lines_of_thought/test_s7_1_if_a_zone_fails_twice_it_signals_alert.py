@@ -1,12 +1,36 @@
 """
 Test File: test_s7_1_if_a_zone_fails_twice_it_signals_alert.py
 
-Tests the logic of flag_repeated_failures from s7_1_if_a_zone_fails_twice_it_signals_alert.py,
-ensuring that zones with two or more 'failing' entries are correctly flagged for alert.
+Dynamically tests the flag_repeated_failures function from s7_1_if_a_zone_fails_twice_it_signals_alert.py
+in accordance with 📜 5.5 – Dynamic Import Test Methodology.
 """
 
+import os
+import importlib.util
 import pytest
-from storybook_fun_factory.high_command.s1_1_the_orders_that_mark_the_lines_of_thought.s7_1_if_a_zone_fails_twice_it_signals_alert import flag_repeated_failures
+
+# ✅ Load dynamic_importer helper
+helper_path = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "../../../test_helpers/dynamic_importer.py")
+)
+spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
+dynamic_importer = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(dynamic_importer)
+
+# ✅ Dynamically load the target stanza module
+project_root = os.path.abspath(os.getcwd())
+module_path = os.path.join(
+    project_root,
+    "src",
+    "storybook_fun_factory",
+    "high_command",
+    "s1_1_the_orders_that_mark_the_lines_of_thought",
+    "s7_1_if_a_zone_fails_twice_it_signals_alert.py"
+)
+module = dynamic_importer.dynamic_import_module(module_path)
+
+# ✅ Access the function to test
+flag_repeated_failures = module.flag_repeated_failures
 
 def test_flag_repeated_failures_detects_multiple_failures():
     zone_history = {
