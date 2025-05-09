@@ -34,8 +34,14 @@ def detect_stale_zones(
     for zone, iso_timestamp in last_modified_map.items():
         try:
             modified_time = datetime.fromisoformat(iso_timestamp)
+
+            # ✅ Make sure modified_time is timezone-aware
+            if modified_time.tzinfo is None:
+                modified_time = modified_time.replace(tzinfo=timezone.utc)
+
             if now - modified_time > threshold:
                 stale_zones.append(zone)
+
         except ValueError:
             # Invalid timestamp format — optionally log or skip
             continue
