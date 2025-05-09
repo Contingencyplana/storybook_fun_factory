@@ -8,11 +8,11 @@ in accordance with 📜 5.5 – Dynamic Import Test Methodology.
 import os
 import importlib.util
 import pytest
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
-# ✅ Load dynamic_importer helper
+# ✅ Load dynamic_importer helper (correct path)
 helper_path = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "../../../../test_helpers/dynamic_importer.py")
+    os.path.join(os.path.dirname(__file__), "../../../../tests/test_helpers/dynamic_importer.py")
 )
 spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
 dynamic_importer = importlib.util.module_from_spec(spec)
@@ -34,7 +34,7 @@ module = dynamic_importer.dynamic_import_module(module_path)
 detect_stale_zones = module.detect_stale_zones
 
 def test_detects_stale_zones_correctly():
-    now = datetime.utcnow()
+    now = datetime.now(timezone.utc)
     old = (now - timedelta(days=10)).isoformat()
     recent = (now - timedelta(days=2)).isoformat()
 

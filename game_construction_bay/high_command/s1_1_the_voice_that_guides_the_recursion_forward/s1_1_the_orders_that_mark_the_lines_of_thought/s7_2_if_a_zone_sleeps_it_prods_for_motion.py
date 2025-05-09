@@ -1,64 +1,62 @@
 """
-Test File: test_s7_2_if_a_zone_sleeps_it_prods_for_motion.py
+Filename: s7_2_if_a_zone_sleeps_it_prods_for_motion.py
 
-Dynamically tests the detect_stale_zones function from s7_2_if_a_zone_sleeps_it_prods_for_motion.py
-in accordance with 📜 5.5 – Dynamic Import Test Methodology.
+Identifies zones that have shown no recent activity over a specified time threshold.
+Flags these zones as "sleeping" and recommends reactivation actions.
+
+This function enables the assistant to detect developmental stagnation—
+not by failure, but by absence—and gently nudge progress forward.
+
+It is the Factory's memory of momentum gone still.
 """
 
-import os
-import importlib.util
-import pytest
+from typing import Dict, List
 from datetime import datetime, timedelta, timezone
 
-# ✅ Load dynamic_importer helper
-helper_path = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "../../../../test_helpers/dynamic_importer.py")
-)
-spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
-dynamic_importer = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(dynamic_importer)
+def detect_stale_zones(
+    last_modified_map: Dict[str, str], 
+    threshold_days: int = 7
+) -> List[str]:
+    """
+    Identifies zones that haven't been modified in more than `threshold_days`.
 
-# ✅ Dynamically load the target stanza module from game_construction_bay
-project_root = os.path.abspath(os.getcwd())
-module_path = os.path.join(
-    project_root,
-    "game_construction_bay",
-    "high_command",
-    "s1_1_the_voice_that_guides_the_recursion_forward",
-    "s1_1_the_orders_that_mark_the_lines_of_thought",
-    "s7_2_if_a_zone_sleeps_it_prods_for_motion.py"
-)
-module = dynamic_importer.dynamic_import_module(module_path)
+    Parameters:
+        last_modified_map (dict): Maps zone paths to ISO 8601 UTC timestamp strings.
+        threshold_days (int): How many days of inactivity qualifies as "sleeping".
 
-# ✅ Access the function to test
-detect_stale_zones = module.detect_stale_zones
-
-def test_detects_stale_zones_correctly():
+    Returns:
+        List[str]: List of zone paths considered stale.
+    """
+    stale_zones = []
     now = datetime.now(timezone.utc)
-    old = (now - timedelta(days=10)).isoformat()
-    recent = (now - timedelta(days=2)).isoformat()
+    threshold = timedelta(days=threshold_days)
 
-    zone_map = {
-        "zone_a": old,
-        "zone_b": recent,
-        "zone_c": old
+    for zone, iso_timestamp in last_modified_map.items():
+        try:
+            modified_time = datetime.fromisoformat(iso_timestamp)
+
+            # ✅ Ensure datetime is timezone-aware
+            if modified_time.tzinfo is None:
+                modified_time = modified_time.replace(tzinfo=timezone.utc)
+
+            if now - modified_time > threshold:
+                stale_zones.append(zone)
+
+        except ValueError:
+            # Invalid timestamp format — optionally log or skip
+            continue
+
+    return stale_zones
+
+
+# Example usage
+if __name__ == "__main__":
+    example_map = {
+        "game_construction_bay/filename_ai/": "2025-04-30T14:00:00",
+        "game_construction_bay/dream_journal/": "2025-05-09T02:00:00",
+        "game_construction_bay/memory_ai/": "2025-04-25T09:45:00",
     }
 
-    result = detect_stale_zones(zone_map, threshold_days=7)
-    assert "zone_a" in result
-    assert "zone_c" in result
-    assert "zone_b" not in result
-
-def test_handles_empty_map():
-    result = detect_stale_zones({}, threshold_days=7)
-    assert result == []
-
-def test_ignores_invalid_timestamps():
-    zone_map = {
-        "zone_a": "not-a-date",
-        "zone_b": "2025-05-09T02:00:00"
-    }
-
-    result = detect_stale_zones(zone_map, threshold_days=0)
-    assert "zone_b" in result
-    assert "zone_a" not in result
+    stale = detect_stale_zones(example_map, threshold_days=10)
+    for zone in stale:
+        print(f"🛌 Prodding dormant zone: {zone}")
