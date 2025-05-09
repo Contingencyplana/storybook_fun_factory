@@ -11,7 +11,7 @@ It is the Factory's memory of momentum gone still.
 """
 
 from typing import Dict, List
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 def detect_stale_zones(
     last_modified_map: Dict[str, str], 
@@ -28,7 +28,7 @@ def detect_stale_zones(
         List[str]: List of zone paths considered stale.
     """
     stale_zones = []
-    now = datetime.utcnow()
+    now = datetime.now(timezone.utc)
     threshold = timedelta(days=threshold_days)
 
     for zone, iso_timestamp in last_modified_map.items():
