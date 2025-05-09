@@ -17,13 +17,13 @@ spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
 dynamic_importer = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(dynamic_importer)
 
-# ✅ Dynamically load the target stanza module
+# ✅ Dynamically load the target stanza module from game_construction_bay
 project_root = os.path.abspath(os.getcwd())
 module_path = os.path.join(
     project_root,
-    "src",
-    "storybook_fun_factory",
+    "game_construction_bay",
     "high_command",
+    "s1_1_the_voice_that_guides_the_recursion_forward",
     "s1_1_the_orders_that_mark_the_lines_of_thought",
     "s7_1_if_a_zone_fails_twice_it_signals_alert.py"
 )
