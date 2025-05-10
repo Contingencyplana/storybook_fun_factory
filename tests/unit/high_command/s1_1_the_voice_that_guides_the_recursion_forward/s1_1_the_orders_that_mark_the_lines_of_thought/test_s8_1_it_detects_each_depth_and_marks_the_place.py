@@ -22,8 +22,8 @@ spec.loader.exec_module(dynamic_importer)
 # Dynamically load the target module
 MODULE_PATH = os.path.abspath(
     os.path.join(
-        os.path.dirname(__file__),
-        "../../../../game_construction_bay/high_command/s1_1_the_voice_that_guides_the_recursion_forward/s1_1_the_orders_that_mark_the_lines_of_thought/s8_1_it_detects_each_depth_and_marks_the_place.py"
+        Path.cwd(),
+        "game_construction_bay/high_command/s1_1_the_voice_that_guides_the_recursion_forward/s1_1_the_orders_that_mark_the_lines_of_thought/s8_1_it_detects_each_depth_and_marks_the_place.py"
     )
 )
 module = dynamic_importer.dynamic_import_module(MODULE_PATH)
