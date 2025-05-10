@@ -31,10 +31,9 @@ detect_registry_wounds = module.detect_registry_wounds
 
 def test_detect_registry_wounds_with_issues():
     registry_with_issues = {
-        "filename_ai_1.py": {"component": "filename_ai", "path": "filename_ai/filename_ai_1.py"},
-        "memory_ai_1.py": {"component": "memory_ai", "path": "memory_ai/memory_ai_1.py"},
-        "stray_file.py": {"component": "", "path": ""},
-        "confusing.py": {"component": "codex_builder", "path": "codex/confusing.py"},
+        "filename_ai_s8_1.py": {"component": "filename_ai", "path": "filename_ai/s8_1.py"},
+        "memory_ai_s9_4.py": {"component": "memory_ai", "path": "memory_ai/s9_4.py"},
+        "orphan_stanza.py": {"component": "", "path": ""}
     }
 
     result = detect_registry_wounds(registry_with_issues)
@@ -44,9 +43,9 @@ def test_detect_registry_wounds_with_issues():
 
 def test_detect_registry_wounds_clean_registry():
     clean_registry = {
-        "filename_ai_1.py": {"component": "filename_ai", "path": "filename_ai/filename_ai_1.py"},
-        "memory_ai_2.py": {"component": "memory_ai", "path": "memory_ai/memory_ai_2.py"},
-        "visualizer_3.py": {"component": "visualizer", "path": "visualizer/visualizer_3.py"}
+        "filename_ai_s8_1.py": {"component": "filename_ai", "path": "filename_ai/s8_1.py"},
+        "memory_ai_s8_2.py": {"component": "memory_ai", "path": "memory_ai/s8_2.py"},
+        "visualizer_s8_3.py": {"component": "visualizer", "path": "visualizer/s8_3.py"}
     }
 
     result = detect_registry_wounds(clean_registry)
