@@ -41,7 +41,7 @@ def test_detect_registry_wounds_with_problems():
     results = detect_registry_wounds(registry_with_wounds)
 
     assert any("Duplicate stanza path detected" in r for r in results)
-    assert any("Path mismatch for stanza" in r for r in results)
+    assert any("Stanza path does not match declared component" in r for r in results)
     assert any("Incomplete stanza metadata" in r for r in results)
 
 def test_detect_registry_wounds_clean_registry():
