@@ -33,7 +33,7 @@ detect_registry_wounds = module.detect_registry_wounds
 def test_detect_registry_wounds_with_problems():
     registry_with_wounds = {
         "alpha_1.py": {"component": "filename_ai", "path": "filename_ai/s8_1_alpha.py"},
-        "alpha_2.py": {"component": "memory_ai", "path": "memory_ai/s8_1_alpha.py"},  # Duplicate path
+        "alpha_2.py": {"component": "memory_ai", "path": "filename_ai/s8_1_alpha.py"},  # Intentional duplicate path
         "beta.py": {"component": "dream_journal", "path": "memory_ai/s8_2_beta.py"},  # Mismatch
         "orphan.py": {"component": "", "path": ""}  # Orphan
     }
