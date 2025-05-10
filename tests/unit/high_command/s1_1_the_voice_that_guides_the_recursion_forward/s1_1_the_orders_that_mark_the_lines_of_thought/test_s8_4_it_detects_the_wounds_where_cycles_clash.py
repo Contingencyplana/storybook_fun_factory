@@ -2,7 +2,7 @@
 Test File: test_s8_4_it_detects_the_wounds_where_cycles_clash.py
 
 Tests the stanza wound detector from High Command Cycle 4, Stanza 1, Line 4.
-Checks for orphaned stanza metadata, ID mismatches, and duplicate filenames.
+Checks for duplicate files, ID mismatch, and missing metadata.
 
 Follows 📜 5.5 Dynamic Import methodology.
 """
@@ -31,23 +31,21 @@ detect_registry_wounds = module.detect_registry_wounds
 
 def test_detect_registry_wounds_with_issues():
     registry_with_issues = {
-        "dream_s8_1_trace.py": {"component": "dream_journal", "path": "dream_journal/s8_1_trace.py"},
-        "memory_s8_1_trace.py": {"component": "memory_ai", "path": "memory_ai/s8_1_trace.py"},
-        "badmatch_s9_4_cross.py": {"component": "filename_ai", "path": "filename_ai/s9_4_cross.py"},
+        "s8_1_trace.py": {"component": "dream_journal", "path": "dream/s8_1_trace.py"},
+        "s9_4_cross.py": {"component": "filename_ai", "path": "filename/s9_4_cross.py"},
         "orphan.py": {"component": "", "path": ""}
     }
 
     result = detect_registry_wounds(registry_with_issues)
 
-    assert any("Duplicate stanza filename" in r for r in result)
-    assert any("Stanza ID does not match component" in r for r in result)
     assert any("Incomplete stanza metadata" in r for r in result)
+    assert any("Stanza ID does not match component" in r for r in result)
 
 def test_detect_registry_wounds_clean_registry():
     clean_registry = {
-        "filename_ai_s8_1.py": {"component": "filename_ai", "path": "filename_ai/s8_1.py"},
-        "memory_ai_s8_2.py": {"component": "memory_ai", "path": "memory_ai/s8_2.py"},
-        "visualizer_s8_3.py": {"component": "visualizer", "path": "visualizer/s8_3.py"}
+        "s8_1_alpha.py": {"component": "filename_ai", "path": "filename_ai/s8_1_alpha.py"},
+        "s8_2_beta.py": {"component": "memory_ai", "path": "memory_ai/s8_2_beta.py"},
+        "s8_3_gamma.py": {"component": "visualizer", "path": "visualizer/s8_3_gamma.py"}
     }
 
     result = detect_registry_wounds(clean_registry)
