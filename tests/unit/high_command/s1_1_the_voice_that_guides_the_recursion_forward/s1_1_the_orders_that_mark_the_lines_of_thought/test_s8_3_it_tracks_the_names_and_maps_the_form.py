@@ -1,14 +1,14 @@
 """
-Test File: test_s8_4_it_detects_the_wounds_where_cycles_clash.py
+Test File: test_s8_3_it_tracks_the_names_and_maps_the_form.py
 
-Tests the stanza wound detector from High Command Cycle 4, Stanza 1, Line 4.
-Checks for orphaned stanza metadata, ID mismatches, and confirms clean registries.
-
-Follows 📜 5.5 Dynamic Import methodology.
+Tests the verse registry builder from High Command Cycle 4, Stanza 1, Line 3.
+Follows 📜 5.5 and validates stanza metadata transformation.
 """
 
 import os
 import sys
+import tempfile
+import json
 import importlib.util
 from pathlib import Path
 import pytest
@@ -23,31 +23,32 @@ spec.loader.exec_module(dynamic_importer)
 MODULE_PATH = os.path.abspath(
     os.path.join(
         Path.cwd(),
-        "game_construction_bay/high_command/s1_1_the_voice_that_guides_the_recursion_forward/s1_1_the_orders_that_mark_the_lines_of_thought/s8_4_it_detects_the_wounds_where_cycles_clash.py"
+        "game_construction_bay/high_command/s1_1_the_voice_that_guides_the_recursion_forward/s1_1_the_orders_that_mark_the_lines_of_thought/s8_3_it_tracks_the_names_and_maps_the_form.py"
     )
 )
 module = dynamic_importer.dynamic_import_module(MODULE_PATH)
-detect_registry_wounds = module.detect_registry_wounds
+build_verse_registry = module.build_verse_registry
+TRACE_FILENAME = module.TRACE_FILENAME
 
-def test_detect_registry_wounds_with_issues():
-    registry_with_issues = {
-        "filename_ai_s8_1.py": {"component": "filename_ai", "path": "filename_ai/s8_1.py"},
-        "memory_ai_s9_4.py": {"component": "memory_ai", "path": "memory_ai/s9_4.py"},
-        "orphan_stanza.py": {"component": "", "path": ""}
-    }
+def test_build_verse_registry_creates_correct_registry():
+    with tempfile.TemporaryDirectory() as tmpdirname:
+        trace_dir = Path(tmpdirname)
+        trace_data = {
+            "memory_ai": ["memory/s8_1_a_trace.py"],
+            "visualizer": ["viz/s8_2_a_vision.py"]
+        }
 
-    result = detect_registry_wounds(registry_with_issues)
+        # Write the trace file
+        trace_path = trace_dir / TRACE_FILENAME
+        with open(trace_path, "w", encoding="utf-8") as f:
+            json.dump(trace_data, f, indent=2)
 
-    assert any("Incomplete stanza metadata" in r for r in result)
-    assert any("Stanza ID does not match component" in r for r in result)
+        registry = build_verse_registry(trace_dir)
 
-def test_detect_registry_wounds_clean_registry():
-    clean_registry = {
-        "filename_ai_s8_1.py": {"component": "filename_ai", "path": "filename_ai/s8_1.py"},
-        "memory_ai_s8_2.py": {"component": "memory_ai", "path": "memory_ai/s8_2.py"},
-        "visualizer_s8_3.py": {"component": "visualizer", "path": "visualizer/s8_3.py"}
-    }
+        assert "s8_1_a_trace.py" in registry
+        assert registry["s8_1_a_trace.py"]["component"] == "memory_ai"
+        assert registry["s8_1_a_trace.py"]["path"] == "memory/s8_1_a_trace.py"
 
-    result = detect_registry_wounds(clean_registry)
-
-    assert result == []
+        assert "s8_2_a_vision.py" in registry
+        assert registry["s8_2_a_vision.py"]["component"] == "visualizer"
+        assert registry["s8_2_a_vision.py"]["path"] == "viz/s8_2_a_vision.py"
