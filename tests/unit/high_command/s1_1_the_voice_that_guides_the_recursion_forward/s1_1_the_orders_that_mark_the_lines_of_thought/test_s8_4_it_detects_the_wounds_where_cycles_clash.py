@@ -2,16 +2,17 @@
 Test File: test_s8_4_it_detects_the_wounds_where_cycles_clash.py
 
 Tests the stanza wound detector from High Command Cycle 4, Stanza 1, Line 4.
-Checks for duplicate files, ID mismatch, and missing metadata.
+Validates:
+- Orphaned stanza metadata
+- Duplicate stanza entries
+- Component/path mismatches
 
-Follows 📜 5.5 Dynamic Import methodology.
+Follows 📜 5.5 Dynamic Import Methodology.
 """
 
 import os
-import sys
 import importlib.util
 from pathlib import Path
-import pytest
 
 # Load dynamic_importer
 HELPER_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../../../tests/test_helpers/dynamic_importer.py"))
@@ -19,7 +20,7 @@ spec = importlib.util.spec_from_file_location("dynamic_importer", HELPER_PATH)
 dynamic_importer = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(dynamic_importer)
 
-# Load the target module dynamically
+# Load target module dynamically
 MODULE_PATH = os.path.abspath(
     os.path.join(
         Path.cwd(),
@@ -29,17 +30,19 @@ MODULE_PATH = os.path.abspath(
 module = dynamic_importer.dynamic_import_module(MODULE_PATH)
 detect_registry_wounds = module.detect_registry_wounds
 
-def test_detect_registry_wounds_with_issues():
-    registry_with_issues = {
-        "s8_1_trace.py": {"component": "dream_journal", "path": "dream/s8_1_trace.py"},
-        "s9_4_cross.py": {"component": "filename_ai", "path": "filename/s9_4_cross.py"},
-        "orphan.py": {"component": "", "path": ""}
+def test_detect_registry_wounds_with_problems():
+    registry_with_wounds = {
+        "s8_1_alpha.py": {"component": "filename_ai", "path": "filename_ai/s8_1_alpha.py"},
+        "s8_1_alpha.py": {"component": "memory_ai", "path": "memory_ai/s8_1_alpha.py"},  # Duplicate
+        "s8_2_beta.py": {"component": "dream_journal", "path": "memory_ai/s8_2_beta.py"},  # Mismatch
+        "s8_3_gamma.py": {"component": "", "path": ""}  # Orphan
     }
 
-    result = detect_registry_wounds(registry_with_issues)
+    results = detect_registry_wounds(registry_with_wounds)
 
-    assert any("Incomplete stanza metadata" in r for r in result)
-    assert any("Stanza ID does not match component" in r for r in result)
+    assert any("Duplicate stanza filename detected" in r for r in results)
+    assert any("Path mismatch for stanza" in r for r in results)
+    assert any("Incomplete stanza metadata" in r for r in results)
 
 def test_detect_registry_wounds_clean_registry():
     clean_registry = {
@@ -48,6 +51,6 @@ def test_detect_registry_wounds_clean_registry():
         "s8_3_gamma.py": {"component": "visualizer", "path": "visualizer/s8_3_gamma.py"}
     }
 
-    result = detect_registry_wounds(clean_registry)
+    results = detect_registry_wounds(clean_registry)
 
-    assert result == []
+    assert results == []

@@ -3,9 +3,9 @@ Filename: s8_4_it_detects_the_wounds_where_cycles_clash.py
 
 Purpose:
 Analyzes the verse registry and detects stanza inconsistencies, including:
-- Orphaned stanza files
-- Duplicate stanza filenames (based on 'path')
-- Component-mismatched stanza IDs
+- Orphaned stanza metadata
+- Duplicate stanza entries
+- Component/path mismatches
 
 Poetic Role:
 The Gate That Knows Each Line Beneath – Line 4
@@ -18,37 +18,46 @@ def detect_registry_wounds(registry: Dict[str, Dict[str, str]]) -> List[str]:
     Analyzes a verse registry for potential recursion wounds.
 
     Args:
-        registry (dict): Mapping of stanza metadata (key → {component, path})
+        registry (dict): Mapping of stanza filenames → {component, path}
 
     Returns:
         List[str]: List of warnings or errors detected in the stanza registry
     """
     wounds = []
     seen_filenames = set()
-    component_id_mismatch = []
+    filename_occurrences = {}
 
-    filename_counts = {}
+    for filename, meta in registry.items():
+        # Track filename occurrences for duplicate detection
+        filename_occurrences[filename] = filename_occurrences.get(filename, 0) + 1
 
-    for key, meta in registry.items():
-        path = meta.get("path", "")
-        stanza_filename = path.split("/")[-1] if path else ""
-
-        if stanza_filename:
-            filename_counts[stanza_filename] = filename_counts.get(stanza_filename, 0) + 1
-
+        # Check for orphaned metadata
         if not meta.get("component") or not meta.get("path"):
-            wounds.append(f"⚠️ Incomplete stanza metadata for: {key}")
+            wounds.append(f"⚠️ Incomplete stanza metadata for: {filename}")
             continue
 
-        stanza_id_prefix = stanza_filename.split("_")[0] if "_" in stanza_filename else ""
-        if stanza_id_prefix and stanza_id_prefix.lower() not in meta["component"].lower():
-            component_id_mismatch.append(key)
+        # Check for path mismatch
+        expected_prefix = meta["component"].lower()
+        actual_path = meta["path"].lower()
 
-    for filename, count in filename_counts.items():
+        if not actual_path.startswith(expected_prefix):
+            wounds.append(f"⚠️ Path mismatch for stanza in component '{meta['component']}': {filename}")
+
+    # Final pass: report duplicates
+    for fname, count in filename_occurrences.items():
         if count > 1:
-            wounds.append(f"⚠️ Duplicate stanza filename detected: {filename}")
-
-    for mismatch in component_id_mismatch:
-        wounds.append(f"⚠️ Stanza ID does not match component: {mismatch}")
+            wounds.append(f"⚠️ Duplicate stanza filename detected: {fname}")
 
     return wounds
+
+# Example usage
+if __name__ == "__main__":
+    sample_registry = {
+        "s8_1_alpha.py": {"component": "filename_ai", "path": "filename_ai/s8_1_alpha.py"},
+        "s8_1_alpha.py": {"component": "dream_journal", "path": "dream_journal/s8_1_alpha.py"},
+        "orphan.py": {"component": "", "path": ""},
+        "s8_3_mismatch.py": {"component": "memory_ai", "path": "visualizer/s8_3_mismatch.py"}
+    }
+
+    for warning in detect_registry_wounds(sample_registry):
+        print(warning)
