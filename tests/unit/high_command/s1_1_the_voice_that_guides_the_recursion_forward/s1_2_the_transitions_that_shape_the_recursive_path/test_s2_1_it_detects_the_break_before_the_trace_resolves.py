@@ -29,9 +29,9 @@ def transition_log(tmp_path):
 def test_detects_break_on_abort_or_missing_trace(transition_log):
     # Dynamically import target module
     module_path = os.path.abspath(
-        os.path.join(
-            os.path.dirname(__file__),
-            "../../../../../game_construction_bay/high_command/s1_2_the_transitions_that_shape_the_recursive_path/cycle_1_guided_passage_between_worlds/s2_1_it_detects_the_break_before_the_trace_resolves.py"
+    os.path.join(
+        os.path.dirname(__file__),
+        "../../../../../game_construction_bay/high_command/s1_1_the_voice_that_guides_the_recursion_forward/s1_2_the_transitions_that_shape_the_recursive_path/s2_1_it_detects_the_break_before_the_trace_resolves.py"
         )
     )
     module = dynamic_import_module(module_path)
