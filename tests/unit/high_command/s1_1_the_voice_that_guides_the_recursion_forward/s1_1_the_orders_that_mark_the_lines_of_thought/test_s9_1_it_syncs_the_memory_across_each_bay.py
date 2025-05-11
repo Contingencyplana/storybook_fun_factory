@@ -23,8 +23,9 @@ spec.loader.exec_module(dynamic_importer)
 # ✅ Load target module
 project_root = Path(__file__).resolve().parents[5]
 target_path = project_root / "src" / "storybook_fun_factory" / "high_command" / \
-              "s1_1_the_orders_that_mark_the_lines_of_thought" / \
-              "s9_the_hand_that_syncs_the_bays_in_verse" / "s9_1_it_syncs_the_memory_across_each_bay.py"
+    "s1_1_the_voice_that_guides_the_recursion_forward" / \
+    "s1_1_the_orders_that_mark_the_lines_of_thought" / \
+    "s9_1_it_syncs_the_memory_across_each_bay.py"
 
 module = dynamic_importer.dynamic_import_module(str(target_path))
 sync_stanza_memory_across_components = module.sync_stanza_memory_across_components
