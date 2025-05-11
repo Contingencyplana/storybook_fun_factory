@@ -23,7 +23,7 @@ spec.loader.exec_module(dynamic_importer)
 
 # ✅ Load target module
 project_root = Path(__file__).resolve().parents[5]
-target_path = project_root / "src" / "storybook_fun_factory" / "high_command" / \
+target_path = project_root / "game_construction_bay" / "high_command" / \
     "s1_1_the_voice_that_guides_the_recursion_forward" / \
     "s1_1_the_orders_that_mark_the_lines_of_thought" / \
     "s9_1_it_syncs_the_memory_across_each_bay.py"
