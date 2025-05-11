@@ -9,7 +9,7 @@ import os
 import importlib.util
 import pytest
 
-# ✅ Load dynamic_importer from correct location
+# ✅ Load dynamic_importer from canonical Core Ecosystem Map location
 helper_path = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "../../../../../tests/test_helpers/dynamic_importer.py")
 )
@@ -17,12 +17,10 @@ spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
 dynamic_importer = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(dynamic_importer)
 
-# ✅ Dynamically import target module
+# ✅ Dynamically import target module from game_construction_bay
 project_root = os.path.abspath(os.getcwd())
 module_path = os.path.join(
     project_root,
-    "src",
-    "storybook_fun_factory",
     "game_construction_bay",
     "high_command",
     "s1_1_the_voice_that_guides_the_recursion_forward",
