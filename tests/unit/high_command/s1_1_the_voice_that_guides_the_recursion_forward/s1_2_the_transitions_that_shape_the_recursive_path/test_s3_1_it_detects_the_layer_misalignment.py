@@ -28,17 +28,10 @@ def metadata_file(tmp_path):
 
 
 def test_layer_misalignment_detection(metadata_file):
-<<<<<<< HEAD
         module_path = os.path.abspath(
         os.path.join(
             os.path.dirname(__file__),
             "../../../../../game_construction_bay/high_command/s1_1_the_voice_that_guides_the_recursion_forward/s1_2_the_transitions_that_shape_the_recursive_path/s3_1_it_detects_the_layer_misalignment.py"
-=======
-    module_path = os.path.abspath(
-        os.path.join(
-            os.path.dirname(__file__),
-            "../../../../../game_construction_bay/high_command/s1_2_the_transitions_that_shape_the_recursive_path/cycle_2_asynchronous_crosslayer_recursion/s3_1_it_detects_the_layer_misalignment.py"
->>>>>>> eb3825c78840fc0f1ff7e911c9a88a0e69793b5f
         )
     )
     module = dynamic_import_module(module_path)
