@@ -9,7 +9,9 @@ Fulfills Line 1 of Stanza 2 in Cycle 2: asynchronous_crosslayer_recursion/
 
 from pathlib import Path
 import json
-from datetime import datetime
+from datetime import datetime, timezone
+...
+"dispatched_at": datetime.now(timezone.utc).isoformat()
 
 TRANSITION_MARKER_FILENAME = "async_transition_marker.json"
 
