@@ -9,7 +9,7 @@ Fulfills Line 1 of Stanza 2 in Cycle 2: asynchronous_crosslayer_recursion/
 
 from pathlib import Path
 import json
-from datetime import datetime, UTC
+from datetime import datetime
 
 TRANSITION_MARKER_FILENAME = "async_transition_marker.json"
 
@@ -33,7 +33,7 @@ def dispatch_async_transition_marker(destination: str, metadata: dict, output_di
     marker_data = {
         "destination": destination,
         "metadata": metadata,
-        "dispatched_at": datetime.now(UTC).isoformat()
+        "dispatched_at": datetime.utcnow().isoformat() + "Z"
     }
 
     marker_path = output_dir / TRANSITION_MARKER_FILENAME
