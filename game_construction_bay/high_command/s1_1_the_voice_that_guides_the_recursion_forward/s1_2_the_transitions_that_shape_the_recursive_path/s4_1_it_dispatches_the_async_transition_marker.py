@@ -1,40 +1,44 @@
 """
-Filename: s4_2_it_listens_for_crossphase_return_signals.py
+Filename: s4_1_it_dispatches_the_async_transition_marker.py
 
-Listens for a previously dispatched async recursion marker and retrieves its contents.
-Designed for systems that await ghosted or delayed transition signals.
+Dispatches a marker representing an asynchronous recursion transition.
+This marker can be later picked up by async receivers or systems awaiting off-thread recursion.
 
-Fulfills Line 2 of Stanza 2 in Cycle 2: asynchronous_crosslayer_recursion/
+Fulfills Line 1 of Stanza 2 in Cycle 2: asynchronous_crosslayer_recursion/
 """
 
 from pathlib import Path
 import json
+from datetime import datetime, UTC
 
 TRANSITION_MARKER_FILENAME = "async_transition_marker.json"
 
-def listen_for_crossphase_return_signal(search_dir: Path = None) -> dict:
+def dispatch_async_transition_marker(destination: str, metadata: dict, output_dir: Path = None) -> Path:
     """
-    Listens for an existing async transition marker and returns its contents.
+    Dispatches an asynchronous transition marker for a recursion shift that will occur out-of-phase.
 
     Parameters:
-    - search_dir (Path): Directory to look for the marker. Defaults to current working directory.
+    - destination (str): The logical endpoint or next zone/system expected to receive this marker.
+    - metadata (dict): A dictionary containing additional contextual data (e.g., transition_id, stanza, timestamp).
+    - output_dir (Path): Optional path for where to write the marker file. Defaults to cwd() if not specified.
 
     Returns:
-    - dict: Parsed contents of the marker file if found.
-
-    Raises:
-    - FileNotFoundError: If no marker file is found in the given directory.
-    - json.JSONDecodeError: If the marker file exists but is not valid JSON.
+    - Path: The path to the created marker file.
     """
-    if search_dir is None:
-        search_dir = Path.cwd()
+    if output_dir is None:
+        output_dir = Path.cwd()
     else:
-        search_dir = Path(search_dir)
+        output_dir = Path(output_dir)
 
-    marker_path = search_dir / TRANSITION_MARKER_FILENAME
+    marker_data = {
+        "destination": destination,
+        "metadata": metadata,
+        "dispatched_at": datetime.now(UTC).isoformat()
+    }
 
-    if not marker_path.exists():
-        raise FileNotFoundError(f"No async transition marker found at: {marker_path}")
+    marker_path = output_dir / TRANSITION_MARKER_FILENAME
 
-    with marker_path.open("r", encoding="utf-8") as f:
-        return json.load(f)
+    with marker_path.open("w", encoding="utf-8") as f:
+        json.dump(marker_data, f, indent=2)
+
+    return marker_path
