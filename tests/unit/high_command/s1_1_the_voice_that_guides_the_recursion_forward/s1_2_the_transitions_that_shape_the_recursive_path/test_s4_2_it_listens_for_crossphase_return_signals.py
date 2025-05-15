@@ -1,7 +1,7 @@
 """
-Test: test_s4_3_it_resolves_pending_recursions_from_other_layers.py
+Test: test_s4_2_it_listens_for_crossphase_return_signals.py
 
-Validates the behavior of resolve_pending_recursions_from_other_layers using 📜 5.5 dynamic import methodology.
+Validates the behavior of listen_for_crossphase_return_signal using 📜 5.5 dynamic import methodology.
 """
 
 import os
@@ -23,27 +23,33 @@ spec.loader.exec_module(dynamic_importer)
 MODULE_PATH = os.path.abspath(
     os.path.join(
         os.path.dirname(__file__),
-        "../../../../../game_construction_bay/high_command/s1_1_the_voice_that_guides_the_recursion_forward/s1_2_the_transitions_that_shape_the_recursive_path/s4_3_it_resolves_pending_recursions_from_other_layers.py"
+        "../../../../../game_construction_bay/high_command/s1_1_the_voice_that_guides_the_recursion_forward/s1_2_the_transitions_that_shape_the_recursive_path/s4_2_it_listens_for_crossphase_return_signals.py"
     )
 )
 module = dynamic_importer.dynamic_import_module(MODULE_PATH)
-resolve_pending_recursions_from_other_layers = module.resolve_pending_recursions_from_other_layers
+listen_for_crossphase_return_signal = module.listen_for_crossphase_return_signal
 
-def test_resolve_returns_valid_data(tmp_path):
-    sample_data = [
-        {"id": "R101", "status": "pending"},
-        {"id": "R102", "status": "waiting"}
-    ]
+def test_listen_for_crossphase_return_signal_reads_marker(tmp_path):
+    expected_data = {
+        "destination": "dream_journal",
+        "metadata": {
+            "transition_id": "T456",
+            "stanza": "s4_2",
+            "note": "Async signal reception test"
+        },
+        "dispatched_at": "2025-05-15T00:00:00Z"
+    }
 
-    pending_file = tmp_path / "pending_recursions.json"
-    with pending_file.open("w", encoding="utf-8") as f:
-        json.dump(sample_data, f)
+    marker_path = tmp_path / "async_transition_marker.json"
+    with marker_path.open("w", encoding="utf-8") as f:
+        json.dump(expected_data, f)
 
-    result = resolve_pending_recursions_from_other_layers(source_dir=tmp_path)
-    assert isinstance(result, list)
-    assert len(result) == 2
-    assert result[0]["id"] == "R101"
+    result = listen_for_crossphase_return_signal(search_dir=tmp_path)
 
-def test_resolve_raises_if_missing(tmp_path):
+    assert result["destination"] == "dream_journal"
+    assert result["metadata"]["transition_id"] == "T456"
+    assert "dispatched_at" in result
+
+def test_listen_for_crossphase_return_signal_raises_if_missing(tmp_path):
     with pytest.raises(FileNotFoundError):
-        resolve_pending_recursions_from_other_layers(source_dir=tmp_path)
+        listen_for_crossphase_return_signal(search_dir=tmp_path)

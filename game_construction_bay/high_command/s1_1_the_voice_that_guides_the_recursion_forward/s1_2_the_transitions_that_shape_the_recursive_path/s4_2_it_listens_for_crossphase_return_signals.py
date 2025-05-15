@@ -1,44 +1,44 @@
 """
-Filename: s4_3_it_resolves_pending_recursions_from_other_layers.py
+Filename: s4_2_it_listens_for_crossphase_return_signals.py
 
-Processes and resolves pending recursion threads that originated from other layers,
-but have not yet been reintegrated into the active canonical stanza chain.
+Listens for a previously dispatched async recursion marker and retrieves its contents.
+Designed for systems that await ghosted or delayed transition signals.
 
-Fulfills Line 3 of Stanza 2 in Cycle 2: asynchronous_crosslayer_recursion/
+Fulfills Line 2 of Stanza 2 in Cycle 2: asynchronous_crosslayer_recursion/
 """
 
 from pathlib import Path
 import json
 
-PENDING_RECURSIONS_FILENAME = "pending_recursions.json"
+TRANSITION_MARKER_FILENAME = "async_transition_marker.json"
 
-def resolve_pending_recursions_from_other_layers(source_dir: Path = None) -> list:
+def listen_for_crossphase_return_signal(search_dir: Path = None) -> dict:
     """
-    Processes pending recursion transitions that were deferred or originated from other layers.
+    Listens for an existing async transition marker and returns its contents.
 
     Parameters:
-    - source_dir (Path): Path to the directory containing the pending_recursions.json file.
-                         Defaults to the current working directory.
+    - search_dir (Path): Directory to look for the marker. Defaults to current working directory.
 
     Returns:
-    - list: A list of resolved recursion transition data (dicts).
+    - dict: Parsed contents of the marker file if found.
 
     Raises:
-    - FileNotFoundError: If no pending_recursions.json is found in the given directory.
-    - json.JSONDecodeError: If the file is malformed.
+    - FileNotFoundError: If no marker file is found in the given directory.
+    - json.JSONDecodeError: If the marker file exists but is not valid JSON.
+
+    Example:
+    >>> listen_for_crossphase_return_signal()
+    { 'destination': 'memory_ai', 'metadata': ..., 'dispatched_at': '...' }
     """
-    if source_dir is None:
-        source_dir = Path.cwd()
+    if search_dir is None:
+        search_dir = Path.cwd()
     else:
-        source_dir = Path(source_dir)
+        search_dir = Path(search_dir)
 
-    pending_file = source_dir / PENDING_RECURSIONS_FILENAME
+    marker_path = search_dir / TRANSITION_MARKER_FILENAME
 
-    if not pending_file.exists():
-        raise FileNotFoundError(f"No pending_recursions.json found at: {pending_file}")
+    if not marker_path.exists():
+        raise FileNotFoundError(f"No async transition marker found at: {marker_path}")
 
-    with pending_file.open("r", encoding="utf-8") as f:
-        pending_list = json.load(f)
-
-    # Placeholder resolution logic: return as-is for now
-    return pending_list
+    with marker_path.open("r", encoding="utf-8") as f:
+        return json.load(f)
