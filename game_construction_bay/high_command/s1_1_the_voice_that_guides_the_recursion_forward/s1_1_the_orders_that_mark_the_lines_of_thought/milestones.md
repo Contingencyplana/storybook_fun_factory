@@ -11,9 +11,11 @@ This folder defines the command thread that initiates recursive action. Every Cy
 ---
 
 ## ✅ Cycle 1: `cycle_1_the_initiation_of_recursive_thought/`
+
 **Purpose:** Begins with the recognition of departure, validating transition, and establishing recursion handoff integrity.
 
 **Stanzas:**
+
 - `s1_1_it_detects_the_signal_of_departure.py` [✅ Passed]
 - `s1_2_it_validates_the_handoff_conditions.py` [✅ Passed]
 - `s1_3_it_relinks_the_arrival_and_canon_trace.py` [✅ Passed]
@@ -25,9 +27,11 @@ This folder defines the command thread that initiates recursive action. Every Cy
 ---
 
 ## ✅ Cycle 2: `cycle_2_dispatch_logic/`
+
 **Purpose:** Introduces logic for asynchronous dispatch, return signal detection, and crossphase recursion validation.
 
 **Stanzas:**
+
 - `s4_1_it_dispatches_the_async_transition_marker.py` [✅ Passed]
 - `s4_2_it_listens_for_crossphase_return_signals.py` [✅ Passed]
 - `s4_3_it_resolves_pending_recursions_from_other_layers.py` [✅ Passed]
@@ -39,9 +43,11 @@ This folder defines the command thread that initiates recursive action. Every Cy
 ---
 
 ## ✅ Cycle 3: `cycle_3_active_zone_management/`
+
 **Purpose:** Gives the assistant power to monitor, flag, and recommend based on active zone recursion health.
 
 **Stanzas:**
+
 - `s6_1_it_monitors_zone_activity_levels.py` [✅ Passed]
 - `s6_2_it_flags_neglected_or_failing_zones.py` [✅ Passed]
 
@@ -51,9 +57,11 @@ This folder defines the command thread that initiates recursive action. Every Cy
 ---
 
 ## ✅ Cycle 4: `cycle_4_layer_5_crossover_control/`
+
 **Purpose:** Adds specialized oversight tools for situations where stanza and Cycle logic interact across recursion layers.
 
 **Stanzas:**
+
 - `s8_1_it_detects_the_crossover_trace_from_layer_5.py` [✅ Passed]
 - `s8_2_it_applies_guardrails_for_crosslayer_control.py` [✅ Passed]
 - `s8_3_it_logs_all_crosslayer_influences_and_outcomes.py` [✅ Passed]
@@ -65,6 +73,7 @@ This folder defines the command thread that initiates recursive action. Every Cy
 ---
 
 ## 📘 Folder Closure
+
 The folder was officially closed with 📜 5.27 — **Closure of the Orders That Mark the Lines of Thought**.
 
 It is now canonized as a complete 4-Cycle, 16-file stanza engine for High Command’s recursive initiation layer.
