@@ -7,6 +7,9 @@ It dynamically registers helpers and tests, ensuring correct
 lookup, duplication prevention, and canonical output sorting.
 """
 
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../../../../../..")))
 import pytest
 from game_construction_bay.high_command.s1_1_the_voice_that_guides_the_recursion_forward.s1_3_the_registry_that_remembers_the_canon.s1_1_it_registers_the_known_helpers_and_tests import CanonRegistry
 
