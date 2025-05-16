@@ -8,7 +8,7 @@ lookup, duplication prevention, and canonical output sorting.
 """
 
 import pytest
-from s1_1_it_registers_the_known_helpers_and_tests import CanonRegistry
+from game_construction_bay.high_command.s1_1_the_voice_that_guides_the_recursion_forward.s1_3_the_registry_that_remembers_the_canon.s1_1_it_registers_the_known_helpers_and_tests import CanonRegistry
 
 def test_register_and_check_helpers_and_tests():
     registry = CanonRegistry()
