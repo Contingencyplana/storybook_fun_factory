@@ -14,7 +14,7 @@ import json
 from pathlib import Path
 from importlib import import_module
 
-MODULE_PATH = "game_construction_bay.high_command.s1_4_the_sentinels_that_defend_the_lock.recursion_enforcement_protocols.s1_1_it_applies_a_canon_lock_to_all_freshly_sealed_files"
+MODULE_PATH = "game_construction_bay.high_command.s1_1_the_voice_that_guides_the_recursion_forward.s1_4_the_sentinels_that_defend_the_lock.s1_1_it_applies_a_canon_lock_to_all_freshly_sealed_files"
 MODULE_NAME = MODULE_PATH.split(".")[-1]
 
 @pytest.fixture
