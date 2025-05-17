@@ -12,11 +12,10 @@ import json
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-from s2_1_it_checks_for_unapproved_file_deltas_by_hash import (
+from game_construction_bay.high_command.s1_1_the_voice_that_guides_the_recursion_forward.s1_4_the_sentinels_that_defend_the_lock.s2_1_it_checks_for_unapproved_file_deltas_by_hash import (
     compute_file_hash,
     detect_unapproved_hash_deltas,
 )
-
 
 def test_detect_unapproved_hash_deltas():
     with TemporaryDirectory() as temp_dir:
