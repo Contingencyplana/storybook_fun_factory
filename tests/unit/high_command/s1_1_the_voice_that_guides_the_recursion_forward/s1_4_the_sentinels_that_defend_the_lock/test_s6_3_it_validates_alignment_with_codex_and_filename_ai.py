@@ -23,7 +23,7 @@ def sample_reconstructions():
             "source": "memory_ai"
         },
         {
-            "restored_content": "print('hello')\neval('bad()')",
+            "restored_content": "def f():\n    eval('bad()')",
             "path": "game_construction_bay/component/s6_3_it_validates_alignment_with_codex_and_filename_ai",
             "source": "archivist_ai"
         },
