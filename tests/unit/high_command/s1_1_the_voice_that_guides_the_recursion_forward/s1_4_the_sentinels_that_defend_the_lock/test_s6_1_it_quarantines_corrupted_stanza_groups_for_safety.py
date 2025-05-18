@@ -16,7 +16,7 @@ from shutil import rmtree
 
 import pytest
 
-from high_command.s1_4_the_sentinels_that_defend_the_lock.lockdown_reversion_and_repair import (
+from high_command.s1_1_the_voice_that_guides_the_recursion_forward.s1_4_the_sentinels_that_defend_the_lock import (
     s6_1_it_quarantines_corrupted_stanza_groups_for_safety as quarantine_module
 )
 
