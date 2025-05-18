@@ -5,7 +5,7 @@ Tests the infinite recursion detection logic.
 """
 
 import pytest
-from game_construction_bay.high_command.s1_4_the_sentinels_that_defend_the_lock.cycle_2_anomaly_detection_and_freezepoints import s4_1_it_detects_infinite_recursion_or_depth_overflow as detector
+from game_construction_bay.high_command.s1_1_the_voice_that_guides_the_recursion_forward.s1_4_the_sentinels_that_defend_the_lock import s4_1_it_detects_infinite_recursion_or_depth_overflow as detector
 
 def test_detects_overflow_above_threshold():
     assert detector.detect_infinite_recursion(1500) is True
