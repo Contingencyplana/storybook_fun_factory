@@ -28,7 +28,7 @@ Example Usage:
 
 import os
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 
 # Placeholder logic until real integrations are complete
 def fetch_from_memory_ai(original_path):
@@ -36,7 +36,7 @@ def fetch_from_memory_ai(original_path):
         "source": "memory_ai",
         "path": original_path,
         "restored_content": f"# Memory-AI restored content from {original_path}\n",
-        "timestamp": datetime.utcnow().isoformat()
+        "timestamp": datetime.now(timezone.utc).isoformat()
     }
 
 def fetch_from_archivist_ai(original_path):
@@ -44,7 +44,7 @@ def fetch_from_archivist_ai(original_path):
         "source": "archivist_ai",
         "path": original_path,
         "restored_content": f"# Archivist-AI restored content from {original_path}\n",
-        "timestamp": datetime.utcnow().isoformat()
+        "timestamp": datetime.now(timezone.utc).isoformat()
     }
 
 def attempt_reconstruction(log_file_path):
