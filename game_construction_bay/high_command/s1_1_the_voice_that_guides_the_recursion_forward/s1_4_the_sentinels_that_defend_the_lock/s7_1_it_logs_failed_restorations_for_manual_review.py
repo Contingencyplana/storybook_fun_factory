@@ -47,8 +47,10 @@ def log_failed_stanzas(validated_results):
             }
             failures.append(record)
 
-    with open(FAILED_LOG_FILE, "a", encoding="utf-8") as f:
-        for record in failures:
-            f.write(str(record) + "\n")
-
-    return [FAILED_LOG_FILE] if failures else []
+    if failures:
+        with open(FAILED_LOG_FILE, "a", encoding="utf-8") as f:
+            for record in failures:
+                f.write(str(record) + "\n")
+        return [FAILED_LOG_FILE]
+    else:
+        return []
