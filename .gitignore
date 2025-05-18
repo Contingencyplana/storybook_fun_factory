@@ -34,3 +34,7 @@ dist/
 # Mac and system files
 .DS_Store
 Thumbs.db
+
+# Quarantined folders and files
+quarantine_zone/
+**/corrupted.stanza
