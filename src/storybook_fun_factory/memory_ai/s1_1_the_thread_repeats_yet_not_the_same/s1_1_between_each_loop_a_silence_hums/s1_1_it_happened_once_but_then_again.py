@@ -12,6 +12,15 @@ from hashlib import sha256
 from datetime import datetime
 from pathlib import Path
 import json
+import sys
+import os
+
+# ✅ Ensure src/ is in sys.path for direct dynamic imports
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../../../../.."))
+src_path = os.path.join(project_root, "src")
+if src_path not in sys.path:
+    sys.path.insert(0, src_path)
+
 from storybook_fun_factory.toolscape.path_utils import get_project_root  # ✅ FIXED IMPORT
 
 def get_memory_log_dir() -> Path:
