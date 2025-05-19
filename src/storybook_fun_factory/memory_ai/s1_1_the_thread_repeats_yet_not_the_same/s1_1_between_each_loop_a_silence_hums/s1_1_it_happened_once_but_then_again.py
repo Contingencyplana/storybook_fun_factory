@@ -8,23 +8,21 @@ stored memory traces to identify meaningful recursions.
 Enhancement: Now also stores reflection metadata when recursion is detected.
 """
 
-# ✅ Force src/ into sys.path *BEFORE ANY OTHER IMPORTS*
+# ✅ Ensure src/ is in sys.path first
 import sys
 import os
 from pathlib import Path
 
 if "storybook_fun_factory" not in sys.modules:
     current_file = Path(__file__).resolve()
-    project_root = current_file.parents[5]  # C:\Users\Admin\storybook_fun_factory
+    project_root = current_file.parents[5]
     src_path = project_root / "src"
     if str(src_path) not in sys.path:
         sys.path.insert(0, str(src_path))
 
-# ✅ NOW it's safe to import from project modules
-from hashlib import sha256
-from datetime import datetime
-import json
+# ✅ Only now is it safe to import this
 from storybook_fun_factory.toolscape.path_utils import get_project_root
+
 
 def get_memory_log_dir() -> Path:
     """Returns the path to the memory log directory."""
@@ -40,7 +38,6 @@ def hash_context(context: dict) -> str:
     """Generate a SHA-256 hash from a dictionary representing a context snapshot."""
     serialized = json.dumps(context, sort_keys=True)
     return sha256(serialized.encode()).hexdigest()
-
 
 def load_previous_records() -> dict:
     """Load stored hashes and metadata from memory log."""
