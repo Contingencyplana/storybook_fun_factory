@@ -76,8 +76,10 @@ def test_new_context_detected_as_new(temp_memory_log):
 
     with open(temp_memory_log, "r") as f:
         stored = json.load(f)
-    assert isinstance(stored, list)
+    assert isinstance(stored, dict)
     assert len(stored) == 1
+    stored_hash = next(iter(stored))
+    assert stored[stored_hash]["context"] == context
 
 def test_repeat_context_detected_as_recursion(temp_memory_log):
     context = {
