@@ -8,23 +8,23 @@ stored memory traces to identify meaningful recursions.
 Enhancement: Now also stores reflection metadata when recursion is detected.
 """
 
-# ✅ PLACE THIS BLOCK FIRST
+# ✅ Force src/ into sys.path *BEFORE ANY OTHER IMPORTS*
 import sys
 import os
 from pathlib import Path
 
-# Dynamically resolve and inject src/ into sys.path
-project_root = Path(__file__).resolve().parents[5]  # => C:\Users\Admin\storybook_fun_factory
-src_path = project_root / "src"
-if str(src_path) not in sys.path:
-    sys.path.insert(0, str(src_path))
+if "storybook_fun_factory" not in sys.modules:
+    current_file = Path(__file__).resolve()
+    project_root = current_file.parents[5]  # C:\Users\Admin\storybook_fun_factory
+    src_path = project_root / "src"
+    if str(src_path) not in sys.path:
+        sys.path.insert(0, str(src_path))
 
-# ✅ NOW safe to import project modules
+# ✅ NOW it's safe to import from project modules
 from hashlib import sha256
 from datetime import datetime
 import json
 from storybook_fun_factory.toolscape.path_utils import get_project_root
-
 
 def get_memory_log_dir() -> Path:
     """Returns the path to the memory log directory."""
