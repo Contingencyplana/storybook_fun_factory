@@ -12,6 +12,7 @@ Enhancement: Now also stores reflection metadata when recursion is detected.
 import sys
 import os
 from pathlib import Path
+import importlib.util
 
 if "storybook_fun_factory" not in sys.modules:
     current_file = Path(__file__).resolve()
@@ -20,8 +21,17 @@ if "storybook_fun_factory" not in sys.modules:
     if str(src_path) not in sys.path:
         sys.path.insert(0, str(src_path))
 
-# ✅ Only now is it safe to import this
-from storybook_fun_factory.toolscape.path_utils import get_project_root
+# ✅ Dynamically import get_project_root from toolscape
+tool_path = src_path / "storybook_fun_factory" / "toolscape" / "path_utils.py"
+spec = importlib.util.spec_from_file_location("toolscape.path_utils", str(tool_path))
+toolscape = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(toolscape)
+get_project_root = toolscape.get_project_root
+
+# ✅ Now it's safe to use standard libs
+from hashlib import sha256
+from datetime import datetime
+import json
 
 
 def get_memory_log_dir() -> Path:
@@ -38,6 +48,7 @@ def hash_context(context: dict) -> str:
     """Generate a SHA-256 hash from a dictionary representing a context snapshot."""
     serialized = json.dumps(context, sort_keys=True)
     return sha256(serialized.encode()).hexdigest()
+
 
 def load_previous_records() -> dict:
     """Load stored hashes and metadata from memory log."""
