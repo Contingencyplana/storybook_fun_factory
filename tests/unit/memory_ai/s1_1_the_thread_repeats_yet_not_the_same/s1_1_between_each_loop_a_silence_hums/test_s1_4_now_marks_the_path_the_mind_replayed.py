@@ -6,10 +6,34 @@ Tests s1_4_now_marks_the_path_the_mind_replayed.py
 Validates memory replay behavior for previously stored recursion signatures.
 """
 
+import os
+import sys
 import json
 import pytest
+import importlib.util
 from pathlib import Path
-from storybook_fun_factory.memory_ai._1_1_the_thread_repeats_yet_not_the_same._1_1_between_each_loop_a_silence_hums import _1_4_now_marks_the_path_the_mind_replayed as replay_module
+
+# ✅ Ensure src/ is in sys.path
+project_root = os.path.abspath(os.getcwd())
+src_path = os.path.join(project_root, "src")
+if src_path not in sys.path:
+    sys.path.insert(0, src_path)
+
+# ✅ Load dynamic_importer
+helper_path = os.path.join(project_root, "tests", "test_helpers", "dynamic_importer.py")
+spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
+dynamic_importer = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(dynamic_importer)
+
+# ✅ Dynamically load the module under test
+replay_module = dynamic_importer.dynamic_import_module(
+    os.path.join(
+        "src", "storybook_fun_factory", "memory_ai",
+        "s1_1_the_thread_repeats_yet_not_the_same",
+        "s1_1_between_each_loop_a_silence_hums",
+        "s1_4_now_marks_the_path_the_mind_replayed.py"
+    )
+)
 
 @pytest.fixture
 def temp_replay_log(tmp_path, monkeypatch):
