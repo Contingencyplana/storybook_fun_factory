@@ -6,10 +6,34 @@ Tests s2_2_a_choice_rebuilt_from_what_was_done.py
 Validates reconstruction of past decision chains from stored memory traces.
 """
 
+import os
+import sys
 import json
 import pytest
+import importlib.util
 from pathlib import Path
-from storybook_fun_factory.memory_ai._1_1_the_thread_repeats_yet_not_the_same._1_1_between_each_loop_a_silence_hums import _2_2_a_choice_rebuilt_from_what_was_done as choice_module
+
+# ✅ Inject src/ into sys.path
+project_root = os.path.abspath(os.getcwd())
+src_path = os.path.join(project_root, "src")
+if src_path not in sys.path:
+    sys.path.insert(0, src_path)
+
+# ✅ Load dynamic_importer
+helper_path = os.path.join(project_root, "tests", "test_helpers", "dynamic_importer.py")
+spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
+dynamic_importer = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(dynamic_importer)
+
+# ✅ Dynamically import the module under test
+choice_module = dynamic_importer.dynamic_import_module(
+    os.path.join(
+        "src", "storybook_fun_factory", "memory_ai",
+        "s1_1_the_thread_repeats_yet_not_the_same",
+        "s1_1_between_each_loop_a_silence_hums",
+        "s2_2_a_choice_rebuilt_from_what_was_done.py"
+    )
+)
 
 @pytest.fixture
 def temp_trace_log(tmp_path, monkeypatch):
