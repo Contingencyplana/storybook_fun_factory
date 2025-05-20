@@ -14,12 +14,12 @@ import os
 from pathlib import Path
 import importlib.util
 
-if "storybook_fun_factory" not in sys.modules:
-    current_file = Path(__file__).resolve()
-    project_root = current_file.parents[5]
-    src_path = project_root / "src"
-    if str(src_path) not in sys.path:
-        sys.path.insert(0, str(src_path))
+current_file = Path(__file__).resolve()
+project_root = current_file.parents[5]
+src_path = project_root / "src"
+
+if str(src_path) not in sys.path:
+    sys.path.insert(0, str(src_path))
 
 # ✅ Dynamically import get_project_root from toolscape
 tool_path = src_path / "storybook_fun_factory" / "toolscape" / "path_utils.py"
