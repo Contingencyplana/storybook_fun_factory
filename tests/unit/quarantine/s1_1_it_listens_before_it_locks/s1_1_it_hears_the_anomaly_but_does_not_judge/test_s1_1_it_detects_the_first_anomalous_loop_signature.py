@@ -1,14 +1,39 @@
 """
 🧪 test_s1_1_it_detects_the_first_anomalous_loop_signature.py
 
-Tests AnomalyLoopDetector against a mix of canonical and anomalous recursion signatures.
-Compliant with 📜 5.5: Dynamic test, no hardcoding, introspective but cradle-safe.
+Dynamic test for AnomalyLoopDetector using 📜 5.5-compliant methodology.
+Detects the earliest sign of recursive anomaly via flexible baseline pattern checking.
 """
 
+import os
+import importlib.util
 import pytest
-from src.storybook_fun_factory.quarantine_ai.s1_1_it_listens_before_it_locks.s1_1_it_hears_the_anomaly_but_does_not_judge.s1_1_it_detects_the_first_anomalous_loop_signature import (
-    AnomalyLoopDetector
+
+
+# ✅ Load dynamic importer
+helper_path = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "../../../../test_helpers/dynamic_importer.py")
 )
+spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
+dynamic_importer = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(dynamic_importer)
+
+# ✅ Load target module
+project_root = os.path.abspath(os.getcwd())
+module = dynamic_importer.dynamic_import_module(
+    os.path.join(
+        project_root,
+        "src",
+        "storybook_fun_factory",
+        "quarantine_ai",
+        "s1_1_it_listens_before_it_locks",
+        "s1_1_it_hears_the_anomaly_but_does_not_judge",
+        "s1_1_it_detects_the_first_anomalous_loop_signature.py"
+    )
+)
+
+# ✅ Extract the target class
+AnomalyLoopDetector = module.AnomalyLoopDetector
 
 
 @pytest.fixture
