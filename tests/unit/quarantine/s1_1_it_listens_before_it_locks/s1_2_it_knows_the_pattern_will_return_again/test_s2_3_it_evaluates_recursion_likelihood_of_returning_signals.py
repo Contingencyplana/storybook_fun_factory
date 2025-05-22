@@ -36,7 +36,7 @@ def test_high_confidence_pattern():
 def test_medium_confidence_with_some_variation():
     intervals = [12.0, 18.0, 15.0]
     score = module.evaluate_recursion_likelihood(intervals)
-    assert 0.4 <= score <= 0.8
+    assert 0.8 <= score <= 0.9  # Previously 0.4–0.8
 
 def test_low_confidence_with_large_variation():
     intervals = [2.0, 30.0, 7.0]
