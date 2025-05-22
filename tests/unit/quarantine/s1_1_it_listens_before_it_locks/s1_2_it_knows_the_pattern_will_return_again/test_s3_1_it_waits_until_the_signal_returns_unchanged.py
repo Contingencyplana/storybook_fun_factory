@@ -1,7 +1,7 @@
 """
 Test File: test_s3_1_it_waits_until_the_signal_returns_unchanged.py
 
-Tests the DeferredSignalEvaluator from s1_1_it_waits_until_the_signal_returns_unchanged.py
+Tests the DeferredSignalEvaluator from s3_1_it_waits_until_the_signal_returns_unchanged.py
 using the dynamic import methodology (📜 5.5).
 """
 
