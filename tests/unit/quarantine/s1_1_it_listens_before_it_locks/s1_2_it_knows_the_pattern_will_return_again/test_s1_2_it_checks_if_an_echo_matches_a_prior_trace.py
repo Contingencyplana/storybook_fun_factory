@@ -7,7 +7,7 @@ Tests for matching logic between echo signals and prior trace signatures.
 import pytest
 import tempfile
 import json
-from src.storybook_fun_factory.quarantine_ai.s1_2_it_knows_the_pattern_will_return_again.recursive_signal_detection import s1_2_it_checks_if_an_echo_matches_a_prior_trace as mod
+from src.storybook_fun_factory.quarantine_ai.s1_1_it_listens_before_it_locks.s1_2_it_knows_the_pattern_will_return_again import s1_2_it_checks_if_an_echo_matches_a_prior_trace as mod
 
 @pytest.fixture
 def prior_trace_file():
