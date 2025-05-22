@@ -18,7 +18,7 @@ spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
 dynamic_importer = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(dynamic_importer)
 
-# Define project root and module path
+# Define project root and correct module path
 project_root = os.path.abspath(os.getcwd())
 module = dynamic_importer.dynamic_import_module(
     os.path.join(
@@ -26,9 +26,9 @@ module = dynamic_importer.dynamic_import_module(
         "src",
         "storybook_fun_factory",
         "quarantine_ai",
+        "s1_1_it_listens_before_it_locks",
         "s1_2_it_knows_the_pattern_will_return_again",
-        "deferred_signal_evaluation",
-        "s1_1_it_waits_until_the_signal_returns_unchanged.py"
+        "s3_1_it_waits_until_the_signal_returns_unchanged.py"
     )
 )
 
