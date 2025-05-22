@@ -1,7 +1,7 @@
 """
 🧪 test_s1_3_it_records_the_echoes_that_breathe_again.py
 --------------------------------------------------------
-Tests echo recurrence logging for recursive_signal_detection (📜 5.5-compliant).
+Tests echo recurrence logging for the current non-cycle structure (📜 5.5-compliant).
 """
 
 import os
@@ -18,7 +18,7 @@ spec = importlib.util.spec_from_file_location("dynamic_importer", helper_path)
 dynamic_importer = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(dynamic_importer)
 
-# 📄 Load module dynamically
+# 📄 Load module dynamically (flat poem-folder structure)
 project_root = os.path.abspath(os.getcwd())
 module_path = os.path.join(
     project_root,
@@ -26,7 +26,6 @@ module_path = os.path.join(
     "storybook_fun_factory",
     "quarantine_ai",
     "s1_2_it_knows_the_pattern_will_return_again",
-    "recursive_signal_detection",
     "s1_3_it_records_the_echoes_that_breathe_again.py"
 )
 module = dynamic_importer.dynamic_import_module(module_path)
