@@ -1,3 +1,5 @@
+# test_s1_1_it_detects_a_returning_signal_signature.py
+
 import pytest
 from storybook_fun_factory.quarantine_ai.s1_1_it_listens_before_it_locks.s1_2_it_knows_the_pattern_will_return_again.s1_1_it_detects_a_returning_signal_signature import detect_returning_signals
 
