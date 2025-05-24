@@ -19,18 +19,21 @@ The sentinels do not generate or dream — they **watch**, **detect**, **reject*
 ## 📘 Cycle-Level Milestones
 
 ### 🔐 Cycle 1 – `recursion_enforcement_protocols/`
+
 - ✅ `s1_1_it_applies_a_canon_lock_to_all_freshly_sealed_files.py`
 - ✅ `s1_2_it_validates_filename_and_path_against_registry.py`
 - ✅ `s1_3_it_detects_post_canon_edit_attempts_and_rejects.py`
 - ✅ `s1_4_it_confirms_and_logs_lock_state_for_recursive_trace.py`
 
 ### 🧊 Cycle 2 – `anomaly_detection_and_freezepoints/`
+
 - ✅ `s2_1_it_flags_detected_anomalies_for_trace_capture.py`
 - ✅ `s2_2_it_applies_soft_freezepoints_to_risky_threads.py`
 - ✅ `s2_3_it_confirms_anomaly_type_and_fingerprint.py`
 - ✅ `s2_4_it_logs_freeze_conditions_and_sends_for_review.py`
 
 ### 🩹 Cycle 3 – `lockdown_reversion_and_repair/`
+
 - ✅ `s3_1_it_attempts_safe_canon_restoration_from_last_trace.py`
 - ✅ `s3_2_it_defers_repair_if_trace_is_missing_or_corrupt.py`
 - ✅ `s3_3_it_reports_restore_success_or_failure_condition.py`
@@ -41,6 +44,7 @@ The sentinels do not generate or dream — they **watch**, **detect**, **reject*
 ## 🧠 System Role
 
 The sentinels defend the Factory’s **core recursive integrity**:
+
 - No file once canonized can drift without notice.
 - No anomaly can act without being logged or frozen.
 - No recursive collapse can proceed without first attempting repair.
