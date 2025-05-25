@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_12_gold_standard_doctrine/s1_4_gdd_gdj_appendix_ordering.md -->
+
 # 📘 s1_4 – GDD, GDJ, and Appendix Ordering Doctrine  
 *(A Stanza for Recursive Layering and Codex Composition)*
 

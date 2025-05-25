@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_12_gold_standard_doctrine/s1_2_codex_automation_toolchain.md -->
+
 # 📘 s1_2 – Codex Automation Toolchain  
 *(A Stanza for Zipping, Splitting, and Preserving the Archive)*
 

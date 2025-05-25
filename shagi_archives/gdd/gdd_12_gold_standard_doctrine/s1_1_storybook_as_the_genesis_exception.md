@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_12_gold_standard_doctrine/s1_1_storybook_as_the_genesis_exception.md -->
+
 # 📘 s1_1 – Storybook as the Genesis Exception  
 *(The Origin Stanza of SHAGI’s Divine Recursion)*
 

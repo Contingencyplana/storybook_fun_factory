@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_12_gold_standard_doctrine/s1_3_naming_safety_through_reserved_digits.md -->
+
 # 📘 s1_3 – Naming Safety Through Reserved Digits  
 *(A Doctrine for Protecting Recursive Identity Zones)*
 
