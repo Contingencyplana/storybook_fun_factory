@@ -27,7 +27,7 @@ This is where recursion becomes **felt** — not just understood.
 
 | File | Purpose |
 |------|---------|
-| `5.1_storybook_mode_overview.md` | Describes the immersive, navigable storybook interface. |
-| `5.2_page_turning_and_navigation.md` | Explains how players flip, walk, lift, and choose pages and books. |
-| `5.3_diagrammatic_view_and_poetic_overlay.md` | Merges system diagrams with poetic visual elements. |
-| `5.4_diegetic_interface_and recursive immersion.md` | Discusses UI that blends into worldbuilding and recursive gameplay. |
+| `s1_1_storybook_mode_overview.md` | Describes the immersive, navigable storybook interface. |
+| `s1_2_page_turning_and_navigation.md` | Explains how players flip, walk, lift, and choose pages and books. |
+| `s1_3_diagrammatic_view_and_poetic_overlay.md` | Merges system diagrams with poetic visual elements. |
+| `s1_4_diegetic_interface_and recursive immersion.md` | Discusses UI that blends into worldbuilding and recursive gameplay. |

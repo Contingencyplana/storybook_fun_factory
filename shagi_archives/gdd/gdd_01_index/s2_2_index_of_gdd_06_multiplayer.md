@@ -28,7 +28,7 @@ This is where recursion finds its community — and the story is shaped by many.
 
 | File | Purpose |
 |------|---------|
-| `6.1_singleplayer_to_multiplayer_transition.md` | Describes how solo recursion opens into shared world logic. |
-| `6.2_player_state_sync.md` | Explains player data handling, state visibility, and continuity. |
-| `6.3room_pairing_and_lift_logic.md` | Details how players connect, share rooms, and sync page turns. |
-| `6.4shared_worldbuilding_and_storytethering.md` | Defines collaborative lore, community quests, and persistent narrative threading. |
+| `s1_1_singleplayer_to_multiplayer_transition.md` | Describes how solo recursion opens into shared world logic. |
+| `s1_2_player_state_sync.md` | Explains player data handling, state visibility, and continuity. |
+| `s1_3_room_pairing_and_lift_logic.md` | Details how players connect, share rooms, and sync page turns. |
+| `s1_4_shared_worldbuilding_and_storytethering.md` | Defines collaborative lore, community quests, and persistent narrative threading. |

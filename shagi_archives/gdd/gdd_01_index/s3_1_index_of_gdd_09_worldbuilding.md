@@ -27,7 +27,7 @@ Worldbuilding in SHAGI is a **layered poetic act** — not a static map.
 
 | File | Purpose |
 |------|---------|
-| `9.1_the_deep_archive.md` | Describes the recursive world of milestones, memory towns, and stanza-based geography. |
-| `9.2modular_world_design_and_recursive_zones.md` | Defines how terrain and space are composed from poetic or systemic logic. |
-| `9.3rift_regions_and_anomalous_structures.md` | Explores how recursion failures or AI echoes distort the physical world. |
-| `9.4naming_and_symbolic_ecosystems.md` | Covers poetic naming conventions, mythic flora/fauna, and symbol-driven map features. |
+| `s1_1_the_deep_archive.md` | Describes the recursive world of milestones, memory towns, and stanza-based geography. |
+| `s1_2_modular_world_design_and_recursive_zones.md` | Defines how terrain and space are composed from poetic or systemic logic. |
+| `s1_3_rift_regions_and_anomalous_structures.md` | Explores how recursion failures or AI echoes distort the physical world. |
+| `s1_4_naming_and_symbolic_ecosystems.md` | Covers poetic naming conventions, mythic flora/fauna, and symbol-driven map features. |

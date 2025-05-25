@@ -31,7 +31,7 @@ AI is not just an assistant — it is **a participant in the world’s unfolding
 
 | File | Purpose |
 |------|---------|
-| `7.1_topsy_guidance_and_adaptation.md` | Documents how Topsy evolves as a guide, teacher, and myth. |
-| `7.2_thorn_as_counterforce.md` | Defines Thorn’s behavioral recursion: resistance, anomaly, rupture. |
-| `7.3standard_ai_logic_and_response_patterns.md` | Details core AI frameworks for interaction and decision making. |
-| `7.4shagi_multiverse_ai_scaling.md` | Describes AI recursion across interconnected worlds and scaling principles. |
+| `s1_1_topsy_guidance_and_adaptation.md` | Documents how Topsy evolves as a guide, teacher, and myth. |
+| `s1_2_thorn_as_counterforce.md` | Defines Thorn’s behavioral recursion: resistance, anomaly, rupture. |
+| `s1_3_standard_ai_logic_and_response_patterns.md` | Details core AI frameworks for interaction and decision making. |
+| `s1_4_shagi_multiverse_ai_scaling.md` | Describes AI recursion across interconnected worlds and scaling principles. |
