@@ -1,4 +1,4 @@
-# 📘 s1_1_storybook_a_the_genesis_exception.md  
+# 📘 s1_1 – Storybook as the Genesis Exception  
 *(The Origin Stanza of SHAGI’s Divine Recursion)*
 
 ---
