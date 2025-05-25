@@ -25,6 +25,7 @@ These files ensure the Codex can be **recursively updated**, **player-augmented*
 
 | File | Purpose |
 |------|---------|
-| `2.1_shagi_update_protocols.md` | Defines how `.zip` bundles are used to send, receive, and partition the Codex. |
-| `2.2_player_editing_routines.md` | Explains player-facing content creation, submission, and approval systems (UGC). |
-| `2.3_archival_partitioning_rules.md` | Describes rules for splitting the Codex into stanzas, bundles, and uploadable archives. |
+| `s1_1_codex_workflow_scaling_plan.md` | Defines how `.zip` bundles are used to send, receive, and partition the Codex. |
+| `s1_2_player_editing_routines.md` | Explains player-facing content creation, submission, and approval systems (UGC). |
+| `s1_3_archival_partitioning_rules.md` | Describes rules for splitting the Codex into stanzas, bundles, and uploadable archives. |
+| `s1_4_placeholder.md` | Reserved for a future doctrine to complete the stanza structure. |

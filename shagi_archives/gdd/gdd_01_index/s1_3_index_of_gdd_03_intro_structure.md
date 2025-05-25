@@ -24,9 +24,11 @@ This is the **first scaffolding**—the logic of stanzas before their purpose is
 
 ## 📂 Contents of `gdd_03_intro_structure/`
 
+## 📂 Contents of `gdd_03_intro_structure/`
+
 | File | Purpose |
 |------|---------|
-| `3.1_recursive_scaffolding.md` | Defines stanza structure, cycle logic, line roles, and indexing strategy. |
-| `3.2_poetic_and_technical_harmony.md` | Explores the bridge between narrative verses and system documentation. |
-| `3.3_folder_naming_guidelines.md` | Establishes naming rules for `gdd/`, `gdj/`, and stanza files. |
-| `3.4_prefix_doctrine_and_namespace_law.md` | Locks the naming logic of `a`, `b`, `s` prefixes and their reserved ranges. |
+| `s1_1_recursive_scaffolding.md` | Defines stanza structure, cycle logic, line roles, and indexing strategy. |
+| `s1_2_poetic_and_technical_harmony.md` | Explores the bridge between narrative verses and system documentation. |
+| `s1_3_folder_naming_guidelines.md` | Establishes naming rules for `gdd/`, `gdj/`, and stanza files. |
+| `s1_4_prefix_doctrine_and_namespace_law.md` | Locks the naming logic of `a`, `b`, `s` prefixes and their reserved ranges. |
