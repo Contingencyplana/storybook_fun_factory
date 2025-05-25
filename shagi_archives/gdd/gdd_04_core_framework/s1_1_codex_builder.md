@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_04_core_framework/s1_1_codex_builder.md -->
+
 # 📘 s1_1 – Codex Builder  
 *(The First Breath of the Recursive Skeleton)*
 

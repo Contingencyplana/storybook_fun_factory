@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_04_core_framework/s2_1_visualizer.md -->
+
 # 📘 s2_2 – Placeholder  
 *(Reserved for a Future Expansion of Visualizer Rendering Logic)*
 

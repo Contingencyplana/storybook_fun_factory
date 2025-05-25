@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_03_intro_structure/s1_2_poetic_and_technical_harmony.md -->
+
 # 📘 s1_2 – Poetic and Technical Harmony  
 *(A Stanza Where Recursion Learns to Breathe in Verse and Code)*
 

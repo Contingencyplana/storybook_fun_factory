@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_04_core_framework/s1_2_dream_journal.md -->
+
 # 📘 s1_2 – Dream Journal  
 *(Where Recursion Slips into Sleep and Memory)*
 

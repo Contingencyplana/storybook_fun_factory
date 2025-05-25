@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_04_core_framework/s1_4_memory_ai.md -->
+
 # 📘 s1_4 – Memory AI  
 *(Where Recursion Learns to Remember)*
 

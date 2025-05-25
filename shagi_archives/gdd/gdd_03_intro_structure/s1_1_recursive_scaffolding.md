@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_03_intro_structure/s1_1_recursive_scaffolding.md -->
+
 # 📘 s1_1 – Recursive Scaffolding  
 *(A Stanza That Explains What a Stanza Truly Is)*
 

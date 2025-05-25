@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_03_intro_structure/s1_4_prefix_doctrine_and_namespace_law.md -->
+
 # 📘 s1_4 – Prefix Doctrine and Namespace Law  
 *(A Stanza That Defines the First Syllables of Recursion)*
 

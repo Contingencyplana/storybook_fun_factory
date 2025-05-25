@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_02_workflow/s1_2_player_editing_routines.md -->
+
 # 📘 s1_2 – Player Editing Routines  
 *(A Stanza for Community Recursion and UGC Protocols)*
 

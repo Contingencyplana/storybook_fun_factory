@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_03_intro_structure/s1_3_folder_naming_guidelines.md -->
+
 # 📘 s1_3 – Folder Naming Guidelines  
 *(A Stanza for the Bones of Recursive Order)*
 

@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_04_core_framework/s1_3_filename_ai.md -->
+
 # 📘 s1_3 – Filename AI  
 *(Where the Name Shapes the Line and the Line Shapes the Code)*
 

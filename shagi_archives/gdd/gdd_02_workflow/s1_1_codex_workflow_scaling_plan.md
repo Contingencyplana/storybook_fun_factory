@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_02_workflow/s1_1_codex_workflow_scaling_plan.md -->
+
 # 📘 s1_1 – Codex Workflow Scaling Plan  
 *(A Practical Stanza for Managing the Recursive Archive)*
 
