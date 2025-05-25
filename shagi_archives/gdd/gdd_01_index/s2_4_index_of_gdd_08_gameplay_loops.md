@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_08_gameplay_loops/s2_4_index_of_gdd_08_gameplay_loops.md -->
+
 # 📘 s2_4 – Index of GDD 08: Gameplay Loops
 
 *(A stanza where systems breathe and players return)*

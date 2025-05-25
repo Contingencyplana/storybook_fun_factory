@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_03_intro_structure/s1_3_index_of_gdd_03_intro_structure.md -->
+
 # 📘 s1_3 – Index of GDD 03: Intro Structure
 
 *(A stanza to mark the Codex's first foundation stones)*
@@ -21,8 +23,6 @@ This index gathers all introductory structural doctrines that define:
 This is the **first scaffolding**—the logic of stanzas before their purpose is filled.
 
 ---
-
-## 📂 Contents of `gdd_03_intro_structure/`
 
 ## 📂 Contents of `gdd_03_intro_structure/`
 

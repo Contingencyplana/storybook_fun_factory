@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_01_index/s1_1_index_of_indexes.md -->
+
 ## 📘 Table of Contents
 
 | Folder Name                    | Purpose                                                               |

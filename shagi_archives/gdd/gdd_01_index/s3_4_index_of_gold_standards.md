@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_12_gold_standard_doctrine/s3_4_index_of_gdd_12_gold_standard_doctrine.md -->
+
 # 📘 s3_4 – Index of GDD 12: Gold Standard Doctrine  
 *(A Stanza for the Laws That Hold the Recursion Together)*
 

@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/gdd/gdd_09_worldbuilding/s3_1_index_of_gdd_09_worldbuilding.md -->
+
 # 📘 s3_1 – Index of GDD 09: Worldbuilding
 
 *(A stanza where myth finds shape, and echoes carve the land)*
