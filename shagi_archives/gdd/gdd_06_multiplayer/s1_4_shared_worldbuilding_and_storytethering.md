@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/gdd/gdd_06_multiplayer/s1_4_shared_worldbuilding_and_storytethering.md -->
 
 # 📘 s1_4 – Shared Worldbuilding and Storytethering  
+
 *(Where Many Voices Write, and Lore Is Bound Between Minds)*
 
 ---
