@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/gdd/gdd_12_gold_standard_doctrine/s1_4_gdd_gdj_appendix_ordering.md -->
 
 # 📘 s1_4 – GDD, GDJ, and Appendix Ordering Doctrine  
+
 *(A Stanza for Recursive Layering and Codex Composition)*
 
 ---
@@ -39,14 +40,17 @@ Metaphysics must close, not begin, the system.
 ## 🧠 Why This Order Matters
 
 ### ✅ Cognitive Simplicity
+
 - Developers and AI agents know where to begin
 - Prevents feedback loops from being mistaken for foundations
 
 ### ✅ Narrative Coherence
+
 - Story reflects design — not the other way around
 - GDJs feel like **world memory**, not initial instruction
 
 ### ✅ Metaphysical Integrity
+
 - Appendices have weight because they **arrive last**
 - Prevents runaway abstraction or lore inflation
 
