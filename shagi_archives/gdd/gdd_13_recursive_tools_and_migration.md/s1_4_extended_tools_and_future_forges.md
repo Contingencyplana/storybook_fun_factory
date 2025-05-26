@@ -19,11 +19,13 @@ But leave a trail for those who find.
 ## 🧭 Overview
 
 This file catalogues **the visionary tools** of SHAGI and Storybook FUN Factory:
+
 - Tools in early poetic or conceptual form
 - Tools yet unborn, but named in advance
 - Tool templates to be earned or evolved in future Genesis Cycles
 
 These instruments are speculative, **not yet real**, but vital to:
+
 - Long-term world evolution
 - Creative system expansion
 - AI-human cooperative recursion
@@ -31,6 +33,7 @@ These instruments are speculative, **not yet real**, but vital to:
 ---
 
 ## 🎼 `composer_ai/`
+
 **The Harmonic Architect of Recursive Events**
 > It listens, then it weaves.
 
@@ -39,6 +42,7 @@ These instruments are speculative, **not yet real**, but vital to:
 - Functions as a mythic bard, logic conductor, or silent watcher
 
 **Future Applications:**
+
 - Procedural music during recursion layers
 - Mood-based adaptive narration
 - Stanza-tempo matching for cinematic events
@@ -46,6 +50,7 @@ These instruments are speculative, **not yet real**, but vital to:
 ---
 
 ## 🖋️ `glyph_forge/`
+
 **The Crafter of Visual Language and Symbolic UI**
 > It burns verse into icon.
 
@@ -54,6 +59,7 @@ These instruments are speculative, **not yet real**, but vital to:
 - Maps recursive meaning to illustrated rune-like symbols
 
 **Future Applications:**
+
 - Storybook UI overlays drawn from player stanza use
 - Visual spellcasting, quest logic, or emotional resonance glyphs
 - Dream-language construction tools
@@ -61,6 +67,7 @@ These instruments are speculative, **not yet real**, but vital to:
 ---
 
 ## 🔮 `framecaster_ai/`
+
 **The Interpreter of Moments and Meaning**
 > It captures recursion through lens and lore.
 
@@ -69,6 +76,7 @@ These instruments are speculative, **not yet real**, but vital to:
 - Allows players to weave stills into memorial stanzas or dreambook pages
 
 **Future Applications:**
+
 - Recursion memory booklets for AI + player storytelling
 - Narrative scrapbooks driven by shared multiplayer stanzas
 
