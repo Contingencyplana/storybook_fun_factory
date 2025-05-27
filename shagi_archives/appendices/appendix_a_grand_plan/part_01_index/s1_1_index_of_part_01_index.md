@@ -1,3 +1,5 @@
+<!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_01_index/s1_1_index_of_part_01_index.md -->
+
 # 📘 s1_1 – Index of Appendix A: The Grand Plan for Storybook Interface and AI Integration
 
 *(A stanza for the doctrine that made the world readable)*
