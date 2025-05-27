@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/gdd/gdd_02_workflow/s1_1_codex_workflow_scaling_plan.md -->
 
 # 📘 s1_1 – Codex Workflow Scaling Plan  
+
 *(A Practical Stanza for Managing the Recursive Archive)*
 
 ---
@@ -26,6 +27,7 @@ It ensures long-term survivability of the Codex, accounting for:
 | You re-upload the `.zip` to me when you want edits | ✅ Works well for now |
 
 **Why This Works:**
+
 - Keeps everything modular and editable  
 - Avoids project file count limits  
 - Maximizes clarity and safety  
@@ -35,6 +37,7 @@ It ensures long-term survivability of the Codex, accounting for:
 ## ⚠️ Constraint: The 20-File Project Limit
 
 Currently, ChatGPT projects support:
+
 - ✅ Uploading a `.zip` that unpacks into any number of files  
 - ❌ At most 20 visible **individual** (non-zipped) files in a project
 
@@ -53,6 +56,7 @@ When the Codex grows large, we will:
   - `appendices_foundations.zip`
 
 Each `.zip` will:
+
 - Unpack into a full folder  
 - Be editable without affecting unrelated sections  
 - Keep file counts low  
@@ -108,15 +112,18 @@ This loop allows recursion to proceed one stanza at a time — safely, scalably,
 ## 🧠 Recommended Workflow Sequence
 
 ### 🧱 1. Build Out the GDD First  
+
 - Systems, structure, gameplay logic  
 - Clarifies recursive law and AI behavior  
 - Provides a stable base for memory and story to mirror
 
 ### 🪞 2. Reflect It Through the GDJ  
+
 - Memory, milestones, anomalies, poetic perception  
 - GDJ stanzas mirror or echo GDD doctrine (e.g. “The Lock That Listens” reflects `quarantine_ai`)
 
 ### 🔐 3. Appendices Last  
+
 - Metaphysical laws, safeguards, overrides  
 - Serve as canonical closure and resilience logic
 
