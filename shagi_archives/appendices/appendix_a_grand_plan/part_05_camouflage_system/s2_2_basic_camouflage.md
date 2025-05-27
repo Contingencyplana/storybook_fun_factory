@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_05_camouflage_system/s2_2_basic_camouflage.md -->
 
 # 📘 s2_2 – Basic Camouflage  
+
 *(A chapter on joy, simplicity, and the first layer of play)*
 
 To laugh is not to miss the truth—  
@@ -47,6 +48,7 @@ but to **present it through metaphor** so players never feel overwhelmed.
 ## 🤖 AI Behavior in Basic Camouflage
 
 Basic AI players and agents are designed to:
+
 - Fully comprehend and operate in this layer  
 - Monitor player joy, hesitation, and engagement  
 - Trigger helpful hints or playful interventions when players get stuck  
