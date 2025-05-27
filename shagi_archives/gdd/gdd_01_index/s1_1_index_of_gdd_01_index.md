@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/gdd/gdd_01_index/s1_1_index_of_indexes.md -->
+<!-- Save to: shagi_archives/gdd/gdd_01_index/s1_1_index_of_gdd_01_index.md -->
 
 ## 📘 Table of Contents
 
