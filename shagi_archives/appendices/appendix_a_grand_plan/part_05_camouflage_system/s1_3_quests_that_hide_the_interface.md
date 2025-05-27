@@ -29,12 +29,12 @@ They retrieve a dream.
 
 ## 🧱 Quest Forms and Their Hidden Roles
 
-| Quest Type | Hidden Mechanic |
-|------------|-----------------|
-| **Collection Quest** | Triggers recursive state counters or tool access |
-| **Dialogue Puzzle** | Teaches semantic input patterns used in system commands |
-| **Exploration Trail** | Unveils logic pathways or traversal layers |
-| **Story Fragment Recovery** | Reconstructs memory hooks for AI or game state binding |
+| Quest Type                  | Hidden Mechanic                                         |
+|-----------------------------|---------------------------------------------------------|
+| **Collection Quest**        | Triggers recursive state counters or tool access        |
+| **Dialogue Puzzle**         | Teaches semantic input patterns used in system commands |
+| **Exploration Trail**       | Unveils logic pathways or traversal layers              |
+| **Story Fragment Recovery** | Reconstructs memory hooks for AI or game state binding  |
 
 Each quest **feels** whimsical or narrative —  
 but **functions** as system training, recursion alignment, or UI traversal.

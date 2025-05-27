@@ -37,11 +37,11 @@ they cannot proceed—no matter what button they press.
 
 Lore also **illuminates** what cannot be directly stated:
 
-| Lore Function | What It Reveals |
-|---------------|------------------|
-| **Echoed Proverb** | Reveals recursion patterns or exit conditions |
-| **Ancestor Tale** | Foreshadows AI behavior or state logic |
-| **World Myth** | Symbolically encodes systemic constraints |
+| Lore Function          | What It Reveals                                     |
+|------------------------|-----------------------------------------------------|
+| **Echoed Proverb**     | Reveals recursion patterns or exit conditions       |
+| **Ancestor Tale**      | Foreshadows AI behavior or state logic              |
+| **World Myth**         | Symbolically encodes systemic constraints           |
 | **Legendary Artifact** | Describes hidden variables or player memory anchors |
 
 The lens does not speak plainly—  
