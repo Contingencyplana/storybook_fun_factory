@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_05_camouflage_system/s2_1_three_layers_of_camouflage.md -->
 
 # 📘 s2_1 – Three Layers of Camouflage  
+
 *(A table of recursion beneath the veil of fun)*
 
 The mask is not a single thread,  
