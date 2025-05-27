@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/gdd/gdd_03_intro_structure/s1_3_index_of_gdd_03_intro_structure.md -->
+<!-- Save to: shagi_archives/gdd/gdd_01_index/s1_3_index_of_gdd_03_intro_structure.md -->
 
 # 📘 s1_3 – Index of GDD 03: Intro Structure
 

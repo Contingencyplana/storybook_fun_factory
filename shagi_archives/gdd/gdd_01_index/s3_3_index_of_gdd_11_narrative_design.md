@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/gdd/gdd_11_narrative_design/s3_3_index_of_gdd_11_narrative_design.md -->
+<!-- Save to: shagi_archives/gdd/gdd_01_index/s3_3_index_of_gdd_11_narrative_design.md -->
 
 # 📘 s3_3 – Index of GDD 11: Narrative Design
 

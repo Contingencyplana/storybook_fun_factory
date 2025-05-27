@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/gdd/gdd_02_workflow/s1_2_index_of_gdd_02_workflow.md -->
+<!-- Save to: shagi_archives/gdd/gdd_01_index/s1_2_index_of_gdd_02_workflow.md -->
 
 # 📘 s1_2 – Index of GDD 02: Workflow  
 *(A stanza to anchor the Codex’s evolution)*

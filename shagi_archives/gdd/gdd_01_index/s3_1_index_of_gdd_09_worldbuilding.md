@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/gdd/gdd_09_worldbuilding/s3_1_index_of_gdd_09_worldbuilding.md -->
+<!-- Save to: shagi_archives/gdd/gdd_01_index/s3_1_index_of_gdd_09_worldbuilding.md -->
 
 # 📘 s3_1 – Index of GDD 09: Worldbuilding
 

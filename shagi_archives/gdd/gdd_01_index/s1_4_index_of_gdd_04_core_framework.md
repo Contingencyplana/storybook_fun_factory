@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/gdd/gdd_04_core_framework/s1_4_index_of_gdd_04_core_framework.md -->
+<!-- Save to: shagi_archives/gdd/gdd_01_index/s1_4_index_of_gdd_04_core_framework.md -->
 
 # 📘 s1_4 – Index of GDD 04: Core Framework
 

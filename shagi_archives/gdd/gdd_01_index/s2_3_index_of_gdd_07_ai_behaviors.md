@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/gdd/gdd_07_ai_behaviors/s2_3_index_of_gdd_07_ai_behaviors.md -->
+<!-- Save to: shagi_archives/gdd/gdd_01_index/s2_3_index_of_gdd_07_ai_behaviors.md -->
 
 # 📘 s2_3 – Index of GDD 07: AI Behaviors
 

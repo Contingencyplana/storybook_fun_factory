@@ -1,4 +1,4 @@
-[//]: # (Save to: shagi_archives/gdd/gdd_13_recursive_tools_and_migration/s4_1_index_of_gdd_13_recursive_tools_and_migration.md)
+[//]: # (Save to: shagi_archives/gdd/gdd_01_index/s4_1_index_of_gdd_13_recursive_tools_and_migration.md)
 
 # 📘 s4_1 – Index of GDD 13: Recursive Tools and Migration
 

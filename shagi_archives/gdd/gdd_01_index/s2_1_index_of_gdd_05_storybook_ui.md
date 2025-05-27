@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/gdd/gdd_05_storybook_ui/s2_1_index_of_gdd_05_storybook_ui.md -->
+<!-- Save to: shagi_archives/gdd/gdd_01_index/s2_1_index_of_gdd_05_storybook_ui.md -->
 
 # 📘 s2_1 – Index of GDD 05: Storybook UI
 

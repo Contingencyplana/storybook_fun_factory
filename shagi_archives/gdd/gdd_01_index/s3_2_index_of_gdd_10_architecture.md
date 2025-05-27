@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/gdd/gdd_10_architecture/s3_2_index_of_gdd_10_architecture.md -->
+<!-- Save to: shagi_archives/gdd/gdd_01_index/s3_2_index_of_gdd_10_architecture.md -->
 
 # 📘 s3_2 – Index of GDD 10: Architecture
 

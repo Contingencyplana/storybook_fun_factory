@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/gdd/gdd_06_multiplayer/s2_2_index_of_gdd_06_multiplayer.md -->
+<!-- Save to: shagi_archives/gdd/gdd_01_index/s2_2_index_of_gdd_06_multiplayer.md -->
 
 # 📘 s2_2 – Index of GDD 06: Multiplayer
 
