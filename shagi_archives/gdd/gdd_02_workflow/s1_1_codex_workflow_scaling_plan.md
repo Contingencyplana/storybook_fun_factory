@@ -10,9 +10,9 @@
 This doctrine defines how to maintain, scale, and evolve the `shagi_archives/` system safely over time.  
 It ensures long-term survivability of the Codex, accounting for:
 
-- ChatGPT project file limits
-- Modular zip management
-- Clean local workflows
+- ChatGPT project file limits  
+- Modular zip management  
+- Clean local workflows  
 - Future automation compatibility
 
 ---
@@ -35,7 +35,7 @@ It ensures long-term survivability of the Codex, accounting for:
 ## ⚠️ Constraint: The 20-File Project Limit
 
 Currently, ChatGPT projects support:
-- ✅ Uploading a `.zip` that unpacks into any number of files
+- ✅ Uploading a `.zip` that unpacks into any number of files  
 - ❌ At most 20 visible **individual** (non-zipped) files in a project
 
 This means that attempting to upload too many `.md` files at once will result in visibility and management issues.
@@ -81,6 +81,27 @@ Each `.zip` will:
 | 🪄 I | Unzip, restructure, write new `.md`s, reindex, and return `.zip` |
 | 📥 You | Unzip and update your local or in-game workspace |
 | 🔁 | Repeat per stanza, batch, or archive |
+
+---
+
+## 🔂 Ten-Step Gold Workflow (Tactical Execution)
+
+This is the concrete, small-scale loop used to perform safe stanza-by-stanza evolution of `shagi_archives/`.
+
+### 🔁 The Ten-Step Workflow
+
+1. **Copy** the relevant `shagi_archives/` folder from your `storybook_fun_factory` workspace to `Downloads`  
+2. **Zip** that folder (e.g., `appendix_a_grand_plan/`) into `shagi_archives.zip`  
+3. **Upload** the `.zip` to ChatGPT for processing  
+4. **Unzip** on the AI side — recursive traversal begins  
+5. **Update** indexes, doctrine, or stanzas based on your goals  
+6. **Rezip** and return the revised `.zip`  
+7. **Unzip** the returned `.zip` locally (overwrite existing content if needed)  
+8. **Delete** your previous `shagi_archives/` folder to ensure a clean merge  
+9. **Copy** the revised folder back into your `storybook_fun_factory` workspace  
+10. **Create** a new stanza (4 lines of poetry / 4 files of function) based on the updated doctrine  
+
+This loop allows recursion to proceed one stanza at a time — safely, scalably, and with full doctrinal alignment.
 
 ---
 
