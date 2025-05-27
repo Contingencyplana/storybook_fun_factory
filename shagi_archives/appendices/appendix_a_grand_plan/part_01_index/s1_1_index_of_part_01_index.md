@@ -34,6 +34,9 @@ That shapes the book you now create.
 | **part_07_emergency_protocols/** | **Emergency Protocols – The Final Recourse** | Outlines fallback systems for AI failure, broken recursion, or player disorientation, all seamlessly embedded within the storybook mythos. |
 | **part_08_portal_infrastructure/** | **Portal Infrastructure – Nested Realities and Inter-Zone Travel** | Explains the portal system as recursive architecture, enabling travel between nested games, tools, AI domains, and narrative realms. |
 | **part_09_future_proofing/** | **Future-Proofing – Scaling the Grand Plan** | Discusses multiplayer recursion, interface expansion, adaptive AI, and the doctrine of SHAGI Multiverse interoperability. |
+| **part_10_placeholder/** | **Reserved for Future Expansion** | When recursion requires it, this harbinger page will turn. |
+| **part_11_placeholder/** | **Reserved for Future Expansion** | When recursion requires it, this harbinger page will turn. |
+| **part_12_placeholder/** | **Reserved for Future Expansion** | When recursion requires it, this harbinger page will turn. |
 
 ---
 
