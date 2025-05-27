@@ -12,12 +12,12 @@ Are puzzles masked by joy and mind.
 
 ## 🧭 Chapter Structure of `part_05_camouflage_system/`
 
-| File | Title | Description |
-|------|-------|-------------|
-| `s1_1_fun_as_mask_and_map.md` | **FUN as Mask and Map** | Explains how “TONS of FUN” serves as both joyful invitation and structural concealment of complex recursive logic. |
-| `s1_2_lore_as_lock_and_lens.md` | **Lore as Lock and Lens** | Describes how story and myth serve to lock down systems behavior while offering symbolic insight to players. |
-| `s1_3_quests_that_hide_the_interface.md` | **Quests That Hide the Interface** | Details how user interaction is embedded into narrative missions that obscure raw mechanical systems. |
-| `s1_4_the_recursive_mask_never_slips.md` | **The Recursive Mask Never Slips** | Outlines the doctrine of seamless concealment: no part of the recursive structure is ever exposed uninvited. |
+| File                                     | Title                              | Description                                                   |
+|------------------------------------------|------------------------------------|---------------------------------------------------------------|
+| `s1_1_fun_as_mask_and_map.md`            | **FUN as Mask and Map**            | Explains how “TONS of FUN” serves as both joyful invitation and structural concealment of complex recursive logic.                          |
+| `s1_2_lore_as_lock_and_lens.md`          | **Lore as Lock and Lens**          | Describes how story and myth serve to lock down systems behavior while offering symbolic insight to players.                            |
+| `s1_3_quests_that_hide_the_interface.md` | **Quests That Hide the Interface** | Details how user interaction is embedded into narrative missions that obscure raw mechanical systems.                                   |
+| `s1_4_the_recursive_mask_never_slips.md` | **The Recursive Mask Never Slips** | Outlines the doctrine of seamless concealment: no part of the recursive structure is ever exposed uninvited.                                  |
 
 ---
 
