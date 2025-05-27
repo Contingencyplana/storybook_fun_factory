@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_06_ai_zones/s2_2_index_of_part_06_ai_zones.md -->
+<!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_01_index/s2_2_index_of_part_06_ai_zones.md -->
 
 # 📘 s2_2 – Index of Part 06: AI Zones – Thought Gardens and Recursive Minds  
 *(A stanza for the minds that bloom within the book)*

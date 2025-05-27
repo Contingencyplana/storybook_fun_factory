@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_05_camouflage_system/s2_1_index_of_part_05_camouflage_system.md -->
+<!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_01_index/s2_1_index_of_part_05_camouflage_system.md -->
 
 # 📘 s1_5 – Index of Part 05: Camouflage System – The Disguise of TONS of FUN!  
 *(A stanza for the laughter that hides the code)*

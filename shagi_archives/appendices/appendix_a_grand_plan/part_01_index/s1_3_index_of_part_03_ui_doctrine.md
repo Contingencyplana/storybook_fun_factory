@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_03_ui_doctrine/s1_3_index_of_part_03_ui_doctrine.md -->
+<!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_01_index/s1_3_index_of_part_03_ui_doctrine.md -->
 
 # 📘 s1_3 – Index of Part 03: UI Doctrine – The Page as World  
 *(A stanza for the surface that deepens with every turn)*

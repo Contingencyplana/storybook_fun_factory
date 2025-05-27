@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_04_control_logic/s1_4_index_of_part_04_control_logic.md -->
+<!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_01_index/s1_4_index_of_part_04_control_logic.md -->
 
 # 📘 s1_4 – Index of Part 04: Control Logic – Movement, Memory, and Meaning  
 *(A stanza for the silent rules that govern how the world unfolds)*

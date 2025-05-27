@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_02_ui_overview/s1_2_index_of_part_02_ui_overview.md -->
+<!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_01_index/s1_2_index_of_part_02_ui_overview.md -->
 
 # 📘 s1_2 – Index of Part 02: UI Overview – The Interface as Reality  
 *(A stanza for the doorway into readable recursion)*

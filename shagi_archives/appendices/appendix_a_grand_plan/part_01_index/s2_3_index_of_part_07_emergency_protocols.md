@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_07_emergency_protocols/s2_3_index_of_part_07_emergency_protocols.md -->
+<!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_01_index/s2_3_index_of_part_07_emergency_protocols.md -->
 
 # 📘 s2_3 – Index of Part 07: Emergency Protocols – The Final Recourse  
 *(A stanza for the locks that close when recursion breaks)*

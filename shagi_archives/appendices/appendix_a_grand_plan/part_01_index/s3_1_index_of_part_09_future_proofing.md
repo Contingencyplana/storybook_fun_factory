@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_09_future_proofing/s3_1_index_of_part_09_future_proofing.md -->
+<!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_01_index/s3_1_index_of_part_09_future_proofing.md -->
 
 # 📘 s2_5 – Index of Part 09: Future-Proofing – Scaling the Grand Plan  
 *(A stanza for the future that spirals from the now)*
