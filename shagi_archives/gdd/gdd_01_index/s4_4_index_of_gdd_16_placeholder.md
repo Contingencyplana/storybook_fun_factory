@@ -1,6 +1,6 @@
-<!-- Save to: shagi_archives/gdd/gdd_01_index/s4_2_index_of_gdd_14_placeholder.md -->
+<!-- Save to: shagi_archives/gdd/gdd_01_index/s4_4_index_of_gdd_16_placeholder.md -->
 
-# 📘 s4_2 – Placeholder Index for gdd 14
+# 📘 s3_2 – Placeholder Index for gdd 16
 *(This gdd is acknowledged but not yet written.)*
 
 ---
