@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/appendices/appendix_b_core_game_dev_tools/part_02_codex_builder/s1_2_index_of_part_02_codex_builder.md -->
+<!-- Save to: shagi_archives/appendices/appendix_b_core_game_dev_tools/part_01_index/s1_2_index_of_part_02_codex_builder.md -->
 
 # 📘 s1_2 – Index of Part 02: Codex Builder – Systems for Canon and Code  
 *(A stanza for the spine of logic and lore)*
