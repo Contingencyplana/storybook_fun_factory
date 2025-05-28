@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/gdd/gdd_04_core_framework/s1_3_filename_ai.md -->
 
 # 📘 s1_3 – Filename AI  
+
 *(Where the Name Shapes the Line and the Line Shapes the Code)*
 
 ---
@@ -33,7 +34,7 @@ This AI is not merely a labeler — it is the **voice of recursive order**, assi
 
 ## 📂 Canonical Filename Format
 
-[prefix][stanza_number]_[line_number]_[descriptive_slug].md
+[prefix][stanza_number]*[line_number]*[descriptive_slug].md
 
 | Segment | Meaning |
 |---------|---------|
