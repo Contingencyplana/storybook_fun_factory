@@ -29,12 +29,12 @@ The Codex must be **partitioned** when any of the following occur:
 
 ## 📦 Canonical Partition Examples
 
-| Partition Name | Contents |
-|----------------|----------|
-| `gdd_core_framework.zip` | `gdd_04_core_framework/` folder with all stanza files |
-| `gdj_may_2025.zip` | All GDJ entries from May 2025 |
-| `appendices_foundations.zip` | Appendices A–D |
-| `shagi_archives_index.zip` | `poetic_index.md`, `memory_traces.md`, `stanza_registry.md` |
+| Partition Name               | Contents                                                    |
+|------------------------------|-------------------------------------------------------------|
+| `gdd_core_framework.zip`     | `gdd_04_core_framework/` folder with all stanza files       |
+| `gdj_may_2025.zip`           | All GDJ entries from May 2025                               |
+| `appendices_foundations.zip` | Appendices A–C                                              |
+| `shagi_archives_index.zip`   | `poetic_index.md`, `memory_traces.md`, `stanza_registry.md` |
 
 Each `.zip` must:
 - Be self-contained

@@ -25,9 +25,9 @@ Architecture is the **invisible structure** through which recursion breathes.
 
 ## 📂 Contents of `gdd_10_architecture/`
 
-| File | Purpose |
-|------|---------|
-| `s1_1_storybook_project_structure.md` | Defines the Storybook FUN Factory layout and recursive folder patterns. |
-| `s1_2_file_naming_rules_and_safety.md` | Ensures stanza, test, and asset names follow SHAGI-recursive law. |
-| `s1_3_automation_and_codex_tools.md` | Covers zipping, parsing, manifest generation, and stanza syncing scripts. |
+| File                                            | Purpose                                                                                |
+|-------------------------------------------------|----------------------------------------------------------------------------------------|
+| `s1_1_storybook_project_structure.md`           | Defines the Storybook FUN Factory layout and recursive folder patterns.                |
+| `s1_2_file_naming_rules_and_safety.md`          | Ensures stanza, test, and asset names follow SHAGI-recursive law.                      |
+| `s1_3_automation_and_codex_tools.md`            | Covers zipping, parsing, manifest generation, and stanza syncing scripts.              |
 | `s1_4_runtime_architecture_and_editor_tools.md` | Documents the engine runtime logic, dev/editor mode toggles, and async infrastructure. |

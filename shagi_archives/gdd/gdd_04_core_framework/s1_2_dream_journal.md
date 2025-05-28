@@ -42,33 +42,33 @@ The Dream Journal is where structure becomes memory, and memory reshapes structu
 
 ## 📂 File & Format Schema
 
-| File Type | Purpose |
-|-----------|---------|
-| `dream_s2_1_fragments_of_trust.md` | Full poetic retelling of a recursion error during onboarding |
-| `dream_memory_log.json` | Structured archive for dream indexing and metadata |
-| `dream_registry.md` | Master list of all logged dreams, sorted by player, anomaly, or world zone |
+| File Type                          | Purpose                                                                    |
+|------------------------------------|----------------------------------------------------------------------------|
+| `dream_s2_1_fragments_of_trust.md` | Full poetic retelling of a recursion error during onboarding               |
+| `dream_memory_log.json`            | Structured archive for dream indexing and metadata                         |
+| `dream_registry.md`                | Master list of all logged dreams, sorted by player, anomaly, or world zone |
 
 ---
 
 ## 🎨 Use Cases
 
-| Application | Function |
-|-------------|----------|
-| AI behavior | Guides dialogue or tone based on remembered dreams |
-| Visual overlays | Player dreams appear as ambient stanzas, UI effects, or shifting overlays |
-| Procedural generation | Seeds future story arcs based on past dream fragments |
-| Narrative metaplot | Reveals hidden lore or recursive anomalies only through dream reflection |
+| Application           | Function                                                                  |
+|-----------------------|---------------------------------------------------------------------------|
+| AI behavior           | Guides dialogue or tone based on remembered dreams                        |
+| Visual overlays       | Player dreams appear as ambient stanzas, UI effects, or shifting overlays |
+| Procedural generation | Seeds future story arcs based on past dream fragments                     |
+| Narrative metaplot    | Reveals hidden lore or recursive anomalies only through dream reflection  |
 
 ---
 
 ## 🔮 Future Expansion Points
 
-| Feature | Role |
-|---------|------|
-| `dream_distortion_engine.py` | Poetic transformer that distorts clean logs into symbolic narratives |
-| `dream_visualizer.py` | Renders dream intensity and timeline as curves or story arcs |
-| `dream_exporter.md` | Converts player dreams into collectible Codex entries or replayable moments |
-| `lucid_edit_mode` | (Future) Allows players to “edit” or reinterpret their dreams within boundaries |
+| Feature                      | Role                                                                            |
+|------------------------------|---------------------------------------------------------------------------------|
+| `dream_distortion_engine.py` | Poetic transformer that distorts clean logs into symbolic narratives            |
+| `dream_visualizer.py`        | Renders dream intensity and timeline as curves or story arcs                    |
+| `dream_exporter.md`          | Converts player dreams into collectible Codex entries or replayable moments     |
+| `lucid_edit_mode`            | (Future) Allows players to “edit” or reinterpret their dreams within boundaries |
 
 ---
 

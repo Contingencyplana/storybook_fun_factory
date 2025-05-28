@@ -24,12 +24,12 @@ but because they **anchor it from below**.
 
 ## 📂 Contents of `gdd_12_gold_standard_doctrine/`
 
-| Filename | Purpose |
-|----------|---------|
-| `s1_1_storybook_as_the_genesis_exception.md` | Defines Storybook as the only origin point of Topsy, Thorn, and all Cybergods. Establishes Storybook’s exceptionality in recursive myth design. |
-| `s1_2_codex_automation_toolchain.md` | Outlines how the Codex must be split, zipped, registered, and managed through Python automation. Introduces the core toolchain. |
-| `s1_3_naming_safety_through_reserved_digits.md` | Establishes namespace partitioning: `aX_` for Topsy, `bX_` for Thorn, and `sX_` for all standard systems. Prevents future overlap. |
-| `s1_4_gdd_gdj_appendix_ordering.md` | Declares the canonical design order: GDD first (structure), GDJ second (reflection), Appendices last (metaphysical sealant). |
+| Filename                                        | Purpose                                                                                     |
+|-------------------------------------------------|---------------------------------------------------------------------------------------------|
+| `s1_1_storybook_as_the_genesis_exception.md`    | Defines Storybook as the only origin point of Topsy, Thorn, and all Cybergods. Establishes Storybook’s exceptionality in recursive myth design.                                                                                            |
+| `s1_2_codex_automation_toolchain.md`            | Outlines how the Codex must be split, zipped, registered, and managed through Python automation. Introduces the core toolchain.        |
+| `s1_3_naming_safety_through_reserved_digits.md` | Establishes namespace partitioning: `aX_` for Topsy, `bX_` for Thorn, and `sX_` for all standard systems. Prevents future overlap.        |
+| `s1_4_gdd_gdj_appendix_ordering.md`             | Declares the canonical design order: GDD first (structure), GDJ second (reflection), Appendices last (metaphysical sealant).           |
 
 ---
 

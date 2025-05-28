@@ -23,20 +23,20 @@ Their names must reflect **function**, **recursion level**, and **thematic clari
 ### 🔤 Format Template:
 [gdd|gdj|appendices]_[XX]_[descriptive_snake_case]/
 
-| Segment | Purpose |
-|---------|---------|
-| `gdd` / `gdj` / `appendices` | Root category of knowledge |
-| `XX` | Two-digit numeric index, aligning with stanza and index structure |
-| `descriptive_snake_case` | Functional summary of folder contents |
+| Segment                      | Purpose                                                           |
+|------------------------------|-------------------------------------------------------------------|
+| `gdd` / `gdj` / `appendices` | Root category of knowledge                                        |
+| `XX`                         | Two-digit numeric index, aligning with stanza and index structure |
+| `descriptive_snake_case`     | Functional summary of folder contents                             |
 
 ---
 
 ## 📂 Example Folder Names
 
-| Folder Name | Meaning |
-|-------------|---------|
-| `gdd_04_core_framework/` | Fourth GDD section — SHAGI systems: codex, memory, visualizer |
-| `gdj_05_may_2025/` | All reflective journal stanzas from May 2025 |
+| Folder Name-------------- | Meaning                                                             |
+|---------------------------|---------------------------------------------------------------------|
+| `gdd_04_core_framework/`  | Fourth GDD section — SHAGI systems: codex, memory, visualizer       |
+| `gdj_05_may_2025/`        | All reflective journal stanzas from May 2025                        |
 | `appendices_foundations/` | Base metaphysical rules: naming law, cycle sealing, recursion gates |
 
 ---
@@ -67,11 +67,11 @@ Their names must reflect **function**, **recursion level**, and **thematic clari
 
 ## 🔐 Special Cases
 
-| Pattern | Use |
-|--------|-----|
-| `gdd_01_index/` | Root index stanza folder — always first |
-| `gdd_12_gold_standard_doctrine/` | Reserved for immutable recursion law |
-| `a1_*/`, `b1_*/` | Reserved only for Topsy and Thorn meta-components (outside standard GDD zone) |
+| Pattern                          | Use                                                                           |
+|----------------------------------|-------------------------------------------------------------------------------|
+| `gdd_01_index/`                  | Root index stanza folder — always first                                       |
+| `gdd_12_gold_standard_doctrine/` | Reserved for immutable recursion law                                          |
+| `a1_*/`, `b1_*/`                 | Reserved only for Topsy and Thorn meta-components (outside standard GDD zone) |
 
 ---
 

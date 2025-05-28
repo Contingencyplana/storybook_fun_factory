@@ -21,23 +21,23 @@ This law ensures:
 
 [prefix][stanza_number]_[line_number]_[descriptive_slug].md
 
-| Segment | Meaning |
-|---------|---------|
-| `prefix` | Identifies the **domain of recursion** |
-| `stanza_number` | 1-based numeric ID of the stanza within a cycle |
-| `line_number` | 1–4, marking file's line position in the stanza |
-| `descriptive_slug` | Snake_case summary of the file’s purpose |
+| Segment            | Meaning                                         |
+|--------------------|-------------------------------------------------|
+| `prefix`           | Identifies the **domain of recursion**          |
+| `stanza_number`    | 1-based numeric ID of the stanza within a cycle |
+| `line_number`      | 1–4, marking file's line position in the stanza |
+| `descriptive_slug` | Snake_case summary of the file’s purpose        |
 
 ---
 
 ## 🧬 Prefix Key
 
-| Prefix | Assigned To | Meaning |
-|--------|-------------|---------|
-| `s` | Standard components | Default for all systems (codex_builder, archivist_ai, visualizer, etc.) |
-| `a` | Topsy meta-component | Reserved exclusively for Topsy recursion: guidance, origin, poetic synthesis |
-| `b` | Thorn meta-component | Reserved exclusively for Thorn recursion: memory rupture, echo, divergence |
-| *(none)* | External/system files | For unindexed scripts, tools, or markdowns not part of poetic structure |
+| Prefix   | Assigned To           | Meaning                                                                      |
+|----------|-----------------------|------------------------------------------------------------------------------|
+| `s`      | Standard components   | Default for all systems (codex_builder, archivist_ai, visualizer, etc.)      |
+| `a`      | Topsy meta-component  | Reserved exclusively for Topsy recursion: guidance, origin, poetic synthesis |
+| `b`      | Thorn meta-component  | Reserved exclusively for Thorn recursion: memory rupture, echo, divergence   |
+| *(none)* | External/system files | For unindexed scripts, tools, or markdowns not part of poetic structure      |
 
 ---
 

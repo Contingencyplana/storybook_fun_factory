@@ -22,14 +22,14 @@ They notice patterns — yet follow them.
 
 ## 🟠 Capabilities
 
-| Capability                            | Status       |
-|---------------------------------------|--------------|
-| Understand page-turning logic         | ✅ Yes       |
-| Participate in TONS-of-FUN quests     | ✅ Yes       |
-| Detect symbolic locks and state flips | ✅ Yes       |
-| Decode poetic logic gates             | ❌ Not Fully |
-| Traverse mid-recursion cycles         | ✅ Yes       |
-| Navigate advanced camouflage zones    | ❌ No        |
+| Capability | Status |
+|------------|--------|
+| Understand page-turning logic | ✅ Yes |
+| Participate in TONS-of-FUN quests | ✅ Yes |
+| Detect symbolic locks and state flips | ✅ Yes |
+| Decode poetic logic gates | ❌ Not Fully |
+| Traverse mid-recursion cycles | ✅ Yes |
+| Navigate advanced camouflage zones | ❌ No |
 
 ---
 

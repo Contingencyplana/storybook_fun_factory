@@ -1,3 +1,4 @@
+
 <!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_01_index/s2_4_index_of_part_08_portal_infrastructure.md -->
 
 # 📘 s2_4 – Index of Part 08: Portal Infrastructure – Nested Realities and Inter-Zone Travel  

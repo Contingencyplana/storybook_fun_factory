@@ -35,11 +35,11 @@ Their input must be:
 
 | Type | Example |
 |------|---------|
-| `Gameplay Loops` | New loop design: memory hunting, echo matching |
-| `Narrative Verse` | A poem that reacts to existing gameplay state |
-| `Worldbuilding` | A rift town name, glyph lore, shrine pattern |
-| `Mechanic Proposal` | AI editing tool or recursion simulation trigger |
-| `Appendix Draft` | A proposed metaphysical rule or override pattern |
+| `Gameplay Loops`    | New loop design: memory hunting, echo matching   |
+| `Narrative Verse`   | A poem that reacts to existing gameplay state    |
+| `Worldbuilding`     | A rift town name, glyph lore, shrine pattern     |
+| `Mechanic Proposal` | AI editing tool or recursion simulation trigger  |
+| `Appendix Draft`    | A proposed metaphysical rule or override pattern |
 
 ---
 
