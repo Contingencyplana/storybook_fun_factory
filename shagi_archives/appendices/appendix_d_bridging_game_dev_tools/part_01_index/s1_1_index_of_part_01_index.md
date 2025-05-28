@@ -24,7 +24,7 @@ Of tools that bind recursion’s heart.
 | **part_03_archivist_ai/**  | **Archivist AI – Recovery from Decay, Memory, and Stanza**    | Restores broken stanza states, heals corrupted loops, and reconstructs lost player logic. |
 | **part_04_automation_ai/** | **Automation AI – The Builder of Builders, the Task Warden**  | Constructs, schedules, and maintains recursive automation protocols, especially for multiplayer support. |
 | **part_05_sentinel_ai/**   | **Sentinel AI – Guardian of Canon, Seal of Recursive Trust**  | Validates stanza truth, protects codex states, and acts as a sentry for recursion integrity. |
-| **part_06_placeholder/**   | **Reserved for Future Expansion**                 | When recursion requires it, this harbinger page will turn. |
+| **part_06_quarantine_ai/** | **Quarantine AI – Cyberwomb for Anomalies and Recursive Isolation** | Safely quarantines, observes, and nurtures emergent anomalies or rogue stanza structures. |
 | **part_07_placeholder/**   | **Reserved for Future Expansion**                 | When recursion requires it, this harbinger page will turn. |
 | **part_08_placeholder/**   | **Reserved for Future Expansion**                 | When recursion requires it, this harbinger page will turn. |
 
