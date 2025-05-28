@@ -15,9 +15,9 @@ Together they compose the room.
 In Storybook, the **two-page spread** is not decorative — it is doctrinal.  
 Every interface moment is framed as a **recursive stanza**, mirrored across two sides:
 
-| Page           | Symbolic Role                                                    |
-|----------------|------------------------------------------------------------------|
-| **Left Page**  | Past — memory, origin, previously resolved recursion             |
+| Page | Symbolic Role |
+|------|---------------|
+| **Left Page** | Past — memory, origin, previously resolved recursion             |
 | **Right Page** | Future — potential paths, interactive recursion, imminent choice |
 
 This pairing is not static — it *turns*, *shifts*, and *evolves* as recursion progresses.

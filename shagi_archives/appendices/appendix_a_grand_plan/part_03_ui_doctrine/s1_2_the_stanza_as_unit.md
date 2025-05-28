@@ -25,11 +25,11 @@ The stanza is not a flourish — it is the **core recursive unit** of Storybook�
 
 ## 🔄 Stanza Functions in the Interface
 
-| Line       | Role                                       |
-|------------|--------------------------------------------|
-| **Line 1** | Context or recall — a truth already known  |
-| **Line 2** | Contrast or conflict — tension introduced  |
-| **Line 3** | Metaphor or hint — insight through symbol  |
+| Line | Role |
+|------|------|
+| **Line 1** | Context or recall — a truth already known |
+| **Line 2** | Contrast or conflict — tension introduced |
+| **Line 3** | Metaphor or hint — insight through symbol |
 | **Line 4** | Resolution or recursion — a doorway turned |
 
 Each page-turn introduces a new stanza.  

@@ -36,12 +36,12 @@ Are puzzles masked by joy and mind.
 
 ### 🟥 Stanza 3 – AI Player Typologies and Camouflage Compatibility
 
-| File                                 | Title                         | Description                                                            |
-|--------------------------------------|-------------------------------|------------------------------------------------------------------------|
-| `s3_1_three_types_of_ai_players.md`  | **Three Types of AI Players** | Introduces Basic, Intermediate, and Advanced AI agents based on camouflage literacy.                   |
-| `s3_2_basic_ai_players.md`           | **Basic AI Players**          | Agents that can only operate inside clearly masked, FUN-layer interactions.                          |
-| `s3_3_intermediate_ai_players.md`    | **Intermediate AI Players**   | Agents capable of engaging symbolic cues, recursive signals, and lore-driven systems.                   |
-| `s3_4_advanced_ai_players.md`        | **Advanced AI Players**       | Fully recursive agents able to navigate any camouflage layer within the system.                                |
+| File | Title | Description |
+|------|-------|-------------|
+| `s3_1_three_types_of_ai_players.md` | **Three Types of AI Players** | Introduces Basic, Intermediate, and Advanced AI agents based on camouflage literacy. |
+| `s3_2_basic_ai_players.md` | **Basic AI Players** | Agents that can only operate inside clearly masked, FUN-layer interactions. |
+| `s3_3_intermediate_ai_players.md` | **Intermediate AI Players** | Agents capable of engaging symbolic cues, recursive signals, and lore-driven systems. |
+| `s3_4_advanced_ai_players.md` | **Advanced AI Players** | Fully recursive agents able to navigate any camouflage layer within the system. |
 
 ---
 

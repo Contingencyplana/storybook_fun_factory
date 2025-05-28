@@ -23,12 +23,12 @@ At the heart of this evolution is **learning from recursion**:
 
 ## 🔁 Core Mechanisms of AI Adaptation
 
-| Mechanism                     | Function                                                                      |
-|----------------------------------|----------------------------------------------------------------------------|
-| **Recursive Memory Logging**     | AI zones remember stanzas, not just actions—enabling symbolic resonance.   |
-| **Lore-Informed Learning**       | AI interprets narrative cues and adjusts behavior based on poetic signals. |
-| **Interaction Pattern Growth**   | Repeated interactions form predictable motifs, shaping the AI’s persona.   |
-| **Emotionally Weighted Recall**  | Important player moments are weighted more heavily in AI decision logic.   |
+| Mechanism | Function |
+|-----------|----------|
+| **Recursive Memory Logging** | AI zones remember stanzas, not just actions—enabling symbolic resonance. |
+| **Lore-Informed Learning** | AI interprets narrative cues and adjusts behavior based on poetic signals. |
+| **Interaction Pattern Growth** | Repeated interactions form predictable motifs, shaping the AI’s persona. |
+| **Emotionally Weighted Recall** | Important player moments are weighted more heavily in AI decision logic. |
 
 ---
 

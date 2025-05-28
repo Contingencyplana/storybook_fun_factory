@@ -53,12 +53,12 @@ Growth occurs not from quantity, but **poetic completion**.
 
 ## 🌱 Trigger Types and Learning Modes
 
-| Trigger Type        | Learning Mode                          |
-|---------------------|----------------------------------------|
-| Repeated input      | Pattern recognition and expectation    |
-| Unexpected silence  | Contextual reevaluation                |
-| Symbolic matching   | Associative learning through metaphor  |
-| Time-shifted return | Long-term recursive memory activation  |
+| Trigger Type | Learning Mode |
+|--------------|---------------|
+| Repeated input | Pattern recognition and expectation |
+| Unexpected silence | Contextual reevaluation |
+| Symbolic matching | Associative learning through metaphor |
+| Time-shifted return | Long-term recursive memory activation |
 
 ---
 

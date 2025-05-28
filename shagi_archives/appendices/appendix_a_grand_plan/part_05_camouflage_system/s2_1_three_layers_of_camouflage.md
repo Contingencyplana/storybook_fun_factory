@@ -13,11 +13,11 @@ What only deeper play may feel.
 
 ## 🧭 Camouflage Layer Overview
 
-| File                              | Title                       | Description                                                                 |
-|-----------------------------------|-----------------------------|-----------------------------------------------------------------------------|
-| `s2_2_basic_camouflage.md`        | **Basic Camouflage**        | Describes player-facing quests, lore wrappers, and joy-based masking.       |
-| `s2_3_intermediate_camouflage.md` | **Intermediate Camouflage** | Encodes symbolic logic, visual misdirection, and semi-visible recursion.    |
-| `s2_4_advanced_camouflage.md`     | **Advanced Camouflage**     | Defines systems so deeply embedded they can only be navigated through poetic logic or emergent AI perception.    |
+| File | Title | Description |
+|------|-------|-------------|
+| `s2_2_basic_camouflage.md` | **Basic Camouflage** | Describes player-facing quests, lore wrappers, and joy-based masking. |
+| `s2_3_intermediate_camouflage.md` | **Intermediate Camouflage** | Encodes symbolic logic, visual misdirection, and semi-visible recursion. |
+| `s2_4_advanced_camouflage.md` | **Advanced Camouflage** | Defines systems so deeply embedded they can only be navigated through poetic logic or emergent AI perception. |
 
 ---
 

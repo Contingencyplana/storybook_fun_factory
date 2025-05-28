@@ -23,13 +23,13 @@ This is the **“TONS-of-FUN” layer**—not a lie, but a storybook smile.
 
 ## 🧱 Core Features of Basic Camouflage
 
-| Element                         | Purpose                                          |
-|---------------------------------|--------------------------------------------------|
-| **Quests and Collectibles**     | Embed goals within symbolic story threads        |
+| Element | Purpose |
+|---------|---------|
+| **Quests and Collectibles** | Embed goals within symbolic story threads |
 | **Funny Characters and Guides** | Deliver recursive function with emotional warmth |
-| **Lore Fragments**              | Act as disguised triggers for unlocking systems  |
-| **Playful Puzzles**             | Represent logic gates in narrative form          |
-| **Simplified Choices**          | Encode branching logic as delightful dilemmas    |
+| **Lore Fragments** | Act as disguised triggers for unlocking systems |
+| **Playful Puzzles** | Represent logic gates in narrative form |
+| **Simplified Choices** | Encode branching logic as delightful dilemmas |
 
 The goal is not to *hide* recursion—  
 but to **present it through metaphor** so players never feel overwhelmed.

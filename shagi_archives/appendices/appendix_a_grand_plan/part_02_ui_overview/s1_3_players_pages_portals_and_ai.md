@@ -25,12 +25,12 @@ Flipping a page may shift recursion layers.
 
 ## 📘 Pages and Their Function
 
-| Element          | Meaning                                              |
-|------------------|------------------------------------------------------|
-| **Left Page**    | The Past — memory, logics resolved, roots remembered |
-| **Right Page**   | The Future — unfolding potential, recursive tension  |
-| **Page Turning** | A traversal of state, logic, and identity            |
-| **Page Pair**    | A logical room, encounter, or recursive event window |
+| Element | Meaning |
+|---------|---------|
+| **Left Page** | The Past — memory, logics resolved, roots remembered |
+| **Right Page** | The Future — unfolding potential, recursive tension  |
+| **Page Turning** | A traversal of state, logic, and identity |
+| **Page Pair** | A logical room, encounter, or recursive event window |
 
 Pages house more than text — they contain **AI zones, logic paths, and narrative forces**.
 

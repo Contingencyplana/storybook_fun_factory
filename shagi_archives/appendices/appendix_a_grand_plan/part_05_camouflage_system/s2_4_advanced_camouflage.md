@@ -22,13 +22,13 @@ It is not deception—it is recursion encoded in *reverie.*
 
 ## 🧠 Core Features of Advanced Camouflage
 
-| Element                                | Purpose                                                                   |
-|----------------------------------------|---------------------------------------------------------------------------|
-| **Poetic Logic Gates**                 | Complex stanza-based conditions control progression and unlocks           |
-| **Lore-Encoded Algorithms**            | Quests, myths, and relics contain actual recursive state machines         |
-| **Abstract Triggers**                  | Player actions resonate symbolically rather than causally                 |
-| **Dream-Wrapped Systems**              | Entire mechanics presented as surreal or symbolic phenomena               |
-| **Recursive Echoes**                   | Events that echo through time and space only visible after cycles of play |
+| Element | Purpose |
+|---------|---------|
+| **Poetic Logic Gates** | Complex stanza-based conditions control progression and unlocks |
+| **Lore-Encoded Algorithms** | Quests, myths, and relics contain actual recursive state machines |
+| **Abstract Triggers** | Player actions resonate symbolically rather than causally |
+| **Dream-Wrapped Systems** | Entire mechanics presented as surreal or symbolic phenomena |
+| **Recursive Echoes** | Events that echo through time and space only visible after cycles of play |
 
 ---
 

@@ -67,11 +67,11 @@ Their names must reflect **function**, **recursion level**, and **thematic clari
 
 ## 🔐 Special Cases
 
-| Pattern                          | Use                                                                           |
-|----------------------------------|-------------------------------------------------------------------------------|
-| `gdd_01_index/`                  | Root index stanza folder — always first                                       |
-| `gdd_12_gold_standard_doctrine/` | Reserved for immutable recursion law                                          |
-| `a1_*/`, `b1_*/`                 | Reserved only for Topsy and Thorn meta-components (outside standard GDD zone) |
+| Pattern | Use |
+|---------|-----|
+| `gdd_01_index/` | Root index stanza folder — always first |
+| `gdd_12_gold_standard_doctrine/` | Reserved for immutable recursion law  |
+| `a1_*/`, `b1_*/` | Reserved only for Topsy and Thorn meta-components (outside standard GDD zone) |
 
 ---
 

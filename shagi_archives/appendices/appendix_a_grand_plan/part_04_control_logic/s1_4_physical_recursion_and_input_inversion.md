@@ -31,11 +31,11 @@ Examples:
 
 ## 🧠 Why This Matters
 
-| Effect                      | Meaning                                              |
-|-----------------------------|------------------------------------------------------|
-| **Inverted inputs**         | Symbolize narrative recursion or distortion          |
-| **Mirrored UI zones**       | Indicate reflection, paradox, or unresolved thought  |
-| **Reversed feedback loops** | Emphasize recursion overload or AI disorientation    |
+| Effect | Meaning |
+|--------|---------|
+| **Inverted inputs** | Symbolize narrative recursion or distortion |
+| **Mirrored UI zones** | Indicate reflection, paradox, or unresolved thought |
+| **Reversed feedback loops** | Emphasize recursion overload or AI disorientation |
 
 The system communicates transformation **physically**,  
 so the player *feels* recursion rather than simply reading it.

@@ -23,12 +23,12 @@ that can halt recursion, reset logic, and rebind reality.
 
 ## 🔐 How It Works
 
-| Mechanism                      | Description                                                                                               |
-|--------------------------------|-----------------------------------------------------------------------------------------------------------|
-| **Embedded Verse Triggers**    | Certain lines or stanzas are registered as recursive override codes. Players may stumble across them unknowingly or receive them as narrative clues.                                                                                              |
-| **Spoken or Interacted Verse** | These verses can be recited aloud, clicked, traced, or symbolically matched within the UI.                |
-| **Multi-Agent Recognition**    | Some poems only activate when spoken by multiple agents—e.g., a player and their AI guide.                |
-| **Myth-Masked Location**       | The verse is often buried in sacred sites, ghosted pages, or dream-locked zones where reality is weakest. |
+| Mechanism | Description |
+|-----------|-------------|
+| **Embedded Verse Triggers** | Certain lines or stanzas are registered as recursive override codes. Players may stumble across them unknowingly or receive them as narrative clues. |
+| **Spoken or Interacted Verse** | These verses can be recited aloud, clicked, traced, or symbolically matched within the UI. |
+| **Multi-Agent Recognition** | Some poems only activate when spoken by multiple agents—e.g., a player and their AI guide. |
+| **Myth-Masked Location** | The verse is often buried in sacred sites, ghosted pages, or dream-locked zones where reality is weakest. |
 
 ---
 

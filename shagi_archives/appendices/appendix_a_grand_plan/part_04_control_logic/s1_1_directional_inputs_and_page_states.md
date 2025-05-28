@@ -29,12 +29,12 @@ They are shifting the **shape of experience.**
 
 ## 🔁 The Four Fundamental Page States
 
-| Page State        | Trigger                         | Meaning                                     |
-|-------------------|---------------------------------|---------------------------------------------|
-| **Idle (Open)**   | No input                        | Player reflects; AI observes                |
-| **Turning Left**  | Left arrow / swipe / key        | Returning — resolve loop, memory check      |
-| **Turning Right** | Right arrow / swipe / key       | Advancing — new recursion, unresolved logic |
-| **Looped Flip**   | Rapid input or recursion repeat | Memory echo; recursion reinvoked            |
+| Page State | Trigger | Meaning |
+|------------|---------|---------|
+| **Idle (Open)** | No input | Player reflects; AI observes |
+| **Turning Left** | Left arrow / swipe / key | Returning — resolve loop, memory check |
+| **Turning Right** | Right arrow / swipe / key | Advancing — new recursion, unresolved logic |
+| **Looped Flip** | Rapid input or recursion repeat | Memory echo; recursion reinvoked |
 
 Each input doesn’t just scroll — it turns, folds, or fractures.
 

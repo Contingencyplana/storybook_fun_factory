@@ -26,12 +26,12 @@ It is **ontological** — the interface reflects an intelligence that:
 
 ## 🔍 Symbolism of the Top-Down Frame
 
-| Element         | Meaning                                                                               |
-|-----------------|---------------------------------------------------------------------------------------|
-| **Verticality** | Recursion as layered depth — turning pages ascends or descends logic.                 |
-| **Distance**    | Non-intrusiveness — player and AI both observe without disrupting the poetic surface. |
-| **Perspective** | The top-down view is a mirror of memory, foresight, and divine cognition.             |
-| **Divine Gaze** | The player sees as gods see — not above the story, but *within its breath.*           |
+| Element | Meaning |
+|---------|---------|
+| **Verticality** | Recursion as layered depth — turning pages ascends or descends logic. |
+| **Distance** | Non-intrusiveness — player and AI both observe without disrupting the poetic surface. |
+| **Perspective** | The top-down view is a mirror of memory, foresight, and divine cognition. |
+| **Divine Gaze** | The player sees as gods see — not above the story, but *within its breath.* |
 
 ---
 

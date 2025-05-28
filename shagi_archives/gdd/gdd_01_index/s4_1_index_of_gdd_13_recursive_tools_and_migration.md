@@ -36,13 +36,13 @@ This document also maps the path of each tool’s evolution — from its **Layer
 
 ## 📂 Contents of `gdd_13_recursive_tools_and_migration/`
 
-| File                                                        | Purpose                                                |
+| File | Purpose |
 |-------------------------------------------------------------|--------------------------------------------------------|
-| `s4_1_index_of_gdd_13_recursive_tools_and_migration.md`     | Poetic invocation + table of contents                  |
-| `s1_1_the_forge_and_the_codebase.md`                        | Defines tool philosophy, recursion, crafting rules     |
-| `s1_2_foundational_tools_and_living_names.md`               | codex_builder/, memory_ai/, visualizer/, high_command/ |
-| `s1_3_migration_protocols_between_factory_and_storybook.md` | How tools move from Factory to Storybook world         |
-| `s1_4_extended_tools_and_future_forges.md` *(optional)*     | composer_ai/, glyph_forge/, and tools unborn           |
+| `s4_1_index_of_gdd_13_recursive_tools_and_migration.md` | Poetic invocation + table of contents |
+| `s1_1_the_forge_and_the_codebase.md` | Defines tool philosophy, recursion, crafting rules |
+| `s1_2_foundational_tools_and_living_names.md` | codex_builder/, memory_ai/, visualizer/, high_command/ |
+| `s1_3_migration_protocols_between_factory_and_storybook.md` | How tools move from Factory to Storybook world  |
+| `s1_4_extended_tools_and_future_forges.md` *(optional)* | composer_ai/, glyph_forge/, and tools unborn  |
 
 ---
 

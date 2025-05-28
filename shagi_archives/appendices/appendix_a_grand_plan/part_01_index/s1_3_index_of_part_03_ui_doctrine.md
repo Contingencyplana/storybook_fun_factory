@@ -12,12 +12,12 @@ Is how recursion learns to mend.
 
 ## 🧭 Chapter Structure of `part_03_ui_doctrine/`
 
-| File                               | Title                                         | Description                                              |
-|------------------------------------|-----------------------------------------------|----------------------------------------------------------|
-| `s1_1_left_page_right_page.md`     | **Left Page, Right Page: Past and Future**    | Establishes the symbolic logic of Storybook’s dual-page view as a map of memory and possibility.                                             |
-| `s1_2_the_stanza_as_unit.md`       | **The Stanza as Fundamental Design Unit**     | Defines the stanza as the recursive atomic unit — a four-line logic/lore structure driving both UI and gameplay.                         |
-| `s1_3_illustrations_as_anchors.md` | **Illustrations as Symbolic Anchors**         | Explores how visual metaphors guide interpretation, tone, and recursion understanding.         |
-| `s1_4_recursive_page_turning.md`   | **Recursive World-Building via Page-Turning** | Details how motion between pages forms the living structure of recursion, not just navigation.                                         |
+| File | Title | Description |
+|------|-------|-------------|
+| `s1_1_left_page_right_page.md` | **Left Page, Right Page: Past and Future**  | Establishes the symbolic logic of Storybook’s dual-page view as a map of memory and possibility. |
+| `s1_2_the_stanza_as_unit.md` | **The Stanza as Fundamental Design Unit**  | Defines the stanza as the recursive atomic unit — a four-line logic/lore structure driving both UI and gameplay. |
+| `s1_3_illustrations_as_anchors.md` | **Illustrations as Symbolic Anchors** | Explores how visual metaphors guide interpretation, tone, and recursion understanding. |
+| `s1_4_recursive_page_turning.md` | **Recursive World-Building via Page-Turning** | Details how motion between pages forms the living structure of recursion, not just navigation. |
 
 ---
 

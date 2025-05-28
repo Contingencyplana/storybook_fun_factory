@@ -26,12 +26,12 @@ Each illustration functions as a **semantic recursion node**.
 
 ## 🔍 Symbolism, Pattern, and Layering
 
-| Illustration Type                       | Purpose                                             |
-|-----------------------------------------|-----------------------------------------------------|
-| **Motif (e.g. flame, feather, spiral)** | Encodes system behavior or player state             |
-| **Object (e.g. key, eye, book)**        | Unlocks a recursive trigger — visual invocation     |
-| **Scene or Fragment**                   | Conveys narrative stanzas nonverbally               |
-| **Diagrammatic Form**                   | Embeds UI feedback or logic within poetic structure |
+| Illustration Type | Purpose |
+|-------------------|---------|
+| **Motif (e.g. flame, feather, spiral)** | Encodes system behavior or player state |
+| **Object (e.g. key, eye, book)** | Unlocks a recursive trigger — visual invocation |
+| **Scene or Fragment** | Conveys narrative stanzas nonverbally |
+| **Diagrammatic Form** | Embeds UI feedback or logic within poetic structure |
 
 Some illustrations are clickable. Others change based on recursion.  
 Many contain **visual metaphors** that only reveal meaning across multiple stanzas.

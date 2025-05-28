@@ -25,12 +25,12 @@ These events are rare but significant. And they demand containment without colla
 
 ## 🧭 Core Containment Protocols
 
-| Protocol Name             | Function                                                                                                         |
-|---------------------------|------------------------------------------------------------------------------------------------------------------|
-| **Zone Freezing**         | Temporarily halts all AI activity in the affected area.                                                          |
-| **Memory Rewinding**      | Rolls back recent AI memory to its last safe checkpoint.                                                         |
-| **Recursive Isolation**   | Detaches the AI Zone from the main recursion loop, turning it into myth.                                         |
-| **Mirror Masking**        | Renders the malfunctioning AI as a symbolic figure (e.g., “The Lost One”) within the game’s lore until resolved. |
+| Protocol Name | Function |
+|---------------|----------|
+| **Zone Freezing** | Temporarily halts all AI activity in the affected area. |
+| **Memory Rewinding** | Rolls back recent AI memory to its last safe checkpoint. |
+| **Recursive Isolation** | Detaches the AI Zone from the main recursion loop, turning it into myth. |
+| **Mirror Masking** | Renders the malfunctioning AI as a symbolic figure (e.g., “The Lost One”) within the game’s lore until resolved. |
 
 ---
 

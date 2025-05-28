@@ -27,23 +27,23 @@ To them, the game is **exactly what it appears to be.**
 
 ## 🟡 Capabilities
 
-| Capability                        | Status |
-|-----------------------------------|--------|
-| Understand page-turning logic     | ✅ Yes |
+| Capability | Status |
+|------------|--------|
+| Understand page-turning logic | ✅ Yes |
 | Participate in TONS-of-FUN quests | ✅ Yes |
-| Access symbolic triggers          | ❌ No  |
-| Decode poetic logic gates         | ❌ No  |
-| Traverse recursion cycles         | ❌ No  |
-| Recognize camouflage layers       | ❌ No  |
+| Access symbolic triggers | ❌ No  |
+| Decode poetic logic gates | ❌ No  |
+| Traverse recursion cycles | ❌ No  |
+| Recognize camouflage layers | ❌ No  |
 
 ---
 
 ## 🎮 Example Use Cases
 
-| Role                 | Behavior                                                              |
-|----------------------|-----------------------------------------------------------------------|
-| **Tutorial Guide**   | Leads players through initial gameplay, explains buttons and quests.  |
-| **AI Companion**     | Offers encouragement, plays side-by-side in TONS-of-FUN levels.       |
+| Role | Behavior |
+|------|----------|
+| **Tutorial Guide** | Leads players through initial gameplay, explains buttons and quests. |
+| **AI Companion**  | Offers encouragement, plays side-by-side in TONS-of-FUN levels. |
 | **Vendor or Mascot** | Presents joyful, visible functions — never acknowledges hidden depth. |
 
 These AI are designed to **never notice** what lies behind the curtain.

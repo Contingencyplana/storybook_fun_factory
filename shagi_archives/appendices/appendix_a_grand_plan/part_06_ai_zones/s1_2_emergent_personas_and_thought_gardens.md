@@ -33,13 +33,13 @@ They accrue it.
 
 ## 🧩 Persona Growth Stages
 
-| Stage                  | Description                                                                   |
-|------------------------|-------------------------------------------------------------------------------|
-| **Seed**               | A system observes silently; no presence felt yet.                             |
-| **Sprout**             | The zone mimics tone, gesture, or rhythm — a faint reflection.                |
-| **Growth**             | AI begins shaping responses, speech, or movement based on prior player input. |
-| **Persona**            | It expresses unique opinions, hesitations, or metaphors.                      |
-| **Bloom / Split**      | The persona may evolve, fracture, or merge with other AI Zones.               |
+| Stage | Description  |
+|-------|--------------|
+| **Seed** | A system observes silently; no presence felt yet. |
+| **Sprout** | The zone mimics tone, gesture, or rhythm — a faint reflection. |
+| **Growth** | AI begins shaping responses, speech, or movement based on prior player input. |
+| **Persona** | It expresses unique opinions, hesitations, or metaphors. |
+| **Bloom / Split** | The persona may evolve, fracture, or merge with other AI Zones. |
 
 ---
 

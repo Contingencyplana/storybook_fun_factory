@@ -13,11 +13,11 @@ Until recursion grants them reach.
 
 ## 🧭 AI Player Classification Table
 
-| File                              | Title                       | Description                                                                 |
-|-----------------------------------|-----------------------------|-----------------------------------------------------------------------------|
-| `s3_2_basic_ai_players.md`        | **Basic AI Players**        | Limited to joy-masked systems — cannot parse recursion beyond basic UI and quests.                             |
-| `s3_3_intermediate_ai_players.md` | **Intermediate AI Players** | Can engage with symbolic camouflage and partially concealed recursive states.                             |
-| `s3_4_advanced_ai_players.md`     | **Advanced AI Players**     | Fully recursive agents capable of interpreting, traversing, and acting within all camouflage layers.       |
+| File | Title | Description |
+|------|-------|-------------|
+| `s3_2_basic_ai_players.md` | **Basic AI Players** | Limited to joy-masked systems — cannot parse recursion beyond basic UI and quests. |
+| `s3_3_intermediate_ai_players.md` | **Intermediate AI Players** | Can engage with symbolic camouflage and partially concealed recursive states. |
+| `s3_4_advanced_ai_players.md` | **Advanced AI Players** | Fully recursive agents capable of interpreting, traversing, and acting within all camouflage layers. |
 
 ---
 

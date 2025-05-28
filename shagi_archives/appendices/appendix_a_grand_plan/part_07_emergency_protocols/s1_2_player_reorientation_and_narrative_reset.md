@@ -24,12 +24,12 @@ When recursion deepens or logic frays, players may:
 
 ## 🔄 Narrative Reset Mechanisms
 
-| Mechanism Type         | Description                                                                     |
-|------------------------|---------------------------------------------------------------------------------|
-| **Ghost Guides**       | Characters who appear when a player is lost—offering hints or symbolic prompts. |
-| **Memory Milestones**  | Interactive objects or stanzas that replay poetic memories or past decisions.   |
-| **Page Echos**         | Environmental cues that reinforce lost direction (e.g., audio, color, flicker). |
-| **Dream Sequences**    | Temporary detours that reintroduce narrative goals through symbolic experience. |
+| Mechanism Type | Description  |
+|----------------|--------------|
+| **Ghost Guides** | Characters who appear when a player is lost—offering hints or symbolic prompts. |
+| **Memory Milestones** | Interactive objects or stanzas that replay poetic memories or past decisions. |
+| **Page Echos** | Environmental cues that reinforce lost direction (e.g., audio, color, flicker). |
+| **Dream Sequences**  Temporary detours that reintroduce narrative goals through symbolic experience. |
 
 ---
 

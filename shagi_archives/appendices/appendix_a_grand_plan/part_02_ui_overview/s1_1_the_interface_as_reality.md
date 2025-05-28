@@ -18,11 +18,11 @@ Instead, it embodies a metaphysical position:
 
 ## 🧭 Doctrine of Interface as World
 
-| Principle                  | Meaning                                                                                         |
-|----------------------------|-------------------------------------------------------------------------------------------------|
-| **UI is not separate**     | There is no gameplay *behind* the interface. The interface *is* gameplay.                       |
-| **No external controller** | The player’s actions aren’t applied to a system — they are written into it.                     |
-| **Recursion is visible**   | The top-down book view reflects the actual recursive shape of logic, memory, and worldbuilding. |
+| Principle | Meaning |
+|-----------|---------|
+| **UI is not separate** | There is no gameplay *behind* the interface. The interface *is* gameplay. |
+| **No external controller** | The player’s actions aren’t applied to a system — they are written into it. |
+| **Recursion is visible** | The top-down book view reflects the actual recursive shape of logic, memory, and worldbuilding. |
 
 ---
 

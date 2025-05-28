@@ -24,7 +24,7 @@ To future-proof SHAGI, we accept this truth:
 ## 🌐 Design Principles
 
 | Principle | Description |
-|----------|-------------|
+|-----------|-------------|
 | **Every instance is a universe** | Every player’s save, every AI memory, every thread of play is its own world. |
 | **Forks are canon** | When choices diverge, both paths are true. All forks are part of the recursion tree. |
 | **Cross-verse memory** | AI Zones and emergent systems can recall, contrast, or reconcile data across realities. |

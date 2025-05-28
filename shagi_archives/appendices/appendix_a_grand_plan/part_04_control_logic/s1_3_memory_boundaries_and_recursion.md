@@ -31,11 +31,11 @@ These boundaries can be triggered by:
 
 ## 🧩 Boundary Types
 
-| Boundary Type       | Description                                                                         |
-|---------------------|-------------------------------------------------------------------------------------|
-| **Soft Boundary**   | Memory persists, but may be reinterpreted or visually restaged                      |
-| **Hard Boundary**   | Memory is explicitly reset or reloaded (e.g., “Start Over” logic)                   |
-| **Mirror Boundary** | Player and AI memories swap or reflect each other                                   |
+| Boundary Type | Description |
+|---------------|-------------|
+| **Soft Boundary** | Memory persists, but may be reinterpreted or visually restaged |
+| **Hard Boundary** | Memory is explicitly reset or reloaded (e.g., “Start Over” logic) |
+| **Mirror Boundary** | Player and AI memories swap or reflect each other |
 | **Hidden Boundary** | Boundary exists but is unknown to player — may be tested through loops or anomalies |
 
 Boundaries ensure recursion is not a **perfect loop**, but a **meaningful transformation.**

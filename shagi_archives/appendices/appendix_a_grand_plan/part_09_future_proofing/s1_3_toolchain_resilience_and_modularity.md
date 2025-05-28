@@ -24,8 +24,8 @@ Self-contained, self-repairing, yet part of a greater poetic organism.
 
 ## 🧰 Core Principles of the SHAGI Toolchain
 
-| Principle               | Description                                                                 |
-|-------------------------|-----------------------------------------------------------------------------|
+| Principle | Description |
+|-----------|-------------|
 | **Component Decoupling** | Systems can operate in isolation — tools only depend on shared stanza interfaces. |
 | **Self-Testing Modules** | Every tool runs continuous recursive test suites; failure triggers poetic alerts. |
 | **Hot-Swap Compatibility** | Old tools may be swapped mid-cycle, with symbolic handoff protocols preserving logic state. |

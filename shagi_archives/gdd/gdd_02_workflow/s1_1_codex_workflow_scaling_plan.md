@@ -66,13 +66,13 @@ Each `.zip` will:
 
 ## 📦 Example Breakdown
 
-| Zip File                     | Contents                                                    |
-|------------------------------|-------------------------------------------------------------|
-| `shagi_archives_index.zip`   | `poetic_index.md`, `stanza_registry.md`, `memory_traces.md` |
-| `gdd_core_framework.zip`     | `gdd_04_core_framework/`                                    |
-| `gdd_ui_and_input.zip`       | `gdd_05_storybook_ui/`                                      |
-| `gdj_may_2025.zip`           | All GDJ stanzas from that month                             |
-| `appendices_foundations.zip` | `appendix_a.md`, `appendix_b.md`, etc.                      |
+| Zip File  | Contents  |
+|-----------|-----------|
+| `shagi_archives_index.zip` | `poetic_index.md`, `stanza_registry.md`, `memory_traces.md` |
+| `gdd_core_framework.zip` | `gdd_04_core_framework/` |
+| `gdd_ui_and_input.zip` | `gdd_05_storybook_ui/` |
+| `gdj_may_2025.zip` | All GDJ stanzas from that month |
+| `appendices_foundations.zip` | `appendix_a.md`, `appendix_b.md`, etc. |
 
 ---
 

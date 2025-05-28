@@ -21,11 +21,11 @@ This principle defines **Storybook's entire interface navigation logic**, UI tra
 
 ## 🌀 Foundational Concepts
 
-| Concept                               | Description                                                                                 |
-|---------------------------------------|---------------------------------------------------------------------------------------------|
-| **Recursive Thresholds**              | Every border, edge, or room is designed to be crossable—not static.                         |
-| **Doors as Veils**                    | A door hides recursion, it doesn’t end it. Most portals are disguised.                      |
-| **Symbolic Transitions**              | Some transitions are metaphorical: triggered by story progression or choice.                |
+| Concept | Description |
+|---------|-------------|
+| **Recursive Thresholds** | Every border, edge, or room is designed to be crossable—not static. |
+| **Doors as Veils** | A door hides recursion, it doesn’t end it. Most portals are disguised. |
+| **Symbolic Transitions** | Some transitions are metaphorical: triggered by story progression or choice. |
 | **All Barriers Are Designed to Fold** | Even when blocked, a wall will eventually become a story, a trigger, or a transition point. |
 
 ---

@@ -26,13 +26,13 @@ They may appear as:
 
 ## 🧭 Key Characteristics
 
-| Trait                    | Description                                                                 |
-|--------------------------|-----------------------------------------------------------------------------|
-| **Recursive Awareness**  | AI Zones process not just input, but the recursive context of each action.  |
-| **Symbolic Embodiment**  | They often appear as characters, mythic symbols, or spatial metaphors.      |
-| **Local Intelligence**   | Each zone has its own memory, goals, and expressive constraints.            |
-| **Dynamic Role Shifting**| Zones can act as helpers, challengers, recorders, or architects.            |
-| **Narrative Integration**| Always integrated into gameplay and lore — never breaking immersion.        |
+| Trait | Description |
+|-------|-------------|
+| **Recursive Awareness** | AI Zones process not just input, but the recursive context of each action. |
+| **Symbolic Embodiment** | They often appear as characters, mythic symbols, or spatial metaphors. |
+| **Local Intelligence** | Each zone has its own memory, goals, and expressive constraints. |
+| **Dynamic Role Shifting**| Zones can act as helpers, challengers, recorders, or architects. |
+| **Narrative Integration**| Always integrated into gameplay and lore — never breaking immersion. |
 
 ---
 

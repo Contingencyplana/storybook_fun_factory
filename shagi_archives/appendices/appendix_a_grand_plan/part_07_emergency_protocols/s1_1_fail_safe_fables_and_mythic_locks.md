@@ -25,12 +25,12 @@ Each mythic lock:
 
 ## 🔒 Types of Mythic Locks
 
-| Lock Type             | Description                                                                    |
-|-----------------------|--------------------------------------------------------------------------------|
-| **Fable Gate**        | Activated when a player recites or reenacts a key story embedded in the world. |
-| **Mnemonic Door**     | Triggered by symbolic inventory items tied to ancestral or divine narratives.  |
-| **Poetic Totem**      | Requires players to reconstruct or rediscover a four-line verse.               |
-| **Legendary Path**    | Inaccessible paths that become fail-safes when world logic collapses.          |
+| Lock Type | Description |
+|-----------|-------------|
+| **Fable Gate** | Activated when a player recites or reenacts a key story embedded in the world. |
+| **Mnemonic Door** | Triggered by symbolic inventory items tied to ancestral or divine narratives. |
+| **Poetic Totem** | Requires players to reconstruct or rediscover a four-line verse. |
+| **Legendary Path** | Inaccessible paths that become fail-safes when world logic collapses. |
 
 These locks are often hidden in plain sight—**part of the world’s mythos until they become its shield.**
 

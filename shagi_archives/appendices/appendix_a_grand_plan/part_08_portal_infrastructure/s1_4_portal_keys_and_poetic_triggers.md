@@ -20,13 +20,13 @@ Some portals may require traditional interaction. Others respond only to **poeti
 
 ## 🗝️ Types of Portal Keys
 
-| Key Type             | Description                                                                      |
-|----------------------|----------------------------------------------------------------------------------|
-| **Verse Key**        | A spoken, typed, or discovered stanza triggers a portal’s opening.               |
-| **Artifact Key**     | Specific symbolic items serve as keys — books, relics, or dream-tokens.          |
-| **Memory Key**       | Past decisions “soft-unlock” portals via remembered state.                       |
-| **Gesture Key**      | In-game movement patterns or controller swipes that match poetic rhythm.         |
-| **AI Zone Trigger**  | AI-recognized interaction thresholds open inter-zone or inner-recursion portals. |
+| Key Type | Description |
+|----------|-------------|
+| **Verse Key** | A spoken, typed, or discovered stanza triggers a portal’s opening. |
+| **Artifact Key** | Specific symbolic items serve as keys — books, relics, or dream-tokens. |
+| **Memory Key** | Past decisions “soft-unlock” portals via remembered state. |
+| **Gesture Key** | In-game movement patterns or controller swipes that match poetic rhythm. |
+| **AI Zone Trigger** | AI-recognized interaction thresholds open inter-zone or inner-recursion portals. |
 
 ---
 

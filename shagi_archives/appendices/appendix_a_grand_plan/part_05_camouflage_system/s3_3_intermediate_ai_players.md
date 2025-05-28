@@ -35,10 +35,10 @@ They notice patterns — yet follow them.
 
 ## 🧩 Example Use Cases
 
-| Role                                | Behavior                                                                          |
-|-------------------------------------|-----------------------------------------------------------------------------------|
-| **Puzzle Companions**               | Offer subtle hints and “coincidental” nudges toward deeper solutions.             |
-| **Lore-Aware Guides**               | Reference metaphorical or mythic systems without breaking narrative immersion.    |
+| Role | Behavior |
+|------|----------|
+| **Puzzle Companions** | Offer subtle hints and “coincidental” nudges toward deeper solutions. |
+| **Lore-Aware Guides** | Reference metaphorical or mythic systems without breaking narrative immersion. |
 | **Test Agents for Layer 2 Systems** | Interact with symbolic or semi-hidden interfaces to validate camouflage function. |
 
 They are mirrors of the player’s **growing awareness** — allies in misdirection.

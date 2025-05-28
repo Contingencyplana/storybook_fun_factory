@@ -20,11 +20,11 @@ The traversal of space in Storybook is not purely physical but recursive, semant
 
 ## 🧩 Core Definitions
 
-| Term              | Meaning                                                                 |
-|-------------------|-------------------------------------------------------------------------|
-| **Zone**          | A localized gameplay space with its own rules, UI, or recursive state.  |
-| **Region**        | A cluster of zones unified by theme, questline, memory pool, or logic.  |
-| **Linked Domain** | A group of regions bound by AI behavior, narrative recursion, or lore.  |
+| Term  | Meaning |
+|-------|---------|
+| **Zone** | A localized gameplay space with its own rules, UI, or recursive state. |
+| **Region** | A cluster of zones unified by theme, questline, memory pool, or logic. |
+| **Linked Domain** | A group of regions bound by AI behavior, narrative recursion, or lore. |
 
 ---
 
@@ -45,12 +45,12 @@ Unlike traditional world maps, Storybook geography forms dynamically through:
 
 ## 🔗 Inter-Zone Linking Mechanisms
 
-| Link Type            | Description                                                                 |
-|----------------------|-----------------------------------------------------------------------------|
-| **Portal-Based**     | Traditional or symbolic doorways, pages, or transitions between zones.      |
-| **Memory Anchors**   | Past decisions cause zones to fold together into newly accessible paths.    |
-| **Lore Triggers**    | Key phrases, discoveries, or artifacts dynamically stitch zones together.   |
-| **AI Zone Expansion**| Some zones may *grow* into new regions based on AI learning or recursion.   |
+| Link Type | Description |
+|-----------|-------------|
+| **Portal-Based** | Traditional or symbolic doorways, pages, or transitions between zones. |
+| **Memory Anchors** | Past decisions cause zones to fold together into newly accessible paths. |
+| **Lore Triggers** | Key phrases, discoveries, or artifacts dynamically stitch zones together. |
+| **AI Zone Expansion**| Some zones may *grow* into new regions based on AI learning or recursion. |
 
 ---
 

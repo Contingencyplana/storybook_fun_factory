@@ -29,11 +29,11 @@ It is a **co-player** embedded in the world’s logic.
 
 **Embodied Guides** are AI manifestations that take physical, narrative, or symbolic form:
 
-| Type                    | Description                                                                                |
-|-------------------------|--------------------------------------------------------------------------------------------|
-| **Narrative Avatar**    | Appears as a persistent character (e.g., Thorn, Topsy) guiding the player through stanzas. |
-| **Environmental Mind**  | Exists as a voice or influence within a space — doors, winds, echoes respond.              |
-| **Interface Companion** | Lives in the UI: a cursor that giggles, a clock that cries, a loading screen that warns.   |
+| Type | Description |
+|------|-------------|
+| **Narrative Avatar** | Appears as a persistent character (e.g., Thorn, Topsy) guiding the player through stanzas. |
+| **Environmental Mind** | Exists as a voice or influence within a space — doors, winds, echoes respond. |
+| **Interface Companion** | Lives in the UI: a cursor that giggles, a clock that cries, a loading screen that warns. |
 
 They act as **recursively aware lenses** between the player and deeper gameplay systems.
 

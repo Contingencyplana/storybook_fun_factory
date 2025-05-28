@@ -45,22 +45,22 @@ The Codex Builder must validate all generated files against this format:
 
 [prefix][stanza_number]_[line_number]_[descriptive_slug].md
 
-| Example                  | Meaning                                 |
-|--------------------------|-----------------------------------------|
-| `s1_1_codex_builder.md`  | Line 1 of stanza 1 in a standard system |
+| Example | Meaning |
+|---------|---------|
+| `s1_1_codex_builder.md` | Line 1 of stanza 1 in a standard system |
 | `a2_3_guidance_flare.md` | Line 3 of stanza 2 in Topsy’s recursion |
-| `b1_4_echo_of_decay.md`  | Line 4 of stanza 1 in Thorn’s recursion |
+| `b1_4_echo_of_decay.md` | Line 4 of stanza 1 in Thorn’s recursion |
 
 ---
 
 ## 🔁 Future Expansion Points
 
-| Feature                  | Purpose                                                              |
-|--------------------------|----------------------------------------------------------------------|
-| `codex_diff_viewer.py`   | Compare changes between two `.zip` archives of the Codex             |
-| `codex_guided_writer.py` | AI-assisted Codex authoring experience for designers and players     |
+| Feature | Purpose|
+|---------|--------|
+| `codex_diff_viewer.py` | Compare changes between two `.zip` archives of the Codex  |
+| `codex_guided_writer.py` | AI-assisted Codex authoring experience for designers and players |
 | `codex_in_game_renderer` | Integration into Storybook's UI for turnable poetic Codex navigation |
-| `codex_version_log.md`   | Canonical changelog for all Codex updates per upload cycle           |
+| `codex_version_log.md` | Canonical changelog for all Codex updates per upload cycle |
 
 ---
 

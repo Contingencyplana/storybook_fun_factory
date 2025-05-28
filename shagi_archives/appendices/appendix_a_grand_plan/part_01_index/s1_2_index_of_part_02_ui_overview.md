@@ -12,12 +12,12 @@ Reveals the mind the world must dress.
 
 ## 🧭 Chapter Structure of `part_02_ui_overview/`
 
-| File                                   | Title                                           | Description                                        |
-|----------------------------------------|-------------------------------------------------|----------------------------------------------------|
-| `s1_1_the_interface_as_reality.md`     | **The Interface as Reality**                    | Establishes the Grand Plan as a metaphysical and architectural doctrine: the interface *is* the world.                                      |
-| `s1_2_from_codebase_to_storybook.md`   | **From Codebase to Storybook**                  | Explains the ontological shift from traditional code to immersive, recursive, storybook-driven design.                                     |
-| `s1_3_players_pages_portals_and_ai.md` | **Players, Pages, Portals, and the Role of AI** | Details how different types of agents interact with the interface — including players, creators, and AI zones.                                 |
-| `s1_4_the_top_down_view_as_choice.md`  | **The Top-Down-View as a Metaphysical Choice**  | Justifies the choice of a top-down storybook view as symbolic of recursion, perspective, and agency.                                         |
+| File | Title | Description |
+|------|-----  |-------------|
+| `s1_1_the_interface_as_reality.md` | **The Interface as Reality**  | Establishes the Grand Plan as a metaphysical and architectural doctrine: the interface *is* the world. |
+| `s1_2_from_codebase_to_storybook.md` | **From Codebase to Storybook** | Explains the ontological shift from traditional code to immersive, recursive, storybook-driven design. |
+| `s1_3_players_pages_portals_and_ai.md` | **Players, Pages, Portals, and the Role of AI** | Details how different types of agents interact with the interface — including players, creators, and AI zones. |
+| `s1_4_the_top_down_view_as_choice.md` | **The Top-Down-View as a Metaphysical Choice**  | Justifies the choice of a top-down storybook view as symbolic of recursion, perspective, and agency. |
 
 ---
 

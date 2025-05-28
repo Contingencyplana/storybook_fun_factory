@@ -23,13 +23,13 @@ It is where the world begins to whisper:
 
 ## 🔍 Core Features of Intermediate Camouflage
 
-| Element                              | Purpose                                                                   |
-|--------------------------------------|---------------------------------------------------------------------------|
-| **Symbol-as-State Mechanics**        | Player interprets meaning of icons, poems, and scenery to reveal triggers |
+| Element | Purpose |
+|---------|---------|
+| **Symbol-as-State Mechanics** | Player interprets meaning of icons, poems, and scenery to reveal triggers |
 | **Misdirection and Layered Meaning** | A single object or action may serve multiple roles, visible and concealed |
-| **Conditional Lore Access**          | Certain passages or NPCs appear only if a recursive flag has been set     |
-| **Shadow Versions**                  | Scenes or stanzas may invert or mirror based on player state              |
-| **Semi-Visible Recursion**           | Recursion structures are hinted at, but not fully exposed                 |
+| **Conditional Lore Access** | Certain passages or NPCs appear only if a recursive flag has been set |
+| **Shadow Versions** | Scenes or stanzas may invert or mirror based on player state |
+| **Semi-Visible Recursion** | Recursion structures are hinted at, but not fully exposed |
 
 ---
 

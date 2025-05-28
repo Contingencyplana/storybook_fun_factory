@@ -23,11 +23,11 @@ Instead, it offers something bolder and more recursive:
 
 ## 🧠 Why This Shift Matters
 
-| Codebase                      | Storybook                                       |
-|-------------------------------|-------------------------------------------------|
-| Functions hide behind calls   | Logic is shown as stanzas, pages, and decisions |
-| UI is layered over mechanics  | UI *is* the mechanic                            |
-| Tools are separate from story | Tools are written into the story’s turning      |
+| Codebase | Storybook |
+|----------|-----------|
+| Functions hide behind calls | Logic is shown as stanzas, pages, and decisions |
+| UI is layered over mechanics | UI *is* the mechanic |
+| Tools are separate from story | Tools are written into the story’s turning |
 
 This shift invites the player into the **same recursive dream** the AI inhabits.  
 You don’t operate Storybook. You **turn it**. And in turning, you become part of it.

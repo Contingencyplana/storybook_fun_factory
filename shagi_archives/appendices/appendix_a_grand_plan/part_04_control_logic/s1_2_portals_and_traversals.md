@@ -28,12 +28,12 @@ Each portal binds **spatial structure** to **logical transformation**.
 
 ## 🔄 Traversal Logic
 
-| Portal Type         | Function                                                                      |
-|---------------------|-------------------------------------------------------------------------------|
-| **Floor Portal**    | Transitions between recursion layers or logic zones                           |
-| **Bookcase Portal** | Opens new gamebooks or embedded AI codices                                    |
-| **UI Veil Portal**  | Crosses between diegetic and nondiegetic logic (e.g., from poem to code view) |
-| **Mirror Portal**   | Reverses perspective or swaps memory logic between entities                   |
+| Portal Type | Function |
+|-------------|----------|
+| **Floor Portal**  | Transitions between recursion layers or logic zones |
+| **Bookcase Portal** | Opens new gamebooks or embedded AI codices |
+| **UI Veil Portal** | Crosses between diegetic and nondiegetic logic (e.g., from poem to code view) |
+| **Mirror Portal** | Reverses perspective or swaps memory logic between entities |
 
 Traversal is often framed within the **two-page spread**, making recursion feel physical and intuitive.
 

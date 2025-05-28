@@ -24,13 +24,13 @@ This is *scaling by recursion*—not brute force.
 
 ## 🌐 Key Systems Enabling Multiplayer Recursion
 
-| System                            | Function                                                                                          |
-|-----------------------------------|---------------------------------------------------------------------------------------------------|
-| **Narrative Synchronization**     | Ensures that key events and symbols remain coherent across player threads.                        |
-| **Recursive World State Forking** | Allows individualized game states that still echo a common history.                               |
-| **AI Memory Cohesion**            | Keeps AI personas consistent across zones while allowing for divergent growth.                    |
+| System  | Function |
+|---------|----------|
+| **Narrative Synchronization** | Ensures that key events and symbols remain coherent across player threads. |
+| **Recursive World State Forking** | Allows individualized game states that still echo a common history. |
+| **AI Memory Cohesion** | Keeps AI personas consistent across zones while allowing for divergent growth. |
 | **Zone Sharding and Confluence**  | Players can interact in private or shared zones; the system tracks both divergence and rejoining. |
-| **Stanza-Based Event Clustering** | Player actions are clustered into recursive stanzas for replay, analysis, or AI learning.         |
+| **Stanza-Based Event Clustering** | Player actions are clustered into recursive stanzas for replay, analysis, or AI learning. |
 
 ---
 

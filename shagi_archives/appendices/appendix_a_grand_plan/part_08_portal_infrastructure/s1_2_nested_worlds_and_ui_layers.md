@@ -20,12 +20,12 @@ Rather than traditional menu hierarchies or game levels, Storybook uses **nested
 
 ## 🧩 Key Concepts
 
-| Concept                         | Description                                                                                       |
-|---------------------------------|---------------------------------------------------------------------------------------------------|
-| **UI Layers as Worlds**         | Each interface element is a recursive world: a room, a book, a portal.                            |
-| **Nested Navigation**           | Portals link not only locations, but contexts: e.g., from gameplay to lore to dev sandbox.        |
-| **Lore-Layered Interfaces**     | Interfaces are often disguised as story pages, dream sequences, or symbolic environments.         |
-| **Player-State Reflection**     | The depth of UI layers reflects player progress, cognitive recursion depth, or narrative insight. |
+| Concept | Description |
+|---------|-------------|
+| **UI Layers as Worlds** | Each interface element is a recursive world: a room, a book, a portal. |
+| **Nested Navigation** | Portals link not only locations, but contexts: e.g., from gameplay to lore to dev sandbox. |
+| **Lore-Layered Interfaces** | Interfaces are often disguised as story pages, dream sequences, or symbolic environments. |
+| **Player-State Reflection** | The depth of UI layers reflects player progress, cognitive recursion depth, or narrative insight. |
 
 ---
 

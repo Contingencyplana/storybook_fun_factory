@@ -27,12 +27,12 @@ Turning the page is how recursion breathes.
 
 ## 🔄 Directional and Symbolic Meaning
 
-| Motion            | Meaning                                                         |
-|-------------------|-----------------------------------------------------------------|
-| **Left to Right** | Progression — entering the next unresolved stanza               |
-| **Right to Left** | Reflection — returning to a known or resolved layer             |
-| **Quick Flip**    | Skimming or fast-forwarding recursion                           |
-| **Slow Drag**     | Intentional alignment or contemplation before recursion commits |
+| Motion | Meaning |
+|--------|---------|
+| **Left to Right** | Progression — entering the next unresolved stanza |
+| **Right to Left** | Reflection — returning to a known or resolved layer |
+| **Quick Flip** | Skimming or fast-forwarding recursion |
+| **Slow Drag** | Intentional alignment or contemplation before recursion commits |
 
 Every page-turn becomes a **gesture of transformation**, visible to both player and AI.
 

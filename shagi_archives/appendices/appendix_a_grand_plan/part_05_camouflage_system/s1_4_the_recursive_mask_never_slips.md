@@ -27,12 +27,12 @@ Instead, everything is **veiled in story, symbol, or sensation**.
 
 ## 🧠 The Design Mandate
 
-| Guideline                 | Implementation                                                                    |
-|---------------------------|-----------------------------------------------------------------------------------|
-| **No raw interface**      | All UI elements must appear as part of the world (e.g., pages, rooms, characters) |
-| **No obvious recursion**  | Recursion is sensed, felt, or implied — never labeled                             |
-| **No exposed tools**      | All dev functions are cast as story actions or poetic mechanisms                  |
-| **No intrusive overlays** | AI interaction and state feedback must emerge from in-world behavior              |
+| Guideline | Implementation |
+|-----------|----------------|
+| **No raw interface** | All UI elements must appear as part of the world (e.g., pages, rooms, characters) |
+| **No obvious recursion** | Recursion is sensed, felt, or implied — never labeled |
+| **No exposed tools** | All dev functions are cast as story actions or poetic mechanisms |
+| **No intrusive overlays** | AI interaction and state feedback must emerge from in-world behavior |
 
 This ensures that **even the deepest recursion feels like play.**
 
