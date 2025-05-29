@@ -19,11 +19,14 @@ It writes what only hearts can hear.
 
 | File | Title | Description |
 |------|-------|-------------|
-| `s1_1_composer_ai_overview.md`          | **Overview of Composer AI**                  | Introduces Composer AI’s role in scoring the recursion with adaptive musical intelligence. |
-| `s1_2_composer_ai_memory_sync.md`       | **Memory-Synced Composition**                | Details how music evolves based on player memory patterns, quest milestones, and emotional tone. |
-| `s1_3_composer_ai_dynamic_themes.md`    | **Dynamic Theme Generation**                 | Explains procedural motif construction aligned with game states and poetic logic. |
-| `s1_4_composer_ai_mythic_scores.md`     | **Mythic Scores and Ritual Harmony**         | Describes the creation of mythic tracks and symbolic alignments for rituals, transitions, and Anomaly events. |
-| `s2_1_composer_ai_tool_integration.md`  | **Integration with Extended Tools**          | Outlines interaction protocols with Orchestra Forge, Soundweaver AI, and Framecaster AI. |
+| `s1_1_composer_ai_overview.md` | **Overview of Composer AI** | Introduces Composer AI’s role in scoring the recursion with adaptive musical intelligence. |
+| `s1_2_composer_ai_memory_sync.md` | **Memory-Synced Composition** | Details how music evolves based on player memory patterns, quest milestones, and emotional tone. |
+| `s1_3_composer_ai_dynamic_themes.md` | **Dynamic Theme Generation** | Explains procedural motif construction aligned with game states and poetic logic. |
+| `s1_4_composer_ai_mythic_scores.md` | **Mythic Scores and Ritual Harmony** | Describes the creation of mythic tracks and symbolic alignments for rituals, transitions, and Anomaly events. |
+| `s2_1_composer_ai_tool_integration.md` | **Integration with Extended Tools** | Outlines interaction protocols with Orchestra Forge, Soundweaver AI, and Framecaster AI. |
+| `s2_2_placeholder.md` | **Reserved for Future Expansion** | This placeholder awaits future recursion in Composer AI’s growth. |
+| `s2_3_placeholder.md` | **Reserved for Future Expansion** | This placeholder awaits future recursion in Composer AI’s growth. |
+| `s2_4_placeholder.md` | **Reserved for Future Expansion** | This placeholder awaits future recursion in Composer AI’s growth. |
 
 ---
 

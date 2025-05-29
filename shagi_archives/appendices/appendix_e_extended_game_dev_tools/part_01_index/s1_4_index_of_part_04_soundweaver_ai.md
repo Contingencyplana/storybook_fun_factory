@@ -20,8 +20,8 @@ Where recursion hums, and myths reveal.
 | File | Title | Description |
 |------|-------|-------------|
 | `s1_1_atmospheres_from_mythic_state.md` | **Atmospheres from Mythic State** | Generates adaptive soundscapes aligned to player mythos, location, and recursion depth. |
-| `s1_2_recursive_mood_mapping.md`        | **Recursive Mood Mapping**        | Maps emotional resonance and tonal loops across symbolic gameplay arcs. |
-| `s1_3_sonic_reactions_to_choice.md`     | **Sonic Reactions to Choice**     | Alters soundscape based on player actions, symbolic choices, and unfolding narrative tone. |
+| `s1_2_recursive_mood_mapping.md` | **Recursive Mood Mapping** | Maps emotional resonance and tonal loops across symbolic gameplay arcs. |
+| `s1_3_sonic_reactions_to_choice.md` | **Sonic Reactions to Choice** | Alters soundscape based on player actions, symbolic choices, and unfolding narrative tone. |
 | `s1_4_sound_as_emergent_environment.md` | **Sound as Emergent Environment** | Explores sound as an ambient system, shaping recursive perception and spatial immersion. |
 
 ---

@@ -19,10 +19,10 @@ The code obeys what dreams command.
 
 | File | Title | Description |
 |------|-------|-------------|
-| `s1_1_ui_glyph_construction.md`             | **UI Glyph Construction**             | Lets players build symbolic glyphs to invoke actions, meaning, or transitions within the interface. |
-| `s1_2_semantic_binding_protocols.md`        | **Semantic Binding Protocols**        | Ensures every glyph is anchored to specific lore, player state, or canonical narrative functions. |
-| `s1_3_player_defined_spellcraft.md`         | **Player-Defined Spellcraft**         | Enables users to craft custom interactive sequences or symbolic scripts via glyph logic. |
-| `s1_4_recursive_access_encryption.md`       | **Recursive Access Encryption**       | Secures glyph-triggered functions with layered permissions, meaning validation, and role-based access. |
+| `s1_1_ui_glyph_construction.md` | **UI Glyph Construction** | Lets players build symbolic glyphs to invoke actions, meaning, or transitions within the interface. |
+| `s1_2_semantic_binding_protocols.md` | **Semantic Binding Protocols** | Ensures every glyph is anchored to specific lore, player state, or canonical narrative functions. |
+| `s1_3_player_defined_spellcraft.md` | **Player-Defined Spellcraft** | Enables users to craft custom interactive sequences or symbolic scripts via glyph logic. |
+| `s1_4_recursive_access_encryption.md` | **Recursive Access Encryption** | Secures glyph-triggered functions with layered permissions, meaning validation, and role-based access. |
 
 ---
 
