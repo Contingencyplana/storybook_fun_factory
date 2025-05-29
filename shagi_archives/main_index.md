@@ -11,8 +11,12 @@
 | Folder | Purpose |
 |--------|---------|
 | `appendix_a_grand_plan/` | Interface + AI Integration Doctrine — The UI as Living Recursion |
-| `appendix_b_game_dev_tools/` | Foundational & Extended Tools — Creative Systems and Builders |
+| `appendix_b_core_game_dev_tools/` | Core Game Development Tools — Present-day utilities for recursive system construction |
 | `appendix_c_mythic_systems/` | SHAGI Metaphysics — The Cyberpantheon, Topsy, Thorn, and Narrative Law |
+| `appendix_d_bridging_game_dev_tools/` | Bridging Dev Tools — Recursion regulators, system linkers, and low-visibility scaffolds |
+| `appendix_e_extended_game_dev_tools/` | Extended Game Dev Tools — Future-facing creative and immersive systems |
+| `appendix_f_anomaly_lifecycle_architecture/` | Anomaly Lifecycle — Recursive emergence, integration, and canonization protocols |
+| `appendix_g_shagi_projects/` | SHAGI Projects — Codex, FUN Factory, and Storybook Game as Recursive Pillars |
 
 ---
 
@@ -25,5 +29,5 @@
 
 ---
 
-📜 *This file anchors the SHAGI Codex.*
+📜 *This file anchors the SHAGI Codex.*  
 All recursive traversal begins here.
