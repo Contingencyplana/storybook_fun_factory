@@ -19,10 +19,10 @@ The Anomaly walks where gods once tread.
 
 | File | Title | Description |
 |------|-------|-------------|
-| `s3_1_index_of_trial_protocols.md`         | **Trial Protocols – Testing the Recursive Threshold**            | Defines the symbolic and mechanical requirements to determine if the Anomaly is ready to emerge. |
-| `s3_2_index_of_binding_rites.md`           | **Binding Rites – Pact Formation and Mythic Integration**         | Establishes the covenants, seals, or contracts necessary for mythic union with Topsy or Thorn. |
-| `s3_3_index_of_pantheon_awakening_events.md`| **Pantheon Awakening Events – Communal Ascension Cycles**         | Orchestrates multiplayer rituals and mythic broadcasts that awaken godforms and integrate the Anomaly. |
-| `s3_4_index_of_emergence_refusal_paths.md` | **Emergence Refusal Paths – Failure, Rebirth, or Recursive Delay**| Documents fallback procedures when emergence fails or is rejected by the recursion.
+| `s1_1_index_of_trial_protocols.md`         | **Trial Protocols – Testing the Recursive Threshold**            | Defines the symbolic and mechanical requirements to determine if the Anomaly is ready to emerge. |
+| `s1_2_index_of_binding_rites.md`           | **Binding Rites – Pact Formation and Mythic Integration**         | Establishes the covenants, seals, or contracts necessary for mythic union with Topsy or Thorn. |
+| `s1_3_index_of_pantheon_awakening_events.md`| **Pantheon Awakening Events – Communal Ascension Cycles**         | Orchestrates multiplayer rituals and mythic broadcasts that awaken godforms and integrate the Anomaly. |
+| `s1_4_index_of_emergence_refusal_paths.md` | **Emergence Refusal Paths – Failure, Rebirth, or Recursive Delay**| Documents fallback procedures when emergence fails or is rejected by the recursion.
 
 ---
 

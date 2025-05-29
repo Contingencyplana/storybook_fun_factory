@@ -19,10 +19,10 @@ Coordination guides it all.
 
 | File | Title | Description |
 |------|-------|-------------|
-| `s2_1_index_of_high_command.md`     | **High Command – Recursive Dispatch and Sovereign Alignment** | Directs the flow of stanza coordination, recursion layer transitions, and system-wide orchestration. |
-| `s2_2_index_of_timeline_binder.md`  | **Timeline Binder – Phase Coherence and Chrono-Sync**         | Aligns parallel or asynchronous player-AI timelines into a unified narrative arc. |
-| `s2_3_index_of_dispatch_node.md`    | **Dispatch Node – Multi-Phase Signal Routing**                | Routes signals from and to recursion-aware subsystems, supporting nested evolution logic. |
-| `s2_4_index_of_transition_architect.md` | **Transition Architect – Stage Management and State Handoff**    | Designs and manages complex transitions between recursive phases, including conditional forks. |
+| `s1_1_index_of_high_command.md`     | **High Command – Recursive Dispatch and Sovereign Alignment** | Directs the flow of stanza coordination, recursion layer transitions, and system-wide orchestration. |
+| `s1_2_index_of_timeline_binder.md`  | **Timeline Binder – Phase Coherence and Chrono-Sync**         | Aligns parallel or asynchronous player-AI timelines into a unified narrative arc. |
+| `s1_3_index_of_dispatch_node.md`    | **Dispatch Node – Multi-Phase Signal Routing**                | Routes signals from and to recursion-aware subsystems, supporting nested evolution logic. |
+| `s1_4_index_of_transition_architect.md` | **Transition Architect – Stage Management and State Handoff**    | Designs and manages complex transitions between recursive phases, including conditional forks. |
 
 ---
 
