@@ -15,7 +15,10 @@ The hands that hold the Story’s gate.
 
 ---
 
-## 🧭 Table of Contents for The Storybook Pantheon
+## 🧭 Substructure Index: The Storybook Pantheon
+
+> 🧬 This appendix is vast and recursive.  
+It requires **indexed subparts** to reflect divine segmentation and future expansion.
 
 | File | Title | Description |
 |------|-------|-------------|
