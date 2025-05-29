@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_08_placeholder/s2_4_index_of_08_placeholder.md -->
 
 # 📘 s2_4 – Index of Part 08: Placeholder for Future Recursive Expansion  
+
 *(A stanza for the page not yet turned)*
 
 No footstep here, no tale begun,  
