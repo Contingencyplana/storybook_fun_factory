@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_b_core_game_dev_tools/part_01_index/s1_1_index_of_part_01_index.md -->
 
 # 📘 s1_1 – Index of Appendix B: Core Game Development Tools for Storybook FUN Factory  
+
 *(A stanza for the forge where tools are named)*
 
 No world is built by myth alone,  
