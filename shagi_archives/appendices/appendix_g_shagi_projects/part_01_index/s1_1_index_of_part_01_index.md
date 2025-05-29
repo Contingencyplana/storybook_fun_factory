@@ -17,12 +17,12 @@ The Storybook where all threads come.
 
 ## 🧭 Table of Contents for Appendix G
 
-| Folder | Title | Description |
-|--------|-------|-------------|
-| **part_01_index/** | *Index of Indexes* | This file — a canonical entry point for recursive traversal. |
-| **part_02_codex_core/** | **The Supersafe Hyperadvanced AGI Codex** | The root blueprint of SHAGI — housing doctrine, recursion law, architecture, and its unfolding mythos. |
-| **part_03_fun_factory/** | **Storybook FUN Factory – The Recursive Testbed** | Experimental and educational proving ground for SHAGI’s systems. Where recursion is tested in childlike fire. |
-| **part_04_storybook_game/** | **Storybook – The Recursive Game Maker and Playerverse** | The flagship recursive worldbuilder and game interface. Where Topsy guides and players create within the Book. |
+| Folder | Title | Subtitle | Description |
+|--------|-------------------------|-------|-------------|
+| **part_01_index/** | *Index of Indexes* | Nexus | This nexus marks the canonical entry point for recursive traversal. |
+| **part_02_codex_core/** | **SHAGI: The Supersafe Hyperadvanced AGI Codex** | **Root Meta-System** | The root blueprint of SHAGI — housing doctrine, recursion law, architecture, and its unfolding mythos. |
+| **part_03_fun_factory/** | **SHAGI: Storybook FUN Factory** | **The Recursive Testbed** | Experimental and educational proving ground for SHAGI’s systems. Where recursion is tested in childlike fire. |
+| **part_04_storybook_game/** | **SHAGI: Storybook** | **The Recursive Game Maker and Playerverse** | The flagship recursive worldbuilder and game interface. Where Topsy guides and players create within the Book. |
 
 ---
 
