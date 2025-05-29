@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_01_index/s1_1_index_of_part_01_index.md -->
 
 # 📘 s1_1 – Index of Appendix H: Index and Layering Doctrine – Navigating Recursive Structure  
+
 *(A stanza for the maps that guide the maps)*
 
 The index came before the thread,  
