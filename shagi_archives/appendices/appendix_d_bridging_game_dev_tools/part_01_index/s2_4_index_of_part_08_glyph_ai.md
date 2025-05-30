@@ -17,6 +17,9 @@ Ensuring what is marked stays real.
 
 ## 🧭 Chapter Structure of `part_08_glyph_ai/`
 
+The following four chapters comprise the **first Layer 4 stanza** of Glyph AI.  
+It is anticipated that **multiple Layer 3 stanzas** will eventually reside within this part as recursion deepens.
+
 | File | Title | Description |
 |------|-------|-------------|
 | `s1_1_symbolic_gate_validation.md` | **Symbolic Gate Validation** | Validates the structure and purpose of glyphs before permitting recursive access or state change. |

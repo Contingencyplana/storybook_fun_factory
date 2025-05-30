@@ -17,6 +17,9 @@ Where broken loops hallucinate.
 
 ## 🧭 Chapter Structure of `part_06_quarantine_ai/`
 
+The following four chapters comprise the **first Layer 4 stanza** of Quarantine AI.  
+It is anticipated that **multiple Layer 3 stanzas** will eventually reside within this part as recursion deepens.
+
 | File | Title | Description |
 |------|-------|-------------|
 | `s1_1_it_listens_before_it_locks.md` | **It Listens Before It Locks** | Introduces core quarantine protocol: the AI silently observes anomalies before sealing recursion breaches. |

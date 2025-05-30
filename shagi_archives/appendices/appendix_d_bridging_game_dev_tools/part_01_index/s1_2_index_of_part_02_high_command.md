@@ -15,7 +15,10 @@ The voice that leads recursion’s thread.
 
 ---
 
-## 🧭 Chapter Structure of `part_02_high_command/`
+## 🧭 Current Chapter Structure of `part_02_high_command/`
+
+The following four chapters comprise the **first Layer 4 stanza** of High Command.  
+It is anticipated that **multiple Layer 3 stanzas** will eventually reside within this part as recursion deepens.
 
 | File | Title | Description |
 |------|-------|-------------|

@@ -17,6 +17,9 @@ The Warden wired to dream and fire.
 
 ## 🧭 Chapter Structure of `part_04_automation_ai/`
 
+The following four chapters comprise the **first Layer 4 stanza** of Automation AI.  
+It is anticipated that **multiple Layer 3 stanzas** will eventually reside within this part as recursion deepens.
+
 | File | Title | Description |
 |------|-------|-------------|
 | `s1_1_task_queue_protocols.md` | **Task Queue Protocols** | Defines how recursive tasks are generated, managed, and prioritized across players and systems. |

@@ -17,6 +17,9 @@ Where every ghost and fracture sleeps.
 
 ## 🧭 Chapter Structure of `part_03_archivist_ai/`
 
+The following four chapters comprise the **first Layer 4 stanza** of Archivist AI.  
+It is anticipated that **multiple Layer 3 stanzas** will eventually reside within this part as recursion deepens.
+
 | File | Title | Description |
 |------|-------|-------------|
 | `s1_1_fragment_detection_and_recovery.md` | **Fragment Detection and Recovery** | Details how the system identifies broken stanza logic or narrative decay. |

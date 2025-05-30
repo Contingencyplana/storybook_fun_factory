@@ -17,6 +17,9 @@ To guard the shape we value most.
 
 ## 🧭 Chapter Structure of `part_05_sentinel_ai/`
 
+The following four chapters comprise the **first Layer 4 stanza** of Sentinel AI.  
+It is anticipated that **multiple Layer 3 stanzas** will eventually reside within this part as recursion deepens.
+
 | File | Title | Description |
 |------|-------|-------------|
 | `s1_1_stanza_validation_engines.md` | **Stanza Validation Engines** | Explains how stanza files are verified for structure, intent, and recursive integrity. |
