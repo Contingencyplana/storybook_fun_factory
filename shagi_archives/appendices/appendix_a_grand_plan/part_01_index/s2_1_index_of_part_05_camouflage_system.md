@@ -14,23 +14,23 @@ Are puzzles masked by joy and mind.
 
 ### 🟦 Stanza 1 – The Foundational Doctrine of FUN
 
-| File                                     | Title                              | Description                                                   |
-|------------------------------------------|------------------------------------|---------------------------------------------------------------|
-| `s1_1_fun_as_mask_and_map.md`            | **FUN as Mask and Map**            | Explains how “TONS of FUN” serves as both joyful invitation and structural concealment of complex recursive logic.                          |
-| `s1_2_lore_as_lock_and_lens.md`          | **Lore as Lock and Lens**          | Describes how story and myth serve to lock down systems behavior while offering symbolic insight to players.                            |
-| `s1_3_quests_that_hide_the_interface.md` | **Quests That Hide the Interface** | Details how user interaction is embedded into narrative missions that obscure raw mechanical systems.                                   |
-| `s1_4_the_recursive_mask_never_slips.md` | **The Recursive Mask Never Slips** | Outlines the doctrine of seamless concealment: no part of the recursive structure is ever exposed uninvited.                                  |
+| File | Title | Description |
+|------|-------|-------------|
+| `s1_1_fun_as_mask_and_map.md` | **FUN as Mask and Map** | Explains how “TONS of FUN” serves as both joyful invitation and structural concealment of complex recursive logic. |
+| `s1_2_lore_as_lock_and_lens.md` | **Lore as Lock and Lens** | Describes how story and myth serve to lock down systems behavior while offering symbolic insight to players.                            |
+| `s1_3_quests_that_hide_the_interface.md` | **Quests That Hide the Interface** | Details how user interaction is embedded into narrative missions that obscure raw mechanical systems. |
+| `s1_4_the_recursive_mask_never_slips.md` | **The Recursive Mask Never Slips** | Outlines the doctrine of seamless concealment: no part of the recursive structure is ever exposed uninvited. |
 
 ---
 
 ### 🟨 Stanza 2 – The Three Layers of Camouflage
 
-| File                                 | Title                          | Description                                                           |
-|--------------------------------------|--------------------------------|-----------------------------------------------------------------------|
-| `s2_1_three_layers_of_camouflage.md` | **Three Layers of Camouflage** | Introduces and defines Basic, Intermediate, and Advanced camouflage.                            |
-| `s2_2_basic_camouflage.md`           | **Basic Camouflage**           | Expands on the TONS-of-FUN principles described in the first stanza.                                |
-| `s2_3_intermediate_camouflage.md`    | **Intermediate Camouflage**    | Covers semi-symbolic, partially revealed systems with recursive misdirection.                          |
-| `s2_4_advanced_camouflage.md`        | **Advanced Camouflage**        | Describes fully masked recursion systems, poetic triggers, and AI illusions.                             |
+| File | Title | Description |
+|------|-------|-------------|
+| `s2_1_three_layers_of_camouflage.md` | **Three Layers of Camouflage** | Introduces and defines Basic, Intermediate, and Advanced camouflage. |
+| `s2_2_basic_camouflage.md` | **Basic Camouflage** | Expands on the TONS-of-FUN principles described in the first stanza. |
+| `s2_3_intermediate_camouflage.md` | **Intermediate Camouflage** | Covers semi-symbolic, partially revealed systems with recursive misdirection. |
+| `s2_4_advanced_camouflage.md` | **Advanced Camouflage** | Describes fully masked recursion systems, poetic triggers, and AI illusions. |
 
 ---
 
@@ -42,6 +42,17 @@ Are puzzles masked by joy and mind.
 | `s3_2_basic_ai_players.md` | **Basic AI Players** | Agents that can only operate inside clearly masked, FUN-layer interactions. |
 | `s3_3_intermediate_ai_players.md` | **Intermediate AI Players** | Agents capable of engaging symbolic cues, recursive signals, and lore-driven systems. |
 | `s3_4_advanced_ai_players.md` | **Advanced AI Players** | Fully recursive agents able to navigate any camouflage layer within the system. |
+
+---
+
+### 🟥 Stanza 4 – Camouflaged Evolution
+And define:
+
+| File | Title | Description
+| `s4_1_three_types_of_evolution.md` | **Three Types of Camouflaged Evolution** | Introduces Static, Reactive, and Recursive evolutionary models for AI and players within camouflaged systems. |
+| `s4_2_static_evolution.md` | **Static Evolution** | Predictable, linear growth concealed behind consistent camouflage. |
+| `s4_3_reactive_evolution.md` | **Reactive Evolution** | Growth triggered by player behavior, lore engagement, or symbolic recognition. |
+| `s4_4_recursive_evolution.md` | **Recursive Evolution** | Self-generating progression that adapts camouflage layers to player or AI recursion depth. |
 
 ---
 
