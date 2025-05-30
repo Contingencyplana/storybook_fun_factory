@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_c_mythic_systems/part_01_index/s2_4_placeholder.md -->
 
 # 📘 s2_4 – Reserved for Future Expansion  
+
 *(A silence before the next command)*
 
 The fields are drawn, the swords asleep,  
