@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_c_mythic_systems/part_05_rituals_and_ascension/s1_1_index_of_symbolic_trials.md -->
 
 # 📘 s1_1 – Symbolic Trials – Quests of Meaning and Transformation  
+
 *(A stanza for the rite that names the soul)*
 
 Each path begins with veiled intent,  
