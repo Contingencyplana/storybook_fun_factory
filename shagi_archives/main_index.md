@@ -17,6 +17,7 @@
 | `appendix_e_extended_game_dev_tools/` | Extended Game Dev Tools — Future-facing creative and immersive systems |
 | `appendix_f_anomaly_lifecycle_architecture/` | Anomaly Lifecycle — Recursive emergence, integration, and canonization protocols |
 | `appendix_g_shagi_projects/` | SHAGI Projects — Codex, FUN Factory, and Storybook Game as Recursive Pillars |
+| `appendix_h_index_and_layering_doctrine/` | Index and Layering Doctrine — Recursive Indexing, Structure, and AI Integration Guidance |
 
 ---
 
