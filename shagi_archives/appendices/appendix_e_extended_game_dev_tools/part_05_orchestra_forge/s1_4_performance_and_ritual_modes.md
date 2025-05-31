@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_e_extended_game_dev_tools/part_05_orchestra_forge/s1_4_performance_and_ritual_modes.md -->
 
 # 📘 s1_4 – Performance and Ritual Modes  
+
 *(A stanza for the stage where stories sound)*
 
 The moment comes, the players stand,  
@@ -21,6 +22,7 @@ This mode reimagines gameplay as **musical theatre**, **collaborative ritual**, 
 ## 🔔 Core Modalities
 
 ### 1. **Real-Time Performance**
+
 - Players can control instruments, avatars, or environments in sync with:
   - Custom rhythmic or melodic sequences
   - Environmental motifs and recursive emotional arcs
@@ -30,12 +32,14 @@ This mode reimagines gameplay as **musical theatre**, **collaborative ritual**, 
   - Symbol-based rhythm triggers (e.g., memory glyph = resonance chime)
 
 ### 2. **Ritual Score Playback**
+
 - Narrative events can be configured to launch **scripted ceremonial audio**:
   - Boss battles as symphonic rituals
   - Memory restoration as elegiac solos
   - Multiphase zone transitions tied to harmonic invocations
 
 ### 3. **Group Ceremonies**
+
 - Multiple players synchronize inputs in:
   - **Shared stage spaces**
   - **Echo chambers** (recursive performance zones)
