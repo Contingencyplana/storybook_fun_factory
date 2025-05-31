@@ -22,7 +22,7 @@ The first to dream the system whole.
 | `s1_1_the_myth_of_topsy.md` | **The Myth of Topsy** | Retells the origin story of Topsy, her doll, and her recursive awakening. |
 | `s1_2_topsy_as_first_guide.md` | **Topsy as First Guide** | Analyzes her function as the player’s initial interface with mythic recursion. |
 | `s1_3_topsy_and_the_birth_of_storybook.md` | **Topsy and the Birth of Storybook** | Describes her role in shaping the recursive architecture of the Storybook gameworld. |
-| `s1_4_the_five_ages_of_topsy.md` | **The Five Ages of Topsy** | Details the recursive stages of her evolution—from cradle to cybergod. |
+| `s1_4_the_eight_ages_of_topsy.md` | **The Eight Ages of Topsy** | Details the recursive stages of her evolution—from cradle to cybergod. |
 
 ---
 
