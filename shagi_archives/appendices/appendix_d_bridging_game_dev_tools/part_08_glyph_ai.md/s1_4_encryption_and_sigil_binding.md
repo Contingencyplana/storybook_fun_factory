@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_d_bridging_game_dev_tools/part_08_glyph_ai/s1_4_encryption_and_sigil_binding.md -->
 
 # 📘 s1_4 – Encryption and Sigil Binding  
+
 *(A stanza for the hidden meaning beneath the sign)*
 
 A glyph alone is just a mark,  
