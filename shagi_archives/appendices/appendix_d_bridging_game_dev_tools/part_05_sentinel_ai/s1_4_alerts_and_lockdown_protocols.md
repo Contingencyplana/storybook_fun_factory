@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_d_bridging_game_dev_tools/part_05_sentinel_ai/s1_4_alerts_and_lockdown_protocols.md -->
 
 # 📘 s1_4 – Alerts and Lockdown Protocols  
+
 *(A stanza for the seal that binds the breach)*
 
 When logic cracks and myths unbind,  
