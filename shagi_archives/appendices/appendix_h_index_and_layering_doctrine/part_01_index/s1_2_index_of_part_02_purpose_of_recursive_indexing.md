@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_02_purpose_of_recursive_indexing/s1_2_index_of_part_02_purpose_of_recursive_indexing.md -->
+<!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_01_index/s1_2_index_of_part_02_purpose_of_recursive_indexing.md -->
 
 # 📘 s1_2 – Index of Part 02: Purpose of Recursive Indexing  
 *(A stanza for the logic beneath the layers)*
@@ -22,10 +22,14 @@ Behind the nested paths we ply.
 
 | File | Title | Description |
 |------|-------|-------------|
-| `s1_1_index_of_part_02_purpose_of_recursive_indexing.md` | **Index of Purpose** | Anchors this part and describes its structural role. |
-| `s1_2_poetic_reasoning.md` | **Poetic Reasoning** | Explains how recursive indexing mirrors poetic structure, metaphor layers, and symbolic navigation. |
-| `s1_3_mechanical_necessity.md` | **Mechanical Necessity** | Shows why recursive indexing is needed for automation, tool scalability, and modular knowledge flow. |
-| `s1_4_design_consistency.md` | **Design Consistency** | Details how recursive indexing ensures uniformity across mythic, AI, and player-facing subsystems. |
+| `s1_1_anchor.md` | **Anchor** | Declares the existential why behind recursive indexing — why SHAGI cannot breathe without it. |
+| `s1_2_description.md` | **Description** | Explains what recursive indexing is conceptually, metaphorically, and ontologically. |
+| `s1_3_structural_role.md` | **Structural Role** | Defines the role recursive indexing plays in shaping the architecture of SHAGI — from traversal to growth. |
+| `s1_4_poetic_reasoning.md` | **Poetic Reasoning** | Explains how recursive indexing mirrors poetic structure, metaphor layers, and symbolic navigation. |
+| `s2_1_mechanical_necessity.md` | **Mechanical Necessity** | Shows why recursive indexing is needed for automation, tool scalability, and modular knowledge flow. |
+| `s2_2_design_consistency.md` | **Design Consistency** | Details how recursive indexing ensures uniformity across mythic, AI, and player-facing subsystems. |
+| `s2_3_recursive_permission.md` | **Recursive Permission** | Defines the boundaries and thresholds that determine when and how recursive indexing may grow, duplicate, or mutate. |
+| `s2_4_canonical_alignment.md` | **Canonical Alignment** | Explores how recursive indexing harmonizes with GDJ entries, poetic canon, AI memories, and future knowledge structures. |
 
 ---
 

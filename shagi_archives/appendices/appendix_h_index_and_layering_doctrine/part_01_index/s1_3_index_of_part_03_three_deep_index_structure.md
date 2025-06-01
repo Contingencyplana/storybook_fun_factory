@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_03_three_deep_index_structure/s1_3_index_of_part_03_three_deep_index_structure.md -->
+<!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_01_index/s1_3_index_of_part_03_three_deep_index_structure.md -->
 
 # 📘 s1_3 – Index of Part 03: Three-Deep Index Structure  
 *(A stanza for the tiers that shape the code)*

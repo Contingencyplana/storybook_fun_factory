@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_04_examples_in_use/s1_4_index_of_part_04_examples_in_use.md -->
+<!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_01_index/s1_4_index_of_part_04_examples_in_use.md -->
 
 # 📘 s1_4 – Index of Part 04: Examples in Use  
 *(A stanza for the trails already walked)*

@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_06_recursion_safe_expansion_guidelines/s2_2_index_of_part_06_recursion_safe_expansion_guidelines.md -->
+<!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_01_index/s2_2_index_of_part_06_recursion_safe_expansion_guidelines.md -->
 
 # 📘 s2_2 – Index of Part 06: Recursion-Safe Expansion Guidelines  
 *(A stanza for safe unfolding)*

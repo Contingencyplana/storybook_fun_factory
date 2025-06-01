@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_05_ai_integration_plan/s2_1_index_of_part_05_ai_integration_plan.md -->
+<!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_01_index/s2_1_index_of_part_05_ai_integration_plan.md -->
 
 # 📘 s2_1 – Index of Part 05: AI Integration Plan  
 *(A stanza for the tools that build the maps)*

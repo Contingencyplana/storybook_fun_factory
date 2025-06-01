@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_07_placeholder/s2_3_index_of_07_placeholder.md -->
+<!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_01_index/s2_3_index_of_07_placeholder.md -->
 
 # 📘 s2_3 – Index of Part 07: Placeholder for Future Recursive Expansion  
 *(A stanza for the silence before the stanza)*
