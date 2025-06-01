@@ -22,7 +22,7 @@ It shapes what stories choose to be.
 | `s1_1_symbolic_scene_sculpting.md` | **Symbolic Scene Sculpting** | Design and place symbolic entities and events within recursive environments. |
 | `s1_2_ai_controlled_frame_logic.md` | **AI-Controlled Frame Logic** | Governs cinematic flow, viewpoint shifts, and recursive scene transitions. |
 | `s1_3_player_directed_scene_modification.md` | **Player-Directed Scene Modification** | Empowers players to influence and alter scenes based on narrative progression or mythic influence. |
-| `s1_4_recursive_visual_context_layers.md`| **Recursive Visual Context Layers** | Layers visual meaning across time, myth, and recursion depth for dynamic story rendering. |
+| `s1_4_recursive_visual_context_layers.md` | **Recursive Visual Context Layers** | Layers visual meaning across time, myth, and recursion depth for dynamic story rendering. |
 
 ---
 
