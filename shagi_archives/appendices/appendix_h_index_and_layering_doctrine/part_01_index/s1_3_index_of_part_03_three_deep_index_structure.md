@@ -22,7 +22,7 @@ So future folders know what to do.
 
 | File | Title | Description |
 |------|-------|-------------|
-| `s1_1_index_of_part_03_three_deep_index_structure.md` | **Index of Structure** | Serves as the anchor index for the three-deep folder convention. |
+| `s1_1_foundation_of_three_layer_logic.md` | **Foundation of Three-Layer Logic** | Explains the metaphysical and structural necessity of three canonical index layers. Why not two? Why not four? Why three? |
 | `s1_2_structural_layers_explained.md` | **Structural Layers Explained** | Defines the three canonical depths: Index, Subindex, and Content Folder. |
 | `s1_3_use_cases_and_patterns.md` | **Use Cases and Patterns** | Lists common index nesting strategies across Storybook and SHAGI systems. |
 | `s1_4_folder_generation_rationale.md` | **Folder Generation Rationale** | Explains why automation tools follow this structure and how it enhances safety, scalability, and mythic clarity. |

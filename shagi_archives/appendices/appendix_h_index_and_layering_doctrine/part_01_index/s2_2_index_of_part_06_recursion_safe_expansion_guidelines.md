@@ -19,10 +19,10 @@ A placeholder to mark the line.
 
 | File | Title | Description |
 |------|-------|-------------|
-| `s2_1_placeholder_naming_strategy.md` | **Placeholder Naming Strategy** | Sets standards for naming, locating, and tracking placeholders to ensure structural predictability. |
-| `s2_2_safe_layer_depths.md` | **Safe Layer Depths – When to Stop the Fold** | Provides guidance on how deep index recursion should go before requiring summary layers or branch reset. |
-| `s2_3_filename_safety_protocols.md` | **Filename Safety Protocols** | Establishes filename formats that prevent duplication, preserve poetic clarity, and allow automated parsing. |
-| `s2_4_flexible_insertion_zones.md` | **Flexible Insertion Zones – How to Add Without Breakage** | Describes strategies for inserting future folders or stanzas without disrupting canonical flow or reference chains. |
+| `s1_1_placeholder_naming_strategy.md` | **Placeholder Naming Strategy** | Sets standards for naming, locating, and tracking placeholders to ensure structural predictability. |
+| `s1_2_safe_layer_depths.md` | **Safe Layer Depths – When to Stop the Fold** | Provides guidance on how deep index recursion should go before requiring summary layers or branch reset. |
+| `s1_3_filename_safety_protocols.md` | **Filename Safety Protocols** | Establishes filename formats that prevent duplication, preserve poetic clarity, and allow automated parsing. |
+| `s1_4_flexible_insertion_zones.md` | **Flexible Insertion Zones – How to Add Without Breakage** | Describes strategies for inserting future folders or stanzas without disrupting canonical flow or reference chains. |
 
 ---
 
