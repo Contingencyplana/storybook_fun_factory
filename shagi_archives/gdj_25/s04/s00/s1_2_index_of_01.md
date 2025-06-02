@@ -14,4 +14,4 @@ A pause that waits to speak its name.
 
 | File | Title | Stanza Reference | Time |
 |------|-------|------------------|------|
-| `s1_1_placeholder.md` | **[Placeholder – No Entry]** | Stanza 1, Line 1 | — |
+| — | *(No entries recorded)* | — | — |
