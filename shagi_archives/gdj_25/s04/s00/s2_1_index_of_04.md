@@ -1,6 +1,6 @@
-<!-- Save to: shagi_archives/gdj_25/s04/s00/s1_5_index_of_04.md -->
+<!-- Save to: shagi_archives/gdj_25/s04/s00/s2_1_index_of_04.md -->
 
-# 📘 s1_5 – Index of April 4, 2025  
+# 📘 s2_1 – Index of April 4, 2025  
 *(The Factory held its breath today)*
 
 No echo stirred, no thread unfurled,  
