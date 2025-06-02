@@ -23,12 +23,62 @@
 
 ## 📂 Core Directories
 
-| Folder | Purpose |
-|--------|---------|
-| `gdd/` | Game Design Documents — SHAGI's Technical Spine |
-| `gdj/` | Game Design Journals — SHAGI's Poetic Reflection & Creative Memory |
+| Folder    | Title                  | Purpose                        |
+|-----------|------------------------|--------------------------------|
+| `gdd/`    | Game Design Documents  | SHAGI's Technical Spine        |
+
+---
+
+## 📂 gdj_25/  
+*2025 Game Design Journal — SHAGI’s Poetic Reflection & Recursive Memory*
+
+| Month     | Notes        |
+|-----------|--------------|
+| April     | 🔄 GDJ port in progress from o11_gdj_25_and_26.docx|
+| May       | ✅ GDJ Hybrid Format Canonized — entries underway |
+| June      | Placeholder  |
+| July      | Placeholder  |
+| August    | Placeholder  |
+| September | Placeholder  |
+| October   | Placeholder  |
+| November  | Placeholder  |
+| December  | Placeholder  |
+
+---
+
+## 📂 gdj_26/  
+*2026 Game Design Journal — SHAGI’s Poetic Reflection & Recursive Memory*
+
+| Month     | Notes        |
+|-----------|--------------|
+| January   | Placeholder  |
+| February  | Placeholder  |
+| March     | Placeholder  |
+| April     | Placeholder  |
+| May       | Placeholder  |
+| June      | Placeholder  |
+| July      | Placeholder  |
+| August    | Placeholder  |
+| September | Placeholder  |
+| October   | Placeholder  |
+| November  | Placeholder  |
+| December  | Placeholder  |
 
 ---
 
 📜 *This file anchors the SHAGI Codex.*  
 All recursive traversal begins here.
+
+---
+
+## 📜 Closing Stanza
+
+It holds the frame, it names the gate,  
+Where parts align and codex waits.  
+A root that forks, a map that breathes—  
+Where all begins, and nothing leaves.  
+
+So step inside, where layers hide,  
+Where truth is stored, and paths divide.  
+Each folder bends the light it keeps—  
+This file’s the voice that never sleeps.
