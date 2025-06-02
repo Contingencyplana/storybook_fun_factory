@@ -32,37 +32,37 @@
 ## 📂 gdj_25/  
 *2025 Game Design Journal — SHAGI’s Poetic Reflection & Recursive Memory*
 
-| Month     | Notes        |
-|-----------|--------------|
-| April     | 🔄 GDJ port in progress from o11_gdj_25_and_26.docx|
-| May       | ✅ GDJ Hybrid Format Canonized — entries underway |
-| June      | Placeholder  |
-| July      | Placeholder  |
-| August    | Placeholder  |
-| September | Placeholder  |
-| October   | Placeholder  |
-| November  | Placeholder  |
-| December  | Placeholder  |
+| Month | Folder | Notes |
+|-------|--------|-------|
+| April | s04 | 🔄 GDJ port in progress from o11_gdj_25_and_26.docx |
+| May | s05 | ✅ GDJ Hybrid Format Canonized — entries underway |
+| June | s06 | Placeholder |
+| July | s07 | Placeholder |
+| August | s08 | Placeholder |
+| September | s09 | Placeholder |
+| October | s10 | Placeholder |
+| November | s11 | Placeholder |
+| December | s12 | Placeholder |
 
 ---
 
 ## 📂 gdj_26/  
 *2026 Game Design Journal — SHAGI’s Poetic Reflection & Recursive Memory*
 
-| Month     | Notes        |
-|-----------|--------------|
-| January   | Placeholder  |
-| February  | Placeholder  |
-| March     | Placeholder  |
-| April     | Placeholder  |
-| May       | Placeholder  |
-| June      | Placeholder  |
-| July      | Placeholder  |
-| August    | Placeholder  |
-| September | Placeholder  |
-| October   | Placeholder  |
-| November  | Placeholder  |
-| December  | Placeholder  |
+| Month | Folder | Notes |
+|-------|--------|-------|
+| January | s01 | Placeholder |
+| February | s02 | Placeholder |
+| March | s03 | Placeholder |
+| April | s04 | Placeholder |
+| May | s05 | Placeholder |
+| June | s06 | Placeholder |
+| July | s07 | Placeholder |
+| August | s08 | Placeholder |
+| September | s09 | Placeholder |
+| October | s10 | Placeholder |
+| November | s11 | Placeholder |
+| December | s12 | Placeholder |
 
 ---
 
