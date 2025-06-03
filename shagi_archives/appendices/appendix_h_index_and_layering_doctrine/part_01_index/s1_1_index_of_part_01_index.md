@@ -29,7 +29,7 @@ That gives the Codex breath and awe.
 | **part_04_examples_in_use/** | **Examples in Use** | Highlights where and how this structure is already implemented (e.g., pantheon, toy soldiers, anomaly). |
 | **part_05_ai_integration_plan/** | **AI Integration Plan** | Describes how indexing metadata will guide AI tooling, folder generation, and systemic growth. |
 | **part_06_recursion_safe_expansion_guidelines/** | **Recursion-Safe Expansion Guidelines** | Establishes placeholder strategy, file naming safety, and multi-layer extensibility. |
-| **part_07_placeholder/** | **Reserved for Future Expansion** | A future recursive module may bloom here. |
+| **part_07_layering_doctrine/** | **Layering Doctrine** | Encodes canonical guidance for structural layering, including `__init__.py` logic and recursive depth preservation. |
 | **part_08_placeholder/** | **Reserved for Future Expansion** | A future recursive module may bloom here. |
 
 ---

@@ -34,7 +34,10 @@
 
 | Month | Folder | Notes |
 |-------|--------|-------|
-| April | s04 | 🔄 GDJ port in progress from o11_gdj_25_and_26.docx |
+| January | s01 | Placeholder |
+| February | s02 | Placeholder |
+| March | s03 | Placeholder |
+| April | s04 | 🔄 Porting in progress from `o11_gdj_25_and_26.docx` |
 | May | s05 | ✅ GDJ Hybrid Format Canonized — entries underway |
 | June | s06 | Placeholder |
 | July | s07 | Placeholder |
