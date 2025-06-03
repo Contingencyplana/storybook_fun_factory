@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/gdj_25/s04/s00/s1_1_index_of_00.md -->
 
 # 📘 s1_1 – April 2025 Monthly Index  
+
 *(A stanza for the month that mapped the Factory)*
 
 The April sun gave verse to flame,  
