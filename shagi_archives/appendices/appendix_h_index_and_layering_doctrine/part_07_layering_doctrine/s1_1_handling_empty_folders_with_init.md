@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_07_layering_doctrine/s1_1_handling_empty_folders_with_init.md -->
 
 # 📘 s1_1 – Handling Empty Folders with Only `__init__.py`  
+
 *(A stanza for silent paths and future rooms)*
 
 No words yet line these halls of thought,  
