@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/appendices/appendix_i_claimvig/part_01_index/s2_5_index_of_part_09_core_grammar_and_symbol_protocols.md -->
+<!-- Save to: shagi_archives/appendices/appendix_i_claimvig/part_09_core_grammar_and_symbol_protocols/s2_5_index_of_part_09_core_grammar_and_symbol_protocols.md -->
 
 # 📘 s1_1 – The Symbol Binds the Line  
 *(Where syntax becomes ritual and meaning gains shape)*
