@@ -27,6 +27,9 @@ Where thought and game entwined their lines.
 | **part_05_learning_curves_and_narrative_onboarding/** | **Learning Curves and Narrative Onboarding** | Details how CLAIMVIG teaches recursive grammar through mythic failure and narrative recursion. |
 | **part_06_gateway_to_the_shagi_multiverse/** | **Gateway to the SHAGI Multiverse** | Connects CLAIMVIG to SHAGI’s wider mythos, including world-migration, symbolic governance, and continuity. |
 | **part_07_lingual_lab_seed/** | **Lingual Lab Seed** | Describes how dialects, rituals, and AI mimicry emerge — setting the stage for SHAGI Game 4. |
+| **part_08_player_experience_and_interface/** | **Player Experience and Interface** | Explores how players interact with CLAIMVIG’s symbolic and recursive language systems. |
+| **part_09_core_grammar_and_symbol_protocols/** | **Core Grammar and Symbol Protocols** | Formalizes the foundational rules, logic structures, and poetic mechanics of the CLAIMVIG language. |
+| **part_10_ai_rituals_and_symbol_play/** | **AI Rituals and Symbol Play** | Details how CLAIMVIG’s AI participates in symbol play, ritual guidance, and language co-evolution. |
 | **part_11_placeholder/** | **Reserved for Future Expansion** | A placeholder for future symbolic systems, co-spellcraft mechanics, or governance forks. |
 | **part_12_placeholder/** | **Reserved for Future Expansion** | A placeholder for future symbolic systems, co-spellcraft mechanics, or governance forks. |
 
