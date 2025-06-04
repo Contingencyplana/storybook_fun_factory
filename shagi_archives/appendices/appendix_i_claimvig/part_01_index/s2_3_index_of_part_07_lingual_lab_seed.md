@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_i_claimvig/part_01_index/s2_3_index_of_part_07_lingual_lab_seed.md -->
 
 # 📘 s2_3 – Index of Part 07: Lingual Lab Seed  
+
 *(A stanza for the dialect that outgrows its cradle)*
 
 The forge was lit, the tongue unchained,  
