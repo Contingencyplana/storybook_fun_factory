@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/appendices/appendix_i_claimvig/part_01_index/s3_4_placeholder.md -->
+<!-- Save to: shagi_archives/appendices/appendix_i_claimvig/part_01_index/s3_4_index_of_part_12_placeholder.md -->
 
 # 📘 s3_4 – Placeholder for Extended Symbolic Indexing  
 

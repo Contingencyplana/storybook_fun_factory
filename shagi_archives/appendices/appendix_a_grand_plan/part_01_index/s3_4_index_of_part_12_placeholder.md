@@ -1,6 +1,6 @@
-<!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_01_index/s3_4_index_of_part_YY_placeholder.md -->
+<!-- Save to: shagi_archives/appendices/appendix_a_grand_plan/part_01_index/s3_4_index_of_part_12_placeholder.md -->
 
-# 📘 s3_4 – Placeholder Index for Part YY  
+# 📘 s3_4 – Placeholder Index for Part 12  
 *(This part is acknowledged but not yet written.)*
 
 ---
