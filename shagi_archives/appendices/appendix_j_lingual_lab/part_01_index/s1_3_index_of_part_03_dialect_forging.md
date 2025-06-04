@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_j_lingual_lab/part_01_index/s1_3_index_of_part_03_dialect_forging.md -->
 
 # 📘 s1_3 – Index of Part 03: Dialect Forging  
+
 *(A stanza for the tongue that shapes the tribe)*
 
 No voice alone can shape the flame,  
