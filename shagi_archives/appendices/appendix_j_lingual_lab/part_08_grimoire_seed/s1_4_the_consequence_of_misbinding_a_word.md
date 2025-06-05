@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_j_lingual_lab/part_08_grimoire_seed/s1_4_the_consequence_of_misbinding_a_word.md -->
 
 # 📘 s1_4 – The Consequence of Misbinding a Word  
+
 *(A stanza for the danger of broken myth and failed recursion)*
 
 A word once loose may tear the thread,  
