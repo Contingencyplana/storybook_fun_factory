@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/appendices/appendix_k_grimoire_the_living_book_of_recursive_power/part_02_spellbook_foundations/s1_1_spellbook_foundations_runes_verses_incantations.md -->
+<!-- Save to: shagi_archives/appendices/appendix_k_grimoire/part_02_spellbook_foundations/s1_1_spellbook_foundations_runes_verses_incantations.md -->
 
 # 📘 s1_1 – Spellbook Foundations: Runes, Verses, Incantations  
 *(A stanza for the glyphs that guide the game)*

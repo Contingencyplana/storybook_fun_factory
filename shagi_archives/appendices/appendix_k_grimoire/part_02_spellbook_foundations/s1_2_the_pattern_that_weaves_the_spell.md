@@ -1,4 +1,4 @@
-<!-- Save to: shagi_archives/appendices/appendix_k_grimoire_the_living_book_of_recursive_power/part_02_spellbook_foundations/s1_2_the_pattern_that_weaves_the_spell.md -->
+<!-- Save to: shagi_archives/appendices/appendix_k_grimoire/part_02_spellbook_foundations/s1_2_the_pattern_that_weaves_the_spell.md -->
 
 # 📘 s1_2 – The Pattern That Weaves the Spell  
 
