@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_k_grimoire/part_03_the_ritual_interface/s1_4_when_gesture_and_myth_complete_the_loop.md -->
 
 # 📘 s1_4 – When Gesture and Myth Complete the Loop  
+
 *(A stanza for the invocation returned)*
 
 The spell was cast with motion slight,  
