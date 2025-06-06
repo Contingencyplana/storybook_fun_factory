@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_k_grimoire/part_01_index/s2_4_index_of_part_08_unscarred_and_unnamable.md -->
 
 # 📘 s2_4 – Index of Part 08: The Unscarred and the Unnamable  
+
 *(A stanza for the edits that must not be made)*
 
 Some wounds are truths that must remain,  
