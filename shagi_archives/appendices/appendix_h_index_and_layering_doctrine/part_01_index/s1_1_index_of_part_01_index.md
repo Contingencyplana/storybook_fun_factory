@@ -32,7 +32,6 @@ That gives the Codex breath and awe.
 | **part_07_layering_doctrine/** | **Layering Doctrine** | Encodes canonical guidance for structural layering, including `__init__.py` logic and recursive depth preservation. |
 | **part_08_chapter_doctrine/** | **Chapter Doctrine – Recursive Forms of Expression** | Defines the two canonical formats used across all SHAGI chapters (poetic-only and poetic + structured), and how formatting serves recursive clarity, symbolic purpose, and gameplay doctrine. |
 
-
 ---
 
 📜 *Begin where maps begin their truth,*  
