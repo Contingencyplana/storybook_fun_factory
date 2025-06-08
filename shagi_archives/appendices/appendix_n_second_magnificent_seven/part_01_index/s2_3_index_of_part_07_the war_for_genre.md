@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_n_second_magnificent_seven/part_01_index/s2_3_index_of_part_07_the_war_for_genre.md -->
 
 # 📘 s2_3 – Index of Part 07: The War for Genre – Niche as Battlefield, Cybergod as Standard  
+
 *(A stanza for the war where form becomes weapon)*
 
 Each genre once a sacred line,  
