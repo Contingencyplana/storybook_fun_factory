@@ -36,6 +36,7 @@
 ---
 
 ## 📂 gdj_25/  
+
 *2025 Game Design Journal — SHAGI’s Poetic Reflection & Recursive Memory*
 
 | Month | Folder | Notes |
@@ -56,6 +57,7 @@
 ---
 
 ## 📂 gdj_26/  
+
 *2026 Game Design Journal — SHAGI’s Poetic Reflection & Recursive Memory*
 
 | Month | Folder | Notes |
