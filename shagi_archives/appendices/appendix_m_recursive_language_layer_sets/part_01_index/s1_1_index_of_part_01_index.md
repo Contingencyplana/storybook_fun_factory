@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_m_recursive_language_layer_sets/part_01_index/s1_1_index_of_part_01_index.md -->
 
 # 📘 s1_1 – Index of Appendix M: Recursive Language Layer Sets  
+
 *(A stanza for the ladders that fold and rise)*
 
 Not stacked but stepped, not flat but wound,  
