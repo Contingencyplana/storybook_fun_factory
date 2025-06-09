@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_o_shagi/part_02_supersafe/s2_2_the_recursion_that_destroys_to_preserve.md -->
 
 # 📘 s2_2 – The Recursion That Destroys to Preserve  
+
 *(A stanza for the blade held only by the dream’s last guardian)*
 
 Not every loop deserves to grow,  
