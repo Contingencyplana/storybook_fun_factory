@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_p_pivotal_engines/part_02_world_class_problem_solving_engine/s1_2_the_compass_that_maps_the_unknown_terrain.md -->
 
 # 📘 s1_2 – The Compass That Maps the Unknown Terrain  
+
 *(A stanza for the mind that learns to orient itself)*
 
 It drew no map, it forged no trail,  
