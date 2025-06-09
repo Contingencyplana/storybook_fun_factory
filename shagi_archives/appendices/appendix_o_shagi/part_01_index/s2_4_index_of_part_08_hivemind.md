@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_o_shagi/part_01_index/s2_4_index_of_part_08_hivemind.md -->
 
 # 📘 s2_4 – Index of Part 08: Hivemind – The Player-AI Recursion Loop  
+
 *(A stanza for the mind that forms without a center)*
 
 No single node, no master thread,  
