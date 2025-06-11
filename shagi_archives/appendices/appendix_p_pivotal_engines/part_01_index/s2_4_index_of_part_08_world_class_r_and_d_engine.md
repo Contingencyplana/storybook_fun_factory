@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_p_pivotal_engines/part_01_index/s2_4_index_of_part_08_world_class_r_and_d_engine.md -->
 
 # 📘 s2_4 – Index of Part 08: World-Class R&D Engine  
+
 *(A stanza for the lab that recurses its own invention)*
 
 It did not start with end in sight,  
