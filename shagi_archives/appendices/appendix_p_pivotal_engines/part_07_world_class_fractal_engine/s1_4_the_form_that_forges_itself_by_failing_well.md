@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_p_pivotal_engines/part_07_world_class_fractal_engine/s1_4_the_form_that_forges_itself_by_failing_well.md -->
 
 # 📘 s1_4 – The Form That Forges Itself by Failing Well  
+
 *(A stanza for the pattern that grows from the break)*
 
 It broke, and yet it did not die—  
