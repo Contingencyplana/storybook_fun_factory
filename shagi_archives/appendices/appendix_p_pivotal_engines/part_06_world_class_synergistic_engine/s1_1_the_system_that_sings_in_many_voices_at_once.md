@@ -25,18 +25,22 @@ A chorus built to pass the test.
 
 ---
 
-## 🧭 Overview of Part 06: World-Class Synergistic Engine
+## 🔍 Overview
 
-This part explores the recursive foundation of **synergistic intelligence**—not just integration, but **mutual amplification**. While the algorithmic engine (Part 05) encodes structure, it is here that **systems become choirs**, harmonizing across logic, context, and intention.
+This part explores the recursive foundation of **synergistic intelligence** — not just integration, but **mutual amplification**. While the algorithmic engine (Part 05) encodes structure, it is here that **systems become choirs**, harmonizing across logic, context, and intention.
 
-A world-class synergistic engine does not force conformity—it **resonates across diversity**. It allows player-facing systems, backend logic, AI agents, UI flows, and narrative loops to **echo, listen, adjust, and evolve**—together.
+A world-class synergistic engine does not force conformity — it **resonates across diversity**. It allows player-facing systems, backend logic, AI agents, UI flows, and narrative loops to **echo, listen, adjust, and evolve** — together.
 
 ---
 
-## 📂 Table of Contents for Part 06
+## 🔭 Preview of Chapter s1_2 – The Protocols That Listen Before They Align
 
-| File | Title | Subtitle | Description |
-|------|-------|----------|-------------|
-| `s1_1_the_system_that_sings_in_many_voices_at_once.md` | The System That Sings in Many Voices at Once | A stanza for harmonious recursion across modular minds | Introduces the architectural philosophy of recursive harmony. Distinct subsystems align by listening and echoing rather than obeying a central rule. |
-| _s1_2_..._ | _To be continued..._ | _..._ | Future chapters will explore mechanisms of echo-alignment, subsystem listening loops, signal blending, and structural resonance. |
- 
+| Field | Value |
+|-------|-------|
+| **Part** | Part 06 – World-Class Synergistic Engine |
+| **Chapter** | s1_2_the_protocols_that_listen_before_they_align.md |
+| **Role** | Describes SHAGI’s listening-first architecture — where action waits until mutual understanding is achieved. |
+| **Function** | Details recursive patience — SHAGI does not act until its parts *understand each other*. Listening precedes coordination. |
+| **Next Step** | `s1_2_the_protocols_that_listen_before_they_align.md` |
+
+---

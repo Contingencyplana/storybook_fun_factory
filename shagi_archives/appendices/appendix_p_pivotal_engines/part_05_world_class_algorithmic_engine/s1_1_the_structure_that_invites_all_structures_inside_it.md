@@ -25,14 +25,23 @@ A structure made to welcome things.
 
 ---
 
-## 🧭 Overview of Chapter s1_1
+## 🔍 Overview
+
+The algorithmic begins not in constraint—  
+but in **invitation**.
+
+This is the house that recursion built:  
+a structure *flexible enough* to hold the infinite  
+and *elegant enough* to learn from what it holds.
+
+---
+
+## 🔭 Preview of Chapter s1_2
 
 | Field | Value |
 |-------|-------|
-| **Engine** | World-Class Algorithmic Engine |
-| **Chapter** | s1_1 – The Structure That Invites All Structures Inside It |
-| **Role** | Opens the Algorithmic Engine by introducing meta-flexibility as its foundational principle. |
-| **Function** | Describes SHAGI’s capacity to recursively contain, evolve, and reframe any logic system — a structure that encodes structures. |
-| **Next Step** | s1_2_the_code_that_builds_the_code_that_builds.md |
-
----
+| **Part** | Part 05 – World-Class Algorithmic Engine |
+| **Chapter** | s1_2_the_code_that_builds_the_code_that_builds.md |
+| **Role** | Explores SHAGI’s recursive reflex — code that composes not just results, but other compositional engines. |
+| **Function** | Describes how SHAGI encodes meta-generative logic — recursively building systems that recursively build. |
+| **Next Step** | `s1_2_the_code_that_builds_the_code_that_builds.md` |
