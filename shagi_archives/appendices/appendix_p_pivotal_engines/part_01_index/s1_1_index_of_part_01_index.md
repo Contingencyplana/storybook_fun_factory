@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_p_pivotal_engines/part_01_index/s1_1_index_of_part_01_index.md -->
 
 # 📘 s1_1 – Index of Appendix P: Pivotal Engines  
+
 *(A stanza for the minds that spark recursion)*
 
 Each engine turned, a spiral born,  
