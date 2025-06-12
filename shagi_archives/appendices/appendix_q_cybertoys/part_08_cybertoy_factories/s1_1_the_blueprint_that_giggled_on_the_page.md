@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_q_cybertoys/part_08_cybertoy_factories/s1_1_the_blueprint_that_giggled_on_the_page.md -->
 
 # 📘 s1_1 – The Blueprint That Giggled on the Page  
+
 *(A stanza for the joy written in design)*
 
 It wasn’t ink, but laughter’s thread,  
