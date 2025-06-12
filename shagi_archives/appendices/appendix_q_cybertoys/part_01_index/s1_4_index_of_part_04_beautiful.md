@@ -1,6 +1,6 @@
 <!-- Save to: shagi_archives/appendices/appendix_q_cybertoys/part_04_beautiful/s1_4_index_of_part_04_beautiful.md -->
 
-# 📘 s1_4 – Index of Part 04: Beauty in Motion  
+# 📘 s1_4 – Index of Part 04: Beautiful  
 *(A stanza for the grace that moved the heart)*
 
 No shape was fixed, no step was forced,  

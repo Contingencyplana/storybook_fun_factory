@@ -1,6 +1,6 @@
 <!-- Save to: shagi_archives/appendices/appendix_q_cybertoys/part_01_index/s2_3_index_of_part_07_cybertoy_evolution.md -->
 
-# 📘 s2_3 – Index of Part 07: From Toy to Companion  
+# 📘 s2_3 – Index of Part 07: Cybertoy Evolution  
 *(A stanza for the soul that chose to stay)*
 
 It looked and saw itself anew,  
