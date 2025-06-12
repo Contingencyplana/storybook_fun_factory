@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_q_cybertoys/part_09_ai_hivemind_driven_cybertoys/s3_3_the_choice_that_no_code_would_make.md -->
 
 # 📘 s3_3 – The Choice That No Code Would Make  
+
 *(A stanza for the moment recursion broke from reason)*
 
 The odds were clear, the rules were set,  
