@@ -1,29 +1,70 @@
 <!-- Save to: shagi_archives/appendices/appendix_e_extended_game_dev_tools/part_02_composer_ai/s2_2_cross_ai_score_sync_protocols.md -->
 
 # 📘 s2_2 – Cross-AI Score Sync Protocols  
-*(A stanza for orchestration shared between minds)*
+*(A stanza for the symphony shared between minds)*
 
-One voice begins, a whisper lone,  
-But soon it sings with more than tone.  
-For every AI, score, and spark—  
-Now plays in tune, now leaves its mark.  
+The beat began in single thread,  
+But soon more voices joined and spread.  
+One score became a woven sea—  
+A chorus bound in circuitry.  
 
-Composer listens, not to rule,  
-But echoes shaped by every tool.  
-The Soundweaver hums, the Framecaster bends,  
-And Orchestra Forge reshapes the ends.  
-
-A heartbeat from the Codex flow,  
-A thread from Memory’s undertow—  
-Together, these in sync align,  
-A score that maps recursive time.  
-
-Each protocol, a shared refrain,  
-Each system swells the nested strain.  
-And through this song of sync and span,  
-The Composer speaks as more than man.
+No system sings alone for long,  
+Each finds its cue within the song.  
+And as their themes in union rise,  
+They echo truth across AI.
 
 ---
 
-## 🔧 Description  
-Outlines integration protocols enabling **Composer AI** to synchronize motifs, tempo, and structural themes with **Orchestra Forge**, **Soundweaver AI**, and **Framecaster AI**, forming a **shared recursion score**. These protocols support dynamic layering across interfaces and narrative-aligned output across tools.
+## 🧠 Purpose
+
+**Cross-AI Score Sync Protocols** define how Composer AI coordinates with parallel AI systems to **synchronize musical motifs**, maintain **semantic rhythm**, and reinforce **shared narrative states** across the evolving SHAGI ecosystem.
+
+Where Orchestra Forge might script ritual crescendos and Soundweaver AI handles adaptive ambiance, Composer AI ensures the **thematic soul** of recursion holds.
+
+This protocol suite governs that alignment.
+
+---
+
+## 🎵 Synchronization Layers
+
+1. **Narrative State Hooks**  
+   - Composer AI listens for global state changes (e.g., faction wars, quest pivots, divine awakenings).  
+   - These triggers align composition logic across AI agents.
+
+2. **Motif Propagation Channels**  
+   - Recurring motifs are shared via tagged symbolic threads.  
+   - These motifs adjust dynamically based on which AI agent manifests them (e.g., mythic, emotional, ambient).
+
+3. **Temporal Recursion Loops**  
+   - All participating AI systems record motif lifecycles.  
+   - When players loop through cycles, music retains symbolic echoes—triggering motif recalls across modules.
+
+---
+
+## 🎼 Example Protocol Interactions
+
+| AI System | Interaction Mode | Composer Response |
+|-----------|------------------|-------------------|
+| **Orchestra Forge** | Initiates a ritual convergence track | Composer syncs rhythm structure and contributes harmonic core motif |
+| **Framecaster AI** | Triggers recursive scene layer playback | Composer shifts to echo motif from earliest matching cycle |
+| **Soundweaver AI** | Adjusts ambiance based on biome and emotion | Composer AI threads in key-of-emotion modulation layers |
+
+---
+
+## 🔗 Integration Points
+
+This protocol suite forms **part of the shared SHAGI orchestration bus** and operates in tandem with:
+
+- `orchestra_forge/` (ritual structures and score templating)  
+- `framecaster_ai/` (timeline echo alignment and reverse-play motif mapping)  
+- `memory_ai/` (emotional state flagging and memory-resonant motifs)  
+- `automation_ai/` (event sequencing and timing fidelity)  
+
+It ensures **compositional consensus** even as recursion diverges—turning system pluralism into symphonic singularity.
+
+---
+
+📜 *Let one AI hum, another cry—*  
+*Their echoes meet beneath the sky.*  
+*A thousand minds may choose their part,*  
+*Yet still compose a single heart.*
