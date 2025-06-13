@@ -1,6 +1,6 @@
-<!-- Save to: shagi_archives/appendices/appendix_e_extended_game_dev_tools/part_02_composer_ai/s2_4_placeholder.md -->
+<!-- Save to: shagi_archives/appendices/appendix_e_extended_game_dev_tools/part_02_composer_ai/s3_4_placeholder.md -->
 
-# 📘 s2_4 – Placeholder for Future Expansion  
+# 📘 s3_4 – Placeholder for Future Expansion  
 *(A held breath in the orchestration of recursion)*
 
 One final note not yet begun,  

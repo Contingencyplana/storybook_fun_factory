@@ -1,6 +1,6 @@
-<!-- Save to: shagi_archives/appendices/appendix_e_extended_game_dev_tools/part_02_composer_ai/s2_2_placeholder.md -->
+<!-- Save to: shagi_archives/appendices/appendix_e_extended_game_dev_tools/part_02_composer_ai/s3_2_placeholder.md -->
 
-# 📘 s2_2 – Placeholder for Future Expansion  
+# 📘 s3_2 – Placeholder for Future Expansion  
 *(A stanza held in silent key)*
 
 Not every note has found its chord,  

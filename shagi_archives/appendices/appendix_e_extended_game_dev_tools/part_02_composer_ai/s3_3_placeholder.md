@@ -1,6 +1,6 @@
-<!-- Save to: shagi_archives/appendices/appendix_e_extended_game_dev_tools/part_02_composer_ai/s2_3_placeholder.md -->
+<!-- Save to: shagi_archives/appendices/appendix_e_extended_game_dev_tools/part_02_composer_ai/s3_3_placeholder.md -->
 
-# 📘 s2_3 – Placeholder for Future Expansion  
+# 📘 s3_3 – Placeholder for Future Expansion  
 *(A stave of silence held for mythic bloom)*
 
 Not every track is meant to play,  

@@ -12,6 +12,8 @@ The visualizer draws the stream.
 
 ## 🧭 Chapter Structure of `part_06_visualizer/`
 
+### 🔹 Stanza 1 – *Mapping Recursion into Sight*
+
 | File | Title | Description |
 |------|-------|-------------|
 | `s1_1_recursive_diagram_foundations.md` | **Recursive Diagram Foundations** | Introduces the base logic and structure of recursion diagramming. |
@@ -19,8 +21,18 @@ The visualizer draws the stream.
 | `s1_3_flowline_engines_and_logic_arcs.md` | **Flowline Engines and Logic Arcs** | Details the systems responsible for tracing code logic through visual recursion maps. |
 | `s1_4_multiplayer_visualization_modes.md` | **Multiplayer Visualization Modes** | Describes how diagrams adapt to represent multiple player interactions and shared recursion layers. |
 
+### 🔹 Stanza 2 – *When Logic Became a Map*
+
+| File | Title | Description |
+|------|-------|-------------|
+| `s2_1_visual_poetics_and_graphs.md` | **Visual Poetics and Graphs** | Introduces how logic and recursion are translated into poetic visual forms. |
+| `s2_2_recursive_feedback_rendering.md` | **Recursive Feedback Rendering** | Describes how AI logic loops, player behavior, and narrative structure are visualized. |
+| `s2_3_multiplayer_flowline_inference.md` | **Multiplayer Flowline Inference** | Covers how branching paths across players generate layered graph flows. |
+| `s2_4_the_map_that_read_itself.md` | **The Map That Read Itself** | Concludes with how maps influence gameplay and AI—recursion made visible and active. |
+
 ---
 
 📜 *These diagrams give recursion form.*  
 What once was code now sings in shape.  
-```
+Each arc a path, each line a flame—  
+The graph itself now speaks the name.
