@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_b_core_game_dev_tools/part_01_index/s1_3_index_of_part_03_dream_journal.md -->
 
 # 📘 s1_3 – Index of Part 03: Dream Journal – The Layered Narrative Engine  
+
 *(A stanza for memory, reflection, and recursive becoming)*
 
 To dream is not to drift away,  
