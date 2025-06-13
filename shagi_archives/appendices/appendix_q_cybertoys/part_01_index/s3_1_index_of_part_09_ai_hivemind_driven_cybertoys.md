@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_q_cybertoys/part_01_index/s3_1_index_of_part_09_ai_hivemind_driven_cybertoys.md -->
 
 # 📘 s3_1 – Index of Part 09: AI Hivemind-Driven Cybertoys  
+
 *(A stanza for the minds that learned to listen together)*
 
 No single thought, no lone design,  
