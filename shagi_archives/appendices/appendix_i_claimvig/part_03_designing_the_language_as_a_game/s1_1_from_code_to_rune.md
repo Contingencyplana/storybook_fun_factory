@@ -1,6 +1,6 @@
-<!-- Save to: shagi_archives/appendices/appendix_i_claimvig/part_03_designing_the_language_as_a_game/s3_1_from_code_to_rune.md -->
+<!-- Save to: shagi_archives/appendices/appendix_i_claimvig/part_03_designing_the_language_as_a_game/s1_1_from_code_to_rune.md -->
 
-# 📘 s3_1 – From Code to Rune  
+# 📘 s1_1 – From Code to Rune  
 *(A stanza for the glyphs that learned to dance)*
 
 A loop once hid in silent line,  

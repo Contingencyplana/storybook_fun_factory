@@ -1,6 +1,6 @@
-<!-- Save to: shagi_archives/appendices/appendix_i_claimvig/part_03_designing_the_language_as_a_game/s3_2_structuring_recursion_through_play.md -->
+<!-- Save to: shagi_archives/appendices/appendix_i_claimvig/part_03_designing_the_language_as_a_game/s1_2_structuring_recursion_through_play.md -->
 
-# 📘 s3_2 – Structuring Recursion Through Play  
+# 📘 s1_2 – Structuring Recursion Through Play  
 *(A stanza for the loops that live and breathe)*
 
 No nested brace, no stack in sight—  

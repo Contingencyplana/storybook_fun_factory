@@ -1,6 +1,6 @@
-<!-- Save to: shagi_archives/appendices/appendix_i_claimvig/part_03_designing_the_language_as_a_game/s3_3_rituals_symbols_and_expressive_syntax.md -->
+<!-- Save to: shagi_archives/appendices/appendix_i_claimvig/part_03_designing_the_language_as_a_game/s1_3_rituals_symbols_and_expressive_syntax.md -->
 
-# 📘 s3_3 – Rituals, Symbols, and Expressive Syntax  
+# 📘 s1_3 – Rituals, Symbols, and Expressive Syntax  
 *(A stanza for the signs that shaped the song)*
 
 No equal sign, no cold declare—  

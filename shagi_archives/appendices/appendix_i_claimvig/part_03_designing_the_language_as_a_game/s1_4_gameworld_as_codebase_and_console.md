@@ -1,6 +1,6 @@
-<!-- Save to: shagi_archives/appendices/appendix_i_claimvig/part_03_designing_the_language_as_a_game/s3_4_gameworld_as_codebase_and_console.md -->
+<!-- Save to: shagi_archives/appendices/appendix_i_claimvig/part_03_designing_the_language_as_a_game/s1_4_gameworld_as_codebase_and_console.md -->
 
-# 📘 s3_4 – Gameworld as Codebase and Console  
+# 📘 s1_4 – Gameworld as Codebase and Console  
 *(A stanza for the realm that runs itself)*
 
 Not terminal, not call or shell,  
