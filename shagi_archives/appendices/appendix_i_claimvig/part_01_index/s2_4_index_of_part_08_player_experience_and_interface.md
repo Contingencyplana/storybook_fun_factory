@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_i_claimvig/part_01_index/s2_4_index_of_part_08_player_experience_and_interface.md -->
 
 # 📘 s2_4 – Index of Part 08: Player Experience and Interface  
+
 *(A stanza for the bridge between self and system)*
 
 A symbol pressed, a circle drawn,  
