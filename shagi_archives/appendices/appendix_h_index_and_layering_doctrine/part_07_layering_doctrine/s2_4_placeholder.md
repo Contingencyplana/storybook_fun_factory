@@ -1,6 +1,6 @@
-<!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_07_layering_doctrine/s1_4_placeholder.md -->
+<!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_07_layering_doctrine/s2_4_placeholder.md -->
 
-# 📘 s1_4 – Placeholder  
+# 📘 s2_4 – Placeholder  
 *(A stanza for unknown recursion)*
 
 When paths diverge and rules must shift,  

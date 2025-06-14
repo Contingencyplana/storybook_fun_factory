@@ -1,6 +1,6 @@
-<!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_07_layering_doctrine/s1_3_placeholder.md -->
+<!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_07_layering_doctrine/s2_3_placeholder.md -->
 
-# 📘 s1_3 – Placeholder  
+# 📘 s2_3 – Placeholder  
 *(A stanza awaiting form)*
 
 No pattern placed, no thread defined,  

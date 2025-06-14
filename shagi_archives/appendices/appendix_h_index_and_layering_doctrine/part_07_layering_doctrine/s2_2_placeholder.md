@@ -1,6 +1,6 @@
-<!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_07_layering_doctrine/s1_2_placeholder.md -->
+<!-- Save to: shagi_archives/appendices/appendix_h_index_and_layering_doctrine/part_07_layering_doctrine/s2_2_placeholder.md -->
 
-# 📘 s1_2 – Placeholder  
+# 📘 s2_2 – Placeholder  
 *(A stanza not yet summoned)*
 
 The layer waits, unnamed, unseen,  

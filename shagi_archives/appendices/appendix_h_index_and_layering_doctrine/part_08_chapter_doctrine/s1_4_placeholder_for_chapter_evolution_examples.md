@@ -15,4 +15,3 @@ This placeholder reserves space to document:
 - Comparative analyses of recursive transformation within chapter form  
 
 These are the echoes of recursion’s voice, reshaped by need and time.
-
