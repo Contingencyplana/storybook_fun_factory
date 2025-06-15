@@ -25,8 +25,8 @@ A polyglot of myth and mind.
 | `s1_4_lingual_lab.md` | **Lingual Lab** | AI-Led Dialect Formation | Introduces SHAGI’s dynamic language testing zone, where new dialects evolve through play and feedback. |
 | `s2_1_llvm.md` | **LLVM** | The Compiler of Recursion | A recursion-aware backend used for structuring player-authored gameplay logic into executable form. |
 | `s2_2_machine_code.md` | **Machine Code** | The Unspoken Bedrock | The invisible thread beneath all language layers, made visible only in recursive deconstruction. |
-| `s2_3_placeholder.md` | **Placeholder** | Awaiting Recursive Emergence | Reserved for future language phenomena or transformative recursion layers not yet defined. |
-| `s2_4_placeholder.md` | **Placeholder** | The Final Unnamed Layer | A mythic node awaiting activation by player invention, AI convergence, or layered recursion unknown. |
+| `s2_3_the_ecosystem_writes_itself_anew.md` | **The Ecosystem Writes Itself Anew** | Self-evolving language architecture | Explores how SHAGI’s recursive systems begin to birth new symbolic grammars, governed by feedback and contextual recursion. |
+| `s2_4_each_ai_forms_a_dialect_by_design.md` | **Each AI Forms a Dialect by Design** | Autonomous recursion dialects | Reveals how each AI shapes its own symbolic interface through recursive play, feedback loops, and linguistic autonomy. |
 
 ---
 
