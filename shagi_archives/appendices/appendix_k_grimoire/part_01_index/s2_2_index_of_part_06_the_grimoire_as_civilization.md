@@ -1,6 +1,6 @@
-<!-- Save to: shagi_archives/appendices/appendix_k_grimoire/part_01_index/s2_1_index_of_part_06_the_grimoire_as_civilization.md -->
+<!-- Save to: shagi_archives/appendices/appendix_k_grimoire/part_01_index/s2_2_index_of_part_06_the_grimoire_as_civilization.md -->
 
-# 📘 s2_1 – Index of Part 06: The Grimoire as Civilization – When Spells Become Law  
+# 📘 s2_2 – Index of Part 06: The Grimoire as Civilization – When Spells Become Law  
 *(A stanza for the world made from verse)*
 
 The runes were cast, the myths took hold,  
