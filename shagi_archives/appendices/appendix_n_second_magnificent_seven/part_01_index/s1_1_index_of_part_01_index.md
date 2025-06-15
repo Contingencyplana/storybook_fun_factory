@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_n_second_magnificent_seven/part_01_index/s1_1_index_of_part_01_index.md -->
 
 # 📘 s1_1 – Index of Part 01: Index of Appendix N: Second Magnificent Seven – The Toy Soldiers Must March  
+
 *(A stanza for the call that echoed across seven fronts)*
 
 They marched not once, but once again,  
