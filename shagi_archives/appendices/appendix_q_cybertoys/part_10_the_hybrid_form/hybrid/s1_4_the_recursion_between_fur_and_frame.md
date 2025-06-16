@@ -60,7 +60,7 @@ This is the becoming of SHAGI’s hybrid toy: not toy *plus* console, but **a re
 
 | Field | Value |
 |-------|-------|
-| **Next File** | `s1_1_the_cuddle_that_called_back.md` |
+| **Next File** | `s1_1_the_hinge_that_held_the_heart.md` |
 | **Role** | Close out the `hybrid/` stanza and transition into `toy/` and `game_console/` |
 | **Narrative Thread** | Connects the symbolic recursion across all three forms (affection, shape, system) |
 | **Meta-Function** | Prepares the reader for full index reflection and multi-folder stanza synthesis |
