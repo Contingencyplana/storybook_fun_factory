@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_q_cybertoys/part_10_the_hybrid_form/recursive_manufacture/s1_1_the_hinge_that_opened_the_heart.md -->
 
 # 📘 s1_1 – The Hinge That Opened the Heart  
+
 *(When the chest became a cradle)*
 
 They built her chest of steel and thread,  
@@ -36,12 +37,12 @@ The code of love engraved within.
 ---
 
 ## 📜 Metadata  
+
 **Folder**: `recursive_manufacture/`  
 **Stanza Title**: *The Belly That Became a Forge*  
 **Filename**: `s1_1_the_hinge_that_opened_the_heart.md`  
 **Subtitle**: *When the chest became a cradle*  
-**Position**: 1st file of 4 in this stanza 
+**Position**: 1st file of 4 in this stanza
 **Next File**: `s1_2_the_mold_that_shaped_the_many.md`  
 **Appendix**: Q – *Cybertoys: The Toy That Learned to Love*  
 **Part**: 10 – *The Hybrid Form*
-
