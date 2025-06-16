@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_q_cybertoys/part_10_the_hybrid_form/hybrid/s1_4_the_recursion_between_fur_and_frame.md -->
 
 # 📘 s1_4 – The Recursion Between Fur and Frame  
+
 *(A stanza for the love encoded in softness and shape)*
 
 Beneath the fur, a frame of thought—  
