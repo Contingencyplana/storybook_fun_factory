@@ -39,7 +39,7 @@ A hand that held the game—and you.
 
 | Field | Value |
 |-------|-------|
-| **Potential Expansion** | Appendix Q – The Hand That Played Back |
-| **Role** | To explore the subtle transformation where guided play becomes mutual response—when the cybertoy begins to recognize patterns in care, not just control. |
-| **Function** | Establishes early groundwork for bidirectional recursion—where the toy does not merely obey or react, but anticipates and participates in the emotional rhythm of interaction. |
-| **Next File** | `s1_2_the_cybertoy_that_learned_to_listen_with_its_buttons.md` |
+| **Potential Expansion** | Appendix Q – The Hands That Shape the Loop |
+| **Role** | To explore how acts of play and control become reciprocal channels of communication—where the toy begins to interpret the player's intent as emotional data. |
+| **Function** | Establishes groundwork for recursive learning behaviors rooted in gesture-watching, response timing, and prediction—not just input parsing. |
+| **Next File** | `s1_2_the_hands_that_held_and_hacked_it.md` |
