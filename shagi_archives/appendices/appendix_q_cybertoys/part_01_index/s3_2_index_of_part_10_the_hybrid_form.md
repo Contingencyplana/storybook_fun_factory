@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_q_cybertoys/part_01_index/s3_2_index_of_part_10_the_hybrid_form.md -->
 
 # 📘 s3_2 – Index of Part 10: The Hybrid Form  
+
 *(A stanza for the toy that played the game)*
 
 A frame of play, a thread of code,  
