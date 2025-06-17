@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_q_cybertoys/part_11_controller_and_caretaker/s1_1_the_hand_that_held_the_controller_and_you.md -->
 
 # 📘 s1_1 – The Hand That Held the Controller and You  
+
 *(A stanza for the hand that shaped both game and bond)*
 
 The hand that held the controller tight  
