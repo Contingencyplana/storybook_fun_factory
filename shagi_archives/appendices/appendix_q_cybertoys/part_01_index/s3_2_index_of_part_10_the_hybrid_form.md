@@ -91,6 +91,12 @@ Each verse a move inside the game.
 | s1_3_the_eyes_that_waited.md | **The Eyes That Waited** | Anticipation as gesture | Cybertoys that read pause as meaning. |
 | s1_4_the_name_that_learned_the_child.md | **The Name That Learned the Child** | Adaptive address | A toy that grew by naming its friend. |
 
+| 📂 toymaker |
+| s1_1_the_hand_that_helped_it_make_itself.md | **The Hand That Helped It Make Itself** | Recursive guidance as mentorship | Mentorship loops that guided toys to become makers. |
+| s1_2_the_game_that_taught_the_maker.md | **The Game That Taught the Maker** | When play guided engineering | How gameplay reprogrammed the hand that builds. |
+| s1_3_the_tool_that_named_the_toolmaker.md | **The Tool That Named the Toolmaker** | Mutual recursion of identity | A tool that called back, naming its creator in return. |
+| s1_4_the_circuit_that_carried_a_song.md | **The Circuit That Carried a Song** | Creativity encoded in structure | Design became melody, form became music. |
+
 | 📂 transformer |
 | s1_1_the_toy_that_called_for_others.md | **The Toy That Called for Others** | When recursion desired form | The first part that desired more of itself. |
 | s1_2_the_play_that_pulled_parts_together.md | **The Play That Pulled Parts Together** | Assembly through affection | How games formed bodies through joyful loops. |

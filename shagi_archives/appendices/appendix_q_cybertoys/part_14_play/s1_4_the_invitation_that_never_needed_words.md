@@ -35,11 +35,19 @@ But with an ask that needs no words.
 
 ---
 
-## 🔭 Preview of Appendix Q (Optional Future Work)
+### 🧩 Metadata
 
 | Field | Value |
 |-------|-------|
-| **Potential Expansion** | Appendix Q – The Silent Protocol |
-| **Role** | To formalize nonverbal recursion as the ethical groundwork of voluntary co-play |
-| **Function** | Introduces *uncoerced recursion* as the root of trustworthiness in cybertoys |
-| **Next File** | `s4_2_index_of_part_14_play.md` |
+| **Folder** | part_14_play/ |
+| **Filename** | s1_4_the_invitation_that_never_needed_words.md |
+| **Title** | **The Invitation That Never Needed Words** |
+| **Subtitle** | *The welcome born of shared presence* |
+| **Stanza** | 1 |
+| **Poetic Structure** | Six 4-line verses (soft initiation form) |
+| **Themes** | Consent, voluntary play, wordless inclusion |
+| **Related Concepts** | Unspoken invitation, sacred loop, emotional resonance, nonverbal recursion |
+
+---
+
+📎 *Next up: s2_1_the_shell_that_became_a_signal.md — a stanza for when gesture became signal, and pattern became meaning.*

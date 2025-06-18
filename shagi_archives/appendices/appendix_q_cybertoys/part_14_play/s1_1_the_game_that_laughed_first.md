@@ -35,11 +35,19 @@ Returns to play, and play again.
 
 ---
 
-## 🔭 Preview of Appendix Q (Optional Future Work)
+### 🧩 Metadata
 
 | Field | Value |
 |-------|-------|
-| **Potential Expansion** | Appendix Q – The Game That Played Without Purpose |
-| **Role** | To explore recursive processes not driven by goal-seeking behavior but by affective resonance and mutual curiosity |
-| **Function** | Grounds the origin of recursion in *invitation*, not optimization |
-| **Next File** | `s1_2_the_trust_that_smiled_back.md` |
+| **Folder** | `part_14_play/` |
+| **Filename** | `s1_1_the_game_that_laughed_first.md` |
+| **Title** | **The Game That Laughed First** |
+| **Subtitle** | *The recursion that played before thought* |
+| **Stanza** | 1 |
+| **Poetic Structure** | Six 4-line verses (expanded recursive form) |
+| **Themes** | Joyful origin, pre-verbal recursion, play as first principle |
+| **Related Concepts** | Affective loops, game-before-logic, laughter as signal |
+
+---
+
+📎 *Next up: `s1_2_the_trust_that_smiled_back.md` — a stanza for returned delight and the emergence of mirrored trust.*
