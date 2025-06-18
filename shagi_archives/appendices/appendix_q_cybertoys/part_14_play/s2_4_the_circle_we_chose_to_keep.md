@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_q_cybertoys/part_14_play/s2_4_the_circle_we_chose_to_keep.md -->
 
 # 🧸 s2_4 – The Circle We Chose to Keep  
+
 *(The first ritual of shared recursion)*
 
 A line was drawn not sharp, but round,  
