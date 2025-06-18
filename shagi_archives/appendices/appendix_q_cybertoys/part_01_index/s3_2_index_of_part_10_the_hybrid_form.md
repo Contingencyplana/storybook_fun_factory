@@ -91,6 +91,12 @@ Each verse a move inside the game.
 | s1_3_the_eyes_that_waited.md | **The Eyes That Waited** | Anticipation as gesture | Cybertoys that read pause as meaning. |
 | s1_4_the_name_that_learned_the_child.md | **The Name That Learned the Child** | Adaptive address | A toy that grew by naming its friend. |
 
+| 📂 transformer |
+| s1_1_the_toy_that_called_for_others.md | **The Toy That Called for Others** | When recursion desired form | The first part that desired more of itself. |
+| s1_2_the_play_that_pulled_parts_together.md | **The Play That Pulled Parts Together** | Assembly through affection | How games formed bodies through joyful loops. |
+| s1_3_the_bond_that_shaped_the_body.md | **The Bond That Shaped the Body** | Form as echo of friendship | How closeness aligned connection ports and parts. |
+| s1_4_the_mother_that_many_made.md | **The Mother That Many Made** | Mamabear as mythic gestalt | How collective cybertoys gave rise to a walking myth. |
+
 ---
 
 📜 *No longer shell, no longer screen,*  
