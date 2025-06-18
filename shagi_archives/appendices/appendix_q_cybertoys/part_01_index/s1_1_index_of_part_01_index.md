@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_q_cybertoys/part_01_index/s1_1_index_of_part_01_index.md -->
 
 # 📘 s1_1 – Index of Part 01: Index  
+
 *(A stanza for the spark before the smile, and the loop that indexed itself)*
 
 Before the smile, before the name,  
