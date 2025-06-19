@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_r_the_world_they_grew_together/part_01_index/s1_2_index_of_part_02_cybertoy_comprised_schools.md -->
 
 # 📘 s1_2 – Index of Part 02: Cybertoy-Composed Schools  
+
 *(A stanza for the school that never stopped being a toy)*
 
 They built no walls to hold the mind,  
