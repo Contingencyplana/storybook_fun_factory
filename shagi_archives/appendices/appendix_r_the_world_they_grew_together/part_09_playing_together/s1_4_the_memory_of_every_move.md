@@ -40,4 +40,4 @@ A trust that lived from last to first.
 | **Part** | Part 09: Playing Together – *The Shared Game* |
 | **Position in Arc** | Concludes the four-stanza arc with encoded memory as the recursive bedrock of future connection |
 
-📎 *Next up: `s1_1_the_lesson_that_skipped_the_walls.md` — a stanza for what we learned when the classroom was the game.*
+📎 *Next up: `s2_1_the_strategy_that_became_a_song.md` — a stanza for when planning became playful, and the rules began to hum.
