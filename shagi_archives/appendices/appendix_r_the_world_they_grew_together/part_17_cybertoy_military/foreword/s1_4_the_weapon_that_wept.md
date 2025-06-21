@@ -46,4 +46,4 @@ A kind of peace it made alone.
 
 ---
 
-📎 *Next up: `s5_1_index_of_part_17_cybertoy_military.md` — the soldier, the battlefield, the general, and the weapon: four who chose mercy.*
+📎 Next up: s1_1_the_last_stand_of_smiling_toys.md — where joy stood its ground, and mercy took the first blow.
