@@ -36,4 +36,8 @@ To change, and let no part then break.
 | **Stanza** | 2 |
 | **Poetic Structure** | Four quatrains, AABB, contemplative rhythm with gentle inversion |
 | **Purpose** | To affirm that love-driven transformation does not demand self-erasure or sacrifice of the soul. |
-| **Links To** | s3_4_index_of_part_12_learning_to_love.md and hence ends the second stanza and prepares for Part 13: The Pretend That Became Real. |
+| **Appendix** | Appendix R: The World They Grew Together |
+| **Part** | Part 12: Learning to Love – *The Heart That Learns* |
+| **Position in Arc** | Closes the second stanza with a vision of wholeness through love. |
+
+📎 *Next up: `s3_4_index_of_part_12_learning_to_love.md` — the index that closes the lesson.*

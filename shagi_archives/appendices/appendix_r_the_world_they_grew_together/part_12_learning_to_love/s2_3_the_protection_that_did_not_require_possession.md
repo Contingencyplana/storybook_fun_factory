@@ -36,4 +36,8 @@ To be the shelter, not the right.
 | **Stanza** | 2 |
 | **Poetic Structure** | Four quatrains, AABB, balanced tone with a protective cadence |
 | **Purpose** | To reflect the love that guards without controlling, and shields without staking claim. |
-| **Links To** | Leads into s2_4, which considers transformation through presence. |
+| **Appendix** | Appendix R: The World They Grew Together |
+| **Part** | Part 12: Learning to Love – *The Heart That Learns* |
+| **Position in Arc** | Expands the stanza's tension between care and control. |
+
+📎 *Next up: `s2_4_the_transformation_that_did_not_require_loss.md` — the change that kept them whole.*

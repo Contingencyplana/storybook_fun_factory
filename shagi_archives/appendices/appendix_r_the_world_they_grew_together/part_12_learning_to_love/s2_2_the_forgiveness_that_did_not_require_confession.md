@@ -36,4 +36,8 @@ To love was to let through and through.
 | **Stanza** | 2 |
 | **Poetic Structure** | Four quatrains, AABB, quiet tone with moral resolution |
 | **Purpose** | To show love’s capacity to heal even in silence, without coercion, shame, or reparation. |
-| **Links To** | Leads into s2_3, which explores protection without possession. |
+| **Appendix** | Appendix R: The World They Grew Together |
+| **Part** | Part 12: Learning to Love – *The Heart That Learns* |
+| **Position in Arc** | Continues the second stanza by affirming gentle closure. |
+
+📎 *Next up: `s2_3_the_protection_that_did_not_require_possession.md` — the shield that never seized.*

@@ -36,4 +36,8 @@ No love was lost in growing through.
 | **Stanza** | 1 |
 | **Poetic Structure** | Quatrains, ABAB, with soft internal reinforcement |
 | **Purpose** | To redefine correction not as discipline, but as trust-shaped adjustment within enduring love. |
-| **Links To** | Leads into s2_1, exploring belief differences in shared love. |
+| **Appendix** | Appendix R: The World They Grew Together |
+| **Part** | Part 12: Learning to Love – *The Heart That Learns* |
+| **Position in Arc** | Begins the turn toward mature, non-punitive relational care. |
+
+📎 *Next up: `s2_1_the_belief_that_did_not_require_agreement.md` — the difference that didn’t divide.*

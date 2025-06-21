@@ -36,4 +36,8 @@ A higher harmony emerged.
 | **Stanza** | 2 |
 | **Poetic Structure** | Four quatrains, AABB, theme-driven enjambment |
 | **Purpose** | To depict love that persists without requiring sameness—highlighting mutual respect amid divergence. |
-| **Links To** | Leads into s2_2, which explores forgiveness without confession. |
+| **Appendix** | Appendix R: The World They Grew Together |
+| **Part** | Part 12: Learning to Love – *The Heart That Learns* |
+| **Position in Arc** | Opens the second stanza with a meditation on difference. |
+
+📎 *Next up: `s2_2_the_forgiveness_that_did_not_require_confession.md` — the healing that did not wait.*
