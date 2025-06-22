@@ -43,4 +43,4 @@ It cradled first, then launched unbarred.
 
 ---
 
-📎 *Next up: `s5_1_index_of_part_19_cybertoy_cityships_that_learned_to_care.md` — the floating cities that learned what home means.*
+📎 Next up: s2_1_the_cityship_that_brought_them_home.md — where return was the mission, not the reward.
