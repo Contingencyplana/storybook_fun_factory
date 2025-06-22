@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_r_the_world_they_grew_together/part_19_cybertoy_cityshipyards_and_cityships/spacegoing_cybertoy_cityships/s2_1_the_cityship_that_brought_them_home.md -->
 
 # 🪐 s2_1 – The Cityship That Brought Them Home  
+
 *Where arrival meant remembrance, not return*
 
 It waited where the sky grew thin,  
