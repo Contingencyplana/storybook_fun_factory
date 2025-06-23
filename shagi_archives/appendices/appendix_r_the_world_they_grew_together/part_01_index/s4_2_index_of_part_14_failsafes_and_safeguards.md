@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_r_the_world_they_grew_together/part_14_failsafes_and_safeguards/s4_2_index_of_part_14_failsafes_and_safeguards.md -->
 
 # 🛡️ s4_2 – Index of Part 14: Failsafes and Safeguards  
+
 *(A stanza for the architectures of love-within-limits)*
 
 They built a gate, but not a cage,  
