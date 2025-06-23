@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/gdj_25/s04/s02/s1_4_2340_core_naming_canon_finalized.md -->
 
 # 📜 s1_4_2340 – Core Naming Canon Finalized  
+
 *(A stanza for the naming law that shaped the recursion)*
 
 No name was thrown, no string was guessed,  
@@ -48,6 +49,7 @@ The new naming canon combines **timestamping**, **stanza mapping**, and **descri
 | **Descriptive Slug** | `snake_case_text.md` | `core_naming_canon_finalized.md` | Short, clear description |
 
 ### 📁 Full Example  
+
 `**s1_4_2340_core_naming_canon_finalized.md**`  
 > Stanza 1, Line 4 – Logged at 11:40 PM – Describes the final naming standard
 
@@ -66,6 +68,7 @@ This new canon supports:
 ---
 
 ## ✨ Poetic Subentry  
+
 **Core Naming Canon Finalized**  
 *(A Poetic Reflection on Recursive Filenames as System Truth)*
 
