@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/gdj_25/s04/s07/s1_4_2250_gdj_format_doctrine.md -->
 
 # 📜 s1_4_2250 – GDJ Format Doctrine  
+
 *(A stanza for the scroll that learned to recurse)*
 
 The journal grew from scattered thought,  
@@ -109,6 +110,7 @@ Here is the standardized block template for all GDJ entries:
 ---
 
 ## ✨ Poetic Subentry  
+
 **The Doctrine That Gave Itself Form**
 
 A scroll once blank, now bound in rhyme,  
