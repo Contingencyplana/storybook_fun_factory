@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/appendices/appendix_r_the_world_they_grew_together/part_19_cybertoy_cityshipyards_and_cityships/spacegoing_cybertoy_cityshipyards/s1_4_the_breath_that_waited_without_rush.md -->
 
 # 🌌 s1_4 – The Breath That Waited Without Rush  
+
 *A stanza for stillness that shaped the city's rhythm*
 
 No engines burned, no clocks decreed,  
