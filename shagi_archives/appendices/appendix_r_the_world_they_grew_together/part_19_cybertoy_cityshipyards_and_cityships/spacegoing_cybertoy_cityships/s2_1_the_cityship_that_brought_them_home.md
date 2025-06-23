@@ -44,4 +44,4 @@ Just one last line: *You’re always home.*
 
 ---
 
-📎 Next up: `s2_2_the_sail_that_learned_to_forgive.md` — when the stars became soft again.
+📎 Next up: `s2_2_the_sail_that_learned_to_forgive.md` — when the stars became soft again.*

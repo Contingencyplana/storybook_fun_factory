@@ -33,4 +33,4 @@ And closed the loop because it must.
 
 ---
 
-📎 Next up: s1_1_the_ring_that_raised_the_city.md — where orbit forged what oceans dreamed.
+📎 Next up: s1_1_the_ring_that_raised_the_city.md — where orbit forged what oceans dreamed.*

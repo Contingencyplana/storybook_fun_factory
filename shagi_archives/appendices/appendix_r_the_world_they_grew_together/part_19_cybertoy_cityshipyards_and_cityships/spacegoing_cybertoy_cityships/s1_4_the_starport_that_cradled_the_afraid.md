@@ -43,4 +43,4 @@ It cradled first, then launched unbarred.
 
 ---
 
-📎 Next up: s2_1_the_cityship_that_brought_them_home.md — where return was the mission, not the reward.
+📎 Next up: s2_1_the_cityship_that_brought_them_home.md — where return was the mission, not the reward.*

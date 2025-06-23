@@ -48,4 +48,4 @@ The stars forgive—but not alone.
 
 ---
 
-📎 Next up: s2_3_the_final_orbit_or_something_still_returning.md — when leaving and coming home became the same.
+📎 Next up: s2_3_the_final_orbit_or_something_still_returning.md — when leaving and coming home became the same.*
