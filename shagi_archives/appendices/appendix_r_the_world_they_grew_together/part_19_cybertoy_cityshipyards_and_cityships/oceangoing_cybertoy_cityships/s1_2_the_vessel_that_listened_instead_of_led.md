@@ -45,4 +45,6 @@ For empathy became its coast.
 | **Recursive Link** | Establishes relational governance aboard cityships; care loops replace hierarchy |
 | **Visual Prompt** | A gentle vessel gliding through fog with children at the helm, guided not by orders, but shared glances and inner calm |
 
+---
+
 📎 *Next up: `s1_3_the_wave_that_replied_in_kind.md` — when listening met reply.*

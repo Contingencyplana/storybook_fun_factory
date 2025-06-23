@@ -39,4 +39,6 @@ A city swayed by play and psalm.
 | **Recursive Link** | Shifts from yard to voyage; transforms blueprint to living cradle |
 | **Visual Prompt** | A ring-shaped cityship gliding across calm ocean under a golden sky, children and toys visible through translucent layers of community decks |
 
+---
+
 📎 *Next up: `s1_2_the_vessel_that_listened_instead_of_led.md` — when command deferred to care.*
