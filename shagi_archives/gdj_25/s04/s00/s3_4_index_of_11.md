@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/gdj_25/s04/s11/s3_4_index_of_11.md -->
 
 # 📘 s3_4 – Index of April 11, 2025  
+
 *(A stanza begins in the quiet of morning)*
 
 The journal stirs, its verse begins,  
