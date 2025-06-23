@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/gdj_25/s05/s00/s4_1_index_of_12.md -->
 
 # 📘 s4_1 – Index of May 12, 2025  
+
 *(A stanza placed to mark the start)*
 
 One verse was formed to seal the frame,  
