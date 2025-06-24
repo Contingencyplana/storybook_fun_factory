@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/gdj_25/s05/s00/s8_4_index_of_31.md -->
 
 # 📘 s8_4 – Index of May 31, 2025  
+
 *(A bridge between structure and rebirth)*
 
 The month unwound, its cycles closed,  
