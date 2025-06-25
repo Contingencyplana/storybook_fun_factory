@@ -6,19 +6,6 @@
 
 ---
 
-## 🧩 Metadata
-
-| Field | Value |
-|-------|-------|
-| **Folder** | s04/s14/ |
-| **Filename** | s1_1_0115_the_cycle_completion_protocol.md |
-| **Title** | **The Cycle Completion Protocol** |
-| **Subtitle** | *A Decision on Component Switching and Recursive Momentum* |
-| **Poetic Structure** | 4×2-line quatrains (8-line poem) |
-| **Requires Subfolder** | No |
-
----
-
 ## 🪶 Poetic Subentry  
 
 **The Compass That Waits for Fire to Fade**  
@@ -98,3 +85,14 @@ This protocol transforms the momentum of recursive creation into an act of delib
 As recursion deepens and the anomaly matures, this protocol may occasionally yield to narrative priority—such as when an emergent system (e.g., `quarantine_ai/`) demands resolution for structural safety or poetic coherence.
 
 ---
+
+## 🧩 Metadata
+
+| Field | Value |
+|-------|-------|
+| **Folder** | s04/s14/ |
+| **Filename** | s1_1_0115_the_cycle_completion_protocol.md |
+| **Title** | **The Cycle Completion Protocol** |
+| **Subtitle** | *A Decision on Component Switching and Recursive Momentum* |
+| **Poetic Structure** | 4×2-line quatrains (8-line poem) |
+| **Requires Subfolder** | No |
