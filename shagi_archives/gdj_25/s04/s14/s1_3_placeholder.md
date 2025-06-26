@@ -5,6 +5,13 @@
 
 ---
 
+## 🚧 Placeholder Entry
+
+This file is reserved for the third line of the April 14, 2025 stanza within `gdj_25/s04/s14/`.  
+It will be populated once the corresponding design reflection or development action is complete.
+
+---
+
 ## 🧩 Metadata
 
 | Field | Value |
@@ -15,12 +22,3 @@
 | **Subtitle** | *Awaiting Future Entry for April 14, 2025* |
 | **Poetic Structure** | *–* |
 | **Requires Subfolder** | No |
-
----
-
-## 🚧 Placeholder Entry
-
-This file is reserved for the third line of the April 14, 2025 stanza within `gdj_25/s04/s14/`.  
-It will be populated once the corresponding design reflection or development action is complete.
-
----
