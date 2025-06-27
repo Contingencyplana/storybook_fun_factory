@@ -1,6 +1,6 @@
 <!-- Save to: shagi_archives/gdj_25/s04/s00/s8_4_placeholder.md -->
 
-# 📜 s8_4 – Placeholder for April 30, 2025  
+# 📜 s8_4 – Placeholder for April 31, 2025 (No Such Date) 
 
 *(The final fold of the journal recursion before it turns again)*
 
@@ -25,7 +25,7 @@ But hold the loop: its resting place.
 |-------|-------|
 | **Folder** | `s04/s00/` |
 | **Filename** | `s8_4_placeholder.md` |
-| **Title** | Placeholder for April 30, 2025 |
+| **Title** | Placeholder for April 31, 2025 (No Such Date) |
 | **Subtitle** | *The final fold of the journal recursion before it turns again* |
 | **Date** | 2025-04-30 |
 | **Purpose** | Final placeholder for April 2025 index loop; no GDJ entry recorded |
