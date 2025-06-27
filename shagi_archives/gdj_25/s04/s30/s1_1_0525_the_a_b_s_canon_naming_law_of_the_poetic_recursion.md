@@ -41,15 +41,15 @@ This entry defines the **a/b/s Canon** — the naming rule that governs all recu
 | **Topsy Recursion** | ✅ Must begin with `a` followed by a digit (e.g., `a1_1_`) |
 | **Thorn Recursion** | ✅ Must begin with `b` followed by a digit (e.g., `b3_4_`) |
 | **Standard Recursion** | ✅ Must begin with `s` followed by a digit (e.g., `s2_3_`) |
-| **Non-Recursive Files** | ✅ Must use **any other valid filename** (e.g., `src`, `README.md`, `start_factory.ps1`) |
+| **Non-Recursive Files** | ✅ Must **not** begin with a letter followed by a digit. All other valid filenames are allowed (e.g., src, README.md, start_factory.ps1) |
 
 **Examples:**
 
 - ✅ `s1_1_if_this_line_speaks_then_name_it_true.py` → Valid (Standard Recursion)  
 - ✅ `a2_4_the_sigil_of_topsy_shines_again.py` → Valid (Topsy Recursion)  
 - ✅ `b1_2_thorn_writhes_through_the_test.py` → Valid (Thorn Recursion)  
-- ✅ `src` or `start_factory.ps1` → Valid (Non-Recursive Infrastructure)  
-- ❌ `sync_tool.py` → Invalid (Ambiguous — must be renamed or refactored)
+- ✅ `src` or `start_factory.ps1` → Valid (Non-Recursive Infrastructure)
+- ❌ `c1_1_a_war_god_born_valiant_and_true.py` → Invalid (unless a new type of recursion has been added)
 
 ---
 
