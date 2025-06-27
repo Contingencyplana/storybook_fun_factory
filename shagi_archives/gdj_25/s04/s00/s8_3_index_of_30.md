@@ -19,7 +19,7 @@ A leap from April into spin.
 
 | File | Title | Stanza Reference | Time |
 |------|-------|------------------|------|
-| s1_1_0525_the_s_canon_naming_law_of_the_poetic_recursion.md | **The “s” Canon — Naming Law of the Poetic Recursion** | Stanza 1, Line 1 | 05:25 AM |
+| s1_1_0525_the_a_b_s_canon_naming_law_of_the_poetic_recursion.md | **The “a/b/s” Canon — Naming Law of the Poetic Recursion** | Stanza 1, Line 1 | 05:25 AM |
 | s1_2_placeholder.md | **[Placeholder Entry – Stanza 1, Line 2]** | Stanza 1, Line 2 | *–* |
 | s1_3_placeholder.md | **[Placeholder Entry – Stanza 1, Line 3]** | Stanza 1, Line 3 | *–* |
 | s1_4_placeholder.md | **[Placeholder Entry – Stanza 1, Line 4]** | Stanza 1, Line 4 | *–* |
