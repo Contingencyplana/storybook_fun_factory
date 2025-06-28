@@ -1,6 +1,6 @@
 <!-- Save to: shagi_archives/gdj_25/s05/s01/s1_2_2355_first_stanza.md -->
 
-# 📜 5.2: May 1, 11:55 PM – First Stanza  
+# 📜 s1_2 - 11:55 PM – First Stanza  
 *Completion of the First Poetic-Functional Cycle in the Forge of Automation*
 
 ---

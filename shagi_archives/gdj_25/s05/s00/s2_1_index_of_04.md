@@ -20,6 +20,6 @@ And left three placeholders in terse.
 | File | Title | Stanza Reference | Time |
 |------|-------|------------------|------|
 | s1_1_1525_dynamic_import_stress_test_flat_utilities_and_toolscape_victory.md | **Dynamic Import Stress Test: Flat Utilities & Toolscape Victory** | Stanza 1, Line 1 | 03:25 PM |
-| s1_2_placeholder.md | **[Placeholder Entry – Stanza 1, Line 2]** | Stanza 1, Line 2 | *–* |
+| s1_2_1555_subfolder_structure_for_recursive_entries.md | **Subfolder Structure for Recursive Entries** | Stanza 1, Line 2 | 03:55 PM |
 | s1_3_placeholder.md | **[Placeholder Entry – Stanza 1, Line 3]** | Stanza 1, Line 3 | *–* |
-| s2_4_placeholder.md | **[Placeholder Entry – Stanza 1, Line 4]** | Stanza 1, Line 4 | *–* |
+| s1_4_placeholder.md | **[Placeholder Entry – Stanza 1, Line 4]** | Stanza 1, Line 4 | *–* |

@@ -1,6 +1,6 @@
 <!-- Save to: shagi_archives/gdj_25/s05/s01/s1_1_1235_the_memory_bleed_protocol.md -->
 
-# 📜 5.1: May 1, 12:35 PM – The Memory Bleed Protocol  
+# 📜 s1_1 - 12:35 PM – The Memory Bleed Protocol  
 *A Warning Against Structural Drift in Recursive Design*
 
 ---

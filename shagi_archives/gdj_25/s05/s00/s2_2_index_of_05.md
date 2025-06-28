@@ -19,7 +19,7 @@ A stanza half-prepared to grow.
 
 | File | Title | Stanza Reference | Time |
 |------|-------|------------------|------|
-| s1_2_2120_the_test_scaffold_navigator.md | **The Test Scaffold Navigator** | Stanza 1, Line 1 | 09:20 PM |
-| s1_3_2300_core_ecosystem_map.md | **Core Ecosystem Map** | Stanza 1, Line 2 | 11:00 PM |
-| s1_1_placeholder.md | **[Placeholder Entry – Stanza 1, Line 3]** | Stanza 1, Line 3 | *–* |
+| s1_1_2120_the_test_scaffold_navigator.md | **The Test Scaffold Navigator** | Stanza 1, Line 1 | 09:20 PM |
+| s1_2_2300_core_ecosystem_map.md | **Core Ecosystem Map** | Stanza 1, Line 2 | 11:00 PM |
+| s1_3_placeholder.md | **[Placeholder Entry – Stanza 1, Line 3]** | Stanza 1, Line 3 | *–* |
 | s1_4_placeholder.md | **[Placeholder Entry – Stanza 1, Line 4]** | Stanza 1, Line 4 | *–* |
