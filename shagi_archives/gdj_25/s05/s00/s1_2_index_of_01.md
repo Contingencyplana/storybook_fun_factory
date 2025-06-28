@@ -1,6 +1,7 @@
 <!-- Save to: shagi_archives/gdj_25/s05/s00/s1_2_index_of_01.md -->
 
 # 📘 s1_2 – Index of May 1, 2025  
+
 *(A stanza begins where memory leaks into code)*
 
 The Factory woke with threads untamed,  
