@@ -1,5 +1,6 @@
-## 📜 5.8: May 5, 11:00 PM – Core Ecosystem Map  
+<!-- Save to: shagi_archives/gdj_25/s05/s05/5_8_core_ecosystem_map/s1_1_core_ecosystem_map.md -->
 
+# 📜 s1_2 - 11:00 PM – Core Ecosystem Map  
 *A Foundational Record of Storybook FUN Factory’s Minimal Viable Testing & Import Infrastructure*
 
 ---
@@ -236,4 +237,4 @@ This Core Ecosystem Map now serves as the official record, onboarding guide, and
 | **Title** | **Core Ecosystem Map** |
 | **Subtitle** | *A Foundational Record of Storybook FUN Factory’s Minimal Viable Testing & Import Infrastructure* |
 | **Poetic Structure** | 4×4-line stanzas (16-line poem) |
-| **Requires Subfolder** | No |
+| **Requires Subfolder** | Yes. See `core_ecosystem_map/` subfolder. |
